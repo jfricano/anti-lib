@@ -51,10 +51,9 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 1. Start Here: Next Door to the Core,Vonnegut on Television,Displaced Person,1985,1985,Alan Bridges (from Kurt Vonnegut),PBS American Playhouse,,From his story.,,,,,,,
 "2. Cringe, Anti-Comedy & Social Experiments",,The Office (UK),2001,2001–2003,Ricky Gervais & Stephen Merchant,BBC,yes,Twelve episodes and a Christmas special. The cringe template.,,lean,The look to camera after the awful joke,Curb Your Enthusiasm,,7,all
 "2. Cringe, Anti-Comedy & Social Experiments",,Extras,2005,2005–2007,Ricky Gervais & Stephen Merchant,BBC/HBO,,Celebrity cameos at their most humiliated.,,,,,,,
-"2. Cringe, Anti-Comedy & Social Experiments",,The Office (US),2005,2005–2013,Greg Daniels,NBC,,Warmer than the original; the first three seasons hold up.,,,,,,,
+"2. Cringe, Anti-Comedy & Social Experiments",,The Office (US),2005,2005–2013,Greg Daniels,NBC,,Warmer than the original; the first three seasons hold up.,yes,lean,"The look to camera, warmed up for America",,,75,
 "2. Cringe, Anti-Comedy & Social Experiments",,The Comeback,2005,2005–,Lisa Kudrow & Michael Patrick King,HBO,yes,A fading sitcom star films her own reality show. Painful and ahead of its time.,,lean,Raw reality-show footage as the only camera,Curb Your Enthusiasm,,11,all
 "2. Cringe, Anti-Comedy & Social Experiments",,Da Ali G Show,2000,2000–2004,Sacha Baron Cohen,Channel 4/HBO,,"Real people, fake interviewer. Fielder's grandfather.",,,,,,,
-"2. Cringe, Anti-Comedy & Social Experiments",,Who Is America?,2018,2018,Sacha Baron Cohen,Showtime,,The same trick turned on American politics.,,,,,,,
 "2. Cringe, Anti-Comedy & Social Experiments",,"Tim and Eric Awesome Show, Great Job!",2007,2007–2010,Tim Heidecker & Eric Wareheim,Adult Swim,yes,Public-access TV from a nightmare. The root of ITYSL's aesthetic.,,maximal,Public-access video degraded into nightmare,I Think You Should Leave with Tim Robinson,,10,episodes
 "2. Cringe, Anti-Comedy & Social Experiments",,On Cinema at the Cinema,2012,2012–,Tim Heidecker & Gregg Turkington,YouTube/Adult Swim,,A film review show that grew into a decade-long tragic saga.,,,,,,,
 "2. Cringe, Anti-Comedy & Social Experiments",,The Eric Andre Show,2012,2012–,Eric André,Adult Swim,,A talk show destroyed from within.,,,,,,,
@@ -89,13 +88,13 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 "2. Cringe, Anti-Comedy & Social Experiments",,Eagleheart,2011,2011–2014,"Michael Koman, Andrew Weinberg & Jason Woliner",Adult Swim,,"Chris Elliott as an invincible marshal. Get a Life, twenty years on.",,,,,,,
 "2. Cringe, Anti-Comedy & Social Experiments",,Three Busy Debras,2020,2020–2022,"Sandy Honig, Mitra Jouhari & Alyssa Stonoha",Adult Swim,,Three suburban women in a pastel nightmare. Robinson-adjacent.,,,,,,,
 "2. Cringe, Anti-Comedy & Social Experiments",,Web Therapy,2011,2011–2015,"Lisa Kudrow, Don Roos & Dan Bucatinsky",Showtime,,"Lisa Kudrow's three-minute sessions over webcam, improvised.",,,,,,,
+3. The Writers' Room Sitcom,,Friends,1994,1994–2004,David Crane & Marta Kauffman,NBC,,,yes,middle,"Six people on a couch, A-plot and B-plot",,,90,
 3. The Writers' Room Sitcom,,Cheers,1982,1982–1993,"Glen Charles, Les Charles & James Burrows",NBC,yes,The best-written ensemble of the multicam era.,,middle,A single set and the slow-burn romance,The Mary Tyler Moore Show,,100,seasons 1–5
-3. The Writers' Room Sitcom,,Frasier,1993,1993–2004,"David Angell, Peter Casey & David Lee",NBC,,Farce built with French-theater precision.,,,,,,,
+3. The Writers' Room Sitcom,,Frasier,1993,1993–2004,"David Angell, Peter Casey & David Lee",NBC,,Farce built with French-theater precision.,yes,maximal,Farce built with French-theater precision,,,100,
 3. The Writers' Room Sitcom,,NewsRadio,1995,1995–1999,Paul Simms,NBC,yes,Deadpan workplace comedy; Phil Hartman and Dave Foley at their best.,,lean,Deadpan ensemble timing,Seinfeld,,35,seasons 1–4
 3. The Writers' Room Sitcom,,It's Always Sunny in Philadelphia,2005,2005–,"Rob McElhenney, Glenn Howerton & Charlie Day",FX,yes,"Seinfeld's no-hugging, no-learning rule taken to its sociopathic extreme.",,maximal,"Five terrible people, each episode a scheme that ruins them",Seinfeld,,60,seasons 1–8
 3. The Writers' Room Sitcom,,Community,2009,2009–2015,Dan Harmon,NBC,yes,A community college sitcom that keeps becoming other genres. Seasons 1–3.,,maximal,Each episode becomes a different genre,The Simpsons,,35,seasons 1–3
-3. The Writers' Room Sitcom,,30 Rock,2006,2006–2013,Tina Fey,NBC,,Joke density rivaling peak Simpsons.,,,,,,,
-3. The Writers' Room Sitcom,,Parks and Recreation,2009,2009–2015,Greg Daniels & Michael Schur,NBC,,Season 1 is skippable; then it's warm and very funny.,,,,,,,
+3. The Writers' Room Sitcom,,Parks and Recreation,2009,2009–2015,Greg Daniels & Michael Schur,NBC,,Season 1 is skippable; then it's warm and very funny.,yes,middle,Optimism as the joke,,,45,
 3. The Writers' Room Sitcom,,Freaks and Geeks,1999,1999–2000,Paul Feig & Judd Apatow,NBC,yes,"One season of 1980 high school, done with total honesty.",,lean,"Real teenage awkwardness, no laugh lines",Leave It to Beaver,,14,all
 3. The Writers' Room Sitcom,,Undeclared,2001,2001–2002,Judd Apatow,Fox,,The college sequel in spirit.,,,,,,,
 3. The Writers' Room Sitcom,,Malcolm in the Middle,2000,2000–2006,Linwood Boomer,Fox,,Single-camera chaos; Bryan Cranston's goofy pre-Walter White role.,,,,,,,
@@ -128,8 +127,10 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 3. The Writers' Room Sitcom,,Mozart in the Jungle,2014,2014–2018,"Roman Coppola, Jason Schwartzman, Alex Timbers & Paul Weitz",Amazon,,A classical orchestra as a workplace comedy.,,,,,,,
 3. The Writers' Room Sitcom,,The Bernie Mac Show,2001,2001–2006,Larry Wilmore,Fox,,"Talking to ""America"" about raising his sister's kids. The fourth-wall line.",,,,,,,
 3. The Writers' Room Sitcom,,Parker Lewis Can't Lose,1990,1990–1993,Clyde Phillips & Lon Diamond,Fox,,"Ferris Bueller as a series, stylized; I was the right age.",,,,,,,
-3. The Writers' Room Sitcom,,Married... with Children,1987,1987–1997,Michael G. Moye & Ron Leavitt,Fox,,The anti-family sitcom of your childhood; probably seen.,,,,,,,
-4. Animation for Grown-Ups,,Futurama,1999,1999–,Matt Groening & David X. Cohen,Fox/Comedy Central/Hulu,yes,"Groening's writers with math PhDs. ""Jurassic Bark"" and ""The Luck of the Fryrish"" will wreck you.",,maximal,Science jokes under emotional sucker punches,The Simpsons,,50,seasons 1–4
+3. The Writers' Room Sitcom,,Married... with Children,1987,1987–1997,Michael G. Moye & Ron Leavitt,Fox,,The anti-family sitcom of your childhood; probably seen.,yes,lean,"A family that openly hates each other, with a laugh track",,,90,
+4. Animation for Grown-Ups,,South Park,1997,1997–,Trey Parker & Matt Stone,Comedy Central,,Radiohead did an episode.,yes,lean,"Construction-paper animation made in a week, about this week",,,150,
+4. Animation for Grown-Ups,,Family Guy,1999,1999–,Seth MacFarlane,Fox,,,yes,maximal,Cutaway gags instead of plot,,,150,
+4. Animation for Grown-Ups,,Futurama,1999,1999–,Matt Groening & David X. Cohen,Fox/Comedy Central/Hulu,,"Groening's writers with math PhDs. ""Jurassic Bark"" and ""The Luck of the Fryrish"" will wreck you.",yes,maximal,Science jokes under emotional sucker punches,The Simpsons,,50,seasons 1–4
 4. Animation for Grown-Ups,,King of the Hill,1997,1997–2025,Mike Judge & Greg Daniels,Fox/Hulu,yes,"The most humane American sitcom, animated or not.",,lean,"Realistic animation with patient, humane jokes",The Simpsons,,90,seasons 1–7
 4. Animation for Grown-Ups,,Beavis and Butt-Head,1993,1993–2011,Mike Judge,MTV,,Two idiots watch music videos; Judge's sharpest cultural criticism.,,,,,,,
 4. Animation for Grown-Ups,,Daria,1997,1997–2002,Glenn Eichler & Susie Lewis,MTV,,Deadpan teen misanthropy.,,,,,,,
@@ -142,7 +143,7 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 4. Animation for Grown-Ups,,Moral Orel,2005,2005–2008,Dino Stamatopoulos,Adult Swim,yes,A Davey and Goliath parody that turns into a tragedy about faith.,,middle,A Sunday-school parody that turns into tragedy,The Simpsons,,7,all
 4. Animation for Grown-Ups,,Xavier: Renegade Angel,2007,2007–2009,John Lee & Vernon Chatman,Adult Swim,,A mystic wanderer speaks in fractal puns. Pure Robert Anton Wilson nonsense.,,,,,,,
 4. Animation for Grown-Ups,,Bob's Burgers,2011,2011–,Loren Bouchard,Fox,,The sweetest family on TV.,,,,,,,
-4. Animation for Grown-Ups,,Rick and Morty,2013,2013–,Dan Harmon & Justin Roiland,Adult Swim,,Nihilism in the multiverse; seasons 1–3 are the core.,,,,,,,
+4. Animation for Grown-Ups,,Rick and Morty,2013,2013–,Dan Harmon & Justin Roiland,Adult Swim,,Nihilism in the multiverse; seasons 1–3 are the core.,yes,maximal,Multiverse nihilism at the speed of improv,,,25,
 4. Animation for Grown-Ups,,Undone,2019,2019–2022,Raphael Bob-Waksberg & Kate Purdy,Amazon,yes,"Rotoscoped. After a car crash, a woman comes unstuck in time. Very Billy Pilgrim.",,middle,Rotoscoped scenes that slide between time and memory,Slaughterhouse-Five,,6,all
 4. Animation for Grown-Ups,,The Midnight Gospel,2020,2020,Pendleton Ward & Duncan Trussell,Netflix,yes,Psychedelic cartoons laid over real podcast talks about death and meditation. Leary and Watts would approve.,,maximal,Cartoon chaos over a calm real conversation,Six Feet Under,Respectful Fringe,4,all
 4. Animation for Grown-Ups,,Pantheon,2022,2022–2023,Craig Silverstein,AMC+/Netflix,yes,"Uploaded minds and the singularity, taken seriously. Based on Ken Liu.",,middle,Hard-science ideas through a family story,Breaking Bad,,12,all
@@ -173,7 +174,6 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 4. Animation for Grown-Ups,,Batman: The Animated Series,1992,1992–1995,Bruce Timm & Eric Radomski,Fox,,Noir in daylight; the best Batman.,,,,,,,
 4. Animation for Grown-Ups,,Mission Hill,1999,1999–2002,Bill Oakley & Josh Weinstein,WB,,Oakley and Weinstein (Simpsons showrunners) on twentysomething slackers; cancelled.,,,,,,,
 4. Animation for Grown-Ups,,The Tick,1994,1994–1996,Ben Edlund,Fox,,Ben Edlund's superhero absurdism; I was the age.,,,,,,,
-4. Animation for Grown-Ups,,Liquid Television,1991,1991–1995,Japhet Asher & Colossal Pictures,MTV,,The anthology that spawned Æon Flux and Beavis; a note.,,,,,,,
 4. Animation for Grown-Ups,,The Second Best Hospital in the Galaxy,2024,2024,Cirocco Dunlap,Amazon,,A sci-fi hospital comedy; House meets Futurama.,,,,,,,
 5. Prestige Drama: The Long Novels,,The Shield,2002,2002–2008,Shawn Ryan,FX,yes,A corrupt cop as protagonist. Its ending rivals Breaking Bad's.,,middle,Handheld chaos and a corrupt cop as the hero,Breaking Bad,,65,all
 5. Prestige Drama: The Long Novels,,Oz,1997,1997–2003,Tom Fontana,HBO,,HBO's first hour-long drama; a prison as an experiment.,,,,,,,
@@ -185,18 +185,10 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 5. Prestige Drama: The Long Novels,,The Americans,2013,2013–2018,Joe Weisberg,FX,,KGB sleepers in a Reagan-era suburb; a show about marriage.,,,,,,,
 5. Prestige Drama: The Long Novels,,Justified,2010,2010–2015,Graham Yost,FX,,Elmore Leonard's dialogue in Harlan County.,,,,,,,
 5. Prestige Drama: The Long Novels,,Friday Night Lights,2006,2006–2011,Peter Berg,NBC/DirecTV,,"Small-town Texas, shot like a documentary.",,,,,,,
-5. Prestige Drama: The Long Novels,,Boardwalk Empire,2010,2010–2014,Terence Winter,HBO,,A Sopranos writer on Prohibition Atlantic City.,,,,,,,
-5. Prestige Drama: The Long Novels,,Rome,2005,2005–2007,"Bruno Heller, William J. MacDonald & John Milius",HBO/BBC,,Two soldiers through the end of the Republic.,,,,,,,
 5. Prestige Drama: The Long Novels,,Treme,2010,2010–2013,David Simon & Eric Overmyer,HBO,,"Post-Katrina New Orleans, with music as the plot.",,,,,,,
 5. Prestige Drama: The Long Novels,,The Deuce,2017,2017–2019,David Simon & George Pelecanos,HBO,,Times Square and the birth of the porn industry.,,,,,,,
 5. Prestige Drama: The Long Novels,,Hill Street Blues,1981,1981–1987,Steven Bochco & Michael Kozoll,NBC,,Where the modern ensemble drama began.,,,,,,,
 5. Prestige Drama: The Long Novels,,Andor,2022,2022–2025,Tony Gilroy,Disney+,yes,A Star Wars show that is really about how fascism works and how revolutions start.,,middle,"Slow build to sudden, earned speeches",Better Call Saul,,24,all
-5. Prestige Drama: The Long Novels,,The Bear,2022,2022–,Christopher Storer,FX,,Grief and panic in a Chicago kitchen. Season 1.,,,,,,,
-5. Prestige Drama: The Long Novels,,The White Lotus,2021,2021–,Mike White,HBO,,Rich people ruin a vacation.,,,,,,,
-5. Prestige Drama: The Long Novels,,Industry,2020,2020–,Mickey Down & Konrad Kay,HBO/BBC,,"Young bankers in London, cutthroat and fast.",,,,,,,
-5. Prestige Drama: The Long Novels,,Peaky Blinders,2013,2013–2022,Steven Knight,BBC,,Birmingham gangsters; style first.,,,,,,,
-5. Prestige Drama: The Long Novels,,Top Boy,2011,2011–2023,Ronan Bennett,Channel 4/Netflix,,The Wire in East London.,,,,,,,
-5. Prestige Drama: The Long Novels,,Ozark,2017,2017–2022,Bill Dubuque & Mark Williams,Netflix,,A Breaking Bad cousin: money laundering in the Ozarks.,,,,,,,
 5. Prestige Drama: The Long Novels,,Shōgun,2024,2024–,Rachel Kondo & Justin Marks,FX,,"Feudal Japan, mostly in Japanese. Clavell's novel done right.",,,,,,,
 5. Prestige Drama: The Long Novels,,Carnivàle,2003,2003–2005,Daniel Knauf,HBO,yes,A Depression-era carnival as a battle between good and evil. Mystical and unfinished.,,maximal,Biblical myth staged in the Dust Bowl,Six Feet Under,,24,all
 5. Prestige Drama: The Long Novels,,John from Cincinnati,2007,2007,David Milch & Kem Nunn,HBO,,"A mystic surfer speaks only in echoes. Milch's strangest work, one season.",,,,,,,
@@ -206,23 +198,15 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 5. Prestige Drama: The Long Novels,,NYPD Blue,1993,1993–2005,Steven Bochco & David Milch,ABC,,David Milch before Deadwood; Dennis Franz's Sipowicz.,,,,,,,
 5. Prestige Drama: The Long Novels,,The Corner,2000,2000,David Simon & David Mills,HBO,,"David Simon's miniseries before The Wire, from his book.",,,,,,,
 5. Prestige Drama: The Long Novels,,Vinyl,2016,2016,"Mick Jagger, Martin Scorsese, Rich Cohen & Terence Winter",HBO,,Scorsese and Jagger's 1973 record label; one messy season. For the music list.,,,,,,,
-5. Prestige Drama: The Long Novels,,Rescue Me,2004,2004–2011,Denis Leary & Peter Tolan,FX,,Denis Leary's firehouse after 9/11.,,,,,,,
-5. Prestige Drama: The Long Novels,,Sons of Anarchy,2008,2008–2014,Kurt Sutter,FX,,Hamlet on motorcycles; from The Shield's creator's shop.,,,,,,,
-5. Prestige Drama: The Long Novels,,We Own This City,2022,2022,David Simon & George Pelecanos,HBO,,Simon returns to Baltimore.,,,,,,,
 "6. Detectives, Doctors & Brilliant Misanthropes",,The Pitt,2025,2025–,R. Scott Gemmill,Max,yes,"One ER shift per season, an hour per episode. The new medical benchmark.",,lean,"One shift, an hour per episode, in real time",House,,15,one season
 "6. Detectives, Doctors & Brilliant Misanthropes",,The Knick,2014,2014–2015,Jack Amiel & Michael Begler,Cinemax,yes,Soderbergh directs: a cocaine-addicted surgeon in 1900 New York. House a century earlier.,,middle,"Period surgery shot in modern handheld, with an electronic score",House,,20,all
 "6. Detectives, Doctors & Brilliant Misanthropes",,Sherlock Holmes (Granada),1984,1984–1994,Michael Cox (producer); Jeremy Brett,ITV,yes,Jeremy Brett is the definitive Holmes; House's source code.,,middle,"Faithful Doyle with a manic, sad Holmes",House,,40,episodes
-"6. Detectives, Doctors & Brilliant Misanthropes",,Sherlock,2010,2010–2017,Steven Moffat & Mark Gatiss,BBC,,Holmes in modern London. The first two seasons are best.,,,,,,,
 "6. Detectives, Doctors & Brilliant Misanthropes",,Cracker,1993,1993–1996,Jimmy McGovern,ITV,yes,"Robbie Coltrane as a gambling, drinking, brilliant criminal psychologist.",,middle,Monologues that pull confessions out of suspects,House,,25,all
 "6. Detectives, Doctors & Brilliant Misanthropes",,Prime Suspect,1991,1991–2006,Lynda La Plante,ITV,,Helen Mirren against the force and the killers.,,,,,,,
 "6. Detectives, Doctors & Brilliant Misanthropes",,Homicide: Life on the Street,1993,1993–1999,Paul Attanasio (from David Simon's book),NBC,yes,"The Wire's prototype, with Andre Braugher in the interrogation room.",,lean,The interrogation room as a stage,House,,90,seasons 1–4
 "6. Detectives, Doctors & Brilliant Misanthropes",,Mindhunter,2017,2017–2019,Joe Penhall (David Fincher),Netflix,yes,FBI agents invent profiling by interviewing serial killers.,,lean,Interviews in fluorescent rooms,House,,19,all
 "6. Detectives, Doctors & Brilliant Misanthropes",,Hannibal,2013,2013–2015,Bryan Fuller,NBC,,Lecter as a gourmet dandy; the most beautiful horror on TV.,,,,,,,
 "6. Detectives, Doctors & Brilliant Misanthropes",,Happy Valley,2014,2014–2023,Sally Wainwright,BBC,yes,A Yorkshire police sergeant and the man who wrecked her family.,,lean,A cop's grief kept in check,Breaking Bad,,18,all
-"6. Detectives, Doctors & Brilliant Misanthropes",,Broadchurch,2013,2013–2017,Chris Chibnall,ITV,,A boy's death tears a seaside town apart.,,,,,,,
-"6. Detectives, Doctors & Brilliant Misanthropes",,Line of Duty,2012,2012–2021,Jed Mercurio,BBC,,Anti-corruption detectives; legendary long interrogations.,,,,,,,
-"6. Detectives, Doctors & Brilliant Misanthropes",,Luther,2010,2010–2019,Neil Cross,BBC,,Idris Elba as a detective as dark as the killers.,,,,,,,
-"6. Detectives, Doctors & Brilliant Misanthropes",,The Fall,2013,2013–2016,Allan Cubitt,BBC/RTÉ,,Gillian Anderson hunts a Belfast killer.,,,,,,,
 "6. Detectives, Doctors & Brilliant Misanthropes",,Slow Horses,2022,2022–,Will Smith (from Mick Herron),Apple TV,,Failed spies; Gary Oldman as a slob genius.,,,,,,,
 "6. Detectives, Doctors & Brilliant Misanthropes",,Poker Face,2023,2023–2025,Rian Johnson,Peacock,,"Columbo's structure, updated with Natasha Lyonne as a human lie detector.",,,,,,,
 "6. Detectives, Doctors & Brilliant Misanthropes",,The Rockford Files,1974,1974–1980,Roy Huggins & Stephen J. Cannell,NBC,,"A broke, decent private eye.",,,,,,,
@@ -251,10 +235,7 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 "7. Mind, Time & Reality",,Wild Palms,1993,1993,Bruce Wagner,ABC,yes,"Virtual reality, a cult and a media empire. Produced by Oliver Stone; very Robert Anton Wilson.",,maximal,Media satire as a hallucination,Slaughterhouse-Five,,5,all
 "7. Mind, Time & Reality",,The X-Files,1993,1993–2002,Chris Carter,Fox,,The 90s conspiracy mind. The standalone episodes are best.,,,,,,,
 "7. Mind, Time & Reality",,The Lost Room,2006,2006,Christopher Leone & Laura Harkcom,Sci Fi,,A motel room key opens any door. A cult puzzle miniseries.,,,,,,,
-"7. Mind, Time & Reality",,Lost,2004,2004–2010,"J.J. Abrams, Damon Lindelof & Jeffrey Lieber",ABC,,"A plane crash, an island, time travel. Stay for the characters.",,,,,,,
-"7. Mind, Time & Reality",,Battlestar Galactica,2004,2004–2009,Ronald D. Moore,Sci Fi,,"War, faith and the war on terror, in space.",,,,,,,
 "7. Mind, Time & Reality",,Babylon 5,1993,1993–1998,J. Michael Straczynski,PTEN/TNT,,One five-year novel planned in advance.,,,,,,,
-"7. Mind, Time & Reality",,The Expanse,2015,2015–2022,Mark Fergus & Hawk Ostby,Syfy/Amazon,,Hard sci-fi politics across the solar system.,,,,,,,
 "7. Mind, Time & Reality",,Black Mirror,2011,2011–,Charlie Brooker,Channel 4/Netflix,yes,"Tech parables. Start with ""San Junipero,"" ""Be Right Back,"" ""USS Callister.""",,middle,"One technology, followed to its worst end",Slaughterhouse-Five,,12,episodes
 "7. Mind, Time & Reality",,Dark,2017,2017–2020,Baran bo Odar & Jantje Friese,Netflix,yes,German time-travel puzzle over three generations. Bring a notebook.,,maximal,"Three timelines, cut to match",Slaughterhouse-Five,,26,all
 "7. Mind, Time & Reality",,Devs,2020,2020,Alex Garland,FX on Hulu,yes,Determinism and quantum computing.,,lean,"Cold, slow images; a choir on the soundtrack",Slaughterhouse-Five,,8,all
@@ -265,8 +246,6 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 "7. Mind, Time & Reality",,Maniac,2018,2018,Patrick Somerville,Netflix,,A drug trial sends two people through shared dreams.,,,,,,,
 "7. Mind, Time & Reality",,The OA,2016,2016–2019,Brit Marling & Zal Batmanglij,Netflix,,Near-death experiences and movement as a portal. Earnest and strange.,,,,,,,
 "7. Mind, Time & Reality",,Russian Doll,2019,2019–2022,"Natasha Lyonne, Leslye Headland & Amy Poehler",Netflix,yes,A woman keeps dying at her 36th birthday party. Groundhog Day as philosophy.,,middle,A time loop that changes a little each death,Slaughterhouse-Five,,6,one season
-"7. Mind, Time & Reality",,Westworld,2016,2016–2022,Jonathan Nolan & Lisa Joy,HBO,,Season 1 only: robots discover consciousness through suffering.,,,,,,,
-"7. Mind, Time & Reality",,Mr. Robot,2015,2015–2019,Sam Esmail,USA,,A hacker with an unreliable mind takes down the banks.,,,,,,,
 "7. Mind, Time & Reality",,The Man in the High Castle,2015,2015–2019,Frank Spotnitz,Amazon,,Philip K. Dick's alternate history.,,,,,,,
 "7. Mind, Time & Reality",,Philip K. Dick's Electric Dreams,2017,2017–2018,Ronald D. Moore & Michael Dinner,Channel 4/Amazon,,A Dick short-story anthology.,,,,,,,
 "7. Mind, Time & Reality",,Tales from the Loop,2020,2020,Nathaniel Halpern,Amazon,,"Quiet, melancholy sci-fi in a small town over a physics lab.",,,,,,,
@@ -337,6 +316,9 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 9. Sketch & Surreal,,Sifl & Olly,1997,1997–1999,Liam Lynch & Matt Crocco,MTV,,"Sock puppets, Liam Lynch's songs, lo-fi anti-comedy.",,,,,,,
 9. Sketch & Surreal,,Look Around You,2002,2002–2005,Robert Popper & Peter Serafinowicz,BBC,yes,"Fake 1980s school science programmes, deadpan. For the physics shelf.",,lean,A fake school science film played completely straight,Nathan for You,,4,all
 9. Sketch & Surreal,,Cunk on Earth,2022,2022,Charlie Brooker & Diane Morgan,BBC/Netflix,,Charlie Brooker and Diane Morgan's fake history documentary. Brass Eye's heir.,,,,,,,
+10. Classic TV: Nick at Nite and Before,,Mork & Mindy,1978,1978–1982,Garry Marshall,ABC,,Robin Williams let loose.,yes,maximal,Robin Williams improvising around the script,,,40,
+10. Classic TV: Nick at Nite and Before,,Happy Days,1974,1974–1984,Garry Marshall,ABC,,,yes,lean,The jukebox and the leather jacket,,,100,
+10. Classic TV: Nick at Nite and Before,,The Brady Bunch,1969,1969–1974,Sherwood Schwartz,ABC,,,yes,lean,A moral in every half hour,,,45,
 10. Classic TV: Nick at Nite and Before,The 50s and 60s,The Honeymooners,1955,1955–1956,Jackie Gleason,CBS,yes,Thirty-nine episodes. A bus driver's tiny apartment.,,lean,One room and a man's temper,I Love Lucy,,17,all
 10. Classic TV: Nick at Nite and Before,The 50s and 60s,The Phil Silvers Show,1955,1955–1959,Nat Hiken,CBS,yes,Sgt. Bilko's schemes; machine-gun dialogue.,,maximal,Machine-gun patter,The Dick Van Dyke Show,,40,episodes
 10. Classic TV: Nick at Nite and Before,The 50s and 60s,The George Burns and Gracie Allen Show,1950,1950–1958,George Burns,CBS,,Burns breaks the fourth wall decades before Fleabag.,,,,,,,
@@ -346,27 +328,19 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 10. Classic TV: Nick at Nite and Before,The 50s and 60s,The Andy Griffith Show,1960,1960–1968,Aaron Ruben & Sheldon Leonard,CBS,,Small-town kindness; Don Knotts as Barney.,,,,,,,
 10. Classic TV: Nick at Nite and Before,The 50s and 60s,Get Smart,1965,1965–1970,Mel Brooks & Buck Henry,NBC,yes,Mel Brooks and the Graduate's screenwriter spoof James Bond.,,middle,Catchphrases and spy-gadget slapstick,The Dick Van Dyke Show,,40,seasons 1–2
 10. Classic TV: Nick at Nite and Before,The 50s and 60s,Green Acres,1965,1965–1971,Jay Sommers,CBS,yes,Secretly the most surreal show of the 60s. The credits know they're credits.,,maximal,A sitcom where the jokes know they're in a sitcom,The Dick Van Dyke Show,,40,seasons 1–3
-10. Classic TV: Nick at Nite and Before,The 50s and 60s,The Beverly Hillbillies,1962,1962–1971,Paul Henning,CBS,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,The 50s and 60s,The Addams Family,1964,1964–1966,David Levy,ABC,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,The 50s and 60s,The Munsters,1964,1964–1966,Allan Burns & Chris Hayward,CBS,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,The 50s and 60s,Bewitched,1964,1964–1972,Sol Saks,ABC,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,The 50s and 60s,I Dream of Jeannie,1965,1965–1970,Sidney Sheldon,NBC,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,The 50s and 60s,Mister Ed,1961,1961–1966,Arthur Lubin (producer),CBS,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,The 50s and 60s,Gilligan's Island,1964,1964–1967,Sherwood Schwartz,CBS,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,The 50s and 60s,F Troop,1965,1965–1967,Ed James,ABC,,,,,,,,,
+10. Classic TV: Nick at Nite and Before,The 50s and 60s,The Addams Family,1964,1964–1966,David Levy,ABC,,,yes,middle,Macabre family played as the normal ones,,,30,
+10. Classic TV: Nick at Nite and Before,The 50s and 60s,The Munsters,1964,1964–1966,Allan Burns & Chris Hayward,CBS,,,yes,middle,Monster-movie makeup on a Leave It to Beaver plot,,,30,
+10. Classic TV: Nick at Nite and Before,The 50s and 60s,Bewitched,1964,1964–1972,Sol Saks,ABC,,,yes,lean,A twitch of the nose and the husband's exasperation,,,100,
+10. Classic TV: Nick at Nite and Before,The 50s and 60s,I Dream of Jeannie,1965,1965–1970,Sidney Sheldon,NBC,,,yes,lean,A blink and a problem for the major,,,55,
+10. Classic TV: Nick at Nite and Before,The 50s and 60s,Mister Ed,1961,1961–1966,Arthur Lubin (producer),CBS,,,yes,lean,A horse that only talks to one man,,,55,
+10. Classic TV: Nick at Nite and Before,The 50s and 60s,Gilligan's Island,1964,1964–1967,Sherwood Schwartz,CBS,,,yes,middle,Seven castaways and a scheme that fails by the credits,,,40,
 10. Classic TV: Nick at Nite and Before,The 50s and 60s,Hogan's Heroes,1965,1965–1971,Bernard Fein & Albert S. Ruddy,CBS,,A POW camp as farce; strange to watch next to Slaughterhouse-Five.,,,,,,,
 10. Classic TV: Nick at Nite and Before,The 50s and 60s,The Monkees,1966,1966–1968,Bob Rafelson & Bert Schneider,NBC,,A Beatles knockoff that was really French New Wave in disguise.,,,,,,,
-10. Classic TV: Nick at Nite and Before,The 50s and 60s,Father Knows Best,1954,1954–1960,Ed James,CBS/NBC,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,The 50s and 60s,The Adventures of Ozzie and Harriet,1952,1952–1966,Ozzie Nelson,ABC,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,The 50s and 60s,The Odd Couple,1970,1970–1975,Garry Marshall & Jerry Belson,ABC,,,,,,,,,
 10. Classic TV: Nick at Nite and Before,The 70s,All in the Family,1971,1971–1979,Norman Lear,CBS,yes,The sitcom that let America argue with itself.,,lean,"Arguments, one living room, live audience",The Mary Tyler Moore Show,,50,seasons 1–4
 10. Classic TV: Nick at Nite and Before,The 70s,M*A*S*H,1972,1972–1983,Larry Gelbart,CBS,yes,Gallows humor in Korea; Gelbart's early seasons are the best.,,middle,Wisecracks over the operating table,Slaughterhouse-Five,,60,seasons 1–5
 10. Classic TV: Nick at Nite and Before,The 70s,Barney Miller,1975,1975–1982,Danny Arnold & Theodore J. Flicker,ABC,yes,A precinct squad room as a stage play about city life.,,lean,One squad room; a stage play every week,The Mary Tyler Moore Show,,40,seasons 1–4
 10. Classic TV: Nick at Nite and Before,The 70s,"Mary Hartman, Mary Hartman",1976,1976–1977,Norman Lear,Syndication,yes,A soap opera parody so deadpan it becomes existential.,,lean,Soap-opera flatness held until it turns existential,Six Feet Under,,30,episodes
-10. Classic TV: Nick at Nite and Before,The 70s,Sanford and Son,1972,1972–1977,Norman Lear & Bud Yorkin,NBC,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,The 70s,Maude,1972,1972–1978,Norman Lear,CBS,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,The 70s,The Jeffersons,1975,1975–1985,Norman Lear,CBS,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,The 70s,Rhoda,1974,1974–1978,James L. Brooks & Allan Burns,CBS,,,,,,,,,
+10. Classic TV: Nick at Nite and Before,The 70s,Sanford and Son,1972,1972–1977,Norman Lear & Bud Yorkin,NBC,,"Steptoe and Son's American half, and Redd Foxx.",,,,,,,
 10. Classic TV: Nick at Nite and Before,The 70s,WKRP in Cincinnati,1978,1978–1982,Hugh Wilson,CBS,,"""As God is my witness, I thought turkeys could fly.""",,,,,,,
 10. Classic TV: Nick at Nite and Before,The 70s,Soap,1977,1977–1981,Susan Harris,ABC,,A prime-time soap parody; Billy Crystal's early role.,,,,,,,
 10. Classic TV: Nick at Nite and Before,The 70s,Lou Grant,1977,1977–1982,"James L. Brooks, Allan Burns & Gene Reynolds",CBS,,The Mary Tyler Moore spin-off that became a newspaper drama.,,,,,,,
@@ -374,27 +348,18 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 10. Classic TV: Nick at Nite and Before,"Variety, Sketch & Talk Pioneers",The Ernie Kovacs Show,1952,1952–1956,Ernie Kovacs,NBC/CBS,yes,The first person to treat TV as an art medium. Surreal visual jokes.,,maximal,Visual tricks only TV can do,I Think You Should Leave with Tim Robinson,,4,episodes
 10. Classic TV: Nick at Nite and Before,"Variety, Sketch & Talk Pioneers",The Steve Allen Show,1956,1956–1960,Steve Allen,NBC,,The template for Letterman's anti-comedy.,,,,,,,
 10. Classic TV: Nick at Nite and Before,"Variety, Sketch & Talk Pioneers",The Smothers Brothers Comedy Hour,1967,1967–1969,Tom & Dick Smothers,CBS,,"Countercultural variety, cancelled for its politics.",,,,,,,
-10. Classic TV: Nick at Nite and Before,"Variety, Sketch & Talk Pioneers",Rowan & Martin's Laugh-In,1968,1968–1973,George Schlatter,NBC,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,"Variety, Sketch & Talk Pioneers",The Carol Burnett Show,1967,1967–1978,Carol Burnett,CBS,,,,,,,,,
+10. Classic TV: Nick at Nite and Before,"Variety, Sketch & Talk Pioneers",The Carol Burnett Show,1967,1967–1978,Carol Burnett,CBS,,"The last great variety show; the Korman and Conway breaks are live-TV improvisation, Curb's method before Curb.",,,,,,,
 10. Classic TV: Nick at Nite and Before,"Variety, Sketch & Talk Pioneers",The Dick Cavett Show,1968,1968–1974,Dick Cavett,ABC,yes,"The literate talk show: Lennon, Bergman, Hendrix, Groucho, Mailer vs Vidal.",,lean,"Long, literate conversation",Seinfeld,,10,episodes
-10. Classic TV: Nick at Nite and Before,"Variety, Sketch & Talk Pioneers",The Tonight Show Starring Johnny Carson,1962,1962–1992,Johnny Carson,NBC,,,,,,,,,
 10. Classic TV: Nick at Nite and Before,Classic Drama & Anthology,Route 66,1960,1960–1964,Stirling Silliphant & Herbert B. Leonard,CBS,yes,Two drifters in a Corvette; Kerouac on network TV.,,middle,A new town and a new moral story each week,Lassie,,30,episodes
-10. Classic TV: Nick at Nite and Before,Classic Drama & Anthology,Alfred Hitchcock Presents,1955,1955–1962,Alfred Hitchcock,CBS/NBC,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,Classic Drama & Anthology,The Fugitive,1963,1963–1967,Roy Huggins,ABC,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,Classic Drama & Anthology,Naked City,1958,1958–1963,Stirling Silliphant,ABC,,,,,,,,,
+10. Classic TV: Nick at Nite and Before,Classic Drama & Anthology,Alfred Hitchcock Presents,1955,1955–1962,Alfred Hitchcock,CBS/NBC,,Hitchcock's dry intros are a one-man anti-comedy act; the anthology feeds The Twilight Zone and Inside No. 9.,,,,,,,
+10. Classic TV: Nick at Nite and Before,Classic Drama & Anthology,The Fugitive,1963,1963–1967,Roy Huggins,ABC,,The first series finale the whole country watched; the endings thread starts here.,,,,,,,
 10. Classic TV: Nick at Nite and Before,Classic Drama & Anthology,Peter Gunn,1958,1958–1961,Blake Edwards,NBC/ABC,,Cool jazz noir; Mancini's theme.,,,,,,,
 10. Classic TV: Nick at Nite and Before,Classic Drama & Anthology,The Defenders,1961,1961–1965,Reginald Rose,CBS,,Twelve Angry Men's writer on courtroom ethics.,,,,,,,
-10. Classic TV: Nick at Nite and Before,Classic Drama & Anthology,Dragnet,1951,1951–1959,Jack Webb,NBC,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,Classic Drama & Anthology,Perry Mason,1957,1957–1966,Erle Stanley Gardner,CBS,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,Classic Drama & Anthology,The Untouchables,1959,1959–1963,Desi Arnaz (producer),ABC,,,,,,,,,
-10. Classic TV: Nick at Nite and Before,Classic Drama & Anthology,The Avengers,1961,1961–1969,Sydney Newman,ITV,,,,,,,,,
+10. Classic TV: Nick at Nite and Before,Classic Drama & Anthology,Dragnet,1951,1951–1959,Jack Webb,NBC,,Jack Webb's flat delivery is the root of deadpan police comedy; Police Squad! and Square One's Mathnet both parody it.,,,,,,,
 10. Classic TV: Nick at Nite and Before,Classic Drama & Anthology,Kung Fu,1972,1972–1975,Ed Spielman,ABC,,Taoist parables in the Old West; Alan Watts territory.,,,,,,,
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,Hancock's Half Hour,1956,1956–1961,Ray Galton & Alan Simpson,BBC,,The root of British sitcom.,,,,,,,
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,Steptoe and Son,1962,1962–1974,Ray Galton & Alan Simpson,BBC,,The original of Sanford and Son; much darker.,,,,,,,
-"11. British, Irish & Commonwealth Comedy",Britain and Ireland,Dad's Army,1968,1968–1977,Jimmy Perry & David Croft,BBC,,,,,,,,,
-"11. British, Irish & Commonwealth Comedy",Britain and Ireland,Porridge,1974,1974–1977,Dick Clement & Ian La Frenais,BBC,,,,,,,,,
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,Yes Minister,1980,1980–1988,Antony Jay & Jonathan Lynn,BBC,,Bureaucracy as a perfect machine for doing nothing.,,,,,,,
-"11. British, Irish & Commonwealth Comedy",Britain and Ireland,Only Fools and Horses,1981,1981–2003,John Sullivan,BBC,,,,,,,,,
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,The Young Ones,1982,1982–1984,"Rik Mayall, Ben Elton & Lise Mayer",BBC,,Punk sitcom anarchy.,,,,,,,
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,Blackadder,1983,1983–1989,"Richard Curtis, Rowan Atkinson & Ben Elton",BBC,,"History as farce. Blackadder Goes Forth ends in the trenches, and it's devastating.",yes,maximal,Elaborate insults; the finale drops the jokes,Slaughterhouse-Five,,12,all
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,Father Ted,1995,1995–1998,Graham Linehan & Arthur Mathews,Channel 4,yes,Three priests exiled to an island. Absurdism at its silliest.,,maximal,Absurd setups at farce speed,Seinfeld,,12,all
@@ -403,7 +368,6 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,The League of Gentlemen,1999,1999–2002,"Jeremy Dyson, Mark Gatiss, Steve Pemberton & Reece Shearsmith",BBC,,A small town as a horror show.,,,,,,,
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,Spaced,1999,1999–2001,Simon Pegg & Jessica Hynes,Channel 4,,Edgar Wright directs a slacker sitcom like an action film.,,,,,,,
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,Black Books,2000,2000–2004,Dylan Moran & Graham Linehan,Channel 4,,A drunk misanthrope runs a bookshop. An anti-library with a till.,,,,,,,
-"11. British, Irish & Commonwealth Comedy",Britain and Ireland,Phoenix Nights,2001,2001–2002,Peter Kay,Channel 4,,,,,,,,,
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,Nighty Night,2004,2004–2005,Julia Davis,BBC,,A sociopath in the suburbs; extremely dark.,,,,,,,
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,The Mighty Boosh,2004,2004–2007,Julian Barratt & Noel Fielding,BBC,,"Psychedelic, musical, absurd.",,,,,,,
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,Garth Marenghi's Darkplace,2004,2004,Matthew Holness & Richard Ayoade,Channel 4,yes,A fake lost 80s horror show; every bad acting choice is deliberate.,,maximal,"Deliberately terrible acting, effects and editing",I Think You Should Leave with Tim Robinson,,2.5,all
@@ -416,7 +380,6 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,Inside No. 9,2014,2014–2024,Reece Shearsmith & Steve Pemberton,BBC,yes,"A new half-hour story every week, all twists. Comedy and horror.",,middle,"Each half hour a new form, built around a twist",The Twilight Zone,,28,all
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,Detectorists,2014,2014–2022,Mackenzie Crook,BBC,yes,Two men with metal detectors. The most peaceful show on TV.,,lean,"Long fields, small talk, nothing urgent",Newhart,,10,all
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,People Just Do Nothing,2014,2014–2018,"Allan Mustafa, Hugo Chegwin, Steve Stamp et al.",BBC,,Mockumentary pirate radio.,,,,,,,
-"11. British, Irish & Commonwealth Comedy",Britain and Ireland,Catastrophe,2015,2015–2019,Sharon Horgan & Rob Delaney,Channel 4/Amazon,,,,,,,,,
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,This Country,2017,2017–2020,Daisy May Cooper & Charlie Cooper,BBC,,"Rural boredom, mockumentary.",,,,,,,
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,Stath Lets Flats,2018,2018–2021,Jamie Demetriou,Channel 4,,A clueless letting agent.,,,,,,,
 "11. British, Irish & Commonwealth Comedy",Britain and Ireland,Derry Girls,2018,2018–2022,Lisa McGee,Channel 4,,Teenagers during the Troubles.,,,,,,,
@@ -480,7 +443,6 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 12. World TV,France and Belgium,Hippocrate,2018,2018–,Thomas Lilti,Canal+,,Junior doctors in a Paris hospital. The House shelf.,,,,,,,
 12. World TV,France and Belgium,Un village français,2009,2009–2017,"Frédéric Krivine, Philippe Triboit & Emmanuel Daucé",France 3,,The Occupation across seven seasons; nobody clean.,,,,,,,
 12. World TV,France and Belgium,Les Shadoks,1968,1968–2000,Jacques Rouxel,ORTF,,Absurdist animated shorts that baffled France; proto-Adult Swim.,,,,,,,
-12. World TV,France and Belgium,Baron Noir,2016,2016–2020,Eric Benzekri & Jean-Baptiste Delafon,Canal+,,French political knife-fighting.,,,,,,,
 12. World TV,France and Belgium,Hotel Beau Séjour,2017,2017,Nathalie Basteyns & Kaat Beels,Eén,,A dead Flemish girl investigates her own murder.,,,,,,,
 12. World TV,Germany and Italy,Crime Scene Cleaner (Der Tatortreiniger),2011,2011–2018,Mizzi Meyer (Ingrid Lausund),NDR,yes,A man who cleans murder scenes has philosophical chats with whoever turns up. Small and brilliant.,,lean,"One room, one stranger, one conversation",Six Feet Under,,15,all
 12. World TV,Germany and Italy,Babylon Berlin,2017,2017–2025,"Tom Tykwer, Achim von Borries & Henk Handloegten",Sky/ARD,,"Weimar Berlin, decadent and doomed.",,,,,,,
@@ -497,30 +459,21 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 12. World TV,Eastern Europe and Russia,Alternatywy 4,1983,1983,Stanisław Bareja,TVP,,"Stanisław Bareja's Warsaw apartment block as a satire of communism. Dekalog's comic neighbor, same kind of building.",,,,,,,
 12. World TV,Eastern Europe and Russia,Top lista nadrealista,1984,1984–1991,Nele Karajlić & Zenit Đozić,TV Sarajevo,,Surrealist sketch show that satirized the war before it came.,,,,,,,
 12. World TV,Eastern Europe and Russia,The Meeting Place Cannot Be Changed,1979,1979,Stanislav Govorukhin (from the Vayner brothers),Soviet TV,,"Vysotsky as a postwar Moscow detective; the most loved Soviet series. Vysotsky belongs on the music list, next to Waits.",,,,,,,
-12. World TV,Eastern Europe and Russia,Umbre,2014,2014–2019,Bogdan Mirică,HBO Europe,,A Romanian Sopranos.,,,,,,,
 12. World TV,Israel,BeTipul,2005,2005–2008,Hagai Levi,HOT,,The original therapy show In Treatment adapted.,,,,,,,
 12. World TV,Israel,Prisoners of War (Hatufim),2009,2009–2012,Gideon Raff,Channel 2,,"The source of Homeland, quieter and better.",,,,,,,
 12. World TV,Israel,Shtisel,2013,2013–2021,Ori Elon & Yehonatan Indursky,yes,,"A Haredi family in Jerusalem. Gentle, funny, about faith and desire.",,,,,,,
-12. World TV,Israel,Fauda,2015,2015–,Lior Raz & Avi Issacharoff,yes,,,,,,,,,
 12. World TV,Israel,Our Boys,2019,2019,"Hagai Levi, Joseph Cedar & Tawfik Abu-Wael",HBO/Keshet,,Hagai Levi on the 2014 murder of a Palestinian teenager. Hard.,,,,,,,
 12. World TV,Israel,Arab Labor,2007,2007–2013,Sayed Kashua,Channel 2,,Sayed Kashua's Arab-Israeli sitcom.,,,,,,,
-12. World TV,Israel,Srugim,2008,2008–2012,Laizy Shapiro & Hava Divon,yes,,Religious singles in Jerusalem.,,,,,,,
 12. World TV,Israel,Autonomies,2018,2018,Yehonatan Indursky & Ori Elon,HOT,,An alternate Israel split into secular and ultra-Orthodox states.,,,,,,,
 12. World TV,Latin America and Spain,One Hundred Years of Solitude,2024,2024–,José Rivera & Natalia Santa (writers),Netflix,yes,"García Márquez's novel, shot in Colombia in Spanish.",,maximal,Magic stated as fact,Books: One Hundred Years of Solitude,,16,all
-12. World TV,Latin America and Spain,The Eternaut (El Eternauta),2025,2025–,Bruno Stagnaro,Netflix,,Argentina's classic comic: a deadly snowfall over Buenos Aires.,,,,,,,
 12. World TV,Latin America and Spain,Okupas,2000,2000,Bruno Stagnaro,Canal 7,,Buenos Aires squatters; a cult classic.,,,,,,,
 12. World TV,Latin America and Spain,City of Men (Cidade dos Homens),2002,2002–2005,Fernando Meirelles & Kátia Lund,Globo,,The City of God team's TV follow-up.,,,,,,,
 12. World TV,Latin America and Spain,The Ministry of Time (El Ministerio del Tiempo),2015,2015–2020,Javier & Pablo Olivares,TVE,,A Spanish bureaucracy that guards history.,,,,,,,
 12. World TV,Latin America and Spain,30 Coins,2020,2020–2023,Álex de la Iglesia & Jorge Guerricaechevarría,HBO Europe,,Álex de la Iglesia; a Vatican conspiracy over Judas's silver. RAW-grade.,,,,,,,
-12. World TV,Latin America and Spain,Crematorio,2011,2011,Jorge Sánchez-Cabezudo (from Rafael Chirbes),Canal+ Spain,,From Rafael Chirbes; called Spain's Sopranos.,,,,,,,
-12. World TV,Latin America and Spain,Patria,2020,2020,Aitor Gabilondo (from Fernando Aramburu),HBO Europe,,Aramburu's Basque novel.,,,,,,,
 12. World TV,Latin America and Spain,Los Simuladores,2002,2002–2003,Damián Szifron,Telefe,,"Four men stage elaborate cons to solve ordinary people's problems. Argentina's Nathan for You, scripted.",,,,,,,
 12. World TV,Latin America and Spain,El Chavo del Ocho,1973,1973–1980,Roberto Gómez Bolaños (Chespirito),Televisa,,The most-watched sitcom in the Spanish-speaking world; Chespirito's orphan in a barrel.,,,,,,,
 12. World TV,Latin America and Spain,Nobody's Looking,2019,2019,Daniel Rezende,Netflix Brazil,,"An angel bureaucracy; God, death and meaning as office comedy.",,,,,,,
-12. World TV,Latin America and Spain,Club de Cuervos,2015,2015–2019,Gaz Alazraki & Michael Lam,Netflix Mexico,,Siblings fight over a football club; Succession-lite.,,,,,,,
-12. World TV,Latin America and Spain,El Marginal,2016,2016–2022,Adrián Caetano & Sebastián Ortega,TV Pública,,Argentine prison drama.,,,,,,,
 12. World TV,Latin America and Spain,Narcos,2015,2015–2017,"Chris Brancato, Carlo Bernard & Doug Miro",Netflix,,Escobar; the Breaking Bad line. Likely seen.,,,,,,,
-12. World TV,Latin America and Spain,Money Heist,2017,2017–2021,Álex Pina,Antena 3/Netflix,,The heist as soap. A note.,,,,,,,
 12. World TV,Japan: Anime,Neon Genesis Evangelion,1995,1995–1996,Hideaki Anno,TV Tokyo,yes,A robot show that collapses into a breakdown about depression and self.,,maximal,A robot show collapsing into the hero's mind,Six Feet Under,,11,"all, plus The End of Evangelion"
 12. World TV,Japan: Anime,Serial Experiments Lain,1998,1998,Chiaki J. Konaka & Ryūtarō Nakamura,TV Tokyo,yes,"A girl, the Wired, and the end of the boundary between mind and network. Pure consciousness-studies.",,maximal,Network static as a portrait of the self,The Rehearsal,,5,all
 12. World TV,Japan: Anime,Cowboy Bebop,1998,1998,Shinichirō Watanabe,TV Tokyo/WOWOW,yes,"Space bounty hunters, jazz, and regret.",,middle,"Each episode in a different genre, scored like a jazz set",Albums: Yoko Kanno,,11,all
@@ -555,9 +508,6 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 12. World TV,Japan: Live Action,Midnight Diner (Shinya Shokudō),2009,2009–,Joji Matsuoka,MBS/Netflix,,"A late-night diner's regulars, one dish per story.",,,,,,,
 12. World TV,Japan: Live Action,Solitary Gourmet (Kodoku no Gurume),2012,2012–,Masayuki Kusumi,TV Tokyo,,"A salesman eats lunch alone, and narrates his thoughts. Meditative.",,,,,,,
 12. World TV,Japan: Live Action,Hibana: Spark,2016,2016,Hiroshi Okuyama et al. (from Naoki Matayoshi),Netflix Japan,,"Two manzai comedians over ten years, from Naoki Matayoshi's novel. A show about comedy as a way of thinking.",,,,,,,
-12. World TV,Japan: Live Action,Giri/Haji,2019,2019,Joe Barton,BBC/Netflix,,"A Tokyo detective in London; stylized, one season.",,,,,,,
-12. World TV,Japan: Live Action,Tokyo Vice,2022,2022–2024,J.T. Rogers (from Jake Adelstein),HBO Max,,Michael Mann directs the pilot; an American reporter on the yakuza beat.,,,,,,,
-12. World TV,Japan: Live Action,Sanctuary,2023,2023,Kan Eguchi,Netflix Japan,,Sumo as a sports drama.,,,,,,,
 12. World TV,Korea,My Mister,2018,2018,Park Hae-young,tvN,yes,A worn-out engineer and a young woman who's spying on him. The great Korean drama.,,lean,Quiet scenes; two lonely people overhearing each other,Better Call Saul,,22,all
 12. World TV,Korea,Reply 1988,2015,2015–2016,Lee Woo-jung,tvN,,A Seoul alley's families in 1988.,,,,,,,
 12. World TV,Korea,Move to Heaven,2021,2021,Yoon Ji-ryun,Netflix,,Trauma cleaners who finish the dead's last tasks. Six Feet Under's cousin.,,,,,,,
@@ -580,18 +530,11 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 12. World TV,Korea,The Little Drummer Girl,2018,2018,Michael Lesslie & Claire Wilson; Park Chan-wook,BBC/AMC,,Park Chan-wook directs le Carré. Every frame lush.,,,,,,,
 12. World TV,"China, Taiwan and Hong Kong",The Bad Kids,2020,2020,Xin Shuang (director),iQIYI,,Kids film a murder by accident. A taut 12-episode thriller.,,,,,,,
 12. World TV,"China, Taiwan and Hong Kong",Blossoms Shanghai,2023,2023,Wong Kar-wai,Tencent,,Wong Kar-wai's first series: 1990s Shanghai and the stock boom.,,,,,,,
-12. World TV,"China, Taiwan and Hong Kong",Nirvana in Fire,2015,2015,Kong Sheng & Li Xue (from Hai Yan),Beijing TV,,Political intrigue; the Chinese drama people point to first.,,,,,,,
-12. World TV,"China, Taiwan and Hong Kong",The Longest Day in Chang'an,2019,2019,Cao Dun (from Ma Boyong),Youku,,24 in the Tang dynasty.,,,,,,,
 12. World TV,India,Sacred Games,2018,2018–2019,Vikramaditya Motwane & Anurag Kashyap,Netflix,,Vikram Chandra's Mumbai crime epic.,,,,,,,
-12. World TV,India,Paatal Lok,2020,2020–2025,Sudip Sharma,Amazon,,A Delhi cop and the underbelly.,,,,,,,
 12. World TV,India,Scam 1992,2020,2020,Hansal Mehta,SonyLIV,,A stockbroker who rigged India's market.,,,,,,,
 12. World TV,India,Panchayat,2020,2020–,The Viral Fever,Amazon,,An engineer stuck as a village clerk. Gentle comedy.,,,,,,,
 12. World TV,India,Delhi Crime,2019,2019–,Richie Mehta,Netflix,,"The 2012 bus case, as procedure.",,,,,,,
-12. World TV,India,The Family Man,2019,2019–,Raj & DK,Amazon India,,A middle-class spy.,,,,,,,
-12. World TV,India,Made in Heaven,2019,2019–2023,Zoya Akhtar & Reema Kagti,Amazon India,,Delhi wedding planners; society through its parties.,,,,,,,
 12. World TV,Africa,Kizazi Moto: Generation Fire,2023,2023,Peter Ramsey (executive producer),Disney+,,Afrofuturist animated shorts from across the continent.,,,,,,,
-12. World TV,Africa,Shaka Zulu,1986,1986,William C. Faure,SABC,,The miniseries.,,,,,,,
-12. World TV,Africa,Yizo Yizo,1999,1999–2004,Angus Gibson & Teboho Mahlatsi,SABC,,A township school; a South African landmark.,,,,,,,
 12. World TV,Africa,Iwájú,2024,2024,Olufikayo Ziki Adeola; Kugali & Disney,Disney+,,"Lagos, animated by Kugali.",,,,,,,
 12. World TV,"Germany, Austria and Italy",Boris,2007,2007–2022,"Luca Vendruscolo, Mattia Torre & Giacomo Ciarrapico",Fox Italia/Disney+,yes,An Italian crew makes a terrible TV show. Larry Sanders in Rome; a cult.,,middle,"A TV crew making a terrible show, with the quality turned to ""lousy""",The Larry Sanders Show,,30,seasons 1–3
 12. World TV,"Germany, Austria and Italy",Stromberg,2004,2004–2012,Ralf Husmann,ProSieben,yes,"Germany's Office, with its own monster of a boss.",,lean,A boss who says the wrong thing and then explains it,The Office (UK),,25,seasons 1–3
@@ -599,48 +542,31 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 12. World TV,"Germany, Austria and Italy",Esterno Notte,2022,2022,Marco Bellocchio,RAI,,Bellocchio on the Aldo Moro kidnapping.,,,,,,,
 12. World TV,"Germany, Austria and Italy",M – Son of the Century,2025,2025,Joe Wright (from Antonio Scurati),Sky,,Joe Wright does Mussolini to camera. Pairs with Andor.,,,,,,,
 12. World TV,"Germany, Austria and Italy",Braunschlag,2012,2012,David Schalko,ORF,,An Austrian village fakes a Virgin Mary apparition to attract pilgrims. Faith as farce.,,,,,,,
-12. World TV,"Germany, Austria and Italy",Kottan ermittelt,1976,1976–1983,Helmut Zenker & Peter Patzak,ORF,,Austrian absurdist cop show; Police Squad before Police Squad.,,,,,,,
-12. World TV,"Germany, Austria and Italy",Kir Royal,1986,1986,Helmut Dietl,ARD,,A Munich gossip columnist. Helmut Dietl's satire.,,,,,,,
-12. World TV,"Germany, Austria and Italy",Generation War,2013,2013,Stefan Kolditz; Philipp Kadelbach,ZDF,,WWII from the German side.,,,,,,,
-12. World TV,"Germany, Austria and Italy",Unorthodox,2020,2020,Anna Winger & Alexa Karolinski (from Deborah Feldman),Netflix,,Brooklyn to Berlin; Shtisel's cousin.,,,,,,,
-12. World TV,"Germany, Austria and Italy",Tatort,1970,1970–,ARD (since 1970),ARD,,The Sunday-night institution; a note.,,,,,,,
-12. World TV,"Germany, Austria and Italy",La Piovra,1984,1984–2001,Damiano Damiani et al.,RAI,,The mafia series that gripped Europe.,,,,,,,
-12. World TV,"Germany, Austria and Italy",1992 / 1993 / 1994,2015,2015–2019,"Stefano Accorsi, Alessandro Fabbri, Ludovica Rampoldi & Stefano Sardo",Sky Italia,,Tangentopoli and the rise of Berlusconi.,,,,,,,
 13. Limited Series & TV Novels,,The Singing Detective,1986,1986,Dennis Potter,BBC,yes,"A crime writer in a hospital bed, his mind slipping between his life, his novel, and 1940s songs.",,maximal,"Hospital, memory and pulp novel, broken by lip-synced songs",House,,7,all
 13. Limited Series & TV Novels,,Pennies from Heaven,1978,1978,Dennis Potter,BBC,,Potter's lip-sync musical of Depression England.,,,,,,,
 13. Limited Series & TV Novels,,"I, Claudius",1976,1976,Jack Pulman (from Robert Graves),BBC,,Rome's emperors as a family horror show.,,,,,,,
 13. Limited Series & TV Novels,,Tinker Tailor Soldier Spy,1979,1979,Arthur Hopcraft (from John le Carré),BBC,,Alec Guinness as Smiley.,,,,,,,
-13. Limited Series & TV Novels,,Brideshead Revisited,1981,1981,John Mortimer (from Evelyn Waugh),ITV,,,,,,,,,
 13. Limited Series & TV Novels,,Boys from the Blackstuff,1982,1982,Alan Bleasdale,BBC,,Unemployment in Thatcher's Liverpool.,,,,,,,
 13. Limited Series & TV Novels,,The Jewel in the Crown,1984,1984,Ken Taylor (from Paul Scott),ITV,,The end of the Raj.,,,,,,,
 13. Limited Series & TV Novels,,Edge of Darkness,1985,1985,Troy Kennedy Martin,BBC,,A grieving detective uncovers a nuclear conspiracy that turns mystical.,,,,,,,
 13. Limited Series & TV Novels,,Scenes from a Marriage,1973,1973,Ingmar Bergman,SVT,yes,"Bergman's anatomy of a marriage, six hours.",,lean,"Two faces in close-up, talking",Films: Ingmar Bergman,,5,all
-13. Limited Series & TV Novels,,Roots,1977,1977,William Blinn et al. (from Alex Haley),ABC,,,,,,,,,
+13. Limited Series & TV Novels,,Roots,1977,1977,William Blinn et al. (from Alex Haley),ABC,,Still the most-watched miniseries in US history; the format's origin.,,,,,,,
 13. Limited Series & TV Novels,,Lonesome Dove,1989,1989,William D. Wittliff (from Larry McMurtry),CBS,,The great cattle-drive western.,,,,,,,
 13. Limited Series & TV Novels,,Our Friends in the North,1996,1996,Peter Flannery,BBC,,Four friends across 30 years of British politics.,,,,,,,
 13. Limited Series & TV Novels,,Band of Brothers,2001,2001,Steven Spielberg & Tom Hanks (producers),HBO,,Easy Company from D-Day to the end.,,,,,,,
 13. Limited Series & TV Novels,,Angels in America,2003,2003,Tony Kushner; Mike Nichols,HBO,yes,"Kushner's AIDS-era epic about angels, Roy Cohn and America.",,maximal,Realism cracked open by angels,Six Feet Under,,6,all
 13. Limited Series & TV Novels,,Bleak House,2005,2005,Andrew Davies (from Dickens),BBC,,Dickens as fast-cut soap.,,,,,,,
 13. Limited Series & TV Novels,,Generation Kill,2008,2008,David Simon & Ed Burns,HBO,yes,"Marines in the 2003 Iraq invasion. Catch-22 logic, real profanity.",,lean,"No score, no explanation, only the radio chatter",Slaughterhouse-Five,,7,all
-13. Limited Series & TV Novels,,The Pacific,2010,2010,Steven Spielberg & Tom Hanks (producers),HBO,,,,,,,,,
-13. Limited Series & TV Novels,,Mildred Pierce,2011,2011,Todd Haynes (from James M. Cain),HBO,,,,,,,,,
-13. Limited Series & TV Novels,,Top of the Lake,2013,2013,Jane Campion & Gerard Lee,BBC/Sundance,,,,,,,,,
 13. Limited Series & TV Novels,,Olive Kitteridge,2014,2014,Jane Anderson (from Elizabeth Strout),HBO,,Frances McDormand as a hard Maine woman.,,,,,,,
 13. Limited Series & TV Novels,,Wolf Hall,2015,2015,Peter Straughan (from Hilary Mantel),BBC,,"Cromwell, lit by candles.",,,,,,,
 13. Limited Series & TV Novels,,Show Me a Hero,2015,2015,David Simon & William F. Zorzi,HBO,,Yonkers housing politics; The Wire's spirit in six hours.,,,,,,,
 13. Limited Series & TV Novels,,The Night Of,2016,2016,Richard Price & Steven Zaillian,HBO,yes,"One night, one arrest; the justice system slowly devours a kid.",,lean,"Procedure, slow and close",Better Call Saul,,8,all
 13. Limited Series & TV Novels,,Patrick Melrose,2018,2018,David Nicholls (from Edward St Aubyn),Showtime/Sky,,Benedict Cumberbatch as an addict aristocrat.,,,,,,,
-13. Limited Series & TV Novels,,A Very English Scandal,2018,2018,Russell T Davies,BBC,,,,,,,,,
-13. Limited Series & TV Novels,,Sharp Objects,2018,2018,Marti Noxon (from Gillian Flynn),HBO,,,,,,,,,
 13. Limited Series & TV Novels,,Chernobyl,2019,2019,Craig Mazin,HBO,yes,"""What is the cost of lies?""",,lean,Dread in grey light; the facts are enough,Breaking Bad,,5.5,all
 13. Limited Series & TV Novels,,Catch-22,2019,2019,Luke Davies & David Michôd (from Joseph Heller),Hulu,yes,Heller's novel as a miniseries. The closest literary cousin to Billy Pilgrim.,,middle,"Heller's circular logic, played straight",Books: Catch-22,,5,all
 13. Limited Series & TV Novels,,Watchmen,2019,2019,Damon Lindelof,HBO,,A sequel to the comic about Tulsa and racial violence.,,,,,,,
-13. Limited Series & TV Novels,,Unbelievable,2019,2019,"Susannah Grant, Ayelet Waldman & Michael Chabon",Netflix,,,,,,,,,
-13. Limited Series & TV Novels,,When They See Us,2019,2019,Ava DuVernay,Netflix,,,,,,,,,
 13. Limited Series & TV Novels,,I May Destroy You,2020,2020,Michaela Coel,BBC/HBO,yes,"Memory, consent, and a writer's life after an assault. Formally daring.",,middle,Memory gaps edited into the story,Six Feet Under,,6,all
 13. Limited Series & TV Novels,,Normal People,2020,2020,Sally Rooney & Alice Birch; Lenny Abrahamson,BBC/Hulu,,Sally Rooney.,,,,,,,
-13. Limited Series & TV Novels,,The Underground Railroad,2021,2021,Barry Jenkins (from Colson Whitehead),Amazon,,,,,,,,,
-13. Limited Series & TV Novels,,Mare of Easttown,2021,2021,Brad Ingelsby,HBO,,,,,,,,,
 13. Limited Series & TV Novels,,Station Eleven,2021,2021,Patrick Somerville (from Emily St. John Mandel),HBO Max,yes,Shakespeare after the end. A pandemic show about why art matters.,,middle,Two timelines held together by a comic book and a play,Books: Station Eleven,,9,all
 13. Limited Series & TV Novels,,Beef,2023,2023,Lee Sung Jin,Netflix,,A road-rage feud spirals out of control.,,,,,,,
 13. Limited Series & TV Novels,,Baby Reindeer,2024,2024,Richard Gadd,Netflix,,A comedian's real stalker story; very uncomfortable.,,,,,,,
@@ -658,31 +584,24 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 14. Documentary & Nonfiction TV,,Connections,1978,1978,James Burke,BBC,yes,How one invention leads to another; history as a Rube Goldberg machine.,,maximal,Leaps from one invention to the next across centuries,The Simpsons,,10,all
 14. Documentary & Nonfiction TV,,The Day the Universe Changed,1985,1985,James Burke,BBC,,How changes in knowledge change reality.,,,,,,,
 14. Documentary & Nonfiction TV,,The Ascent of Man,1973,1973,Jacob Bronowski,BBC,,Science as the human story.,,,,,,,
-14. Documentary & Nonfiction TV,,Civilisation,1969,1969,Kenneth Clark,BBC,,,,,,,,,
 14. Documentary & Nonfiction TV,,Ways of Seeing,1972,1972,John Berger,BBC,yes,Four short episodes that change how you look at any image.,,lean,"One man, one image, rethought out loud",Books: Ways of Seeing,,2,all
 14. Documentary & Nonfiction TV,,The Power of Myth,1988,1988,Joseph Campbell & Bill Moyers,PBS,yes,"Campbell on myth, meaning and following your bliss.",,lean,"Two men talking, nothing else",Books: The Hero with a Thousand Faces,Respectful Fringe,6,all
 14. Documentary & Nonfiction TV,,The Elegant Universe,2003,2003,Brian Greene (NOVA),PBS,yes,"Greene's string-theory book, on screen.",,middle,Physics explained through visual metaphors,Books: The Elegant Universe,,3,all
 14. Documentary & Nonfiction TV,,The Fabric of the Cosmos,2011,2011,Brian Greene (NOVA),PBS,,"Space, time, and the multiverse.",,,,,,,
 14. Documentary & Nonfiction TV,,Closer to Truth,2000,2000–,Robert Lawrence Kuhn,PBS,,"Interviews with physicists and philosophers on consciousness, God and the cosmos.",,,,,Respectful Fringe,,
-14. Documentary & Nonfiction TV,,The Brain with David Eagleman,2015,2015,David Eagleman,PBS,,,,,,,,,
-14. Documentary & Nonfiction TV,,Life on Earth,1979,1979,David Attenborough,BBC,,,,,,,,,
-14. Documentary & Nonfiction TV,,Planet Earth,2006,2006,Alastair Fothergill; David Attenborough,BBC,,,,,,,,,
 14. Documentary & Nonfiction TV,,The World at War,1973,1973,Jeremy Isaacs,ITV,,"The definitive WWII documentary, narrated by Laurence Olivier.",,,,,,,
-14. Documentary & Nonfiction TV,,The Civil War,1990,1990,Ken Burns,PBS,,,,,,,,,
-14. Documentary & Nonfiction TV,,The Vietnam War,2017,2017,Ken Burns & Lynn Novick,PBS,,,,,,,,,
-14. Documentary & Nonfiction TV,,Jazz,2001,2001,Ken Burns,PBS,,,,,,,,,
+14. Documentary & Nonfiction TV,,The Civil War,1990,1990,Ken Burns,PBS,,"Ken Burns' method, defined: photographs, letters, a fiddle.",,,,,,,
+14. Documentary & Nonfiction TV,,Jazz,2001,2001,Ken Burns,PBS,,Burns on the music; for the album list's jazz shelf.,,,,,,,
 14. Documentary & Nonfiction TV,,Eyes on the Prize,1987,1987,Henry Hampton,PBS,,The civil rights movement.,,,,,,,
 14. Documentary & Nonfiction TV,,The Up Series,1964,1964–2019,Paul Almond & Michael Apted,ITV,yes,"The same British kids filmed every seven years, from 7 to 63.",,lean,The same faces every seven years,The Rehearsal,,16,all
 14. Documentary & Nonfiction TV,,An American Family,1973,1973,Craig Gilbert,PBS,,The first reality TV; the Louds of Santa Barbara. The Rehearsal's great-grandparent.,,,,,,,
 14. Documentary & Nonfiction TV,,The Century of the Self,2002,2002,Adam Curtis,BBC,yes,How Freud's ideas built consumer culture. Curtis's best.,,maximal,Archive collage with an argument in the voiceover,The Sopranos,,4,all
-14. Documentary & Nonfiction TV,,The Power of Nightmares,2004,2004,Adam Curtis,BBC,,,,,,,,,
 14. Documentary & Nonfiction TV,,All Watched Over by Machines of Loving Grace,2011,2011,Adam Curtis,BBC,,Named for the Brautigan poem; cybernetics and the dream of balance.,,,,,,,
 14. Documentary & Nonfiction TV,,Can't Get You Out of My Head,2021,2021,Adam Curtis,BBC,,Six hours on why everyone feels lost. Robert Anton Wilson would have something to say.,,,,,,,
 14. Documentary & Nonfiction TV,,Wormwood,2017,2017,Errol Morris,Netflix,yes,"The CIA, LSD and a death in 1953. Documentary and drama woven together.",,maximal,Documentary interviews cut against a drama,Breaking Bad,,4,all
 14. Documentary & Nonfiction TV,,Wild Wild Country,2018,2018,Maclain & Chapman Way,Netflix,,Rajneesh's commune takes over an Oregon town.,,,,,,,
 14. Documentary & Nonfiction TV,,The Staircase,2004,2004,Jean-Xavier de Lestrade,Canal+,,The original true-crime docuseries.,,,,,,,
 14. Documentary & Nonfiction TV,,The Jinx,2015,2015,Andrew Jarecki,HBO,,Ends with one of the most shocking moments in TV history.,,,,,,,
-14. Documentary & Nonfiction TV,,Making a Murderer,2015,2015,Laura Ricciardi & Moira Demos,Netflix,,,,,,,,,
 14. Documentary & Nonfiction TV,,O.J.: Made in America,2016,2016,Ezra Edelman,ESPN,yes,"Eight hours on race, fame and Los Angeles. Won the Oscar as a film.",,maximal,Eight hours; the trial is only the middle,Breaking Bad,,8,all
 14. Documentary & Nonfiction TV,,The Beatles: Get Back,2021,2021,Peter Jackson,Disney+,,Eight hours watching songs being written.,,,,,,,
 14. Documentary & Nonfiction TV,,Anthony Bourdain: Parts Unknown,2013,2013–2018,Anthony Bourdain,CNN,,A writer's travel show.,,,,,,,
@@ -702,17 +621,9 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 14. Documentary & Nonfiction TV,,The Private Life of Plants,1995,1995,David Attenborough,BBC,,Attenborough; pairs with *The Light Eaters* on my shelf.,,,,,,,
 14. Documentary & Nonfiction TV,,30 for 30,2009,2009–,Bill Simmons & Connor Schell,ESPN,,O.J.: Made in America was one of these.,,,,,,,
 14. Documentary & Nonfiction TV,,This American Life,2007,2007–2009,Ira Glass,Showtime,,Ira Glass's two TV seasons.,,,,,,,
-14. Documentary & Nonfiction TV,,Cosmos: A Spacetime Odyssey,2014,2014,"Ann Druyan, Steven Soter & Brannon Braga; Neil deGrasse Tyson",Fox,,Tyson's sequel.,,,,,,,
-14. Documentary & Nonfiction TV,,Through the Wormhole,2010,2010–2017,Morgan Freeman (host),Science,,Morgan Freeman; .,,,,,,,
-14. Documentary & Nonfiction TV,,Unsolved Mysteries,1987,1987–2010,John Cosgrove & Terry Dunn Meurer; Robert Stack,NBC/CBS,,Robert Stack; I saw it.,,,,,,,
-14. Documentary & Nonfiction TV,,Arthur C. Clarke's Mysterious World,1980,1980,Arthur C. Clarke,ITV,,.,,,,,,,
-14. Documentary & Nonfiction TV,,Horizon,1964,1964–,BBC,BBC,,The science strand; a note.,,,,,,,
+14. Documentary & Nonfiction TV,,Unsolved Mysteries,1987,1987–2010,John Cosgrove & Terry Dunn Meurer; Robert Stack,NBC/CBS,,"Robert Stack, then Dennis Farina. The template for every true-crime show since.",yes,lean,"Robert Stack in a trench coat, asking for your help",,,200,
 14. Documentary & Nonfiction TV,,Bitter Lake,2015,2015,Adam Curtis,BBC,,Curtis on Afghanistan.,,,,,,,
-14. Documentary & Nonfiction TV,,Mythos,1996,1996,Joseph Campbell,PBS,,Joseph Campbell's lectures.,,,,,,,
 14. Documentary & Nonfiction TV,,The Mind of a Chef,2012,2012–2017,David Chang & Anthony Bourdain,PBS,,Bourdain narrates.,,,,,,,
-14. Documentary & Nonfiction TV,,Muhammad Ali,2021,2021,"Ken Burns, Sarah Burns & David McMahon",PBS,,Burns.,,,,,,,
-14. Documentary & Nonfiction TV,,The Keepers,2017,2017,Ryan White,Netflix,,,,,,,,,
-14. Documentary & Nonfiction TV,,Shifty,2025,2025,Adam Curtis,BBC,,Curtis's latest.,,,,,,,
 14. Documentary & Nonfiction TV,Film on Television,The Story of Film: An Odyssey,2011,2011,Mark Cousins,More4,yes,Mark Cousins' fifteen-hour history. The film list's spine.,,maximal,Fifteen hours of film history as one essay,Films: the whole film list,,15,all
 14. Documentary & Nonfiction TV,Film on Television,A Personal Journey with Martin Scorsese Through American Movies,1995,1995,Martin Scorsese & Michael Henry Wilson,Channel 4/BFI,,Four hours. Pairs with the Ebert shelf.,,,,,,,
 14. Documentary & Nonfiction TV,Film on Television,My Voyage to Italy,1999,1999,Martin Scorsese,,,Scorsese on Italian cinema; four more hours.,,,,,,,
@@ -724,16 +635,10 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 14. Documentary & Nonfiction TV,Music on Television,The Old Grey Whistle Test,1971,1971–1988,Rowan Ayers,BBC,,"Album rock, live.",,,,,,,
 14. Documentary & Nonfiction TV,Music on Television,Classic Albums,1997,1997–,Nick de Grunwald & Martin R. Smith,BBC/VH1,yes,"One album per episode, with the master tapes. For the music list's ""start here"" picks.",,lean,"The master tapes, soloed one track at a time",Albums: the ★ picks on the album list,,20,episodes
 14. Documentary & Nonfiction TV,Music on Television,Soundbreaking,2016,2016,Maro Chermayeff & Jeff Dupre,PBS,,Eight hours on the recording studio.,,,,,,,
-14. Documentary & Nonfiction TV,Music on Television,The Beatles Anthology,1995,1995,Geoff Wonfor & Bob Smeaton,ABC/ITV,,Eight parts; Get Back is already listed.,,,,,,,
 14. Documentary & Nonfiction TV,Music on Television,Long Strange Trip,2017,2017,Amir Bar-Lev,Amazon,,Four hours of the Grateful Dead; the psychedelia shelf.,,,,,,,
-14. Documentary & Nonfiction TV,Music on Television,Hip-Hop Evolution,2016,2016–2020,Darby Wheeler; Shad (host),HBO Canada/Netflix,,,,,,,,,
 14. Documentary & Nonfiction TV,Music on Television,Behind the Music,1997,1997–,Jeff Gaspin & Gay Rosenthal,VH1,,The format that taught my generation how bands end.,,,,,,,
-14. Documentary & Nonfiction TV,Music on Television,MTV Unplugged,1989,1989–,Robert Small & Jim Burns,MTV,,"Nirvana, 1993.",,,,,,,
 14. Documentary & Nonfiction TV,Music on Television,Country Music,2019,2019,Ken Burns,PBS,,"Burns, sixteen hours. Pairs with Tales from the Tour Bus.",,,,,,,
-14. Documentary & Nonfiction TV,Music on Television,Soul Train,1971,1971–2006,Don Cornelius,syndication,,,,,,,,,
-14. Documentary & Nonfiction TV,Music on Television,The Midnight Special,1972,1972–1981,Burt Sugarman,NBC,,,,,,,,,
-14. Documentary & Nonfiction TV,Music on Television,1971: The Year That Music Changed Everything,2021,2021,Asif Kapadia & James Gay-Rees,Apple TV,,,,,,,,,
-14. Documentary & Nonfiction TV,Music on Television,Song Exploder,2020,2020,Hrishikesh Hirway,Netflix,,,,,,,,,
+15. TGIF & Saturday Mornings,,Home Improvement,1991,1991–1999,"Matt Williams, Carmen Finestra & David McFadzean",ABC,,"Detroit, Tool Time, the neighbor behind the fence.",yes,lean,Grunts and a neighbor behind a fence,,,75,
 15. TGIF & Saturday Mornings,,Saved by the Bell,1989,1989–1993,Sam Bobrick,NBC,,,yes,middle,Zack's time-out to talk to the camera,,,30,
 15. TGIF & Saturday Mornings,,Full House,1987,1987–1995,Jeff Franklin,ABC,,,yes,lean,The hug and the soft music before the credits,,,70,
 15. TGIF & Saturday Mornings,,Family Matters,1989,1989–1998,William Bickley & Michael Warren,ABC,,,yes,middle,One catchphrase guest who takes over the show,,,85,
@@ -743,7 +648,7 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 15. TGIF & Saturday Mornings,,Dinosaurs,1991,1991–1994,Michael Jacobs & Bob Young; Jim Henson Productions,ABC,,"Henson puppets, TGIF, and a finale where the family freezes to death in an ice age. For the TGIF shelf; I probably saw it.",yes,middle,A Henson family sitcom that ends in an ice age,,,25,
 15. TGIF & Saturday Mornings,,ALF,1986,1986–1990,Paul Fusco & Tom Patchett,NBC,,Ends with ALF captured by the military. I saw it.,yes,lean,"An alien eating the cat jokes, then a cliffhanger nobody resolved",,,40,
 16. Kids' TV That Built the Taste,,Clarissa Explains It All,1991,1991–1994,Mitchell Kriegman,Nickelodeon,,"Direct address, before Fleabag.",,,,,,,
-16. Kids' TV That Built the Taste,,Animaniacs,1993,1993–1998,Tom Ruegger,Fox/WB,,"Layered gags, Simpsons-dense.",,,,,,,
+16. Kids' TV That Built the Taste,,Animaniacs,1993,1993–1998,Tom Ruegger,Fox/WB,,"Layered gags, Simpsons-dense.",yes,maximal,"Layered gags, Simpsons-dense, for kids",,,40,
 16. Kids' TV That Built the Taste,,Invader Zim,2001,2001–2006,Jhonen Vasquez,Nickelodeon,,Jhonen Vasquez's alien; too dark for its channel.,,,,,,,
 16. Kids' TV That Built the Taste,,Hey Arnold!,1996,1996–2004,Craig Bartlett,Nickelodeon,,"A melancholy city kid; jazz score; ""Pigeon Man.""",,,,,,,
 16. Kids' TV That Built the Taste,,The Muppet Show,1976,1976–1981,Jim Henson,ITV/syndication,yes,"Vaudeville backstage, with Alice Cooper, Peter Sellers and Steve Martin. Dr. Teeth is Dr. John; Pigs in Space is Star Trek.",,maximal,"Vaudeville backstage, where the show is always about to collapse",The Dick Van Dyke Show,,60,episodes
@@ -758,17 +663,10 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 16. Kids' TV That Built the Taste,,The Peanuts Specials,1965,1965–,"Charles M. Schulz, Bill Melendez & Lee Mendelson",CBS,,"Schulz's melancholy, Guaraldi's piano. The music list has Guaraldi.",,,,,,,
 16. Kids' TV That Built the Taste,,The Wonder Years,1988,1988–1993,Neal Marlens & Carol Black,ABC,yes,Narrated suburbia; see Part 1.,,lean,A grown man narrates what his twelve-year-old self didn't know,Leave It to Beaver,,45,all
 16. Kids' TV That Built the Taste,,Reading Rainbow,1983,1983–2006,Twila Liggett & Tony Buttino; LeVar Burton,PBS,,"LeVar Burton. ""But you don't have to take my word for it.""",,,,,,,
-16. Kids' TV That Built the Taste,,3-2-1 Contact,1980,1980–1988,Children's Television Workshop,PBS,,Science for kids.,,,,,,,
-16. Kids' TV That Built the Taste,,Are You Afraid of the Dark?,1990,1990–2000,D.J. MacHale & Ned Kandel,Nickelodeon,,Campfire horror.,,,,,,,
-16. Kids' TV That Built the Taste,,Salute Your Shorts,1991,1991–1992,Steve Slavkin,Nickelodeon,,,,,,,,,
+16. Kids' TV That Built the Taste,,Salute Your Shorts,1991,1991–1992,Steve Slavkin,Nickelodeon,,Camp Anawanna; the sitcom Nick made before it knew how.,,,,,,,
 16. Kids' TV That Built the Taste,,Rocko's Modern Life,1993,1993–1996,Joe Murray,Nickelodeon,,Adult jokes smuggled in.,,,,,,,
-16. Kids' TV That Built the Taste,,Doug,1991,1991–1994,Jim Jinkins,Nickelodeon,,,,,,,,,
-16. Kids' TV That Built the Taste,,Rugrats,1991,1991–2004,"Arlene Klasky, Gábor Csupó & Paul Germain",Nickelodeon,,,,,,,,,
-16. Kids' TV That Built the Taste,,All That,1994,1994–2005,Brian Robbins & Mike Tollin,Nickelodeon,,SNL for kids; Kenan and Kel.,,,,,,,
-16. Kids' TV That Built the Taste,,Legends of the Hidden Temple,1993,1993–1995,"David G. Stanley, Scott A. Stone & Stephen Brown",Nickelodeon,,,,,,,,,
-16. Kids' TV That Built the Taste,,Captain Kangaroo,1955,1955–1984,Bob Keeshan,CBS,,,,,,,,,
-16. Kids' TV That Built the Taste,,The Electric Company,1971,1971–1977,Children's Television Workshop,PBS,,Morgan Freeman as Easy Reader.,,,,,,,
-17. Stand-Up & Talk: Comedy as Philosophy,,Comedians in Cars Getting Coffee,2012,2012–2019,Jerry Seinfeld,,,"Seinfeld talking to the people whose jokes built my shelf, including Carlin's heirs. I've likely seen some.",,,,,,,
+16. Kids' TV That Built the Taste,,Doug,1991,1991–1994,Jim Jinkins,Nickelodeon,,A kid's journal as voiceover; Quailman.,,,,,,,
+16. Kids' TV That Built the Taste,,Rugrats,1991,1991–2004,"Arlene Klasky, Gábor Csupó & Paul Germain",Nickelodeon,,"The world from a toddler's eye level, drawn by the Simpsons' first animators.",,,,,,,
 17. Stand-Up & Talk: Comedy as Philosophy,,George Carlin's HBO specials,1977,1977–2008,George Carlin,HBO,yes,Fourteen specials; *Jammin' in New York* (1992) is the one. Carlin is on my shelf.,,maximal,Lists that pile up until the language breaks,Seinfeld,,14,episodes
 17. Stand-Up & Talk: Comedy as Philosophy,,An Idiot Abroad,2010,2010–2012,Ricky Gervais & Stephen Merchant,Sky,yes,Karl Pilkington sent around the world by Gervais and Merchant. Pilkington is on my shelf.,,lean,"A man who'd rather be home, asked to see the wonders of the world",Nathan for You,,12,all
 17. Stand-Up & Talk: Comedy as Philosophy,,The Ricky Gervais Show,2010,2010–2012,"Ricky Gervais, Stephen Merchant & Karl Pilkington",HBO,,The animated podcast where Pilkington's monkey-news and head-like-an-orange routines happened.,,,,,,,
@@ -780,6 +678,4 @@ shelf,section,title,year,run,creator,network,start_here,note,watched,axis,move,n
 17. Stand-Up & Talk: Comedy as Philosophy,,Everybody's in L.A.,2024,2024,John Mulaney,Netflix,,John Mulaney's live week of chaos with Letterman's spirit in it.,,,,,,,
 17. Stand-Up & Talk: Comedy as Philosophy,,Rothaniel,2022,2022,Jerrod Carmichael; Bill Hader,HBO,,"Jerrod Carmichael's confession, directed by Bill Hader.",,,,,,,
 17. Stand-Up & Talk: Comedy as Philosophy,,Bo Burnham: Inside,2021,2021,Bo Burnham,Netflix,,A special that's really a one-man series about being alone with a camera.,,,,,,,
-17. Stand-Up & Talk: Comedy as Philosophy,,The Carmichael Show,2015,2015–2017,"Jerrod Carmichael, Nicholas Stoller & Ari Katcher",NBC,,"Norman Lear's living-room argument, revived.",,,,,,,
-17. Stand-Up & Talk: Comedy as Philosophy,,Mike Birbiglia: Thank God for Jokes,2017,2017,Mike Birbiglia,Netflix,,Storytelling stand-up.,,,,,,,
-17. Stand-Up & Talk: Comedy as Philosophy,,The George Carlin Show,1994,1994–1995,Sam Simon & George Carlin,Fox,,His one sitcom; a note more than a pick.,,,,,,,
+17. Stand-Up & Talk: Comedy as Philosophy,,The George Carlin Show,1994,1994–1995,Sam Simon & George Carlin,Fox,,His one sitcom; a note more than a pick.,yes,lean,"Carlin in a bar, talking",,,10,
