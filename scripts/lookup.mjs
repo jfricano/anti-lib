@@ -1,5 +1,5 @@
 // Finds a public page and cover image for each anti-library item, using keyless public APIs:
-// Open Library for books (Google Books fills missing covers), Wikipedia for films. Music uses Wikipedia for the link and Deezer
+// Open Library for books (Google Books fills missing covers), Wikipedia for films and TV. Music uses Wikipedia for the link and Deezer
 // for artwork, then MusicBrainz and the Cover Art Archive for anything still missing.
 // Results are cached in data/lookups.json so each title is looked up once.
 // Usage: node scripts/lookup.mjs [--retry]   (--retry re-checks titles with no match)
@@ -106,6 +106,18 @@ async function film(item) {
   return hit;
 }
 
+// TV shows: a Wikipedia page described as a series, preferring one that names the start year.
+async function tv(item) {
+  const isShow = p => sameTitle(p.title, item.t) && /television|tv|series|sitcom|miniseries|anime|show|sketch|docuseries|serial|programme/i.test(p.description || '');
+  let pick = null;
+  return wikipedia(`${item.t} ${item.y || ''} TV series`, p => {
+    if (!isShow(p)) return false;
+    if (!item.y || nearYear(`${p.title} ${p.description}`, item.y)) return true;
+    pick ??= p;
+    return false;
+  }, () => pick);
+}
+
 function wikipediaAlbum(item) {
   if (item.f?.includes('path')) {
     return wikipedia(item.t, p => sameTitle(p.title, item.t) &&
@@ -204,11 +216,11 @@ async function googleBooks(item) {
   return { cover, ...(link.startsWith('https://') && { link }) };
 }
 
-const FINDERS = { books: book, films: film, albums: album };
+const FINDERS = { books: book, films: film, tv, albums: album };
 const DETAILS = { albums: musicbrainzDetails, books: googleBooks };
 // Which items need a details lookup: every album, but only books still missing a cover.
 const NEEDS = { books: (item, lookups) => !lookups[lookupKey('books', item)]?.i };
-const LIMITS = { books: 2, films: 4, albums: 3 };
+const LIMITS = { books: 2, films: 4, tv: 4, albums: 3 };
 
 async function run() {
   const retry = process.argv.includes('--retry');

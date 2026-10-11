@@ -29,6 +29,15 @@ const LISTS = [
     flags: { start: { field: 'start_here', label: 'Start here', private: true } },
   },
   {
+    id: 'tv', label: 'TV', noun: ['show', 'shows'], source: 'tv.csv',
+    fields: { title: 'title', creator: 'creator', year: 'year', shelf: 'shelf', sub: 'section', note: 'note', done: 'watched' },
+    creatorLabel: 'Creator', shelfLabel: 'Shelf', doneLabel: 'Watched',
+    search: 'https://en.wikipedia.org/w/index.php?search=', searchSuffix: 'TV series',
+    flags: { start: { field: 'start_here', label: 'Start here', private: true } },
+    // The run and network lead the note, since there is no column of their own on the page.
+    transform: r => ({ ...r, note: [[r.run, r.network].filter(Boolean).join(', '), r.note].filter(Boolean).join('. ') }),
+  },
+  {
     id: 'albums', label: 'Albums', noun: ['album', 'albums'], source: 'music.csv',
     fields: { title: 'album', creator: 'artist', year: 'year', group: 'part', shelf: 'section', sub: 'subsection', note: 'note', done: 'status' },
     creatorLabel: 'Artist', groupLabel: 'Part', shelfLabel: 'Shelf', doneLabel: 'Heard', cover: 'square',

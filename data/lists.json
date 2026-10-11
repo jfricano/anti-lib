@@ -50,6 +50,30 @@
   "count": 1093
  },
  {
+  "id": "tv",
+  "label": "TV",
+  "noun": [
+   "show",
+   "shows"
+  ],
+  "creatorLabel": "Creator",
+  "shelfLabel": "Shelf",
+  "doneLabel": "Watched",
+  "search": "https://en.wikipedia.org/w/index.php?search=",
+  "searchSuffix": "TV series",
+  "flags": {
+   "start": "Start here"
+  },
+  "privateFlags": [
+   "start"
+  ],
+  "privateFilters": [
+   "start"
+  ],
+  "hasYear": true,
+  "count": 486
+ },
+ {
   "id": "albums",
   "label": "Albums",
   "noun": [

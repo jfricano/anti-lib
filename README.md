@@ -1,10 +1,10 @@
 # Anti-library
 
-Jason's anti-library: the books, films and albums he hasn't gotten to yet (after Umberto Eco's unread library, as Nassim Taleb tells it). This repository holds the lists and the data pipeline. The page that shows them lives in the portfolio site at [jasonfricano.com/antilibrary](https://jasonfricano.com/antilibrary/) ([jfricano/personal-portfolio](https://github.com/jfricano/personal-portfolio), `site/antilibrary/`).
+Jason's anti-library: the books, films, TV and albums he hasn't gotten to yet (after Umberto Eco's unread library, as Nassim Taleb tells it). This repository holds the lists and the data pipeline. The page that shows them lives in the portfolio site at [jasonfricano.com/antilibrary](https://jasonfricano.com/antilibrary/) ([jfricano/personal-portfolio](https://github.com/jfricano/personal-portfolio), `site/antilibrary/`).
 
 ## Layout
 
-- `lists/`: the source lists, edited by hand. `anti-library.json` (books), `movies.csv` (films), `music.csv` (albums).
+- `lists/`: the source lists, edited by hand. `anti-library.json` (books), `movies.csv` (films), `tv.csv` (TV), `music.csv` (albums).
 - `data/`: generated JSON the page reads. Don't edit it, except `progress.json` through owner mode.
 - `scripts/import.mjs`: normalizes `lists/` into `data/<list>.json` and `data/lists.json`.
 - `scripts/lookup.mjs`: finds a public page, cover and (for albums) genres for each title, cached in `data/lookups.json`.
@@ -22,7 +22,7 @@ npm run lookup    # links and covers for new titles (needs open network access)
 
 Each list is one entry in `LISTS` at the top of `scripts/import.mjs` (source file, column names, flags). A new list is one more entry there; the page picks it up from `lists.json`.
 
-Lookups use keyless public APIs: Open Library for books (then Wikipedia, then Google Books for a cover), Wikipedia for films, and for albums Wikipedia, Deezer, MusicBrainz and the Cover Art Archive. Album titles link to their Discogs master release when MusicBrainz knows it, with genres from MusicBrainz. Run the workflow by hand with **retry** to re-check titles that had no match.
+Lookups use keyless public APIs: Open Library for books (then Wikipedia, then Google Books for a cover), Wikipedia for films and TV, and for albums Wikipedia, Deezer, MusicBrainz and the Cover Art Archive. Album titles link to their Discogs master release when MusicBrainz knows it, with genres from MusicBrainz. Run the workflow by hand with **retry** to re-check titles that had no match.
 
 ## How the page reads this
 
