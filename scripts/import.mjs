@@ -25,7 +25,7 @@ const LISTS = [
     id: 'films', label: 'Films', noun: ['film', 'films'], source: 'movies.csv',
     fields: { title: 'title', creator: 'director', year: 'year', shelf: 'shelf', sub: 'section', note: 'note', done: 'watched' },
     creatorLabel: 'Director', shelfLabel: 'Shelf', doneLabel: 'Watched',
-    search: 'https://en.wikipedia.org/w/index.php?search=', searchSuffix: 'film',
+    search: 'https://www.imdb.com/find/?s=tt&q=',
     flags: { start: { field: 'start_here', label: 'Start here', private: true }, fringe: { field: 'tag', equals: 'respectful fringe', label: 'Respectful fringe' } },
   },
   {

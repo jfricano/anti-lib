@@ -37,8 +37,7 @@
   "creatorLabel": "Director",
   "shelfLabel": "Shelf",
   "doneLabel": "Watched",
-  "search": "https://en.wikipedia.org/w/index.php?search=",
-  "searchSuffix": "film",
+  "search": "https://www.imdb.com/find/?s=tt&q=",
   "flags": {
    "start": "Start here",
    "fringe": "Respectful fringe"
