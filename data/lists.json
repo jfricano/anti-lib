@@ -12,6 +12,7 @@
   "doneLabel": "Read",
   "search": "https://openlibrary.org/search?q=",
   "flags": {
+   "core": "Core shelf",
    "owned": "On my shelf",
    "star": "Vonnegut frequency",
    "formative": "Formative",

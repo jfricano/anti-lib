@@ -17,7 +17,7 @@ const LISTS = [
     doneValues: ['Read', 'Digested', 'Formative'],
     creatorLabel: 'Author', groupLabel: 'Part', shelfLabel: 'Section', doneLabel: 'Read',
     search: 'https://openlibrary.org/search?q=',
-    flags: { owned: { field: 'owned', label: 'On my shelf' }, star: { field: 'star', label: 'Vonnegut frequency' },
+    flags: { core: { field: 'core', label: 'Core shelf' }, owned: { field: 'owned', label: 'On my shelf' }, star: { field: 'star', label: 'Vonnegut frequency' },
       formative: { field: 'status', equals: 'Formative', label: 'Formative', privateFilter: true },
       reading: { field: 'status', equals: 'Reading', label: 'Reading now', privateFilter: true } },
   },
