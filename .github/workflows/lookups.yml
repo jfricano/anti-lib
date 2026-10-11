@@ -21,7 +21,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 180
     steps:
+      # The branch's latest commit, not the pushed one, so a run queued behind another starts from its results.
       - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.ref }}
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -52,6 +55,8 @@ jobs:
           # come from Wikipedia and iTunes.
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+          # Optional: its own quota for Google Books, the last-resort book cover source.
+          GOOGLE_BOOKS_API_KEY: ${{ secrets.GOOGLE_BOOKS_API_KEY }}
       # Keeps the lookups even if the commit below fails, since they can take an hour to redo.
       - uses: actions/upload-artifact@v4
         if: always()

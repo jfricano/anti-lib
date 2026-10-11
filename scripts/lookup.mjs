@@ -208,12 +208,24 @@ async function musicbrainzDetails(item) {
   return { mb: `https://musicbrainz.org/${kind}/${match.id}`, ...(discogs && { discogs }), ...(rym && { rym }), genres };
 }
 
-// Google Books, keyless, as the last resort for a book cover (and the link, if nothing else matched).
+// Google Books as the last resort for a book cover (and the link, if nothing else matched). Keyless calls share
+// a quota that shared runners usually exhaust, so an optional GOOGLE_BOOKS_API_KEY secret gives it its own. After
+// three rate-limited titles in a row it is skipped for the rest of the run; those titles are retried next run.
+const GOOGLE_KEY = process.env.GOOGLE_BOOKS_API_KEY || '';
+let googleMisses = 0;
 async function googleBooks(item) {
+  if (googleMisses >= 3) throw Error(`Skipped Google Books for ${item.t}: rate-limited`);
   const title = item.t.replace(/\(.*?\)/g, '').split(':')[0].trim();
   const author = item.c && !/various|anonymous|et al/i.test(item.c) ? surname(item.c) : '';
   const q = `intitle:"${title}"${author ? ` inauthor:${author}` : ''}`;
-  const { items = [] } = await getJson(`https://www.googleapis.com/books/v1/volumes?${new URLSearchParams({ q, maxResults: '8', printType: 'books' })}`);
+  let items;
+  try {
+    ({ items = [] } = await getJson(`https://www.googleapis.com/books/v1/volumes?${new URLSearchParams({ q, maxResults: '8', printType: 'books', ...(GOOGLE_KEY && { key: GOOGLE_KEY }) })}`));
+    googleMisses = 0;
+  } catch (error) {
+    if (++googleMisses === 3) console.warn('Google Books keeps refusing requests; skipping it for the rest of this run.');
+    throw Error(error.message.replace(/([?&]key=)[^&]+/, '$1…'));
+  }
   const volume = items.map(v => v.volumeInfo || {}).find(v => sameTitle(v.title, item.t) && (v.imageLinks?.thumbnail || v.imageLinks?.smallThumbnail));
   if (!volume) return null;
   const cover = (volume.imageLinks.thumbnail || volume.imageLinks.smallThumbnail).replace(/^http:/, 'https:').replace(/&edge=curl/, '');

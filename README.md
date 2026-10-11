@@ -33,7 +33,7 @@ Every list has a primary source and at least one fallback, all keyless public AP
 
 A title with no match at all links to a search on the list's site instead.
 
-Film posters from TMDB and OMDb need free API keys, stored as the repository secrets `TMDB_API_KEY` (TMDB's API read access token) and `OMDB_API_KEY`. Without them the workflow still runs and uses the keyless sources. Keys stay in GitHub Actions; the page never sees them. Run the workflow by hand with **retry** to re-check titles that had no match.
+Film posters from TMDB and OMDb need free API keys, stored as the repository secrets `TMDB_API_KEY` (TMDB's API read access token) and `OMDB_API_KEY`. Without them the workflow still runs and uses the keyless sources. An optional `GOOGLE_BOOKS_API_KEY` secret gives Google Books, the last-resort book cover source, its own quota; keyless calls from GitHub's runners are usually rate-limited, so without it the workflow skips Google Books once it refuses three titles in a row. Keys stay in GitHub Actions; the page never sees them. Run the workflow by hand with **retry** to re-check titles that had no match.
 
 ## How the page reads this
 
