@@ -20,7 +20,7 @@ for (const [listId, entries] of Object.entries(marks)) {
   if (!lists.has(listId) || typeof entries !== 'object' || !entries) throw Error(`Unknown list ${JSON.stringify(listId)}`);
   for (const [key, value] of Object.entries(entries)) {
     if (typeof key !== 'string' || key.length > 400 || !key.includes('|')) throw Error(`Bad title key ${JSON.stringify(key)}`);
-    if (value !== null && !/^\d{4}-\d{2}-\d{2}$/.test(value)) throw Error(`Bad date for ${key}`);
+    if (value !== null && (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value))) throw Error(`Bad date for ${key}`);
     progress[listId] ??= {};
     if (value) progress[listId][key] = value; else delete progress[listId][key];
     changed++;
