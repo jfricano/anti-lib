@@ -12,6 +12,7 @@ on:
         default: false
 permissions:
   contents: write
+  actions: read
 concurrency:
   group: lookups-${{ github.ref }}
   cancel-in-progress: false
@@ -29,6 +30,22 @@ jobs:
           git config user.name "Jason Fricano"
           git config user.email "44284799+jfricano@users.noreply.github.com"
       - run: node scripts/import.mjs
+      # A cancelled or failed run still uploads its lookups, so pick up where the last one stopped.
+      - name: Resume from the last run's lookups
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          id=$(gh api "repos/$GITHUB_REPOSITORY/actions/artifacts?name=data&per_page=1" -q '.artifacts[0] | select(.expired | not) | .id')
+          if [ -z "$id" ]; then echo "No earlier lookups to resume."; exit 0; fi
+          gh api "repos/$GITHUB_REPOSITORY/actions/artifacts/$id/zip" > "$RUNNER_TEMP/last.zip"
+          unzip -o -q "$RUNNER_TEMP/last.zip" lookups.json -d "$RUNNER_TEMP/last"
+          node -e '
+            const fs = require("fs"), [mine, last] = process.argv.slice(1).map(f => JSON.parse(fs.readFileSync(f, "utf8")));
+            const merged = { ...last, ...mine };
+            fs.writeFileSync(process.argv[1], JSON.stringify(Object.fromEntries(Object.entries(merged).sort())));
+            console.log(`Resumed ${Object.keys(merged).length - Object.keys(mine).length} lookups from the last run.`);
+          ' data/lookups.json "$RUNNER_TEMP/last/lookups.json"
       - run: node scripts/lookup.mjs ${{ inputs.retry && '--retry' || '' }}
         env:
           # Optional: film posters from TMDB (API read access token) and OMDb. Without them, posters
