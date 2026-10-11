@@ -5,10 +5,10 @@ Jason's anti-library: the books, films, TV and albums he hasn't gotten to yet (a
 ## Layout
 
 - `lists/`: the source lists, edited by hand. `anti-library.json` (books), `movies.csv` (films), `tv.csv` (TV), `music.csv` (albums).
-- `data/`: generated JSON the page reads. Don't edit it, except `progress.json` through owner mode.
+- `data/`: generated JSON the page reads. Don't edit it, except `progress.json` and `removed.json` through owner mode.
 - `scripts/import.mjs`: normalizes `lists/` into `data/<list>.json` and `data/lists.json`.
 - `scripts/lookup.mjs`: finds a public page, cover and (for albums) genres for each title, cached in `data/lookups.json`.
-- `scripts/progress.mjs`: applies owner-mode marks to `data/progress.json`.
+- `scripts/progress.mjs`: applies owner-mode marks to `data/progress.json` and removals to `data/removed.json`.
 - `docs/`: the reading path and the digest format.
 
 ## Changing a list
@@ -43,4 +43,4 @@ This repository has to stay public for that to work.
 
 ## Marking titles finished
 
-Owner mode on the page (`/antilibrary/?owner=on`, not linked anywhere) opens a prefilled issue in this repository titled "Anti-library: update N titles". When Jason opens it, the **Progress** workflow applies the marks to `data/progress.json` on `main` and closes the issue. Issues from anyone else are ignored, and the page holds no credentials.
+Owner mode on the page (`/antilibrary/?owner=on`, not linked anywhere) opens a prefilled issue in this repository titled "Anti-library: update N titles". When Jason opens it, the **Progress** workflow applies the marks to `data/progress.json` on `main` and closes the issue. A **Remove** in owner mode records the title in `data/removed.json` with the date and rebuilds the lists without it; the importer keeps leaving it out even if a working copy of a list still has it, and deleting its line from `removed.json` brings it back. Issues from anyone else are ignored, and the page holds no credentials.

@@ -1,7 +1,8 @@
 name: Progress
-# The anti-library page's owner mode opens a prefilled issue here with finished titles.
-# Issues from the repository owner are applied to data/progress.json on main; the page
-# reads that file directly, so there is nothing to redeploy.
+# The anti-library page's owner mode opens a prefilled issue here with finished and removed titles.
+# Issues from the repository owner are applied to data/progress.json and data/removed.json on main,
+# and removals are rebuilt out of data/<list>.json; the page reads those files directly, so there is
+# nothing to redeploy.
 on:
   issues:
     types: [opened]
@@ -32,9 +33,11 @@ jobs:
       - run: node scripts/progress.mjs
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
+      # Rebuilds the lists from lists/ and the cached lookups, leaving removed titles out.
+      - run: node scripts/import.mjs
       - name: Commit
         run: |
-          git add data/progress.json
+          git add data
           if ! git diff --cached --quiet; then
             git commit -m "Update progress (#$ISSUE)"
             git pull --rebase origin main

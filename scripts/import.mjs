@@ -88,6 +88,9 @@ const out = path.join(root, 'data');
 await mkdir(out, { recursive: true });
 const manifest = [];
 const lookups = await readLookups();
+// Titles the owner removed from the page stay out even when a working copy of a list still has them.
+let removed = {};
+try { removed = JSON.parse(await readFile(path.join(out, 'removed.json'), 'utf8')); } catch {}
 for (const list of LISTS) {
   const file = path.join(sourceDir, list.source);
   try { await access(file); } catch { console.log(`Skipped ${list.id}: no ${list.source}`); continue; }
@@ -104,7 +107,7 @@ for (const list of LISTS) {
     if (flags.length) item.f = flags;
     if (fields.done && (list.doneValues ? list.doneValues.includes(r[fields.done]) : truthy(r[fields.done]))) item.d = 1;
     return item;
-  });
+  }).filter(item => !removed[list.id]?.[`${item.t}|${item.c || ''}`]);
   await writeFile(path.join(out, `${list.id}.json`), JSON.stringify(applyLookups(list.id, items, lookups)));
   const { source, fields: _, transform, doneValues, ...meta } = list;
   manifest.push({ ...meta, flags: Object.fromEntries(Object.entries(list.flags).map(([key, flag]) => [key, flag.label])),
