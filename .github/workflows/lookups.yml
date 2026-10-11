@@ -24,13 +24,23 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      # Commits (and the rebase before pushing) are made as Jason.
+      - run: |
+          git config user.name "Jason Fricano"
+          git config user.email "44284799+jfricano@users.noreply.github.com"
       - run: node scripts/import.mjs
       - run: node scripts/lookup.mjs ${{ inputs.retry && '--retry' || '' }}
+      # Keeps the lookups even if the commit below fails, since they can take an hour to redo.
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: data
+          path: data/
       - name: Commit results
         run: |
           git add data
           if git diff --cached --quiet; then echo "Data is up to date."; exit 0; fi
-          git -c user.name="Jason Fricano" -c user.email="44284799+jfricano@users.noreply.github.com" commit -m "Rebuild anti-library data"
+          git commit -m "Rebuild anti-library data"
           # Progress updates can land on main while this runs; they touch a different file.
           git pull --rebase origin "$GITHUB_REF_NAME"
           git push origin HEAD:"$GITHUB_REF_NAME"

@@ -25,6 +25,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      # Commits (and the rebase before pushing) are made as Jason.
+      - run: |
+          git config user.name "Jason Fricano"
+          git config user.email "44284799+jfricano@users.noreply.github.com"
       - run: node scripts/progress.mjs
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
@@ -32,7 +36,7 @@ jobs:
         run: |
           git add data/progress.json
           if ! git diff --cached --quiet; then
-            git -c user.name="Jason Fricano" -c user.email="44284799+jfricano@users.noreply.github.com" commit -m "Update progress (#$ISSUE)"
+            git commit -m "Update progress (#$ISSUE)"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
