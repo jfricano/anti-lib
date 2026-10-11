@@ -2,4 +2,15 @@
 
 Ideas for later, not commitments.
 
-- **Local MusicBrainz copy instead of the live API.** MusicBrainz publishes its full database as free downloads (data dumps, or a JSON dump of release groups). Querying a local copy would remove the one-request-a-second wait entirely, so big music lists could be looked up in minutes. Worth it once lists grow past a few thousand albums or need re-checking often.
+## Local copies of the lookup databases
+
+Every lookup today calls a live public API, so big lists are slow to look up and depend on each service staying up and keeping its limits (MusicBrainz allows one request a second). Most of these databases publish free bulk downloads. Keeping a local copy of each would make lookups take minutes, work offline and survive an API going away.
+
+| List | Primary download | Fallback download |
+| --- | --- | --- |
+| Books | Open Library data dumps (works, editions, authors, cover IDs) | Wikidata dump |
+| Films | Wikidata dump (films, directors, Wikipedia links) | IMDb non-commercial datasets (titles and years only, no images) |
+| TV | Wikidata dump (series, creators, networks) | IMDb non-commercial datasets |
+| Albums | MusicBrainz data dumps (release groups, Discogs links, genres) | Discogs monthly data dumps |
+
+Covers would still come from each service's image host, which has no rate limit to speak of. Google Books and iTunes have no downloads, so they stay live fallbacks. Worth doing once lists grow past a few thousand titles or need re-checking often.

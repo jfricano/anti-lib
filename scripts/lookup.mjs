@@ -1,5 +1,6 @@
 // Finds a public page and cover image for each anti-library item, using keyless public APIs:
-// Open Library for books (Google Books fills missing covers), Wikipedia for films and TV. Music uses Wikipedia for the link and Deezer
+// Open Library for books (Google Books fills missing covers), Wikipedia for films and TV (iTunes fills
+// missing posters). Music uses Wikipedia for the link and Deezer
 // for artwork, then MusicBrainz and the Cover Art Archive for anything still missing.
 // Results are cached in data/lookups.json so each title is looked up once.
 // Usage: node scripts/lookup.mjs [--retry]   (--retry re-checks titles with no match)
@@ -216,10 +217,24 @@ async function googleBooks(item) {
   return { cover, ...(link.startsWith('https://') && { link }) };
 }
 
+// Apple's iTunes Search, keyless, as the fallback for film and TV posters (and the link, if Wikipedia
+// had no page). It allows about 20 requests a minute, so requests are spaced out.
+let itunesQueue = Promise.resolve();
+const itunesGet = url => (itunesQueue = itunesQueue.then(() => sleep(3200)).then(() => getJson(url)));
+const itunes = (entity, field) => async item => {
+  const { results = [] } = await itunesGet(`https://itunes.apple.com/search?${new URLSearchParams({ term: item.t, media: entity === 'movie' ? 'movie' : 'tvShow', entity, limit: '10', country: 'US' })}`);
+  const near = r => !item.y || !r.releaseDate || Math.abs(Number(r.releaseDate.slice(0, 4)) - item.y) <= 1;
+  const hit = results.find(r => sameTitle(r[field], item.t) && r.artworkUrl100 && near(r)) || results.find(r => sameTitle(r[field], item.t) && r.artworkUrl100);
+  if (!hit) return null;
+  const link = hit.trackViewUrl || hit.collectionViewUrl || hit.artistViewUrl || '';
+  return { cover: hit.artworkUrl100.replace('100x100bb', '400x400bb'), ...(link.startsWith('https://') && { link }) };
+};
+
 const FINDERS = { books: book, films: film, tv, albums: album };
-const DETAILS = { albums: musicbrainzDetails, books: googleBooks };
-// Which items need a details lookup: every album, but only books still missing a cover.
-const NEEDS = { books: (item, lookups) => !lookups[lookupKey('books', item)]?.i };
+// Second sources: MusicBrainz details for every album; Google Books and iTunes only fill missing covers.
+const DETAILS = { albums: musicbrainzDetails, books: googleBooks, films: itunes('movie', 'trackName'), tv: itunes('tvSeason', 'artistName') };
+const noCover = list => (item, lookups) => !lookups[lookupKey(list, item)]?.i;
+const NEEDS = { books: noCover('books'), films: noCover('films'), tv: noCover('tv') };
 const LIMITS = { books: 2, films: 4, tv: 4, albums: 3 };
 
 async function run() {

@@ -22,7 +22,16 @@ npm run lookup    # links and covers for new titles (needs open network access)
 
 Each list is one entry in `LISTS` at the top of `scripts/import.mjs` (source file, column names, flags). A new list is one more entry there; the page picks it up from `lists.json`.
 
-Lookups use keyless public APIs: Open Library for books (then Wikipedia, then Google Books for a cover), Wikipedia for films and TV, and for albums Wikipedia, Deezer, MusicBrainz and the Cover Art Archive. Album titles link to their Discogs master release when MusicBrainz knows it, with genres from MusicBrainz. Run the workflow by hand with **retry** to re-check titles that had no match.
+Every list has a primary source and at least one fallback, all keyless public APIs:
+
+| List | Primary | Fallback |
+| --- | --- | --- |
+| Books | Open Library (link and cover) | Wikipedia, then Google Books for a missing cover |
+| Films | Wikipedia (link and poster) | iTunes for a missing poster |
+| TV | Wikipedia (link and image) | iTunes for a missing image |
+| Albums | MusicBrainz (Discogs link, genres, Rate Your Music) with Deezer and Wikipedia artwork | Cover Art Archive for missing artwork |
+
+A title with no match at all links to a search on the list's site instead. Run the workflow by hand with **retry** to re-check titles that had no match.
 
 ## How the page reads this
 
