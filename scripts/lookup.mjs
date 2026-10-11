@@ -1,5 +1,5 @@
 // Finds a public page and cover image for each anti-library item, using keyless public APIs:
-// Open Library for books, Wikipedia for films. Music uses Wikipedia for the link and Deezer
+// Open Library for books (Google Books fills missing covers), Wikipedia for films. Music uses Wikipedia for the link and Deezer
 // for artwork, then MusicBrainz and the Cover Art Archive for anything still missing.
 // Results are cached in data/lookups.json so each title is looked up once.
 // Usage: node scripts/lookup.mjs [--retry]   (--retry re-checks titles with no match)
@@ -20,6 +20,7 @@ export async function readLookups() {
 
 // Copies cached links (l), images (i), and MusicBrainz details for music onto items in place:
 // the Discogs page becomes the link, with genres (k) and a Rate Your Music page (r) alongside.
+// Books with no cover from Open Library or Wikipedia take one from Google Books.
 export function applyLookups(listId, items, lookups) {
   for (const item of items) {
     const hit = lookups[lookupKey(listId, item)], details = lookups[detailsKey(listId, item)];
@@ -29,6 +30,8 @@ export function applyLookups(listId, items, lookups) {
     if (details?.discogs) item.l = details.discogs;
     if (details?.genres?.length) item.k = details.genres;
     if (details?.rym) item.r = details.rym;
+    if (details?.cover && !item.i) item.i = details.cover;
+    if (details?.link && !item.l) item.l = details.link;
   }
   return items;
 }
@@ -188,8 +191,23 @@ async function musicbrainzDetails(item) {
   return { mb: `https://musicbrainz.org/${kind}/${match.id}`, ...(discogs && { discogs }), ...(rym && { rym }), genres };
 }
 
+// Google Books, keyless, as the last resort for a book cover (and the link, if nothing else matched).
+async function googleBooks(item) {
+  const title = item.t.replace(/\(.*?\)/g, '').split(':')[0].trim();
+  const author = item.c && !/various|anonymous|et al/i.test(item.c) ? surname(item.c) : '';
+  const q = `intitle:"${title}"${author ? ` inauthor:${author}` : ''}`;
+  const { items = [] } = await getJson(`https://www.googleapis.com/books/v1/volumes?${new URLSearchParams({ q, maxResults: '8', printType: 'books' })}`);
+  const volume = items.map(v => v.volumeInfo || {}).find(v => sameTitle(v.title, item.t) && (v.imageLinks?.thumbnail || v.imageLinks?.smallThumbnail));
+  if (!volume) return null;
+  const cover = (volume.imageLinks.thumbnail || volume.imageLinks.smallThumbnail).replace(/^http:/, 'https:').replace(/&edge=curl/, '');
+  const link = (volume.canonicalVolumeLink || volume.infoLink || '').replace(/^http:/, 'https:');
+  return { cover, ...(link.startsWith('https://') && { link }) };
+}
+
 const FINDERS = { books: book, films: film, albums: album };
-const DETAILS = { albums: musicbrainzDetails };
+const DETAILS = { albums: musicbrainzDetails, books: googleBooks };
+// Which items need a details lookup: every album, but only books still missing a cover.
+const NEEDS = { books: (item, lookups) => !lookups[lookupKey('books', item)]?.i };
 const LIMITS = { books: 2, films: 4, albums: 3 };
 
 async function run() {
@@ -216,8 +234,9 @@ async function run() {
     }));
     const details = DETAILS[list.id];
     if (details) {
-      const rest = items.filter(item => !(detailsKey(list.id, item) in lookups) || (retry && !lookups[detailsKey(list.id, item)]));
-      console.log(`${list.id}: fetching MusicBrainz details for ${rest.length}`);
+      const needs = NEEDS[list.id] || (() => true);
+      const rest = items.filter(item => needs(item, lookups) && (!(detailsKey(list.id, item) in lookups) || (retry && !lookups[detailsKey(list.id, item)])));
+      console.log(`${list.id}: fetching details for ${rest.length}`);
       for (const item of rest) {
         try { lookups[detailsKey(list.id, item)] = await details(item); }
         catch (error) { failed++; console.warn(error.message); }
