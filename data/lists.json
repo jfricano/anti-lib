@@ -13,6 +13,7 @@
   "search": "https://openlibrary.org/search?q=",
   "flags": {
    "core": "Core shelf",
+   "fringe": "Respectful fringe",
    "owned": "On my shelf",
    "star": "Vonnegut frequency",
    "formative": "Formative",
@@ -24,7 +25,7 @@
    "reading"
   ],
   "hasYear": false,
-  "count": 1071
+  "count": 1327
  },
  {
   "id": "films",
@@ -39,7 +40,8 @@
   "search": "https://en.wikipedia.org/w/index.php?search=",
   "searchSuffix": "film",
   "flags": {
-   "start": "Start here"
+   "start": "Start here",
+   "fringe": "Respectful fringe"
   },
   "privateFlags": [
    "start"
@@ -63,7 +65,8 @@
   "search": "https://en.wikipedia.org/w/index.php?search=",
   "searchSuffix": "TV series",
   "flags": {
-   "start": "Start here"
+   "start": "Start here",
+   "fringe": "Respectful fringe"
   },
   "privateFlags": [
    "start"
@@ -72,7 +75,7 @@
    "start"
   ],
   "hasYear": true,
-  "count": 486
+  "count": 498
  },
  {
   "id": "albums",
