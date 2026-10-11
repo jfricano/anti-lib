@@ -27,11 +27,13 @@ Every list has a primary source and at least one fallback, all keyless public AP
 | List | Primary | Fallback |
 | --- | --- | --- |
 | Books | Open Library (link and cover) | Wikipedia, then Google Books for a missing cover |
-| Films | Wikipedia (link and poster) | iTunes for a missing poster |
+| Films | IMDb link (via Wikidata) and TMDB poster | OMDb poster, then Wikipedia and iTunes |
 | TV | Wikipedia (link and image) | iTunes for a missing image |
 | Albums | MusicBrainz (Discogs link, genres, Rate Your Music) with Deezer and Wikipedia artwork | Cover Art Archive for missing artwork |
 
-A title with no match at all links to a search on the list's site instead. Run the workflow by hand with **retry** to re-check titles that had no match.
+A title with no match at all links to a search on the list's site instead.
+
+Film posters from TMDB and OMDb need free API keys, stored as the repository secrets `TMDB_API_KEY` (TMDB's API read access token) and `OMDB_API_KEY`. Without them the workflow still runs and uses the keyless sources. Keys stay in GitHub Actions; the page never sees them. Run the workflow by hand with **retry** to re-check titles that had no match.
 
 ## How the page reads this
 

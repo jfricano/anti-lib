@@ -31,12 +31,16 @@ export function applyLookups(listId, items, lookups) {
     if (details?.discogs) item.l = details.discogs;
     if (details?.genres?.length) item.k = details.genres;
     if (details?.rym) item.r = details.rym;
+    if (details?.imdb) item.l = details.imdb;
+    if (details?.poster) item.i = details.poster;
     if (details?.cover && !item.i) item.i = details.cover;
     if (details?.link && !item.l) item.l = details.link;
   }
   return items;
 }
-const detailsKey = (listId, item) => `${listId}-details|${item.t}|${item.c || ''}`;
+// Bump a list's version when its details lookup changes, so every title is looked up again.
+const DETAILS_VERSION = { films: 2 };
+const detailsKey = (listId, item) => `${listId}-details${DETAILS_VERSION[listId] || ''}|${item.t}|${item.c || ''}`;
 
 const fold = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
   .replace(/&/g, ' and ').replace(/\(.*?\)/g, ' ').replace(/[^a-z0-9 ]+/g, ' ').replace(/^\s*(the|a|an)\s+/, '').replace(/\s+/g, ' ').trim();
@@ -230,11 +234,51 @@ const itunes = (entity, field) => async item => {
   return { cover: hit.artworkUrl100.replace('100x100bb', '400x400bb'), ...(link.startsWith('https://') && { link }) };
 };
 
+// Films link to IMDb (the ID comes from Wikidata through the film's Wikipedia page), with posters
+// from TMDB and then OMDb. Both need a free API key, read from the TMDB_API_KEY and OMDB_API_KEY
+// environment variables (repository secrets in the workflow). Without keys, posters fall back to
+// Wikipedia and iTunes.
+const TMDB_KEY = process.env.TMDB_API_KEY || '', OMDB_KEY = process.env.OMDB_API_KEY || '';
+async function imdbId(item, lookups) {
+  const wiki = lookups[lookupKey('films', item)]?.l || '';
+  const title = decodeURIComponent(wiki.split('/wiki/')[1] || '').replace(/_/g, ' ');
+  if (!title) return '';
+  const { entities = {} } = await getJson(`https://www.wikidata.org/w/api.php?${new URLSearchParams({ action: 'wbgetentities', sites: 'enwiki', titles: title, props: 'claims', format: 'json' })}`);
+  const claim = Object.values(entities)[0]?.claims?.P345?.[0]?.mainsnak?.datavalue?.value;
+  return /^tt\d+$/.test(claim || '') ? claim : '';
+}
+async function tmdbPoster(item, imdb) {
+  const auth = { Authorization: `Bearer ${TMDB_KEY}` };
+  let hit;
+  if (imdb) hit = (await getJson(`https://api.themoviedb.org/3/find/${imdb}?external_source=imdb_id`, auth)).movie_results?.[0];
+  if (!hit) {
+    const { results = [] } = await getJson(`https://api.themoviedb.org/3/search/movie?${new URLSearchParams({ query: item.t, ...(item.y && { year: String(item.y) }) })}`, auth);
+    hit = results.find(r => sameTitle(r.title, item.t) || sameTitle(r.original_title, item.t));
+  }
+  return hit?.poster_path ? `https://image.tmdb.org/t/p/w342${hit.poster_path}` : '';
+}
+async function omdbPoster(item, imdb) {
+  const params = imdb ? { i: imdb } : { t: item.t, ...(item.y && { y: String(item.y) }), type: 'movie' };
+  const result = await getJson(`https://www.omdbapi.com/?${new URLSearchParams({ ...params, apikey: OMDB_KEY })}`);
+  return /^https:\/\//.test(result.Poster || '') ? result.Poster : '';
+}
+async function filmDetails(item, lookups) {
+  const imdb = await imdbId(item, lookups).catch(() => '');
+  let poster = '';
+  if (TMDB_KEY) poster = await tmdbPoster(item, imdb).catch(() => '');
+  if (!poster && OMDB_KEY) poster = await omdbPoster(item, imdb).catch(() => '');
+  const fallback = !poster && !lookups[lookupKey('films', item)]?.i ? await itunes('movie', 'trackName')(item).catch(() => null) : null;
+  return { ...(imdb && { imdb: `https://www.imdb.com/title/${imdb}/` }), ...(poster && { poster }), ...(fallback?.cover && { cover: fallback.cover }),
+    ...(!TMDB_KEY && !OMDB_KEY && { noKeys: true }) };
+}
+
 const FINDERS = { books: book, films: film, tv, albums: album };
 // Second sources: MusicBrainz details for every album; Google Books and iTunes only fill missing covers.
-const DETAILS = { albums: musicbrainzDetails, books: googleBooks, films: itunes('movie', 'trackName'), tv: itunes('tvSeason', 'artistName') };
+const DETAILS = { albums: musicbrainzDetails, books: googleBooks, films: filmDetails, tv: itunes('tvSeason', 'artistName') };
 const noCover = list => (item, lookups) => !lookups[lookupKey(list, item)]?.i;
-const NEEDS = { books: noCover('books'), films: noCover('films'), tv: noCover('tv') };
+// Films are re-checked once poster keys are added, if an earlier run had none.
+const NEEDS = { books: noCover('books'), tv: noCover('tv'),
+  films: (item, lookups) => (TMDB_KEY || OMDB_KEY) && lookups[detailsKey('films', item)]?.noKeys };
 const LIMITS = { books: 2, films: 4, tv: 4, albums: 3 };
 
 async function run() {
@@ -261,11 +305,13 @@ async function run() {
     }));
     const details = DETAILS[list.id];
     if (details) {
-      const needs = NEEDS[list.id] || (() => true);
-      const rest = items.filter(item => needs(item, lookups) && (!(detailsKey(list.id, item) in lookups) || (retry && !lookups[detailsKey(list.id, item)])));
+      const needs = NEEDS[list.id] || (() => true), key = item => detailsKey(list.id, item);
+      const rest = list.id === 'films'
+        ? items.filter(item => !(key(item) in lookups) || needs(item, lookups) || (retry && !lookups[key(item)]))
+        : items.filter(item => needs(item, lookups) && (!(key(item) in lookups) || (retry && !lookups[key(item)])));
       console.log(`${list.id}: fetching details for ${rest.length}`);
       for (const item of rest) {
-        try { lookups[detailsKey(list.id, item)] = await details(item); }
+        try { lookups[detailsKey(list.id, item)] = await details(item, lookups); }
         catch (error) { failed++; console.warn(error.message); }
         if (Date.now() - saved > 30000) { saved = Date.now(); await save(); }
       }
