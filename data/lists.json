@@ -1,0 +1,79 @@
+[
+ {
+  "id": "books",
+  "label": "Books",
+  "noun": [
+   "book",
+   "books"
+  ],
+  "creatorLabel": "Author",
+  "groupLabel": "Part",
+  "shelfLabel": "Section",
+  "doneLabel": "Read",
+  "search": "https://openlibrary.org/search?q=",
+  "flags": {
+   "owned": "On my shelf",
+   "star": "Vonnegut frequency",
+   "formative": "Formative",
+   "reading": "Reading now"
+  },
+  "privateFlags": [],
+  "privateFilters": [
+   "formative",
+   "reading"
+  ],
+  "hasYear": false,
+  "count": 1071
+ },
+ {
+  "id": "films",
+  "label": "Films",
+  "noun": [
+   "film",
+   "films"
+  ],
+  "creatorLabel": "Director",
+  "shelfLabel": "Shelf",
+  "doneLabel": "Watched",
+  "search": "https://en.wikipedia.org/w/index.php?search=",
+  "searchSuffix": "film",
+  "flags": {
+   "start": "Start here"
+  },
+  "privateFlags": [
+   "start"
+  ],
+  "privateFilters": [
+   "start"
+  ],
+  "hasYear": true,
+  "count": 832
+ },
+ {
+  "id": "albums",
+  "label": "Albums",
+  "noun": [
+   "album",
+   "albums"
+  ],
+  "creatorLabel": "Artist",
+  "groupLabel": "Part",
+  "shelfLabel": "Shelf",
+  "doneLabel": "Heard",
+  "cover": "square",
+  "search": "https://www.discogs.com/search/?type=all&q=",
+  "listen": "https://open.spotify.com/search/",
+  "flags": {
+   "start": "Start here",
+   "path": "Artist path"
+  },
+  "privateFlags": [
+   "start"
+  ],
+  "privateFilters": [
+   "start"
+  ],
+  "hasYear": true,
+  "count": 1716
+ }
+]

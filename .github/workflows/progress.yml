@@ -1,0 +1,41 @@
+name: Progress
+# The anti-library page's owner mode opens a prefilled issue here with finished titles.
+# Issues from the repository owner are applied to data/progress.json on main; the page
+# reads that file directly, so there is nothing to redeploy.
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: progress
+  cancel-in-progress: false
+jobs:
+  apply:
+    if: github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, 'Anti-library:')
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ISSUE: ${{ github.event.issue.number }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/progress.mjs
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+      - name: Commit
+        run: |
+          git add data/progress.json
+          if ! git diff --cached --quiet; then
+            git -c user.name="Jason Fricano" -c user.email="44284799+jfricano@users.noreply.github.com" commit -m "Update progress (#$ISSUE)"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+          gh issue close "$ISSUE" --comment "Applied. The page shows it within a few minutes."
+      - if: failure()
+        run: gh issue comment "$ISSUE" --body "These marks could not be applied. See the workflow run for the error."

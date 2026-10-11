@@ -1,0 +1,36 @@
+name: Rebuild data
+# Rebuilds data/ from the source lists, looks up a public page and cover for new titles,
+# and commits the results to the same branch. Runs when a list or script changes, or by hand.
+on:
+  push:
+    paths: ['lists/**', 'scripts/import.mjs', 'scripts/lookup.mjs', 'data/lookups.json']
+  workflow_dispatch:
+    inputs:
+      retry:
+        description: Re-check titles that had no match last time
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: lookups-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/import.mjs
+      - run: node scripts/lookup.mjs ${{ inputs.retry && '--retry' || '' }}
+      - name: Commit results
+        run: |
+          git add data
+          if git diff --cached --quiet; then echo "Data is up to date."; exit 0; fi
+          git -c user.name="Jason Fricano" -c user.email="44284799+jfricano@users.noreply.github.com" commit -m "Rebuild anti-library data"
+          # Progress updates can land on main while this runs; they touch a different file.
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin HEAD:"$GITHUB_REF_NAME"
