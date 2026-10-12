@@ -16,8 +16,7 @@
    "fringe": "Respectful fringe",
    "owned": "On my shelf",
    "star": "Vonnegut frequency",
-   "formative": "Formative",
-   "reading": "Reading now"
+   "formative": "Formative"
   },
   "privateFlags": [],
   "privateFilters": [],
@@ -26,8 +25,7 @@
    "fringe",
    "owned",
    "star",
-   "formative",
-   "reading"
+   "formative"
   ],
   "hasYear": false,
   "count": 1109,

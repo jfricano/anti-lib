@@ -20,8 +20,7 @@ const LISTS = [
     creatorLabel: 'Author', groupLabel: 'Part', shelfLabel: 'Section', doneLabel: 'Read',
     search: 'https://www.goodreads.com/search?q=',
     flags: { core: { field: 'core', label: 'Core shelf' }, fringe: { field: 'fringe', label: 'Respectful fringe' }, owned: { field: 'owned', label: 'On my shelf' }, star: { field: 'star', label: 'Vonnegut frequency' },
-      formative: { field: 'status', equals: 'Formative', label: 'Formative' },
-      reading: { field: 'status', equals: 'Reading', label: 'Reading now' } },
+      formative: { field: 'status', equals: 'Formative', label: 'Formative' } },
   },
   {
     id: 'films', label: 'Films', noun: ['film', 'films'], source: 'movies.csv',
