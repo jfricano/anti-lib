@@ -50,7 +50,7 @@ A thread is a named path through titles already on one list, in order, with a li
 
 ## Artist paths
 
-Rows on the albums list marked "Artist path" (shelf 01, "Artists to go deep on") get a page each with a suggested listening order: a door record, then the records that make the study complete, with the minor ones shown on a timeline as skipped. The records on each path's main line are also rows on the albums list, right after the artist's row; the importer adds them, so `music.csv` doesn't list them. Not every artist on the list gets a path. The orders live in `lists/artist-paths.json` and are drafts that keep being filled in. See [docs/artist-paths.md](docs/artist-paths.md).
+Rows on the albums list marked "Artist path" (shelf 01, "Artists to go deep on") get a page each with a suggested listening order: a door record, then the records that make the study complete, with the minor ones shown on a timeline as skipped. The records on each path's main line are also rows on the albums list, right after the artist's row; the importer adds them, so `music.csv` doesn't list them. Not every artist on the list gets a path. The orders live in `lists/artist-paths.json`. See [docs/artist-paths.md](docs/artist-paths.md).
 
 ## How the page reads this
 
