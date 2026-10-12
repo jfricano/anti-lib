@@ -1,0 +1,632 @@
+[
+ {
+  "id": "plato-s-cave-six-rooms",
+  "name": "Plato's cave, six rooms",
+  "why": "The same allegory filmed six ways, from an Italian art film to a kung fu blockbuster. Somebody wakes up and finds the walls were painted.",
+  "items": [
+   {
+    "t": "The Conformist",
+    "c": "Bernardo Bertolucci",
+    "step": "Start here because Bertolucci actually has a character explain the cave, in a room with the shutters half closed. The allegory as fascism."
+   },
+   {
+    "t": "World on a Wire",
+    "c": "Rainer Werner Fassbinder",
+    "step": "Three years later Fassbinder makes the cave a computer. A simulated city for German TV, from the same novel as The Thirteenth Floor."
+   },
+   {
+    "t": "They Live",
+    "c": "John Carpenter",
+    "step": "Carpenter turns it into a B movie: put on the sunglasses and the billboards say OBEY. The cave as Reagan's America."
+   },
+   {
+    "t": "Pleasantville",
+    "c": "Gary Ross",
+    "step": "The cave as a 1950s sitcom, and color spreads as people start to see. The gentlest version."
+   },
+   {
+    "t": "The Truman Show",
+    "c": "Peter Weir",
+    "step": "Same year, same idea from the other side: the man in the cave is the TV show, and the exit is a door painted on the sky."
+   },
+   {
+    "t": "The Matrix",
+    "c": "Wachowskis",
+    "step": "The maximal version, a year later. Red pill, kung fu, and the cave as a battery farm. Everything above is in its DNA."
+   }
+  ]
+ },
+ {
+  "id": "the-siege",
+  "name": "The siege",
+  "why": "A small group, one building, the night outside full of enemies. I keep loving this shape without noticing it is the same film.",
+  "items": [
+   {
+    "t": "Seven Samurai",
+    "c": "Akira Kurosawa",
+    "step": "The template: seven men, one village, a timetable of attacks. Everyone after borrows the planning scenes."
+   },
+   {
+    "t": "Rio Bravo",
+    "c": "Howard Hawks",
+    "step": "Hawks moves the siege into a jail, made as an answer to High Noon: professionals who don't ask the town for help."
+   },
+   {
+    "t": "Night of the Living Dead",
+    "c": "George A. Romero",
+    "step": "Romero swaps the bandits for the dead and the jail for a farmhouse, and nobody gets out right."
+   },
+   {
+    "t": "Assault on Precinct 13",
+    "c": "John Carpenter",
+    "step": "Carpenter said this was Rio Bravo plus Night of the Living Dead, and you can see the seams. A closing police station."
+   },
+   {
+    "t": "The Thing",
+    "c": "John Carpenter",
+    "step": "Carpenter remakes a film Hawks produced. Now the enemy is already inside the walls."
+   },
+   {
+    "t": "Die Hard",
+    "c": "John McTiernan",
+    "step": "One building, one man, the siege flipped so the hero is the one outside the walls but inside the tower."
+   },
+   {
+    "t": "The Raid",
+    "c": "Gareth Evans",
+    "step": "The lean, brutal endpoint: a tower block, floor by floor, almost no plot. Die Hard with the jokes removed."
+   }
+  ]
+ },
+ {
+  "id": "samurai-and-gunslingers-trade-hats",
+  "name": "Samurai and gunslingers trade hats",
+  "why": "Japan borrowed the western, Italy stole it back, and then Japan and Korea took it again. A forty-year game of telephone.",
+  "items": [
+   {
+    "t": "Yojimbo",
+    "c": "Akira Kurosawa",
+    "step": "Kurosawa's lone ronin plays two gangs against each other. Hammett's Red Harvest is under it, and Hollywood westerns are around it."
+   },
+   {
+    "t": "Django",
+    "c": "Sergio Corbucci",
+    "step": "Corbucci comes out of the Fistful of Dollars boom. The coffin, the mud, the machine gun. Tarantino took the name."
+   },
+   {
+    "t": "The Great Silence",
+    "c": "Sergio Corbucci",
+    "step": "Corbucci again, and he lets the bad guys win in the snow. The spaghetti western at its most Kurosawa-bleak."
+   },
+   {
+    "t": "Once Upon a Time in the West",
+    "c": "Sergio Leone",
+    "step": "Same year, the maximal version: Leone stretches every look into an opera. The lean and the grand side by side."
+   },
+   {
+    "t": "Tampopo",
+    "c": "Juzo Itami",
+    "step": "Itami answers from Japan with a ramen western: a trucker in a cowboy hat teaches a widow to make noodles. The joke only works because of everything above."
+   },
+   {
+    "t": "The Good, the Bad, the Weird",
+    "c": "Kim Jee-woon",
+    "step": "Korea finishes the loop: Leone's title, Manchuria for Monument Valley, and a motorcycle in the gunfight."
+   }
+  ]
+ },
+ {
+  "id": "the-professional-stripped",
+  "name": "The professional, stripped",
+  "why": "Men who do one job with their hands and say almost nothing. Bresson's prison films turn into the most stylish crime films I know.",
+  "items": [
+   {
+    "t": "A Man Escaped",
+    "c": "Robert Bresson",
+    "step": "Bresson: a prisoner, a spoon, a door. The procedure is the drama."
+   },
+   {
+    "t": "Le Trou",
+    "c": "Jacques Becker",
+    "step": "Becker makes its twin four years later, with real convicts digging in near silence."
+   },
+   {
+    "t": "Le Samouraï",
+    "c": "Jean-Pierre Melville",
+    "step": "Melville takes the silence and gives it a trench coat. Delon's hit man has the same patience as Bresson's prisoner."
+   },
+   {
+    "t": "The Driver",
+    "c": "Walter Hill",
+    "step": "Walter Hill brings Le Samouraï to LA: no names, no backstory, just getaways."
+   },
+   {
+    "t": "Thief",
+    "c": "Michael Mann",
+    "step": "Mann adds the safecracking procedure and Tangerine Dream. James Caan is the professional with a home life he can't have."
+   },
+   {
+    "t": "Ghost Dog: The Way of the Samurai",
+    "c": "Jim Jarmusch",
+    "step": "Jarmusch openly remakes Le Samouraï with Forest Whitaker, pigeons and the RZA. The 1999 version."
+   },
+   {
+    "t": "Drive",
+    "c": "Nicolas Winding Refn",
+    "step": "Refn lifts The Driver almost whole and adds a pink font. The most maximal take on the most minimal idea."
+   }
+  ]
+ },
+ {
+  "id": "god-s-lonely-man",
+  "name": "God's lonely man",
+  "why": "A man alone in a room, writing in a journal, waiting for grace or a gun. Paul Schrader spent fifty years remaking one Bresson film, and the trail runs straight through my Scorsese.",
+  "items": [
+   {
+    "t": "Diary of a Country Priest",
+    "c": "Robert Bresson",
+    "step": "The source: a sick young priest, a notebook, a parish that doesn't want him."
+   },
+   {
+    "t": "Pickpocket",
+    "c": "Robert Bresson",
+    "step": "Bresson again, now with a thief and a diary. The last line, the touch through the bars, gets borrowed for decades."
+   },
+   {
+    "t": "Winter Light",
+    "c": "Ingmar Bergman",
+    "step": "Bergman's pastor who lost his faith. First Reformed will borrow this pastor almost whole."
+   },
+   {
+    "t": "Taxi Driver",
+    "c": "Martin Scorsese",
+    "step": "Schrader's script: Travis's journal voice-over is the country priest with a cab and a .44."
+   },
+   {
+    "t": "Bringing Out the Dead",
+    "c": "Martin Scorsese",
+    "step": "Schrader and Scorsese again, twenty-three years later. The night-shift journal, now an ambulance."
+   },
+   {
+    "t": "First Reformed",
+    "c": "Paul Schrader",
+    "step": "Schrader directs it himself: Winter Light and the Diary fused, with a pastor and climate grief. The circle closes."
+   }
+  ]
+ },
+ {
+  "id": "two-men-in-a-car-the-long-way",
+  "name": "Two men in a car, the long way",
+  "why": "The buddy movie before it became a formula, and after. Midnight Run (already seen, not on the list) is the hinge this whole thread swings on.",
+  "items": [
+   {
+    "t": "Scarecrow",
+    "c": "Jerry Schatzberg",
+    "step": "Hackman and Pacino hitchhike across America. No formula yet, just two drifters who need each other."
+   },
+   {
+    "t": "The Last Detail",
+    "c": "Hal Ashby",
+    "step": "Same year: two sailors escort a kid to prison and show him a good time first. The real grandfather of Midnight Run."
+   },
+   {
+    "t": "Kings of the Road",
+    "c": "Wim Wenders",
+    "step": "Wenders makes the German version: two men in a truck along the East German border, almost no dialogue. Same idea, other country."
+   },
+   {
+    "t": "Mikey and Nicky",
+    "c": "Elaine May",
+    "step": "Same year, the darkest take: Elaine May's hit man and the friend he's been sent to kill, one night in Philadelphia."
+   },
+   {
+    "t": "48 Hrs.",
+    "c": "Walter Hill",
+    "step": "Walter Hill turns the engine into a genre: the cop and the con, the insults, the deadline. The template Midnight Run perfects."
+   },
+   {
+    "t": "Down by Law",
+    "c": "Jim Jarmusch",
+    "step": "Jarmusch makes it three men in a jail and a swamp, in black and white, with Tom Waits. The art-house cousin."
+   },
+   {
+    "t": "The Nice Guys",
+    "c": "Shane Black",
+    "step": "Shane Black brings it all back to 1977 LA. The best descendant of the whole line."
+   }
+  ]
+ },
+ {
+  "id": "lovers-on-the-run",
+  "name": "Lovers on the run",
+  "why": "Two kids, a car, a gun, and the law a few miles behind. Godard's homage to American B movies boomerangs back into Tarantino's scripts by way of Senegal.",
+  "items": [
+   {
+    "t": "Breathless",
+    "c": "Jean-Luc Godard",
+    "step": "Godard dedicates it to Monogram Pictures: a French punk playing at being Bogart, and the girl who turns him in."
+   },
+   {
+    "t": "Pierrot le Fou",
+    "c": "Jean-Luc Godard",
+    "step": "Godard does it again in primary colors with Belmondo, and blows it up, literally."
+   },
+   {
+    "t": "Bonnie and Clyde",
+    "c": "Arthur Penn",
+    "step": "The script was written with Truffaut in mind and offered to Godard before Arthur Penn made it. The New Wave comes home to America."
+   },
+   {
+    "t": "Badlands",
+    "c": "Terrence Malick",
+    "step": "Malick makes it quiet: Starkweather as a dreamy James Dean and a girl narrating from a teen magazine."
+   },
+   {
+    "t": "Touki Bouki",
+    "c": "Djibril Diop Mambéty",
+    "step": "Same year, Dakar: two lovers on a motorbike with a cow skull on the handlebars, trying to get to Paris. Godard heard in Wolof."
+   },
+   {
+    "t": "Wild at Heart",
+    "c": "David Lynch",
+    "step": "Lynch takes the road movie into The Wizard of Oz and wins the Palme d'Or for it."
+   },
+   {
+    "t": "True Romance",
+    "c": "Tony Scott",
+    "step": "Tarantino's script, and Tony Scott uses Badlands' xylophone theme on purpose. The romantic one."
+   },
+   {
+    "t": "Natural Born Killers",
+    "c": "Oliver Stone",
+    "step": "Tarantino's story turned inside out by Oliver Stone. The maximal, TV-saturated version of everything above."
+   }
+  ]
+ },
+ {
+  "id": "the-screen-talks-back",
+  "name": "The screen talks back",
+  "why": "Seventy years of films that saw what television would do to us, ending with a man who finds out he's the show.",
+  "items": [
+   {
+    "t": "A Face in the Crowd",
+    "c": "Elia Kazan",
+    "step": "Kazan and Budd Schulberg: a drifter becomes a TV demagogue. Twenty years early on everything."
+   },
+   {
+    "t": "Network",
+    "c": "Sidney Lumet",
+    "step": "Chayefsky's sermon, the parent's angrier child. Mad as hell."
+   },
+   {
+    "t": "Real Life",
+    "c": "Albert Brooks",
+    "step": "Albert Brooks moves a camera into a family's house and wrecks it. The mockumentary and reality TV, both invented as a joke."
+   },
+   {
+    "t": "The King of Comedy",
+    "c": "Martin Scorsese",
+    "step": "Scorsese's answer: the fan who wants on the show badly enough to kidnap the host. De Niro at his most frightening and funny."
+   },
+   {
+    "t": "Broadcast News",
+    "c": "James L. Brooks",
+    "step": "James L. Brooks, from inside the newsroom: the handsome anchor who doesn't understand the news versus the reporter who does and sweats on camera."
+   },
+   {
+    "t": "Man Bites Dog",
+    "c": "Belvaux, Bonzel & Poelvoorde",
+    "step": "Belgium takes Real Life to its end: the film crew follows a killer and starts helping."
+   },
+   {
+    "t": "The Truman Show",
+    "c": "Peter Weir",
+    "step": "The last step: the camera never turns off, and the man inside is the only one who doesn't know."
+   }
+  ]
+ },
+ {
+  "id": "the-film-that-nearly-killed-its-makers",
+  "name": "The film that nearly killed its makers",
+  "why": "Jungle shoots, river madness, and the documentaries filmed beside the disasters. The making-of is often as good as the movie.",
+  "items": [
+   {
+    "t": "Aguirre, the Wrath of God",
+    "c": "Werner Herzog",
+    "step": "Herzog and Kinski on a raft down the Amazon. The template for madness on a river, on screen and off."
+   },
+   {
+    "t": "Sorcerer",
+    "c": "William Friedkin",
+    "step": "Friedkin remakes The Wages of Fear in the Dominican jungle and nearly sinks with it. The truck on the rope bridge is real."
+   },
+   {
+    "t": "Apocalypse Now",
+    "c": "Francis Ford Coppola",
+    "step": "Coppola takes Aguirre's river to Vietnam and the shoot goes the way the story does."
+   },
+   {
+    "t": "Hearts of Darkness: A Filmmaker's Apocalypse",
+    "c": "Bahr, Hickenlooper & Eleanor Coppola",
+    "step": "Eleanor Coppola's footage: the typhoon, Sheen's heart attack, Brando's weight. The film about the film."
+   },
+   {
+    "t": "Fitzcarraldo",
+    "c": "Werner Herzog",
+    "step": "Herzog drags a real steamship over a real mountain because the story says so."
+   },
+   {
+    "t": "Burden of Dreams",
+    "c": "Les Blank",
+    "step": "Les Blank filmed him doing it. \"I shouldn't make movies anymore. I should go to a lunatic asylum.\""
+   },
+   {
+    "t": "My Best Fiend",
+    "c": "Werner Herzog",
+    "step": "Herzog looks back at Kinski, including the night he planned to firebomb his house."
+   },
+   {
+    "t": "Jodorowsky's Dune",
+    "c": "Frank Pavich",
+    "step": "The one that never got made, and so never killed anyone. The madness without the jungle."
+   }
+  ]
+ },
+ {
+  "id": "holy-fools",
+  "name": "Holy fools",
+  "why": "The innocent who walks through the world and exposes everyone around him. Chaplin to Dostoevsky to a donkey to a Washington garden.",
+  "items": [
+   {
+    "t": "City Lights",
+    "c": "Charlie Chaplin",
+    "step": "The Tramp, broke and kind, mistaken by a blind girl for a millionaire. The silent original."
+   },
+   {
+    "t": "The Idiot",
+    "c": "Akira Kurosawa",
+    "step": "Kurosawa moves Dostoevsky's Prince Myshkin to snowy Hokkaido. The literary holy fool, filmed."
+   },
+   {
+    "t": "Nights of Cabiria",
+    "c": "Federico Fellini",
+    "step": "Fellini's Giulietta Masina, a Chaplin tramp in a Roman prostitute's body. The last smile to camera is the whole thread."
+   },
+   {
+    "t": "Au Hasard Balthazar",
+    "c": "Robert Bresson",
+    "step": "Bresson said the donkey came from a passage in The Idiot. The fool with no words at all."
+   },
+   {
+    "t": "Being There",
+    "c": "Hal Ashby",
+    "step": "Ashby makes the fool a gardener whom Washington mistakes for a sage. The Vonnegut one."
+   },
+   {
+    "t": "Forrest Gump",
+    "c": "Robert Zemeckis",
+    "step": "The maximal, sentimental version: the fool walks through thirty years of American history. Being There with a box of chocolates."
+   },
+   {
+    "t": "Happy as Lazzaro",
+    "c": "Alice Rohrwacher",
+    "step": "Rohrwacher brings it back to Balthazar: a saintly farmhand out of time, and a wolf. The quiet answer to Gump."
+   }
+  ]
+ },
+ {
+  "id": "counting-the-last-days",
+  "name": "Counting the last days",
+  "why": "Someone learns the time is short and has to decide what the life was. Tolstoy's Ivan Ilyich keeps getting reborn in another city.",
+  "items": [
+   {
+    "t": "Ikiru",
+    "c": "Akira Kurosawa",
+    "step": "Kurosawa's bureaucrat with stomach cancer builds one playground. Ivan Ilyich in Tokyo."
+   },
+   {
+    "t": "Wild Strawberries",
+    "c": "Ingmar Bergman",
+    "step": "Bergman's old professor drives to an honorary degree and rereads his life on the way."
+   },
+   {
+    "t": "Cléo from 5 to 7",
+    "c": "Agnès Varda",
+    "step": "Varda's singer waits for a biopsy result, almost in real time. Paris as a waiting room."
+   },
+   {
+    "t": "Le Feu Follet",
+    "c": "Louis Malle",
+    "step": "Malle's man has chosen the date himself and spends the last day visiting friends. Camus's question, asked politely."
+   },
+   {
+    "t": "All That Jazz",
+    "c": "Bob Fosse",
+    "step": "Fosse stages his own heart attack as a musical number. The maximal version, with Death as a woman in a veil."
+   },
+   {
+    "t": "Taste of Cherry",
+    "c": "Abbas Kiarostami",
+    "step": "Kiarostami's man drives the hills outside Tehran looking for someone to bury him. Then the camera steps out of the film."
+   },
+   {
+    "t": "The Death of Mr. Lazarescu",
+    "c": "Cristi Puiu",
+    "step": "Romania: one man passed from hospital to hospital through one night. The bureaucracy from Ikiru, now killing the patient."
+   }
+  ]
+ },
+ {
+  "id": "is-that-really-them",
+  "name": "Is that really them?",
+  "why": "Real people playing themselves, reenacting their own lives, or lying about them on camera. Welles started it as a joke and it became a whole cinema.",
+  "items": [
+   {
+    "t": "F for Fake",
+    "c": "Orson Welles",
+    "step": "Welles on forgers and frauds, and he admits he's one. The essay that gives the thread its rules."
+   },
+   {
+    "t": "Close-Up",
+    "c": "Abbas Kiarostami",
+    "step": "A real man who impersonated a real director reenacts his real crime, with the real victims. Kiarostami takes Welles literally."
+   },
+   {
+    "t": "Little Dieter Needs to Fly",
+    "c": "Werner Herzog",
+    "step": "Herzog takes Dieter Dengler back to Laos and has him act out his own escape, with hired guards."
+   },
+   {
+    "t": "American Splendor",
+    "c": "Berman & Pulcini",
+    "step": "Harvey Pekar is played by Paul Giamatti and by Harvey Pekar, sometimes in the same scene."
+   },
+   {
+    "t": "Bernie",
+    "c": "Richard Linklater",
+    "step": "Linklater lets the real townspeople of Carthage, Texas tell the story around Jack Black."
+   },
+   {
+    "t": "The Act of Killing",
+    "c": "Joshua Oppenheimer",
+    "step": "Indonesian death-squad leaders reenact their killings as gangster movies and musicals. The darkest point this idea can reach."
+   },
+   {
+    "t": "Stories We Tell",
+    "c": "Sarah Polley",
+    "step": "Sarah Polley stages fake home movies of her own family's secret, and lets you take them for real."
+   },
+   {
+    "t": "Rolling Thunder Revue",
+    "c": "Martin Scorsese",
+    "step": "Scorsese makes a Dylan doc with an invented filmmaker and fake interviews, and never says which. F for Fake with a guitar."
+   }
+  ]
+ },
+ {
+  "id": "the-fake-band",
+  "name": "The fake band",
+  "why": "Bands that were invented, played by actors, or so real they look like parody. The rock film as a hall of mirrors.",
+  "items": [
+   {
+    "t": "A Hard Day's Night",
+    "c": "Richard Lester",
+    "step": "The Beatles play cartoon versions of themselves. The real band acting as a fake one."
+   },
+   {
+    "t": "Head",
+    "c": "Bob Rafelson",
+    "step": "The Monkees, a band invented for TV, blow up their own image. Nicholson co-wrote it."
+   },
+   {
+    "t": "The Rutles: All You Need Is Cash",
+    "c": "Eric Idle & Gary Weis",
+    "step": "Eric Idle's fake Beatles, with George Harrison in on the joke."
+   },
+   {
+    "t": "This Is Spinal Tap",
+    "c": "Rob Reiner",
+    "step": "Rob Reiner takes the Rutles to heavy metal and makes the template."
+   },
+   {
+    "t": "Sweet and Lowdown",
+    "c": "Woody Allen",
+    "step": "Woody Allen makes a straight-faced documentary about a jazz guitarist who never existed."
+   },
+   {
+    "t": "I'm Not There",
+    "c": "Todd Haynes",
+    "step": "Todd Haynes splits a real man into six fake ones. Dylan as a fiction."
+   },
+   {
+    "t": "Anvil! The Story of Anvil",
+    "c": "Sacha Gervasi",
+    "step": "Then the real thing: a Canadian metal band whose drummer is named Robb Reiner, living Spinal Tap without the jokes."
+   }
+  ]
+ },
+ {
+  "id": "bird-s-cymbal",
+  "name": "Bird's cymbal",
+  "why": "One story, Jo Jones throwing a cymbal at a teenage Charlie Parker, travels from a jazz biopic into the best film about obsession I know. Then it walks back through 1988, the year of three jazz films, and ends somewhere happier.",
+  "items": [
+   {
+    "t": "Bird",
+    "c": "Clint Eastwood",
+    "step": "Eastwood keeps cutting back to the cymbal flying through the air. The humiliation that made Parker."
+   },
+   {
+    "t": "Whiplash",
+    "c": "Damien Chazelle",
+    "step": "Chazelle's teacher tells the same cymbal story to justify cruelty. The myth weaponized, played as a thriller."
+   },
+   {
+    "t": "Birdman",
+    "c": "Alejandro González Iñárritu",
+    "step": "Same year, another film scored by nothing but a jazz drummer, Antonio Sánchez. The drum as a nervous system instead of a weapon."
+   },
+   {
+    "t": "Round Midnight",
+    "c": "Bertrand Tavernier",
+    "step": "The other side of the myth: Dexter Gordon as a burnt-out genius in Paris, saved by a fan. Kindness instead of the cymbal."
+   },
+   {
+    "t": "Thelonious Monk: Straight, No Chaser",
+    "c": "Charlotte Zwerin",
+    "step": "Same year as Bird, and Eastwood produced it. Monk himself, spinning between tunes."
+   },
+   {
+    "t": "Let's Get Lost",
+    "c": "Bruce Weber",
+    "step": "Also 1988: Chet Baker at the end, beautiful wreckage in black and white. The cost of the myth, real."
+   },
+   {
+    "t": "Buena Vista Social Club",
+    "c": "Wim Wenders",
+    "step": "Wenders finds the old Havana players and puts them on stage at Carnegie Hall. The happy ending Round Midnight couldn't have."
+   }
+  ]
+ },
+ {
+  "id": "the-house-on-the-hill",
+  "name": "The house on the hill",
+  "why": "Kurosawa put a rich man's house above a slum. Korean cinema built a whole new wave on that view, and on the 1980s it came out of.",
+  "items": [
+   {
+    "t": "High and Low",
+    "c": "Akira Kurosawa",
+    "step": "The kidnapper looks up at the executive's house from the heat below. Bong has named it for Parasite."
+   },
+   {
+    "t": "Peppermint Candy",
+    "c": "Lee Chang-dong",
+    "step": "Lee Chang-dong runs a man's life backward to 1980 and the Gwangju massacre. Korean history as the thing that ruined him."
+   },
+   {
+    "t": "Memories of Murder",
+    "c": "Bong Joon-ho",
+    "step": "Bong's cops in 1986, torturing suspects under military rule while the real killer walks. Same decade, other director."
+   },
+   {
+    "t": "Mother",
+    "c": "Bong Joon-ho",
+    "step": "Bong again: a mother turns detective to clear her son of a girl's murder."
+   },
+   {
+    "t": "Poetry",
+    "c": "Lee Chang-dong",
+    "step": "A year later, Lee's grandmother learns her grandson took part in a girl's death. Almost the same plot, opposite temperature."
+   },
+   {
+    "t": "Burning",
+    "c": "Lee Chang-dong",
+    "step": "Lee goes to Murakami and class rage: the poor boy, the rich man with the greenhouses he burns."
+   },
+   {
+    "t": "Parasite",
+    "c": "Bong Joon-ho",
+    "step": "Bong builds the house on the hill and the basement under it. The stairs do the rest."
+   }
+  ]
+ }
+]

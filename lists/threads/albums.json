@@ -1,0 +1,647 @@
+[
+ {
+  "id": "in-tempore-belli",
+  "name": "In tempore belli",
+  "why": "Six composers answer the same war, and a string quartet that formed because of one of these pieces carries it to the end.",
+  "items": [
+   {
+    "t": "Quartet for the End of Time",
+    "c": "Olivier Messiaen",
+    "step": "Start in a prison camp: Stalag VIII-A, written for the four instruments the prisoners had and premiered to the camp in January 1941."
+   },
+   {
+    "t": "Metamorphosen",
+    "c": "Richard Strauss",
+    "step": "An old man answers the bombing of Dresden and Munich with 23 solo strings; the Eroica funeral march surfaces at the end."
+   },
+   {
+    "t": "String Quartet No. 8",
+    "c": "Dmitri Shostakovich",
+    "step": "Fifteen years later Shostakovich is near Dresden to score a film about the firebombing, and writes this quartet in three days instead."
+   },
+   {
+    "t": "Threnody to the Victims of Hiroshima",
+    "c": "Krzysztof Penderecki",
+    "step": "Same year. Penderecki wrote clusters first and gave them the Hiroshima title after hearing them played."
+   },
+   {
+    "t": "War Requiem",
+    "c": "Benjamin Britten",
+    "step": "Britten and Shostakovich were close friends. Britten sets Wilfred Owen inside the Latin Mass for the rebuilt Coventry cathedral."
+   },
+   {
+    "t": "Black Angels",
+    "c": "George Crumb",
+    "step": "Vietnam, dated \"in tempore belli\" and played on amplified strings. A violinist heard it on the radio in 1973 and founded the Kronos Quartet because of it."
+   },
+   {
+    "t": "Different Trains",
+    "c": "Steve Reich",
+    "step": "Kronos commissioned it. Reich's childhood train rides across America set against the trains running to the camps at the same time."
+   },
+   {
+    "t": "Symphony No. 3, \"Symphony of Sorrowful Songs\"",
+    "c": "Henryk Górecki",
+    "step": "Kronos recorded Górecki's quartets for the same label. The middle song sets a prayer a girl scratched on a Gestapo cell wall; the war ends as a lullaby."
+   }
+  ]
+ },
+ {
+  "id": "jonny-greenwood-s-teachers",
+  "name": "Jonny Greenwood's teachers",
+  "why": "How the strings and the strange keyboard on Kid A came from two classical scores, and then went back into the concert hall.",
+  "items": [
+   {
+    "t": "Turangalîla-Symphonie",
+    "c": "Olivier Messiaen",
+    "step": "Greenwood heard this as a teenager and went looking for the ondes Martenot, the wobbling electronic keyboard all over it."
+   },
+   {
+    "t": "Threnody to the Victims of Hiroshima",
+    "c": "Krzysztof Penderecki",
+    "step": "The other teacher: string clusters that sound like a siren made of violins."
+   },
+   {
+    "t": "Kid A",
+    "c": "Radiohead",
+    "step": "Both lessons land here: the ondes on \"How to Disappear Completely\" and \"The National Anthem,\" and Penderecki-style string smears."
+   },
+   {
+    "t": "Popcorn Superhet Receiver",
+    "c": "Jonny Greenwood",
+    "step": "His first concert piece, for the BBC, built from radio static and quarter-tone clusters."
+   },
+   {
+    "t": "There Will Be Blood",
+    "c": "Jonny Greenwood",
+    "step": "He reused Popcorn Superhet in the score, which is exactly why it was ruled ineligible for the Oscar."
+   },
+   {
+    "t": "Threnody for the Victims of Hiroshima / Popcorn Superhet Receiver / Polymorphia / 48 Responses to Polymorphia",
+    "c": "Jonny Greenwood & Krzysztof Penderecki",
+    "step": "The student and the teacher on one record, with Greenwood writing direct answers to Penderecki."
+   },
+   {
+    "t": "A Moon Shaped Pool",
+    "c": "Radiohead",
+    "step": "Back in the band, with a real orchestra: the col legno strings on \"Burn the Witch\" are the whole lineage in a single riff."
+   }
+  ]
+ },
+ {
+  "id": "in-a-silent-way-scattered",
+  "name": "In a Silent Way, scattered",
+  "why": "Everyone in the room on one Miles session went off and started their own band; follow the sidemen and you get the whole fusion decade, ending at Mingus.",
+  "items": [
+   {
+    "t": "In a Silent Way",
+    "c": "Miles Davis",
+    "step": "1969: Shorter, Hancock, Zawinul, Corea, McLaughlin and Tony Williams in one room. Every next stop is somebody leaving it."
+   },
+   {
+    "t": "Emergency!",
+    "c": "Tony Williams Lifetime",
+    "step": "Williams walks out with McLaughlin and organist Larry Young and makes it loud. Rock volume, jazz chops."
+   },
+   {
+    "t": "The Inner Mounting Flame",
+    "c": "Mahavishnu Orchestra",
+    "step": "McLaughlin's own band: violin, odd meters, a guitar that sounds like it's on fire."
+   },
+   {
+    "t": "Love Devotion Surrender",
+    "c": "Carlos Santana & John McLaughlin",
+    "step": "McLaughlin turns the volume toward Coltrane: \"A Love Supreme\" and \"Naima\" on two electric guitars."
+   },
+   {
+    "t": "Mwandishi",
+    "c": "Herbie Hancock",
+    "step": "Hancock's exit is the spacey one, closer to Sun Ra than to the funk he'd make next."
+   },
+   {
+    "t": "Heavy Weather",
+    "c": "Weather Report",
+    "step": "Zawinul and Shorter's band, now with Jaco Pastorius, the bassist who made the bass sing the melody."
+   },
+   {
+    "t": "Jaco Pastorius",
+    "c": "Jaco Pastorius",
+    "step": "Jaco's own debut, with Hancock playing on it."
+   },
+   {
+    "t": "Mingus",
+    "c": "Joni Mitchell",
+    "step": "The sidemen reassemble around Joni: Jaco, Herbie and Wayne play the last melodies Mingus wrote before he died."
+   }
+  ]
+ },
+ {
+  "id": "duke-s-bass-line",
+  "name": "Duke's bass line",
+  "why": "Mingus learned the bass from Ellington's band, got fired by Ellington, wrote him love letters, and then recorded with him; Miles closes it with an elegy.",
+  "items": [
+   {
+    "t": "The Blanton–Webster Band",
+    "c": "Duke Ellington",
+    "step": "Jimmy Blanton turns the bass into a solo voice in 1940. A teenage Mingus is listening."
+   },
+   {
+    "t": "Mingus Ah Um",
+    "c": "Charles Mingus",
+    "step": "Mingus played in Duke's band in 1953 and is the only man Duke ever fired personally. Six years later: \"Open Letter to Duke.\""
+   },
+   {
+    "t": "The Black Saint and the Sinner Lady",
+    "c": "Charles Mingus",
+    "step": "Mingus's big statement, a ballet scored like Ellington's suites with the shouting turned up."
+   },
+   {
+    "t": "Money Jungle",
+    "c": "Duke Ellington",
+    "step": "Then Duke calls him: a trio with Mingus and Max Roach. Mingus walked out mid-session and Duke talked him back in."
+   },
+   {
+    "t": "Duke Ellington & John Coltrane",
+    "c": "Duke Ellington & John Coltrane",
+    "step": "Same year, Duke records with the other giant. The gentlest Coltrane on the list."
+   },
+   {
+    "t": "Get Up with It",
+    "c": "Miles Davis",
+    "step": "When Duke died in 1974, Miles made \"He Loved Him Madly,\" half an hour of electric mourning."
+   }
+  ]
+ },
+ {
+  "id": "marc-ribot-s-busted-guitar",
+  "name": "Marc Ribot's busted guitar",
+  "why": "One sideman's guitar sound, from Rain Dogs through downtown jazz and Cuban son to T Bone Burnett's Americana and back to Waits.",
+  "items": [
+   {
+    "t": "Rain Dogs",
+    "c": "Tom Waits",
+    "step": "Ribot's scraping, wrong-sounding guitar is half of what makes this record sound like a junkyard."
+   },
+   {
+    "t": "Voice of Chunk",
+    "c": "Lounge Lizards",
+    "step": "His day job in the same years: John Lurie's fake jazz band, the downtown New York version of Waits's junkyard."
+   },
+   {
+    "t": "Rootless Cosmopolitans",
+    "c": "Marc Ribot",
+    "step": "His own first record: noise, standards and covers, the guitar finally in front."
+   },
+   {
+    "t": "The Prosthetic Cubans",
+    "c": "Marc Ribot y Los Cubanos Postizos",
+    "step": "He plays Arsenio Rodríguez's Cuban son, loose and loving, through a fuzz pedal."
+   },
+   {
+    "t": "Scar",
+    "c": "Joe Henry",
+    "step": "Ribot on guitar, with Brad Mehldau on piano and Ornette Coleman on the opener. Noir songwriting in Waits's neighborhood."
+   },
+   {
+    "t": "Raising Sand",
+    "c": "Robert Plant & Alison Krauss",
+    "step": "T Bone Burnett hires him for the haunted Americana sound. The same guitar, now in a country record."
+   },
+   {
+    "t": "Bad as Me",
+    "c": "Tom Waits",
+    "step": "Back home: Ribot and Keith Richards trading guitars on Waits's last album."
+   }
+  ]
+ },
+ {
+  "id": "faust-woyzeck-and-the-devil-s-cabaret",
+  "name": "Faust, Woyzeck and the devil's cabaret",
+  "why": "Two old stories, the deal with the devil and the poor soldier Woyzeck, run from Stravinsky and Berg through Weill to Tom Waits and back to the cabaret.",
+  "items": [
+   {
+    "t": "The Soldier's Tale",
+    "c": "Igor Stravinsky",
+    "step": "A soldier sells his violin to the devil, with a narrator and a seven-piece band: music theater as a busker could stage it."
+   },
+   {
+    "t": "Wozzeck",
+    "c": "Alban Berg",
+    "step": "Büchner's Woyzeck, the soldier ground down until he kills, as atonal opera. Hold on to this one for later."
+   },
+   {
+    "t": "The Threepenny Opera",
+    "c": "Kurt Weill / Lotte Lenya",
+    "step": "Weill makes the same bleak view of the poor into hit songs. Note the tango."
+   },
+   {
+    "t": "Faust Cantata",
+    "c": "Alfred Schnittke",
+    "step": "Schnittke gives Mephistopheles a tango too, sung like a cabaret number at the moment Faust is torn apart."
+   },
+   {
+    "t": "The Black Rider",
+    "c": "Tom Waits, William S. Burroughs & Robert Wilson",
+    "step": "Waits and Robert Wilson's Faust: a man trades with the devil for magic bullets. Burroughs wrote the words."
+   },
+   {
+    "t": "Alice",
+    "c": "Tom Waits",
+    "step": "The sister album Blood Money is Waits and Wilson's Woyzeck, so the Berg opera comes back as Weill-style songs."
+   },
+   {
+    "t": "The Dresden Dolls",
+    "c": "The Dresden Dolls",
+    "step": "The cabaret line walks into a punk club: \"Brechtian punk cabaret,\" piano and drums."
+   }
+  ]
+ },
+ {
+  "id": "jack-white-s-record-collection",
+  "name": "Jack White's record collection",
+  "why": "The White Stripes as a reading list: the blues and garage records he learned from, then the old singers he went back and produced.",
+  "items": [
+   {
+    "t": "Father of Folk Blues",
+    "c": "Son House",
+    "step": "\"Death Letter\" is here. The Stripes recorded it on De Stijl."
+   },
+   {
+    "t": "The Definitive Blind Willie McTell",
+    "c": "Blind Willie McTell",
+    "step": "De Stijl is dedicated to McTell, and \"Your Southern Can Is Mine\" is his."
+   },
+   {
+    "t": "Go Go Harlem Baby",
+    "c": "Flat Duo Jets",
+    "step": "A guitar and a drummer, no bass, playing rockabilly like punk. White calls them a key influence; the Stripes' format is here."
+   },
+   {
+    "t": "I Know You Fine, but How You Doin'",
+    "c": "The Gories",
+    "step": "Detroit, ten years earlier, also no bass. The scene the Stripes came up in."
+   },
+   {
+    "t": "De Stijl",
+    "c": "The White Stripes",
+    "step": "Everything above, plus a Dutch modernist art movement for a title."
+   },
+   {
+    "t": "Van Lear Rose",
+    "c": "Loretta Lynn",
+    "step": "White pays it back: he produced this comeback for a coal miner's daughter he'd idolized."
+   },
+   {
+    "t": "The Party Ain't Over",
+    "c": "Wanda Jackson",
+    "step": "Same move, for the queen of rockabilly, on his own label."
+   }
+  ]
+ },
+ {
+  "id": "from-the-kitchen-to-the-dance-floor",
+  "name": "From the Kitchen to the dance floor",
+  "why": "Arthur Russell played cello behind Ginsberg and made disco records in the same years; follow him and you reach the room LCD Soundsystem came out of.",
+  "items": [
+   {
+    "t": "First Blues",
+    "c": "Allen Ginsberg",
+    "step": "Arthur Russell is on cello. He lived in Ginsberg's building and ran music at The Kitchen, the downtown avant-garde space."
+   },
+   {
+    "t": "24→24 Music",
+    "c": "Dinosaur L",
+    "step": "The same cellist making disco. \"Go Bang!\" is James Murphy's Rosetta stone."
+   },
+   {
+    "t": "World of Echo",
+    "c": "Arthur Russell",
+    "step": "Russell alone: cello, voice and echo. The quiet side of the same person."
+   },
+   {
+    "t": "Live at the Paradise Garage",
+    "c": "Larry Levan",
+    "step": "The DJ who played Russell's records loudest, at the club those records were made for."
+   },
+   {
+    "t": "Come Away with ESG",
+    "c": "ESG",
+    "step": "Three Bronx sisters with bass, drums and congas, a Garage favorite and one of the most sampled records ever."
+   },
+   {
+    "t": "Echoes",
+    "c": "The Rapture",
+    "step": "DFA, the label Murphy co-ran, rebuilds that sound twenty years later. \"House of Jealous Lovers.\""
+   },
+   {
+    "t": "American Dream",
+    "c": "LCD Soundsystem",
+    "step": "Where the line ends for me: the reunion record, all of it audible underneath."
+   }
+  ]
+ },
+ {
+  "id": "manfred-eicher-s-cathedral",
+  "name": "Manfred Eicher's cathedral",
+  "why": "One label, ECM, puts a medieval vocal group, a Norwegian saxophonist, Keith Jarrett and Arvo Pärt in the same reverb.",
+  "items": [
+   {
+    "t": "Pérotin",
+    "c": "Pérotin",
+    "step": "Notre-Dame around 1200, sung by the Hilliard Ensemble for ECM."
+   },
+   {
+    "t": "Officium",
+    "c": "Jan Garbarek",
+    "step": "The Hilliards again, with Garbarek's saxophone improvising over chant and Pérotin. It became a surprise hit."
+   },
+   {
+    "t": "Belonging",
+    "c": "Keith Jarrett",
+    "step": "Twenty years earlier Garbarek was in Jarrett's European quartet. The lean, lyrical side of Jarrett."
+   },
+   {
+    "t": "The Köln Concert",
+    "c": "Keith Jarrett",
+    "step": "Jarrett alone, improvising on a bad piano. The best-selling solo piano record ever, on the same label."
+   },
+   {
+    "t": "Tabula Rasa",
+    "c": "Arvo Pärt",
+    "step": "The record that launched ECM's classical series opens with Jarrett playing piano on Pärt's \"Fratres.\""
+   },
+   {
+    "t": "Passio",
+    "c": "Arvo Pärt",
+    "step": "And the Hilliards sing Pärt: the line closes back on the voices it started with."
+   },
+   {
+    "t": "Silent Songs",
+    "c": "Valentin Silvestrov",
+    "step": "Same house sound, from Kyiv: songs sung almost under the breath."
+   }
+  ]
+ },
+ {
+  "id": "bach-rewired",
+  "name": "Bach, rewired",
+  "why": "One composer passed through a Soviet piano cycle, a Brazilian song, a Moog synthesizer and a NASA record; Glenn Gould is at both ends.",
+  "items": [
+   {
+    "t": "The Goldberg Variations",
+    "c": "J.S. Bach",
+    "step": "Gould's two recordings, 1955 and 1981: the same piece as a young man and an old one."
+   },
+   {
+    "t": "The Well-Tempered Clavier",
+    "c": "J.S. Bach",
+    "step": "A prelude and a fugue in every key. The template for the next stop."
+   },
+   {
+    "t": "24 Preludes and Fugues",
+    "c": "Dmitri Shostakovich",
+    "step": "Shostakovich judged a 1950 Bach competition in Leipzig, heard Nikolayeva win, went home and wrote his own 24."
+   },
+   {
+    "t": "Bachianas Brasileiras No. 5",
+    "c": "Heitor Villa-Lobos",
+    "step": "Bach crossed with Brazilian song: a soprano over eight cellos."
+   },
+   {
+    "t": "Switched-On Bach",
+    "c": "Wendy Carlos",
+    "step": "Bach on a Moog in 1968. Gould himself praised it in print."
+   },
+   {
+    "t": "A Clockwork Orange",
+    "c": "Wendy Carlos",
+    "step": "Kubrick hears it and asks for Beethoven and Purcell the same way."
+   },
+   {
+    "t": "The Voyager Golden Record",
+    "c": "Various",
+    "step": "NASA picks Gould playing the Well-Tempered Clavier to send out of the solar system."
+   }
+  ]
+ },
+ {
+  "id": "dark-was-the-night",
+  "name": "Dark Was the Night",
+  "why": "One Blind Willie Johnson recording leaves the planet, scores a Wenders film, and through Ry Cooder leads to Mali, Havana and the Sahara.",
+  "items": [
+   {
+    "t": "The Complete Blind Willie Johnson",
+    "c": "Blind Willie Johnson",
+    "step": "\"Dark Was the Night, Cold Was the Ground\": slide guitar and a moan, no words."
+   },
+   {
+    "t": "The Voyager Golden Record",
+    "c": "Various",
+    "step": "Sagan's team put it on the record sent to the stars."
+   },
+   {
+    "t": "Paris, Texas",
+    "c": "Ry Cooder",
+    "step": "Cooder built his whole score for Wenders out of that one track."
+   },
+   {
+    "t": "Talking Timbuktu",
+    "c": "Ali Farka Touré",
+    "step": "Cooder flies to the source of the blues, or one of them: a duet record with the Malian guitarist."
+   },
+   {
+    "t": "Buena Vista Social Club",
+    "c": "Buena Vista Social Club",
+    "step": "Cooder's next trip. The session was planned with Malian musicians who couldn't get visas, so it became Cuban."
+   },
+   {
+    "t": "In the Heart of the Moon",
+    "c": "Ali Farka Touré & Toumani Diabaté",
+    "step": "The same World Circuit team finishes the Malian half: guitar and kora."
+   },
+   {
+    "t": "Tassili",
+    "c": "Tinariwen",
+    "step": "North into the desert: Tuareg guitar bands, recorded outdoors."
+   },
+   {
+    "t": "Nomad",
+    "c": "Bombino",
+    "step": "And back to American blues-rock: Dan Auerbach of the Black Keys produced it in Nashville."
+   }
+  ]
+ },
+ {
+  "id": "ron-carter-s-bass-to-thundercat-s",
+  "name": "Ron Carter's bass to Thundercat's",
+  "why": "Miles's second quintet shows up on a Tribe record, and the line runs through Dilla and Flying Lotus to the LA jazz revival.",
+  "items": [
+   {
+    "t": "Miles Smiles",
+    "c": "Miles Davis",
+    "step": "Ron Carter on bass, Herbie Hancock on piano."
+   },
+   {
+    "t": "The Low End Theory",
+    "c": "A Tribe Called Quest",
+    "step": "Tribe brings Ron Carter in to play upright bass on \"Verses from the Abstract.\" Jazz under rap, literally."
+   },
+   {
+    "t": "Donuts",
+    "c": "J Dilla",
+    "step": "Dilla produced for Tribe later in the 90s; this is his last record, made in a hospital bed."
+   },
+   {
+    "t": "Cosmogramma",
+    "c": "Flying Lotus",
+    "step": "FlyLo is Dilla's most devoted student and Alice Coltrane's great-nephew. Thundercat on bass, Ravi Coltrane on sax, and Thom Yorke sings a track."
+   },
+   {
+    "t": "You're Dead!",
+    "c": "Flying Lotus",
+    "step": "Herbie Hancock comes in, the second quintet again, plus Kendrick Lamar."
+   },
+   {
+    "t": "Drunk",
+    "c": "Thundercat",
+    "step": "The bassist's own record: funny, sad, with Michael McDonald and Kenny Loggins."
+   },
+   {
+    "t": "The Epic",
+    "c": "Kamasi Washington",
+    "step": "The same LA circle as a three-hour spiritual jazz record, with Thundercat on bass."
+   }
+  ]
+ },
+ {
+  "id": "kool-keith-to-tom-waits",
+  "name": "Kool Keith to Tom Waits",
+  "why": "The weird wing of hip-hop passes producer to producer until it ends on an indie record with Tom Waits singing through a megaphone.",
+  "items": [
+   {
+    "t": "Critical Beatdown",
+    "c": "Ultramagnetic MC's",
+    "step": "Kool Keith starts here, already stranger than anyone around him."
+   },
+   {
+    "t": "Dr. Octagonecologyst",
+    "c": "Dr. Octagon",
+    "step": "Keith as a surgeon from Jupiter. The producer is Dan the Automator."
+   },
+   {
+    "t": "Deltron 3030",
+    "c": "Deltron 3030",
+    "step": "The Automator again, with Del and Kid Koala: a space opera."
+   },
+   {
+    "t": "The Grey Album",
+    "c": "Danger Mouse",
+    "step": "Del had sung on the first Gorillaz record, which the Automator produced. Danger Mouse gets that band's next record because of this mash-up of the White Album and Jay-Z."
+   },
+   {
+    "t": "Demon Days",
+    "c": "Gorillaz",
+    "step": "That next record."
+   },
+   {
+    "t": "Dark Night of the Soul",
+    "c": "Danger Mouse & Sparklehorse",
+    "step": "Danger Mouse and Mark Linkous, with David Lynch, Iggy Pop and Vic Chesnutt."
+   },
+   {
+    "t": "It's a Wonderful Life",
+    "c": "Sparklehorse",
+    "step": "Linkous's own masterpiece, with Tom Waits on \"Dog Door.\""
+   }
+  ]
+ },
+ {
+  "id": "no-depression",
+  "name": "No Depression",
+  "why": "One Carter Family song named a whole movement; follow it from the high lonesome to Son Volt, O Brother and Billy Strings.",
+  "items": [
+   {
+    "t": "The Carter Family on Border Radio",
+    "c": "The Carter Family",
+    "step": "The Carters' \"No Depression in Heaven,\" 1936, sung on Mexican border radio."
+   },
+   {
+    "t": "The Complete Columbia Recordings",
+    "c": "The Stanley Brothers",
+    "step": "The Stanleys built a lot of their repertoire from the Carter songbook and made it high and lonesome."
+   },
+   {
+    "t": "Trace",
+    "c": "Son Volt",
+    "step": "Jay Farrar's old band Uncle Tupelo named their first album after the Carter song, and the movement got its name from it. This is his next band."
+   },
+   {
+    "t": "Revival",
+    "c": "Gillian Welch",
+    "step": "The same idea from the other end: old-time songs written new, produced by T Bone Burnett."
+   },
+   {
+    "t": "O Brother, Where Art Thou?",
+    "c": "Various",
+    "step": "Burnett again, with Welch singing and Ralph Stanley's \"O Death.\" It sent millions of people back to the 1930s."
+   },
+   {
+    "t": "Doc Watson",
+    "c": "Doc Watson",
+    "step": "The source for anyone who flatpicks a guitar."
+   },
+   {
+    "t": "Home",
+    "c": "Billy Strings",
+    "step": "A kid who grew up playing Doc Watson songs, now playing bluegrass at jam-band length and volume."
+   }
+  ]
+ },
+ {
+  "id": "what-illinois-is-made-of",
+  "name": "What Illinois is made of",
+  "why": "Illinois sounds like Guaraldi plus Reich plus a church band; follow those parts, then the people Sufjan made records with.",
+  "items": [
+   {
+    "t": "Black Orpheus",
+    "c": "Antônio Carlos Jobim & Luiz Bonfá",
+    "step": "The bossa nova soundtrack that went around the world in 1959."
+   },
+   {
+    "t": "Jazz Impressions of Black Orpheus",
+    "c": "Vince Guaraldi Trio",
+    "step": "Guaraldi covers it, and \"Cast Your Fate to the Wind\" gets him the Peanuts job. That piano warmth is all over Illinois."
+   },
+   {
+    "t": "Music for 18 Musicians",
+    "c": "Steve Reich",
+    "step": "The other half: pulsing mallets and clarinets. Listen to \"Chicago\" right after."
+   },
+   {
+    "t": "Seven Swans",
+    "c": "Sufjan Stevens",
+    "step": "Produced by Daniel Smith of Danielson, the year after Michigan."
+   },
+   {
+    "t": "Ships",
+    "c": "Danielson",
+    "step": "Sufjan returns the favor and plays on Smith's family band record. This is where the brass-and-choir sound came from."
+   },
+   {
+    "t": "The Age of Adz",
+    "c": "Sufjan Stevens",
+    "step": "After Illinois he throws it away for electronics and a 25-minute finale."
+   },
+   {
+    "t": "Mothertongue",
+    "c": "Nico Muhly",
+    "step": "Muhly, who worked as Philip Glass's assistant, writes song cycles out of lists and language."
+   },
+   {
+    "t": "Planetarium",
+    "c": "Sufjan Stevens, Bryce Dessner, Nico Muhly & James McAlister",
+    "step": "Muhly and Sufjan together, with Bryce Dessner of the National: one song per planet."
+   }
+  ]
+ }
+]

@@ -84,6 +84,24 @@ const truthy = value => value === true || /^(yes|y|x|true|1|✓|★|heard|read|w
 const clean = value => String(value ?? '').replace(/\*/g, '').trim();
 
 const sourceDir = process.argv[2] || path.join(root, 'lists');
+
+// Threads are named paths through titles already on a list (lists/threads/<id>.json). Each stop gets
+// th: { <thread id>: [position, step note] }, so titles stay on their shelves, and the manifest lists the
+// threads with their stop counts. Stops that no longer match a title are reported and skipped.
+async function readThreads(id, items) {
+  let threads;
+  try { threads = JSON.parse(await readFile(path.join(sourceDir, 'threads', `${id}.json`), 'utf8')); } catch { return []; }
+  const byKey = new Map(items.map(item => [`${item.t}|${item.c || ''}`, item]));
+  return threads.map(thread => {
+    let n = 0;
+    for (const stop of thread.items) {
+      const item = byKey.get(`${clean(stop.t)}|${clean(stop.c)}`);
+      if (!item) { console.warn(`Thread "${thread.name}": no ${id} title "${stop.t}" by "${stop.c || ''}"`); continue; }
+      (item.th ??= {})[thread.id] ??= [n++, stop.step || ''];
+    }
+    return { id: thread.id, name: thread.name, why: thread.why || '', count: n };
+  }).filter(thread => thread.count);
+}
 const out = path.join(root, 'data');
 await mkdir(out, { recursive: true });
 const manifest = [];
@@ -108,12 +126,13 @@ for (const list of LISTS) {
     if (fields.done && (list.doneValues ? list.doneValues.includes(r[fields.done]) : truthy(r[fields.done]))) item.d = 1;
     return item;
   }).filter(item => !removed[list.id]?.[`${item.t}|${item.c || ''}`]);
+  const threads = await readThreads(list.id, items);
   await writeFile(path.join(out, `${list.id}.json`), JSON.stringify(applyLookups(list.id, items, lookups)));
   const { source, fields: _, transform, doneValues, ...meta } = list;
   manifest.push({ ...meta, flags: Object.fromEntries(Object.entries(list.flags).map(([key, flag]) => [key, flag.label])),
     privateFlags: Object.keys(list.flags).filter(key => list.flags[key].private),
     privateFilters: Object.keys(list.flags).filter(key => list.flags[key].private || list.flags[key].privateFilter),
-    hasYear: items.some(item => item.y), count: items.length });
+    hasYear: items.some(item => item.y), count: items.length, ...(threads.length && { threads }) });
   console.log(`Imported ${items.length} ${list.noun[1]}`);
 }
 await writeFile(path.join(out, 'lists.json'), JSON.stringify(manifest, null, 1) + '\n');

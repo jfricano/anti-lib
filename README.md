@@ -5,6 +5,7 @@ Jason's anti-library: the books, films, TV and albums he hasn't gotten to yet (a
 ## Layout
 
 - `lists/`: the source lists, edited by hand. `anti-library.json` (books), `movies.csv` (films), `tv.csv` (TV), `music.csv` (albums).
+- `lists/threads/<list>.json`: threads, named paths through titles already on a list. Each is `{id, name, why, items: [{t, c, step}]}` in path order; `t` and `c` must match the list's title and creator. The importer tags each stop with `th: {<thread id>: [position, step]}` and lists the threads (with stop counts) in `lists.json`; stops that match no title are reported and skipped.
 - `data/`: generated JSON the page reads. Don't edit it, except `progress.json` and `removed.json` through owner mode.
 - `scripts/import.mjs`: normalizes `lists/` into `data/<list>.json` and `data/lists.json`.
 - `scripts/lookup.mjs`: finds a public page, cover and (for albums) genres for each title, cached in `data/lookups.json`.
