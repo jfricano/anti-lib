@@ -10,7 +10,7 @@
   "groupLabel": "Part",
   "shelfLabel": "Section",
   "doneLabel": "Read",
-  "search": "https://www.goodreads.com/search?q=",
+  "search": "https://openlibrary.org/search?q=",
   "flags": {
    "core": "Core shelf",
    "fringe": "Respectful fringe",
