@@ -106,18 +106,20 @@ async function readThreads(id, items) {
 const out = path.join(root, 'data');
 await mkdir(out, { recursive: true });
 const manifest = [];
-let books = [];
+let books = [], films = [];
 const lookups = await readLookups();
 // Titles the owner removed from the page stay out even when a working copy of a list still has them.
 let removed = {};
 try { removed = JSON.parse(await readFile(path.join(out, 'removed.json'), 'utf8')); } catch {}
 let tags = {};
 try { tags = JSON.parse(await readFile(path.join(out, 'tags.json'), 'utf8')); } catch {}
-// Paths: a listening order for some of the albums list's artists (docs/artist-paths.md) and a reading order for some of
-// the books list's authors (docs/author-paths.md). Records are checked here so a typo fails the rebuild instead of
+// Paths: a listening order for some of the albums list's artists (docs/artist-paths.md), a reading order for some of
+// the books list's authors (docs/author-paths.md) and a viewing order for some of the films list's directors
+// (docs/director-paths.md). Records are checked here so a typo fails the rebuild instead of
 // breaking the page.
-// Each paths file names its people by the key the page reads: artist-paths.json has artists, author-paths.json authors.
-const WHO = { 'artist-paths.json': 'artist', 'author-paths.json': 'author' };
+// Each paths file names its people by the key the page reads: artist-paths.json has artists, author-paths.json authors,
+// director-paths.json directors.
+const WHO = { 'artist-paths.json': 'artist', 'author-paths.json': 'author', 'director-paths.json': 'director' };
 const slug = s => fold(s).replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 async function readPaths(name) {
   const file = path.join(sourceDir, name);
@@ -132,7 +134,7 @@ async function readPaths(name) {
       if (r.step) record.p = r.step;
       if (r.in) record.v = clean(r.in);
       if (r.kind) record.w = clean(r.kind);
-      if (r.heard || r.read) record.d = 1;
+      if (r.heard || r.read || r.watched) record.d = 1;
       if (r.note) record.n = clean(r.note);
       return record;
     });
@@ -140,12 +142,15 @@ async function readPaths(name) {
     if (!steps.length || steps.some((step, n) => step !== n + 1)) fail(`steps must run 1, 2, 3 with no gaps (found ${steps.join(', ') || 'none'})`);
     records.sort((a, b) => a.y - b.y || (a.p || 99) - (b.p || 99));
     const names = entry.names || who.split(' / ');
-    const link = /^https:\/\/www\.goodreads\.com\//.test(entry.goodreads || '') ? { g: entry.goodreads } : {};
+    // The person's own page: Goodreads for an author, IMDb for a director.
+    const page = entry.goodreads || entry.imdb || '';
+    const link = /^https:\/\/www\.(goodreads\.com|imdb\.com\/(name|find))\//.test(page) ? { g: page } : {};
     return { id: slug(who), [WHO[name]]: who, ...(entry.about && { about: clean(entry.about) }), ...link, names, records };
   });
 }
 const paths = await readPaths('artist-paths.json');
 const authorPaths = await readPaths('author-paths.json');
+const directorPaths = await readPaths('director-paths.json');
 // A path points at albums filed once, on their own shelves in music.csv; it doesn't hold copies. Each step takes the
 // list row's credit, so the path page and the list share one heard mark, and its heard state comes from that row.
 // A step with no row on the list fails the rebuild. A row with no note of its own shows the step's note.
@@ -165,8 +170,8 @@ function linkPathAlbums(items) {
   return items;
 }
 
-// An author path works the same way over the books list: each step points at a book filed once in anti-library.json,
-// so a step's read state is that row's, crossed off on the list. A step can name a work read inside a book on the list
+// An author path works the same way over the books list, and a director path over the films list: each step points at a
+// title filed once on its list, so a step's read or watched state is that row's, crossed off on the list. A step can name a work read inside a book on the list
 // ("in", such as an essay in a collection); it then points at that book. A step with no row fails the rebuild. A book
 // off the path that is on the list anyway is linked to its row the same way.
 function linkPathRows(items, file, pathList) {
@@ -174,7 +179,7 @@ function linkPathRows(items, file, pathList) {
   for (const p of pathList || []) {
     const names = new Set([p[who], ...p.names].map(loose));
     for (const r of p.records) {
-      const row = items.find(item => loose(item.t) === loose(r.v || r.t) && names.has(loose(item.c || '')));
+      const row = items.find(item => loose(item.t) === loose(r.v || r.t) && (names.has(loose(item.c || '')) || (r.b && loose(item.c || '') === loose(r.c))));
       if (!row && !r.p) continue;
       if (!row) throw Error(`${file}, ${p[who]}: step ${r.p}, ${r.v || r.t}, isn't on the list`);
       r.c = row.c || '';
@@ -207,10 +212,12 @@ for (const list of LISTS) {
   });
   if (list.id === 'albums') items = linkPathAlbums(items);
   if (list.id === 'books') items = linkPathRows(items, 'author-paths.json', authorPaths);
+  if (list.id === 'films') items = linkPathRows(items, 'director-paths.json', directorPaths);
   items = items.filter(item => !removed[list.id]?.[`${item.t}|${item.c || ''}`]);
   const threads = await readThreads(list.id, items);
   await writeFile(path.join(out, `${list.id}.json`), JSON.stringify(applyLookups(list.id, items, lookups)));
   if (list.id === 'books') books = items;
+  if (list.id === 'films') films = items;
   const { source, fields: _, transform, doneValues, ...meta } = list;
   manifest.push({ ...meta, flags: Object.fromEntries(Object.entries(list.flags).map(([key, flag]) => [key, flag.label])),
     privateFlags: Object.keys(list.flags).filter(key => list.flags[key].private),
@@ -221,7 +228,7 @@ for (const list of LISTS) {
 }
 await writeFile(path.join(out, 'lists.json'), JSON.stringify(manifest, null, 1) + '\n');
 
-// Paths: written after the lists, since a step takes its credit (and, for books, its link and cover) from its row.
+// Paths: written after the lists, since a step takes its credit (and, for books and films, its link and cover) from its row.
 if (paths) {
   await writeFile(path.join(out, 'paths.json'), JSON.stringify(applyPathLookups(paths, lookups)));
   console.log(`Imported ${paths.length} artist paths`);
@@ -229,4 +236,8 @@ if (paths) {
 if (authorPaths) {
   await writeFile(path.join(out, 'author-paths.json'), JSON.stringify(applyAuthorPathLookups(authorPaths, lookups, books)));
   console.log(`Imported ${authorPaths.length} author paths`);
+}
+if (directorPaths) {
+  await writeFile(path.join(out, 'director-paths.json'), JSON.stringify(applyAuthorPathLookups(directorPaths, lookups, films, 'films')));
+  console.log(`Imported ${directorPaths.length} director paths`);
 }

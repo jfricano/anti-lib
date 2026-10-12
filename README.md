@@ -10,11 +10,12 @@ This repository is public, and has to stay public for the page to read it. Diges
 - `lists/threads/<list>.json`: threads, about fifteen named paths per list through titles already on it (books, films and albums so far). See [Threads](#threads).
 - `lists/artist-paths.json`: listening orders for the artists on the albums list. Format in [docs/artist-paths.md](docs/artist-paths.md).
 - `lists/author-paths.json`: reading orders for some of the authors on the books list. Format in [docs/author-paths.md](docs/author-paths.md).
-- `data/`: generated JSON the page reads: `lists.json` (the lists, their flags and threads), `<list>.json`, `paths.json` (artist paths), `author-paths.json` (author paths) and the lookup cache `lookups.json`. Don't edit it by hand. `progress.json`, `removed.json` and `tags.json` are written only by the Progress workflow from owner-mode issues.
-- `scripts/import.mjs`: normalizes `lists/` into `data/<list>.json`, `data/lists.json`, `data/paths.json` and `data/author-paths.json`.
+- `lists/director-paths.json`: viewing orders for some of the directors on the films list. Format in [docs/director-paths.md](docs/director-paths.md).
+- `data/`: generated JSON the page reads: `lists.json` (the lists, their flags and threads), `<list>.json`, `paths.json` (artist paths), `author-paths.json` (author paths), `director-paths.json` (director paths) and the lookup cache `lookups.json`. Don't edit it by hand. `progress.json`, `removed.json` and `tags.json` are written only by the Progress workflow from owner-mode issues.
+- `scripts/import.mjs`: normalizes `lists/` into `data/<list>.json`, `data/lists.json`, `data/paths.json`, `data/author-paths.json` and `data/director-paths.json`.
 - `scripts/lookup.mjs`: finds a public page, cover and (for albums) genres for each title and artist-path record, cached in `data/lookups.json`.
 - `scripts/progress.mjs`: applies owner-mode marks to `data/progress.json`, removals to `data/removed.json` and tag toggles to `data/tags.json`.
-- `docs/`: the list conventions, artist and author paths, the reading path, the book digest format, the roadmap, the [guide for the Anti-Library Builder](docs/BUILDER-GUIDE.md), and `research/` (the proposal passes, cuts, archive, design review and list sources behind the lists).
+- `docs/`: the list conventions, artist, author and director paths, the reading path, the book digest format, the roadmap, the [guide for the Anti-Library Builder](docs/BUILDER-GUIDE.md), and `research/` (the proposal passes, cuts, archive, design review and list sources behind the lists).
 
 ## Changing a list
 
@@ -59,6 +60,10 @@ Some artists on the albums list get a page each with a suggested listening order
 
 Some authors on the books list get a reading path of their own, built the same way: a door book, then the books that make the study feel complete, with the rest of the bibliography shown on a timeline as skipped. Each step points at a book filed once on its shelf in `anti-library.json` (or, for a work read inside a collection, at that collection). There is no author row; every book by a path author gets an "Author path" button under the author's name, and the page is `author.html?a=<slug>` on the site. Ten authors have one: Vonnegut, Nietzsche, Philip K. Dick, Pynchon, Dostoevsky, Robert Anton Wilson, Camus, Kafka, David Foster Wallace and Bukowski. The orders live in `lists/author-paths.json`. See [docs/author-paths.md](docs/author-paths.md).
 
+## Director paths
+
+Some directors on the films list get a viewing path, built like the author paths: a door film, then the films that make the study feel complete, with the rest of the filmography on a timeline as skipped. Each step points at a film filed once on its shelf in `movies.csv`. There is no director row; every film by a path director gets a "Director path" button under the director's name, and the page is `director.html?a=<slug>` on the site. The director's name on the page links to IMDb. Eighteen directors have one, from Tarantino (in my own order: Pulp Fiction, Reservoir Dogs, then as he made them) and Scorsese to Bong Joon-ho and Park Chan-wook. The orders live in `lists/director-paths.json`. See [docs/director-paths.md](docs/director-paths.md).
+
 ## How the page reads this
 
 The portfolio page fetches `data/*.json` from `https://raw.githubusercontent.com/jfricano/anti-lib/main/data/` when it loads, so whatever is on `main` here is what the page shows, a few minutes after it lands (GitHub caches raw files for about five minutes). Changing a list never needs a portfolio deploy. Data on other branches isn't shown until it merges.
@@ -75,3 +80,4 @@ What owner mode can change:
 - **Remove** records the title in `data/removed.json` with the date and rebuilds the lists without it. The importer keeps leaving it out even if a working copy of a list still has it; deleting its line from `removed.json` brings it back.
 - **Heard on artist paths.** Each album on an artist's path page has a Heard box. It is the same mark as Fully heard on that album's row in the list, and lands in `progress.json` under `albums`. The artist counts as fully heard once every album on the path's main line is heard (their name is struck through in the Paths aside), and can't be ticked by itself.
 - **Read on author paths.** Author path pages have no boxes; books are marked on the books list. A step counts once its book is crossed off there, and the author counts as fully read once every book on the path's main line is. That can't be ticked by itself either.
+- **Watched on director paths.** The same as author paths: films are marked on the films list, and the director counts as fully watched once every film on the path's main line is.

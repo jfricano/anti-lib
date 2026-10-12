@@ -8,8 +8,8 @@ The short version: **take the method and the plumbing, never the content.** Thes
 
 | Repository | Visibility | What it holds |
 | --- | --- | --- |
-| [jfricano/anti-lib](https://github.com/jfricano/anti-lib) (this one) | Public | The lists, the importer, the link and cover lookups, the owner-mode workflow, threads, artist and author paths, and the research behind the lists (`docs/research/`) |
-| [jfricano/personal-portfolio](https://github.com/jfricano/personal-portfolio) | Public | The page: `site/antilibrary/` (list browser, owner mode, XLSX export, artist and author path pages) and `site/digests/` (the private digests reader) |
+| [jfricano/anti-lib](https://github.com/jfricano/anti-lib) (this one) | Public | The lists, the importer, the link and cover lookups, the owner-mode workflow, threads, artist, author and director paths, and the research behind the lists (`docs/research/`) |
+| [jfricano/personal-portfolio](https://github.com/jfricano/personal-portfolio) | Public | The page: `site/antilibrary/` (list browser, owner mode, XLSX export, artist, author and director path pages) and `site/digests/` (the private digests reader) |
 | jfricano/reading-list | Private | Digests and the marks on them. Not readable by the Builder, and nothing from it belongs in the Builder. |
 
 Start with this repository's [README](../README.md), then [lists.md](lists.md) for the fields and conventions, then `site/antilibrary/app.js` in the portfolio for the page.
@@ -24,6 +24,7 @@ Start with this repository's [README](../README.md), then [lists.md](lists.md) f
 - **Threads.** About fifteen named, ordered paths per list through titles already on it, each stop with a line on why it comes there. They turn a list into routes. Keep each thread inside one list: cross-list shelves were tried here and dissolved because they sprawled.
 - **Artist paths.** For music: a door record, then the records that complete the picture, with the skipped ones shown on a timeline and a reason for each ([artist-paths.md](artist-paths.md)). A path is an order through albums filed once on their own shelves, never a second copy of them.
 - **Author paths.** The same for books: a door book, then the books that complete the picture, with the rest of the bibliography on a timeline ([author-paths.md](author-paths.md)).
+- **Director paths.** The same for films ([director-paths.md](director-paths.md)).
 - **Critical cut passes.** First drafts over-include. A second pass that cuts covered ground, extra titles per author ("one door per author") and weak fits made every list better. `docs/research/` has the proposal and cut passes as examples of the *process*: tiers of cuts with reasons, cut albums kept in an archive instead of deleted.
 - **Already-known works belong on the list**, marked as such. Formative and already-read titles anchor the edge; the emphasis stays on the frontier.
 
@@ -49,7 +50,7 @@ These are Jason's and only Jason's. The Builder must not seed, prompt, rank or v
 
 - **Every title on every list**, and the shelf and section names, which encode his taste ("The Vonnegut Frequency", "My Wheelhouse", "My Books on Screen", "Ebert's Four-Star Shelf", "Nick at Nite and Before", "The 1994–2003 soundtrack cabinet").
 - **The notes**, written in his voice about his shelf and history.
-- **The core shelf's twelve titles, the threads, the artist and author paths and the reading-path tracks** (`docs/reading-path.md`).
+- **The core shelf's twelve titles, the threads, the artist, author and director paths and the reading-path tracks** (`docs/reading-path.md`).
 - **The taste-specific flags.** "Vonnegut frequency" (`star`) measures closeness to his favorite book. The general idea is a per-person "frequency" flag named after *their* touchstone.
 - **The research passes in `docs/research/`**, written to him about his lists. Use them to see what a cut pass looks like, not as a source of picks.
 - **Anything from the private digests repository**, including the reader profile in its writing brief.
