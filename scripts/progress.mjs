@@ -6,6 +6,7 @@
 // A batch sent as one prefilled link comes compact instead, naming titles by short code (scripts/short-key.mjs):
 // { "v": 2, "m": { "<list id>": { "<value>": "<codes>" } }, "t": { "<list id>": { "<flag>": { "1" or "0": "<codes>" } } } },
 // where a value is a date, "remove" or "null"; it is expanded against data/<list id>.json before applying.
+// Albums codes also cover the records that only appear on an artist path (data/paths.json), which the path pages let me tick.
 // Usage: ISSUE_BODY=... node scripts/progress.mjs
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -27,6 +28,7 @@ async function expandCompact({ m = {}, t = {} }) {
   const keysFor = async listId => {
     if (!lists.has(listId)) throw Error(`Unknown list ${JSON.stringify(listId)}`);
     const items = codes[listId] ? [] : JSON.parse(await readFile(path.join(dataDir, `${listId}.json`), 'utf8'));
+    if (listId === 'albums' && !codes[listId]) for (const p of JSON.parse(await readFile(path.join(dataDir, 'paths.json'), 'utf8'))) items.push(...p.records);
     codes[listId] ??= new Map(items.map(i => [shortKey(`${i.t}|${i.c || ''}`), `${i.t}|${i.c || ''}`]));
     return codes[listId];
   };
