@@ -22,7 +22,99 @@
   "privateFlags": [],
   "privateFilters": [],
   "hasYear": false,
-  "count": 1117
+  "count": 1118,
+  "threads": [
+   {
+    "id": "i-would-prefer-not-to",
+    "name": "I Would Prefer Not To",
+    "why": "A 170-year line of people who simply stop cooperating, first as fiction, then as an argument about work.",
+    "count": 7
+   },
+   {
+    "id": "the-eternal-return",
+    "name": "The Eternal Return",
+    "why": "Nietzsche's thought experiment (would you live this exact life again, forever?) keeps getting turned into novels, and it ends up back at Vonnegut.",
+    "count": 6
+   },
+   {
+    "id": "the-author-walks-in",
+    "name": "The Author Walks In",
+    "why": "The comic novel that knows it is a novel, from Cervantes to the moment Vonnegut sits down at the bar in Midland City.",
+    "count": 6
+   },
+   {
+    "id": "books-made-of-books",
+    "name": "Books Made of Books",
+    "why": "The library as labyrinth, trap and fire: novels built out of imaginary books, commentaries and archives.",
+    "count": 7
+   },
+   {
+    "id": "out-of-gogol-s-overcoat",
+    "name": "Out of Gogol's Overcoat",
+    "why": "A teacher-and-student line from Gogol's clerk to the Iowa workshop where Vonnegut taught John Irving.",
+    "count": 7
+   },
+   {
+    "id": "from-dresden-to-copenhagen",
+    "name": "From Dresden to Copenhagen",
+    "why": "The air war Billy Pilgrim survived, and the physicists whose work finished it, ending on a question about what Heisenberg knew.",
+    "count": 8
+   },
+   {
+    "id": "pranks-as-politics",
+    "name": "Pranks as Politics",
+    "why": "Discordians, Situationists and chaos magicians all decided the joke was the revolution; the line runs through my Robert Anton Wilson shelf.",
+    "count": 7
+   },
+   {
+    "id": "what-is-it-like-to-be",
+    "name": "What Is It Like to Be",
+    "why": "From a tick's world to an alien ocean: the question of other minds, asked of animals, plants and finally something no science can enter.",
+    "count": 6
+   },
+   {
+    "id": "job-s-question",
+    "name": "Job's Question",
+    "why": "Why do the innocent suffer? Asked in scripture, answered with a wager, a knife, a returned ticket, a starship, and finally a joke.",
+    "count": 7
+   },
+   {
+    "id": "the-detective-sentence",
+    "name": "The Detective Sentence",
+    "why": "Crime fiction as a style lab: from Hammett's bare lines to Pynchon's stoned haze, the lean-to-maximal axis in one genre.",
+    "count": 7
+   },
+   {
+    "id": "writing-back",
+    "name": "Writing Back",
+    "why": "Four classics, each answered decades later by someone the original left voiceless. Read them in pairs.",
+    "count": 8
+   },
+   {
+    "id": "is-this-the-simulation",
+    "name": "Is This the Simulation?",
+    "why": "One question, 2,300 years old: how would I know if this world were staged? Each answer gets more literal.",
+    "count": 7
+   },
+   {
+    "id": "rules-that-make-worlds",
+    "name": "Rules That Make Worlds",
+    "why": "Simple rules produce endless complexity, in cellular automata and in the Oulipo's constrained novels. The same idea in math and in style.",
+    "count": 7
+   },
+   {
+    "id": "the-haiku-goes-west",
+    "name": "The Haiku Goes West",
+    "why": "How seventeen Japanese syllables became American poetry: Bashō to Pound to Williams to the Beats, and back to Zen.",
+    "count": 6
+   },
+   {
+    "id": "kafka-creates-his-precursors",
+    "name": "Kafka Creates His Precursors",
+    "why": "Borges argued that every writer creates his own precursors: after Kafka you can see him in Zeno, Kierkegaard and Melville. This thread tests the idea.",
+    "count": 7
+   }
+  ]
  },
  {
   "id": "films",
@@ -46,7 +138,99 @@
    "start"
   ],
   "hasYear": true,
-  "count": 1288
+  "count": 1288,
+  "threads": [
+   {
+    "id": "plato-s-cave-six-rooms",
+    "name": "Plato's cave, six rooms",
+    "why": "The same allegory filmed six ways, from an Italian art film to a kung fu blockbuster. Somebody wakes up and finds the walls were painted.",
+    "count": 6
+   },
+   {
+    "id": "the-siege",
+    "name": "The siege",
+    "why": "A small group, one building, the night outside full of enemies. I keep loving this shape without noticing it is the same film.",
+    "count": 7
+   },
+   {
+    "id": "samurai-and-gunslingers-trade-hats",
+    "name": "Samurai and gunslingers trade hats",
+    "why": "Japan borrowed the western, Italy stole it back, and then Japan and Korea took it again. A forty-year game of telephone.",
+    "count": 6
+   },
+   {
+    "id": "the-professional-stripped",
+    "name": "The professional, stripped",
+    "why": "Men who do one job with their hands and say almost nothing. Bresson's prison films turn into the most stylish crime films I know.",
+    "count": 7
+   },
+   {
+    "id": "god-s-lonely-man",
+    "name": "God's lonely man",
+    "why": "A man alone in a room, writing in a journal, waiting for grace or a gun. Paul Schrader spent fifty years remaking one Bresson film, and the trail runs straight through my Scorsese.",
+    "count": 6
+   },
+   {
+    "id": "two-men-in-a-car-the-long-way",
+    "name": "Two men in a car, the long way",
+    "why": "The buddy movie before it became a formula, and after. Midnight Run (already seen, not on the list) is the hinge this whole thread swings on.",
+    "count": 7
+   },
+   {
+    "id": "lovers-on-the-run",
+    "name": "Lovers on the run",
+    "why": "Two kids, a car, a gun, and the law a few miles behind. Godard's homage to American B movies boomerangs back into Tarantino's scripts by way of Senegal.",
+    "count": 8
+   },
+   {
+    "id": "the-screen-talks-back",
+    "name": "The screen talks back",
+    "why": "Seventy years of films that saw what television would do to us, ending with a man who finds out he's the show.",
+    "count": 7
+   },
+   {
+    "id": "the-film-that-nearly-killed-its-makers",
+    "name": "The film that nearly killed its makers",
+    "why": "Jungle shoots, river madness, and the documentaries filmed beside the disasters. The making-of is often as good as the movie.",
+    "count": 8
+   },
+   {
+    "id": "holy-fools",
+    "name": "Holy fools",
+    "why": "The innocent who walks through the world and exposes everyone around him. Chaplin to Dostoevsky to a donkey to a Washington garden.",
+    "count": 7
+   },
+   {
+    "id": "counting-the-last-days",
+    "name": "Counting the last days",
+    "why": "Someone learns the time is short and has to decide what the life was. Tolstoy's Ivan Ilyich keeps getting reborn in another city.",
+    "count": 7
+   },
+   {
+    "id": "is-that-really-them",
+    "name": "Is that really them?",
+    "why": "Real people playing themselves, reenacting their own lives, or lying about them on camera. Welles started it as a joke and it became a whole cinema.",
+    "count": 8
+   },
+   {
+    "id": "the-fake-band",
+    "name": "The fake band",
+    "why": "Bands that were invented, played by actors, or so real they look like parody. The rock film as a hall of mirrors.",
+    "count": 7
+   },
+   {
+    "id": "bird-s-cymbal",
+    "name": "Bird's cymbal",
+    "why": "One story, Jo Jones throwing a cymbal at a teenage Charlie Parker, travels from a jazz biopic into the best film about obsession I know. Then it walks back through 1988, the year of three jazz films, and ends somewhere happier.",
+    "count": 7
+   },
+   {
+    "id": "the-house-on-the-hill",
+    "name": "The house on the hill",
+    "why": "Kurosawa put a rich man's house above a slum. Korean cinema built a whole new wave on that view, and on the 1980s it came out of.",
+    "count": 7
+   }
+  ]
  },
  {
   "id": "tv",
@@ -98,6 +282,98 @@
    "start"
   ],
   "hasYear": true,
-  "count": 1343
+  "count": 1356,
+  "threads": [
+   {
+    "id": "in-tempore-belli",
+    "name": "In tempore belli",
+    "why": "Six composers answer the same war, and a string quartet that formed because of one of these pieces carries it to the end.",
+    "count": 8
+   },
+   {
+    "id": "jonny-greenwood-s-teachers",
+    "name": "Jonny Greenwood's teachers",
+    "why": "How the strings and the strange keyboard on Kid A came from two classical scores, and then went back into the concert hall.",
+    "count": 7
+   },
+   {
+    "id": "in-a-silent-way-scattered",
+    "name": "In a Silent Way, scattered",
+    "why": "Everyone in the room on one Miles session went off and started their own band; follow the sidemen and you get the whole fusion decade, ending at Mingus.",
+    "count": 8
+   },
+   {
+    "id": "duke-s-bass-line",
+    "name": "Duke's bass line",
+    "why": "Mingus learned the bass from Ellington's band, got fired by Ellington, wrote him love letters, and then recorded with him; Miles closes it with an elegy.",
+    "count": 6
+   },
+   {
+    "id": "marc-ribot-s-busted-guitar",
+    "name": "Marc Ribot's busted guitar",
+    "why": "One sideman's guitar sound, from Rain Dogs through downtown jazz and Cuban son to T Bone Burnett's Americana and back to Waits.",
+    "count": 7
+   },
+   {
+    "id": "faust-woyzeck-and-the-devil-s-cabaret",
+    "name": "Faust, Woyzeck and the devil's cabaret",
+    "why": "Two old stories, the deal with the devil and the poor soldier Woyzeck, run from Stravinsky and Berg through Weill to Tom Waits and back to the cabaret.",
+    "count": 7
+   },
+   {
+    "id": "jack-white-s-record-collection",
+    "name": "Jack White's record collection",
+    "why": "The White Stripes as a reading list: the blues and garage records he learned from, then the old singers he went back and produced.",
+    "count": 7
+   },
+   {
+    "id": "from-the-kitchen-to-the-dance-floor",
+    "name": "From the Kitchen to the dance floor",
+    "why": "Arthur Russell played cello behind Ginsberg and made disco records in the same years; follow him and you reach the room LCD Soundsystem came out of.",
+    "count": 7
+   },
+   {
+    "id": "manfred-eicher-s-cathedral",
+    "name": "Manfred Eicher's cathedral",
+    "why": "One label, ECM, puts a medieval vocal group, a Norwegian saxophonist, Keith Jarrett and Arvo Pärt in the same reverb.",
+    "count": 7
+   },
+   {
+    "id": "bach-rewired",
+    "name": "Bach, rewired",
+    "why": "One composer passed through a Soviet piano cycle, a Brazilian song, a Moog synthesizer and a NASA record; Glenn Gould is at both ends.",
+    "count": 7
+   },
+   {
+    "id": "dark-was-the-night",
+    "name": "Dark Was the Night",
+    "why": "One Blind Willie Johnson recording leaves the planet, scores a Wenders film, and through Ry Cooder leads to Mali, Havana and the Sahara.",
+    "count": 8
+   },
+   {
+    "id": "ron-carter-s-bass-to-thundercat-s",
+    "name": "Ron Carter's bass to Thundercat's",
+    "why": "Miles's second quintet shows up on a Tribe record, and the line runs through Dilla and Flying Lotus to the LA jazz revival.",
+    "count": 7
+   },
+   {
+    "id": "kool-keith-to-tom-waits",
+    "name": "Kool Keith to Tom Waits",
+    "why": "The weird wing of hip-hop passes producer to producer until it ends on an indie record with Tom Waits singing through a megaphone.",
+    "count": 7
+   },
+   {
+    "id": "no-depression",
+    "name": "No Depression",
+    "why": "One Carter Family song named a whole movement; follow it from the high lonesome to Son Volt, O Brother and Billy Strings.",
+    "count": 7
+   },
+   {
+    "id": "what-illinois-is-made-of",
+    "name": "What Illinois is made of",
+    "why": "Illinois sounds like Guaraldi plus Reich plus a church band; follow those parts, then the people Sufjan made records with.",
+    "count": 8
+   }
+  ]
  }
 ]
