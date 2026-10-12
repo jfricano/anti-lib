@@ -113,43 +113,13 @@ let removed = {};
 try { removed = JSON.parse(await readFile(path.join(out, 'removed.json'), 'utf8')); } catch {}
 let tags = {};
 try { tags = JSON.parse(await readFile(path.join(out, 'tags.json'), 'utf8')); } catch {}
-for (const list of LISTS) {
-  const file = path.join(sourceDir, list.source);
-  try { await access(file); } catch { console.log(`Skipped ${list.id}: no ${list.source}`); continue; }
-  const text = await readFile(file, 'utf8');
-  const records = (list.source.endsWith('.json') ? JSON.parse(text) : parseCsv(text)).map(r => list.transform ? list.transform(r) : r);
-  const { fields } = list;
-  const items = records.filter(r => clean(r[fields.title])).map(r => {
-    const item = { t: clean(r[fields.title]) };
-    for (const [key, field] of [['c', fields.creator], ['y', fields.year], ['g', fields.group], ['s', fields.shelf], ['u', fields.sub], ['n', fields.note]]) {
-      const value = field && clean(r[field]);
-      if (value) item[key] = key === 'y' && /^\d+$/.test(value) ? Number(value) : value;
-    }
-    const set = tags[list.id]?.[`${item.t}|${item.c || ''}`] || {};
-    const flags = Object.entries(list.flags).filter(([key, flag]) => flag.ownerToggle && typeof set[key] === 'boolean' ? set[key]
-      : flag.equals ? r[flag.field] === flag.equals : truthy(r[flag.field])).map(([key]) => key);
-    if (flags.length) item.f = flags;
-    if (fields.done && (list.doneValues ? list.doneValues.includes(r[fields.done]) : truthy(r[fields.done]))) item.d = 1;
-    return item;
-  }).filter(item => !removed[list.id]?.[`${item.t}|${item.c || ''}`]);
-  const threads = await readThreads(list.id, items);
-  await writeFile(path.join(out, `${list.id}.json`), JSON.stringify(applyLookups(list.id, items, lookups)));
-  const { source, fields: _, transform, doneValues, ...meta } = list;
-  manifest.push({ ...meta, flags: Object.fromEntries(Object.entries(list.flags).map(([key, flag]) => [key, flag.label])),
-    privateFlags: Object.keys(list.flags).filter(key => list.flags[key].private),
-    privateFilters: Object.keys(list.flags).filter(key => list.flags[key].private || list.flags[key].privateFilter),
-    toggles: Object.keys(list.flags).filter(key => list.flags[key].ownerToggle),
-    hasYear: items.some(item => item.y), count: items.length, ...(threads.length && { threads }) });
-  console.log(`Imported ${items.length} ${list.noun[1]}`);
-}
-await writeFile(path.join(out, 'lists.json'), JSON.stringify(manifest, null, 1) + '\n');
-
 // Artist paths: a listening order for some of the albums list's artists (docs/artist-paths.md).
 // Records are checked here so a typo fails the rebuild instead of breaking the page.
-const pathsFile = path.join(sourceDir, 'artist-paths.json');
-try { await access(pathsFile); } catch { console.log('Skipped artist paths: no artist-paths.json'); process.exit(0); }
+let pathsFile = path.join(sourceDir, 'artist-paths.json');
 const slug = s => fold(s).replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-const paths = Object.entries(JSON.parse(await readFile(pathsFile, 'utf8'))).map(([artist, entry]) => {
+let paths = [];
+try { await access(pathsFile); } catch { console.log('Skipped artist paths: no artist-paths.json'); pathsFile = ''; }
+if (pathsFile) paths = Object.entries(JSON.parse(await readFile(pathsFile, 'utf8'))).map(([artist, entry]) => {
   const fail = message => { throw Error(`artist-paths.json, ${artist}: ${message}`); };
   const records = (entry.records || []).map(r => {
     if (!clean(r.t) || !Number.isInteger(r.y)) fail(`every record needs a title and a year (${JSON.stringify(r)})`);
@@ -167,5 +137,82 @@ const paths = Object.entries(JSON.parse(await readFile(pathsFile, 'utf8'))).map(
   const names = entry.names || artist.split(' / ');
   return { id: slug(artist), artist, ...(entry.about && { about: clean(entry.about) }), names, records };
 });
-await writeFile(path.join(out, 'paths.json'), JSON.stringify(applyPathLookups(paths, lookups)));
-console.log(`Imported ${paths.length} artist paths`);
+// The albums on each path's main line are rows on the albums list too, right after the artist's path row, so
+// ticking one here or on the artist page is the same mark. Albums already on the list stay where they are, and the
+// path takes their credit so the two share a key. Minor records stay on the artist page.
+const loose = s => fold(s).replace(/^(the|a|an)\s+/, '').replace(/[^a-z0-9]+/g, '');
+function addPathAlbums(items) {
+  const at = new Set(items.map(item => loose(item.t) + '|' + loose(item.c || '')));
+  const rows = new Map(items.filter(item => item.f?.includes('path')).map(item => [loose(item.t), item]));
+  const firstShelf = items.find(item => item.f?.includes('path')) || {};
+  const added = new Map();
+  for (const p of paths) {
+    const names = new Set([p.artist, ...p.names].map(loose));
+    let row = rows.get(loose(p.artist)) || [...names].map(name => rows.get(name)).find(Boolean);
+    if (!row) {
+      // A path with no row on the list gets one, on the same shelf as the others.
+      row = { t: p.artist, ...(firstShelf.g && { g: firstShelf.g }), ...(firstShelf.s && { s: firstShelf.s }), ...(p.about && { n: p.about }), f: ['path'] };
+      rows.set(loose(p.artist), row);
+      added.set(row, []);
+    }
+    for (const r of p.records.filter(r => r.p).sort((a, b) => a.p - b.p)) {
+      const listed = items.find(item => !item.f?.includes('path') && loose(item.t) === loose(r.t)
+        && (names.has(loose(item.c || '')) || loose(item.c || '') === loose(r.c)));
+      if (listed) {
+        r.c = listed.c || '';
+        if (listed.d || r.d) listed.d = r.d = 1;
+        continue;
+      }
+      const album = { t: r.t, c: r.c, y: r.y, ...(row.g && { g: row.g }), ...(row.s && { s: row.s }),
+        u: `${p.artist} path, ${r.p === 1 ? 'the door' : `No. ${r.p}`}`, ...(r.n && { n: r.n }), ...(r.d && { d: 1 }) };
+      // A record on two paths (a collaboration) is listed once, under the first.
+      if (at.has(loose(album.t) + '|' + loose(album.c))) continue;
+      at.add(loose(album.t) + '|' + loose(album.c));
+      (added.get(row) || added.set(row, []).get(row)).push(album);
+    }
+  }
+  const merged = items.flatMap(item => [item, ...(added.get(item) || [])]);
+  const lastRow = items.findLast(item => item.f?.includes('path'));
+  const homeless = [...added].filter(([row]) => !items.includes(row)).flatMap(([row, albums]) => [row, ...albums]);
+  merged.splice(lastRow ? merged.indexOf(lastRow) + 1 + (added.get(lastRow)?.length || 0) : merged.length, 0, ...homeless);
+  return merged;
+}
+
+for (const list of LISTS) {
+  const file = path.join(sourceDir, list.source);
+  try { await access(file); } catch { console.log(`Skipped ${list.id}: no ${list.source}`); continue; }
+  const text = await readFile(file, 'utf8');
+  const records = (list.source.endsWith('.json') ? JSON.parse(text) : parseCsv(text)).map(r => list.transform ? list.transform(r) : r);
+  const { fields } = list;
+  let items = records.filter(r => clean(r[fields.title])).map(r => {
+    const item = { t: clean(r[fields.title]) };
+    for (const [key, field] of [['c', fields.creator], ['y', fields.year], ['g', fields.group], ['s', fields.shelf], ['u', fields.sub], ['n', fields.note]]) {
+      const value = field && clean(r[field]);
+      if (value) item[key] = key === 'y' && /^\d+$/.test(value) ? Number(value) : value;
+    }
+    const set = tags[list.id]?.[`${item.t}|${item.c || ''}`] || {};
+    const flags = Object.entries(list.flags).filter(([key, flag]) => flag.ownerToggle && typeof set[key] === 'boolean' ? set[key]
+      : flag.equals ? r[flag.field] === flag.equals : truthy(r[flag.field])).map(([key]) => key);
+    if (flags.length) item.f = flags;
+    if (fields.done && (list.doneValues ? list.doneValues.includes(r[fields.done]) : truthy(r[fields.done]))) item.d = 1;
+    return item;
+  });
+  if (list.id === 'albums') items = addPathAlbums(items);
+  items = items.filter(item => !removed[list.id]?.[`${item.t}|${item.c || ''}`]);
+  const threads = await readThreads(list.id, items);
+  await writeFile(path.join(out, `${list.id}.json`), JSON.stringify(applyLookups(list.id, items, lookups)));
+  const { source, fields: _, transform, doneValues, ...meta } = list;
+  manifest.push({ ...meta, flags: Object.fromEntries(Object.entries(list.flags).map(([key, flag]) => [key, flag.label])),
+    privateFlags: Object.keys(list.flags).filter(key => list.flags[key].private),
+    privateFilters: Object.keys(list.flags).filter(key => list.flags[key].private || list.flags[key].privateFilter),
+    toggles: Object.keys(list.flags).filter(key => list.flags[key].ownerToggle),
+    hasYear: items.some(item => item.y), count: items.length, ...(threads.length && { threads }) });
+  console.log(`Imported ${items.length} ${list.noun[1]}`);
+}
+await writeFile(path.join(out, 'lists.json'), JSON.stringify(manifest, null, 1) + '\n');
+
+// Artist paths: written after the albums list, which can take a path's credit for an album already on it.
+if (pathsFile) {
+  await writeFile(path.join(out, 'paths.json'), JSON.stringify(applyPathLookups(paths, lookups)));
+  console.log(`Imported ${paths.length} artist paths`);
+}
