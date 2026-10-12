@@ -22,8 +22,12 @@
   "privateFlags": [],
   "privateFilters": [],
   "toggles": [
+   "core",
+   "fringe",
    "owned",
-   "formative"
+   "star",
+   "formative",
+   "reading"
   ],
   "hasYear": false,
   "count": 1109,
@@ -141,7 +145,10 @@
   "privateFilters": [
    "start"
   ],
-  "toggles": [],
+  "toggles": [
+   "start",
+   "fringe"
+  ],
   "hasYear": true,
   "count": 1279,
   "threads": [
@@ -259,7 +266,10 @@
   "privateFilters": [
    "start"
   ],
-  "toggles": [],
+  "toggles": [
+   "start",
+   "fringe"
+  ],
   "hasYear": true,
   "count": 686
  },
@@ -287,7 +297,10 @@
   "privateFilters": [
    "start"
   ],
-  "toggles": [],
+  "toggles": [
+   "start",
+   "path"
+  ],
   "hasYear": true,
   "count": 1285,
   "threads": [
