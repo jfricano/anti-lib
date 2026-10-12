@@ -35,6 +35,14 @@ jobs:
           git config user.name "Jason Fricano"
           git config user.email "44284799+jfricano@users.noreply.github.com"
       - run: node scripts/import.mjs
+      # Publishes the rebuilt lists at once, so new titles and artist paths show up before their covers are found.
+      - name: Commit the imported lists
+        run: |
+          git add data
+          if git diff --cached --quiet; then echo "Lists are up to date."; exit 0; fi
+          git commit -m "Rebuild anti-library data"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin HEAD:"$GITHUB_REF_NAME"
       # A cancelled or failed run still uploads its lookups, so pick up where the last one stopped.
       - name: Resume from the last run's lookups
         continue-on-error: true
