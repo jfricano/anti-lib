@@ -137,45 +137,23 @@ if (pathsFile) paths = Object.entries(JSON.parse(await readFile(pathsFile, 'utf8
   const names = entry.names || artist.split(' / ');
   return { id: slug(artist), artist, ...(entry.about && { about: clean(entry.about) }), names, records };
 });
-// The albums on each path's main line are rows on the albums list too, right after the artist's path row, so
-// ticking one here or on the artist page is the same mark. Albums already on the list stay where they are, and the
-// path takes their credit so the two share a key. Minor records stay on the artist page.
+// A path points at albums filed once, on their own shelves in music.csv; it doesn't hold copies. Each step takes the
+// list row's credit, so the path page and the list share one heard mark, and its heard state comes from that row.
+// A step with no row on the list fails the rebuild. A row with no note of its own shows the step's note.
 const loose = s => fold(s).replace(/^(the|a|an)\s+/, '').replace(/[^a-z0-9]+/g, '');
-function addPathAlbums(items) {
-  const at = new Set(items.map(item => loose(item.t) + '|' + loose(item.c || '')));
-  const rows = new Map(items.filter(item => item.f?.includes('path')).map(item => [loose(item.t), item]));
-  const firstShelf = items.find(item => item.f?.includes('path')) || {};
-  const added = new Map();
+function linkPathAlbums(items) {
   for (const p of paths) {
     const names = new Set([p.artist, ...p.names].map(loose));
-    let row = rows.get(loose(p.artist)) || [...names].map(name => rows.get(name)).find(Boolean);
-    if (!row) {
-      // A path with no row on the list gets one, on the same shelf as the others.
-      row = { t: p.artist, ...(firstShelf.g && { g: firstShelf.g }), ...(firstShelf.s && { s: firstShelf.s }), ...(p.about && { n: p.about }), f: ['path'] };
-      rows.set(loose(p.artist), row);
-      added.set(row, []);
-    }
-    for (const r of p.records.filter(r => r.p).sort((a, b) => a.p - b.p)) {
-      const listed = items.find(item => !item.f?.includes('path') && loose(item.t) === loose(r.t)
+    for (const r of p.records.filter(r => r.p)) {
+      const row = items.find(item => !item.f?.includes('path') && loose(item.t) === loose(r.t)
         && (names.has(loose(item.c || '')) || loose(item.c || '') === loose(r.c)));
-      if (listed) {
-        r.c = listed.c || '';
-        if (listed.d || r.d) listed.d = r.d = 1;
-        continue;
-      }
-      const album = { t: r.t, c: r.c, y: r.y, ...(row.g && { g: row.g }), ...(row.s && { s: row.s }),
-        u: `${p.artist} path, ${r.p === 1 ? 'the door' : `No. ${r.p}`}`, ...(r.n && { n: r.n }), ...(r.d && { d: 1 }) };
-      // A record on two paths (a collaboration) is listed once, under the first.
-      if (at.has(loose(album.t) + '|' + loose(album.c))) continue;
-      at.add(loose(album.t) + '|' + loose(album.c));
-      (added.get(row) || added.set(row, []).get(row)).push(album);
+      if (!row) throw Error(`artist-paths.json, ${p.artist}: step ${r.p}, ${r.t}, isn't on the albums list`);
+      r.c = row.c || '';
+      if (row.d) r.d = 1; else delete r.d;
+      if (!row.n && r.n) row.n = r.n;
     }
   }
-  const merged = items.flatMap(item => [item, ...(added.get(item) || [])]);
-  const lastRow = items.findLast(item => item.f?.includes('path'));
-  const homeless = [...added].filter(([row]) => !items.includes(row)).flatMap(([row, albums]) => [row, ...albums]);
-  merged.splice(lastRow ? merged.indexOf(lastRow) + 1 + (added.get(lastRow)?.length || 0) : merged.length, 0, ...homeless);
-  return merged;
+  return items;
 }
 
 for (const list of LISTS) {
@@ -197,7 +175,7 @@ for (const list of LISTS) {
     if (fields.done && (list.doneValues ? list.doneValues.includes(r[fields.done]) : truthy(r[fields.done]))) item.d = 1;
     return item;
   });
-  if (list.id === 'albums') items = addPathAlbums(items);
+  if (list.id === 'albums') items = linkPathAlbums(items);
   items = items.filter(item => !removed[list.id]?.[`${item.t}|${item.c || ''}`]);
   const threads = await readThreads(list.id, items);
   await writeFile(path.join(out, `${list.id}.json`), JSON.stringify(applyLookups(list.id, items, lookups)));
