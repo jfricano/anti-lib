@@ -9,7 +9,7 @@ Jason's anti-library: the books, films, TV and albums he hasn't gotten to yet (a
 - `scripts/import.mjs`: normalizes `lists/` into `data/<list>.json` and `data/lists.json`.
 - `scripts/lookup.mjs`: finds a public page, cover and (for albums) genres for each title, cached in `data/lookups.json`.
 - `scripts/progress.mjs`: applies owner-mode marks to `data/progress.json` and removals to `data/removed.json`.
-- `docs/`: the reading path and the digest format.
+- `docs/`: the reading path, the digest format, the roadmap, and `research/` (the proposal passes, cuts, archive, design review and list sources behind the lists).
 
 ## Changing a list
 

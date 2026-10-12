@@ -1,0 +1,761 @@
+## 0. The Core
+@ The shows I started from. Already seen; they're the compass for everything below.
+Seinfeld|1989–1998|Larry David & Jerry Seinfeld|NBC|S|The show about nothing, and the grammar of every sitcom since.
+The Simpsons|1989–|Matt Groening, James L. Brooks & Sam Simon|Fox|S|The golden era (seasons 3–8) is a writers' room at full power.
+Curb Your Enthusiasm|2000–2024|Larry David|HBO|S|Social contracts examined until they snap.
+House|2004–2012|David Shore|Fox|S|Sherlock Holmes with a cane and a Vicodin habit.
+Nathan for You|2013–2017|Nathan Fielder & Michael Koman|Comedy Central|S|Business advice as performance art. "Finding Frances" is a great film.
+The Rehearsal|2022–|Nathan Fielder|HBO|S|Fielder rehearses life until reality and staging become hard to tell apart.
+Breaking Bad|2008–2013|Vince Gilligan|AMC|S|Mr. Chips to Scarface, one choice at a time.
+Better Call Saul|2015–2022|Vince Gilligan & Peter Gould|AMC|S|The slower, sadder, better-made prequel.
+The Sopranos|1999–2007|David Chase|HBO|S|The show that made TV a novelist's medium.
+Six Feet Under|2001–2005|Alan Ball|HBO|S|Every episode opens with a death. The finale is the best ending in TV.
+Detroiters|2017–2018|Sam Richardson, Tim Robinson, Zach Kanin & Joe Kelly|Comedy Central|S|Two hopeless ad men and pure friendship.
+I Think You Should Leave with Tim Robinson|2019–|Tim Robinson & Zach Kanin|Netflix|S|Sketch comedy about people who can't admit they're wrong.
+The Dick Van Dyke Show|1961–1966|Carl Reiner|CBS|S|Reiner's fictionalized Your Show of Shows writers' room.
+The Mary Tyler Moore Show|1970–1977|James L. Brooks & Allan Burns|CBS|S|The newsroom ensemble that every workplace comedy copies.
+Newhart|1982–1990|Barry Kemp|CBS|S|Bob Newhart as the sane man among Vermont eccentrics. That last scene.
+Leave It to Beaver|1957–1963|Joe Connelly & Bob Mosher|CBS/ABC|S|Childhood seen from the kid's eye level, which was new at the time.
+Lassie|1954–1973|Robert Maxwell|CBS|S|
+I Love Lucy|1951–1957|Jess Oppenheimer, Madelyn Pugh & Bob Carroll Jr.|CBS|S|Invented the three-camera sitcom and the rerun.
+
+## 1. Start Here: Next Door to the Core
+@ The nearest neighbors to what I already love. If I only take ten shows from this list, they come from here.
+The Larry Sanders Show|1992–1998|Garry Shandling & Dennis Klein|HBO|*|The missing link between Seinfeld and Curb. Showbiz cringe at its most humane.
+The Curse|2023|Nathan Fielder & Benny Safdie|Showtime|*|Fielder's discomfort turned into a scripted marriage drama. The last episode defies gravity, literally.
+The Chair Company|2025–|Tim Robinson & Zach Kanin|HBO|*|Tim Robinson stretches ITYSL panic into a conspiracy thriller.
+How To with John Wilson|2020–2023|John Wilson|HBO|*|A New York essay show shot on a handheld camera; Fielder produces. Tender and very strange.
+Review|2014–2017|Andy Daly, Jeffrey Blitz & Charlie Siskel|Comedy Central|*|A critic reviews life experiences ("eating 30 pancakes," "divorce"). Vonnegut-grade bleak comedy.
+Fishing with John|1991|John Lurie|IFC/Bravo|*|John Lurie goes fishing with Tom Waits, Jim Jarmusch and Willem Dafoe. Deadpan narration, no fish.
+Pluribus|2025–|Vince Gilligan|Apple TV|*|Gilligan and Rhea Seehorn: the world becomes one happy hive mind, except for her.
+Rectify|2013–2016|Ray McKinnon|SundanceTV|*|A man freed after 19 years on death row relearns being alive. The most philosophical show on American TV.
+The Wire|2002–2008|David Simon|HBO|*|The great American novel, in five seasons.
+Mad Men|2007–2015|Matthew Weiner|AMC|*|The Sopranos' writer on 1960s identity and emptiness.
+Deadwood|2004–2006|David Milch|HBO|*|A frontier camp talking in Shakespearean profanity. Milch is a genius.
+Fawlty Towers|1975–1979|John Cleese & Connie Booth|BBC|*|Twelve perfect episodes. The ancestor of all cringe.
+Peep Show|2003–2015|Andrew O'Connor, Jesse Armstrong & Sam Bain|Channel 4|*|Two flatmates' inner monologues; Curb from inside the skull.
+Arrested Development|2003–2019|Mitchell Hurwitz|Fox/Netflix|*|The densest joke structure since the golden-age Simpsons. First three seasons.
+BoJack Horseman|2014–2020|Raphael Bob-Waksberg|Netflix|*|A horse sitcom star drinks through his regrets. Funny, then it guts you.
+Barry|2018–2023|Bill Hader & Alec Berg|HBO|*|A hitman takes acting classes. Gets darker and stranger every season.
+Lodge 49|2018–2019|Jim Gavin|AMC|*|A surfer drifts into a fraternal lodge full of alchemy. The most Pynchon thing TV has made.
+Patriot|2017–2018|Steven Conrad|Amazon|*|A sad spy sings folk songs about his missions. Deadpan, Vonnegut-adjacent, cancelled too soon.
+Get a Life|1990–1992|Chris Elliott, Adam Resnick & David Mirkin|Fox|*|Chris Elliott as a 30-year-old paperboy. The direct ancestor of Detroiters and ITYSL.
+Fernwood 2 Night|1977–1978|Norman Lear; Martin Mull & Fred Willard|Syndication|*|A fake small-town talk show. Larry Sanders and Fielder start here.
+The Bob Newhart Show|1972–1978|David Davis & Lorenzo Music|CBS|*|Newhart as a Chicago psychologist. Drier and better than Newhart.
+Taxi|1978–1983|James L. Brooks, Stan Daniels, David Davis & Ed. Weinberger|ABC/NBC|*|The MTM team at a cab garage, with Andy Kaufman as Latka.
+Columbo|1971–2003|Richard Levinson & William Link|NBC/ABC|*|You know the killer from minute one. House's puzzle-pleasure with a raincoat.
+Party Down|2009–2023|Rob Thomas, John Enbom, Dan Etheridge & Paul Rudd|Starz|*|Failed actors working as caterers. Every episode is a different party.
+
+It's Garry Shandling's Show|1986–1990|Garry Shandling & Alan Zweibel|Showtime/Fox|*|The fourth wall, no plot, the studio audience as characters. Seinfeld's direct ancestor; Larry Sanders came next.
+Atlanta|2016–2022|Donald Glover|FX|*|Donald Glover; a rap manager's life drifting into the surreal. "Teddy Perkins" is one of the strangest hours on TV. The biggest miss on the list.
+Northern Exposure|1990–1995|Joshua Brand & John Falsey|CBS|*|An Alaska town of philosophers; David Chase wrote for it and hated it, which is itself a Sopranos origin story. Lodge 49's and Newhart's cousin.
+### Vonnegut on Television
+Between Time and Timbuktu|1972|Kurt Vonnegut; Fred Barzyk|PBS|*|A TV film built from his books, with Bob and Ray. Vonnegut wrote about making it in *Wampeters, Foma & Granfalloons*.
+Who Am I This Time?|1982|Jonathan Demme (from Kurt Vonnegut)|PBS American Playhouse|*|Jonathan Demme; Walken and Sarandon in a community theater. From *Welcome to the Monkey House*.
+Kurt Vonnegut's Monkey House|1991|Kurt Vonnegut (host)|Showtime||Four stories, hosted by Vonnegut.
+Harrison Bergeron|1995|Bruce Pittman (from Kurt Vonnegut)|Showtime||Sean Astin, Christopher Plummer; the handicapper general.
+Displaced Person|1985|Alan Bridges (from Kurt Vonnegut)|PBS American Playhouse||From his story.
+## 2. Cringe, Anti-Comedy & Social Experiments
+@ The Fielder–Curb–Robinson lineage: comedy that lives in the silence after someone says the wrong thing.
+The Office (UK)|2001–2003|Ricky Gervais & Stephen Merchant|BBC|*|Twelve episodes and a Christmas special. The cringe template.
+Extras|2005–2007|Ricky Gervais & Stephen Merchant|BBC/HBO||Celebrity cameos at their most humiliated.
+The Office (US)|2005–2013|Greg Daniels|NBC|S|Warmer than the original; the first three seasons hold up.
+The Comeback|2005–|Lisa Kudrow & Michael Patrick King|HBO|*|A fading sitcom star films her own reality show. Painful and ahead of its time.
+Da Ali G Show|2000–2004|Sacha Baron Cohen|Channel 4/HBO||Real people, fake interviewer. Fielder's grandfather.
+Tim and Eric Awesome Show, Great Job!|2007–2010|Tim Heidecker & Eric Wareheim|Adult Swim|*|Public-access TV from a nightmare. The root of ITYSL's aesthetic.
+On Cinema at the Cinema|2012–|Tim Heidecker & Gregg Turkington|YouTube/Adult Swim||A film review show that grew into a decade-long tragic saga.
+The Eric Andre Show|2012–|Eric André|Adult Swim||A talk show destroyed from within.
+Nirvanna the Band the Show|2017–2018|Matt Johnson & Jay McCarrol|Viceland|*|Two guys guerrilla-film their plan to play a Toronto venue. Fielder-grade stunts.
+Jury Duty|2023|Lee Eisenberg & Gene Stupnitsky|Amazon Freevee||One real juror, everyone else an actor. Surprisingly kind.
+Joe Pera Talks with You|2018–2021|Joe Pera|Adult Swim|*|The gentlest show ever made: a choir teacher explains iron, beans, and grief.
+Painting with John|2021–2023|John Lurie|HBO||Lurie paints and tells stories from his island. Fishing with John, thirty years on.
+Louie|2010–2015|Louis C.K.|FX||Stand-up as a frame for short films about loneliness.
+Baskets|2016–2019|Louis C.K., Zach Galifianakis & Jonathan Krisel|FX||A failed clown in Bakersfield. Louie Anderson as his mother is the reason to watch.
+Veep|2012–2019|Armando Iannucci|HBO|*|The Thick of It in Washington. The meanest dialogue on TV.
+Eastbound & Down|2009–2013|Ben Best, Jody Hill & Danny McBride|HBO||A washed-up pitcher with a huge ego.
+Kroll Show|2013–2015|Nick Kroll|Comedy Central||Reality TV parody with a recurring cast of grotesques.
+Strangers with Candy|1999–2000|Amy Sedaris, Paul Dinello, Stephen Colbert & Mitch Rouse|Comedy Central||An after-school special gone horribly wrong.
+Space Ghost Coast to Coast|1994–2008|Mike Lazzo|Cartoon Network||Real celebrity interviews with a cartoon host who doesn't listen.
+Comedy Bang! Bang!|2012–2016|Scott Aukerman|IFC||A talk show parody that knows it's a TV show.
+Lady Dynamite|2016–2017|Maria Bamford, Pam Brady & Mitchell Hurwitz|Netflix||Bamford's bipolar breakdown as surreal comedy.
+Search Party|2016–2022|Sarah-Violet Bliss, Charles Rogers & Michael Showalter|TBS/HBO Max||Brooklyn narcissists play detective and it turns into a horror show.
+Los Espookys|2019–2022|Ana Fabrega, Julio Torres & Fred Armisen|HBO|*|Friends who stage horror for hire. Gentle, surreal, half in Spanish.
+Too Many Cooks|2014|Casper Kelly|Adult Swim||Eleven minutes. A sitcom intro that won't stop. Watch it blind.
+Mystery Science Theater 3000|1988–1999|Joel Hodgson|Comedy Central/Sci-Fi||A man and two robots heckle bad movies.
+
+Family Tree|2013|Christopher Guest & Jim Piddock|HBO||Christopher Guest's one series, improvised like his films. Curb's method in a gentler key.
+Reno 911!|2003–|Thomas Lennon, Robert Ben Garant & Kerri Kenney-Silver|Comedy Central||Improvised Cops parody. The State's reunion.
+Louis Theroux's Weird Weekends|1998–2000|Louis Theroux|BBC|*|The polite stranger among cults, survivalists and porn sets. The direct ancestor of the Fielder persona.
+TV Nation|1994–1995|Michael Moore|NBC/Fox||Michael Moore pranks corporations; Theroux was a correspondent. Nathan for You's business angle starts here.
+Candid Camera|1948–2014|Allen Funt|CBS||Allen Funt's real people in staged situations. The original.
+Check It Out! with Dr. Steve Brule|2010–2017|Tim Heidecker, Eric Wareheim & John C. Reilly|Adult Swim||John C. Reilly as a damaged public-access host. Tim and Eric's best spin-off.
+Kenny vs. Spenny|2002–2010|Kenny Hotz & Spencer Rice|CBC/Showcase||Two friends in humiliation contests; Trey Parker and Matt Stone produced it in the US. Nathan for You's cruelty with the fig leaf removed.
+The Tom Green Show|1994–2000|Tom Green|MTV||Ottawa public access turned national; the missing link between Letterman's stunts and Jackass and Eric Andre.
+Jerrod Carmichael Reality Show|2024|Jerrod Carmichael|HBO||A confessional reality show as self-examination. The Rehearsal's cousin.
+Delocated|2009–2013|Jon Glaser|Adult Swim||A man in witness protection stars in a reality show wearing a ski mask. Jon Glaser.
+UnREAL|2015–2018|Marti Noxon & Sarah Gertrude Shapiro|Lifetime||Producers manipulate a Bachelor-style show. Darker than it had any right to be.
+Eagleheart|2011–2014|Michael Koman, Andrew Weinberg & Jason Woliner|Adult Swim||Chris Elliott as an invincible marshal. Get a Life, twenty years on.
+Three Busy Debras|2020–2022|Sandy Honig, Mitra Jouhari & Alyssa Stonoha|Adult Swim||Three suburban women in a pastel nightmare. Robinson-adjacent.
+Web Therapy|2011–2015|Lisa Kudrow, Don Roos & Dan Bucatinsky|Showtime||Lisa Kudrow's three-minute sessions over webcam, improvised.
+## 3. The Writers' Room Sitcom
+@ The Seinfeld and Simpsons side of my taste: half-hours built like watches.
+Friends|1994–2004|David Crane & Marta Kauffman|NBC|S|
+Cheers|1982–1993|Glen Charles, Les Charles & James Burrows|NBC|*|The best-written ensemble of the multicam era.
+Frasier|1993–2004|David Angell, Peter Casey & David Lee|NBC|S|Farce built with French-theater precision.
+NewsRadio|1995–1999|Paul Simms|NBC|*|Deadpan workplace comedy; Phil Hartman and Dave Foley at their best.
+It's Always Sunny in Philadelphia|2005–|Rob McElhenney, Glenn Howerton & Charlie Day|FX|*|Seinfeld's no-hugging, no-learning rule taken to its sociopathic extreme.
+Community|2009–2015|Dan Harmon|NBC|*|A community college sitcom that keeps becoming other genres. Seasons 1–3.
+Parks and Recreation|2009–2015|Greg Daniels & Michael Schur|NBC|S|Season 1 is skippable; then it's warm and very funny.
+Freaks and Geeks|1999–2000|Paul Feig & Judd Apatow|NBC|*|One season of 1980 high school, done with total honesty.
+Undeclared|2001–2002|Judd Apatow|Fox||The college sequel in spirit.
+Malcolm in the Middle|2000–2006|Linwood Boomer|Fox||Single-camera chaos; Bryan Cranston's goofy pre-Walter White role.
+Sports Night|1998–2000|Aaron Sorkin|ABC||Sorkin's walk-and-talk in a half hour.
+What We Do in the Shadows|2019–2024|Jemaine Clement|FX||Vampire flatmates, mockumentary style.
+Reservation Dogs|2021–2023|Sterlin Harjo & Taika Waititi|FX|*|Native teenagers in Oklahoma, grief, and spirit visitors. Funny and sacred.
+Better Things|2016–2022|Pamela Adlon & Louis C.K.|FX||A single mom and actress; loose, lyrical, observed.
+High Maintenance|2016–2020|Ben Sinclair & Katja Blichfeld|HBO||A weed dealer's deliveries as a portrait of New York lives.
+Broad City|2014–2019|Ilana Glazer & Abbi Jacobson|Comedy Central||Two friends against New York.
+Master of None|2015–2021|Aziz Ansari & Alan Yang|Netflix||Season 2 is a love letter to Italian cinema.
+Girls|2012–2017|Lena Dunham|HBO||Twentysomethings at their most self-absorbed.
+Insecure|2016–2021|Issa Rae|HBO||Awkward and funny.
+Hacks|2021–|Lucia Aniello, Paul W. Downs & Jen Statsky|HBO/Max||An old-school comic and her young writer. About how jokes are made.
+Abbott Elementary|2021–|Quinta Brunson|ABC||The Office format with real warmth; the best network sitcom in years.
+Schitt's Creek|2015–2020|Eugene Levy & Dan Levy|CBC/Pop||A rich family loses everything and grows up. Slow start, big heart.
+
+Police Squad!|1982|Jim Abrahams, David Zucker & Jerry Zucker|ABC|*|Six episodes from the Airplane! team; the joke density of peak Simpsons in live action. Cancelled because, the network said, "you had to watch it."
+The Grinder|2015–2016|Andrew Mogel & Jarrad Paul|Fox||Rob Lowe as a TV lawyer who thinks he's a lawyer, with Fred Savage. One meta season.
+Trial & Error|2017–2018|Jeff Astrof & Matt Miller|NBC||True-crime mockumentary with John Lithgow.
+Roseanne|1988–1997|Matt Williams & Roseanne Barr|ABC|*|The best working-class sitcom, and its last season reveals the whole show was Roseanne's novel rewriting her life. A Vonnegut move nobody credits.
+My So-Called Life|1994–1995|Winnie Holzman|ABC||One honest season of being fifteen. Freaks and Geeks' older sister.
+Bob|1992–1993|Bob Newhart, Cheri Eichen, Bill Steinkellner & Phoef Sutton|CBS||Newhart's third show, as a comic-book artist. For completeness on the Newhart shelf.
+Andy Richter Controls the Universe|2002–2003|Victor Fresco|Fox||Conan's sidekick imagines alternate versions of every scene. Very Vonnegut; cancelled.
+Bakersfield P.D.|1993–1994|Larry Levin|Fox||Giancarlo Esposito in a single-camera, laugh-track-free cop comedy; years ahead of its time.
+Silicon Valley|2014–2019|Mike Judge, John Altschuler & Dave Krinsky|HBO||Mike Judge on the tech industry; Beavis's sharpness aimed at money.
+Horace and Pete|2016|Louis C.K.|||Louis C.K.'s self-released play-as-series; a bar, Steve Buscemi, Alan Alda. The Honeymooners with grief.
+The Other Two|2019–2023|Chris Kelly & Sarah Schneider|Comedy Central/HBO Max||The siblings of a Bieber-like child star. The sharpest showbiz satire since Larry Sanders.
+High Fidelity|2020|Veronica West & Sarah Kucserka (from Nick Hornby)|Hulu||Zoë Kravitz in the record store; one season. The music list in sitcom form.
+Shrinking|2023–|Bill Lawrence, Jason Segel & Brett Goldstein|Apple TV||Bill Lawrence and Harrison Ford; a grieving therapist stops holding back.
+Bored to Death|2009–2011|Jonathan Ames|HBO||Jonathan Ames; a Brooklyn novelist moonlights as a detective, with Ted Danson and Zach Galifianakis.
+Mozart in the Jungle|2014–2018|Roman Coppola, Jason Schwartzman, Alex Timbers & Paul Weitz|Amazon||A classical orchestra as a workplace comedy.
+The Bernie Mac Show|2001–2006|Larry Wilmore|Fox||Talking to "America" about raising his sister's kids. The fourth-wall line.
+Parker Lewis Can't Lose|1990–1993|Clyde Phillips & Lon Diamond|Fox||Ferris Bueller as a series, stylized; I was the right age.
+Married... with Children|1987–1997|Michael G. Moye & Ron Leavitt|Fox|S|The anti-family sitcom of your childhood; probably seen.
+## 4. Animation for Grown-Ups
+@ What came after The Simpsons, from Mike Judge to Adult Swim to cartoons about consciousness.
+South Park|1997–|Trey Parker & Matt Stone|Comedy Central|S|Radiohead did an episode.
+Family Guy|1999–|Seth MacFarlane|Fox|S|
+Futurama|1999–|Matt Groening & David X. Cohen|Fox/Comedy Central/Hulu|S|Groening's writers with math PhDs. "Jurassic Bark" and "The Luck of the Fryrish" will wreck you.
+King of the Hill|1997–2025|Mike Judge & Greg Daniels|Fox/Hulu|*|The most humane American sitcom, animated or not.
+Beavis and Butt-Head|1993–2011|Mike Judge|MTV||Two idiots watch music videos; Judge's sharpest cultural criticism.
+Daria|1997–2002|Glenn Eichler & Susie Lewis|MTV||Deadpan teen misanthropy.
+The Ren & Stimpy Show|1991–1995|John Kricfalusi|Nickelodeon||Grotesque, violent, gorgeous.
+Dr. Katz, Professional Therapist|1995–2002|Jonathan Katz & Tom Snyder|Comedy Central||Stand-ups on the couch, in squiggly animation.
+Home Movies|1999–2004|Brendon Small & Loren Bouchard|UPN/Adult Swim||Improvised and quiet, like a lo-fi Curb for kids.
+Aqua Teen Hunger Force|2000–2015|Dave Willis & Matt Maiellaro|Adult Swim||Anti-narrative fast-food nonsense.
+Harvey Birdman, Attorney at Law|2000–2007|Michael Ouweleen & Erik Richter|Adult Swim||Hanna-Barbera characters in court.
+The Venture Bros.|2003–2018|Jackson Publick & Doc Hammer|Adult Swim|*|A Jonny Quest parody about failure that turns into a dense epic.
+Moral Orel|2005–2008|Dino Stamatopoulos|Adult Swim|*|A Davey and Goliath parody that turns into a tragedy about faith.
+Xavier: Renegade Angel|2007–2009|John Lee & Vernon Chatman|Adult Swim||A mystic wanderer speaks in fractal puns. Pure Robert Anton Wilson nonsense.
+Bob's Burgers|2011–|Loren Bouchard|Fox||The sweetest family on TV.
+Rick and Morty|2013–|Dan Harmon & Justin Roiland|Adult Swim|S|Nihilism in the multiverse; seasons 1–3 are the core.
+Undone|2019–2022|Raphael Bob-Waksberg & Kate Purdy|Amazon|*|Rotoscoped. After a car crash, a woman comes unstuck in time. Very Billy Pilgrim.
+The Midnight Gospel|2020|Pendleton Ward & Duncan Trussell|Netflix|*|Psychedelic cartoons laid over real podcast talks about death and meditation. Leary and Watts would approve.
+Pantheon|2022–2023|Craig Silverstein|AMC+/Netflix|*|Uploaded minds and the singularity, taken seriously. Based on Ken Liu.
+Tuca & Bertie|2019–2022|Lisa Hanawalt|Netflix/Adult Swim||Two bird women in their thirties.
+Over the Garden Wall|2014|Patrick McHale|Cartoon Network|*|Ten short chapters, a Dante-like autumn fable.
+Adventure Time|2010–2018|Pendleton Ward|Cartoon Network||Starts silly, ends post-apocalyptic and profound.
+Primal|2019–|Genndy Tartakovsky|Adult Swim||A caveman and a dinosaur. No dialogue. Gorgeous and brutal.
+Smiling Friends|2020–|Zach Hadel & Michael Cusack|Adult Swim||A company that makes people smile.
+Scavengers Reign|2023|Joseph Bennett & Charles Huettner|Max/Netflix|*|Shipwrecked on an alien planet that is one big living system.
+Common Side Effects|2025–|Joe Bennett & Steve Hely|Adult Swim||A mushroom that cures everything, and the people hunting it.
+Clone High|2002–2003|Phil Lord, Christopher Miller & Bill Lawrence|MTV||Teen clones of Lincoln, Gandhi and JFK.
+Duckman|1994–1997|Everett Peck|USA||A misanthropic detective duck; Jason Alexander voices him.
+Æon Flux|1991–1995|Peter Chung|MTV||Wordless, surreal spy shorts from Liquid Television.
+The Maxx|1995|Sam Kieth|MTV||A homeless superhero in a dream world.
+Arcane|2021–2024|Christian Linke & Alex Yee|Netflix||Painted animation at its peak.
+Blue Eye Samurai|2023–|Michael Green & Amber Noizumi|Netflix||Revenge in Edo Japan, beautifully animated.
+
+The Critic|1994–1995|Al Jean & Mike Reiss|ABC/Fox||Al Jean and Mike Reiss from the Simpsons room; Jon Lovitz as a film critic. Pairs with the Ebert shelf.
+Tales from the Tour Bus|2017–2018|Mike Judge|Cinemax||Mike Judge animates true stories of Waylon, George Jones, James Brown and Rick James. Straight to the music list.
+Metalocalypse|2006–2023|Brendon Small & Tommy Blacha|Adult Swim||Brendon Small's death-metal band Dethklok; the music is real.
+Gravity Falls|2012–2016|Alex Hirsch|Disney||Cryptograms, conspiracies, a journal with three authors. Twin Peaks for kids.
+Carol & the End of the World|2023|Dan Guterman|Netflix||A planet will hit Earth in months; one woman goes back to office work. Vonnegut-level calm.
+God, the Devil and Bob|2000|Matthew Carlson|NBC||God (James Garner) and the Devil (Alan Cumming) bet on a Detroit auto worker. Four episodes aired.
+The Boondocks|2005–2014|Aaron McGruder|Adult Swim||Aaron McGruder's satire.
+Samurai Jack|2001–2017|Genndy Tartakovsky|Cartoon Network||Tartakovsky's silent, painterly show; Primal's ancestor.
+Downtown|1999|Chris Prynoski|MTV||New York teenagers, improvised dialogue, one season. A cult.
+The Shivering Truth|2018–2020|Vernon Chatman|Adult Swim||Vernon Chatman's stop-motion nightmare parables.
+Off the Air|2011–|Dave Hughes|Adult Swim||Themed collages of found video with no narrative; psychedelia for 4 a.m.
+Batman: The Animated Series|1992–1995|Bruce Timm & Eric Radomski|Fox||Noir in daylight; the best Batman.
+Mission Hill|1999–2002|Bill Oakley & Josh Weinstein|WB||Oakley and Weinstein (Simpsons showrunners) on twentysomething slackers; cancelled.
+The Tick|1994–1996|Ben Edlund|Fox||Ben Edlund's superhero absurdism; I was the age.
+The Second Best Hospital in the Galaxy|2024|Cirocco Dunlap|Amazon||A sci-fi hospital comedy; House meets Futurama.
+## 5. Prestige Drama: The Long Novels
+@ Sopranos, Breaking Bad and Saul descendants: moral rot, slow burn, auteur writers.
+The Shield|2002–2008|Shawn Ryan|FX|*|A corrupt cop as protagonist. Its ending rivals Breaking Bad's.
+Oz|1997–2003|Tom Fontana|HBO||HBO's first hour-long drama; a prison as an experiment.
+Succession|2018–2023|Jesse Armstrong|HBO|*|A media dynasty insulting each other. Peep Show's writer goes Shakespearean.
+Halt and Catch Fire|2014–2017|Christopher Cantwell & Christopher C. Rogers|AMC|*|Early PC and internet years. Starts as Mad Men knockoff, becomes something tender.
+Fargo|2014–|Noah Hawley|FX|*|An anthology in the Coens' moral universe. Seasons 1 and 2 are the best.
+True Detective|2014–|Nic Pizzolatto|HBO|*|Season 1: Thomas Ligotti's pessimism in Louisiana.
+In Treatment|2008–2021|Rodrigo García (from Hagai Levi's BeTipul)|HBO|*|One patient per episode on Gabriel Byrne's couch. The Melfi scenes, expanded into a show.
+The Americans|2013–2018|Joe Weisberg|FX||KGB sleepers in a Reagan-era suburb; a show about marriage.
+Justified|2010–2015|Graham Yost|FX||Elmore Leonard's dialogue in Harlan County.
+Friday Night Lights|2006–2011|Peter Berg|NBC/DirecTV||Small-town Texas, shot like a documentary.
+Treme|2010–2013|David Simon & Eric Overmyer|HBO||Post-Katrina New Orleans, with music as the plot.
+The Deuce|2017–2019|David Simon & George Pelecanos|HBO||Times Square and the birth of the porn industry.
+Hill Street Blues|1981–1987|Steven Bochco & Michael Kozoll|NBC||Where the modern ensemble drama began.
+Andor|2022–2025|Tony Gilroy|Disney+|*|A Star Wars show that is really about how fascism works and how revolutions start.
+Shōgun|2024–|Rachel Kondo & Justin Marks|FX||Feudal Japan, mostly in Japanese. Clavell's novel done right.
+Carnivàle|2003–2005|Daniel Knauf|HBO|*|A Depression-era carnival as a battle between good and evil. Mystical and unfinished.
+John from Cincinnati|2007|David Milch & Kem Nunn|HBO||A mystic surfer speaks only in echoes. Milch's strangest work, one season.
+
+Rubicon|2010|Jason Horwitch|AMC|*|A think-tank analyst finds a conspiracy in crossword puzzles. One slow, paranoid season; Pynchon's TV show.
+Perpetual Grace, LTD|2019|Steven Conrad & Bruce Terris|Epix||Steven Conrad after Patriot; Ben Kingsley as a con-man pastor. One season.
+Profit|1996|David Greenwalt & John McNamara|Fox||A sociopath executive narrates his rise; eight episodes, a decade before Breaking Bad made antiheroes allowed.
+NYPD Blue|1993–2005|Steven Bochco & David Milch|ABC||David Milch before Deadwood; Dennis Franz's Sipowicz.
+The Corner|2000|David Simon & David Mills|HBO||David Simon's miniseries before The Wire, from his book.
+Vinyl|2016|Mick Jagger, Martin Scorsese, Rich Cohen & Terence Winter|HBO||Scorsese and Jagger's 1973 record label; one messy season. For the music list.
+## 6. Detectives, Doctors & Brilliant Misanthropes
+@ The House lineage: puzzle-solvers with a bad bedside manner, and hospitals where the stakes are real.
+The Pitt|2025–|R. Scott Gemmill|Max|*|One ER shift per season, an hour per episode. The new medical benchmark.
+The Knick|2014–2015|Jack Amiel & Michael Begler|Cinemax|*|Soderbergh directs: a cocaine-addicted surgeon in 1900 New York. House a century earlier.
+Sherlock Holmes (Granada)|1984–1994|Michael Cox (producer); Jeremy Brett|ITV|*|Jeremy Brett is the definitive Holmes; House's source code.
+Cracker|1993–1996|Jimmy McGovern|ITV|*|Robbie Coltrane as a gambling, drinking, brilliant criminal psychologist.
+Prime Suspect|1991–2006|Lynda La Plante|ITV||Helen Mirren against the force and the killers.
+Homicide: Life on the Street|1993–1999|Paul Attanasio (from David Simon's book)|NBC|*|The Wire's prototype, with Andre Braugher in the interrogation room.
+Mindhunter|2017–2019|Joe Penhall (David Fincher)|Netflix|*|FBI agents invent profiling by interviewing serial killers.
+Hannibal|2013–2015|Bryan Fuller|NBC||Lecter as a gourmet dandy; the most beautiful horror on TV.
+Happy Valley|2014–2023|Sally Wainwright|BBC|*|A Yorkshire police sergeant and the man who wrecked her family.
+Slow Horses|2022–|Will Smith (from Mick Herron)|Apple TV||Failed spies; Gary Oldman as a slob genius.
+Poker Face|2023–2025|Rian Johnson|Peacock||Columbo's structure, updated with Natasha Lyonne as a human lie detector.
+The Rockford Files|1974–1980|Roy Huggins & Stephen J. Cannell|NBC||A broke, decent private eye.
+Agatha Christie's Poirot|1989–2013|Clive Exton (developed)|ITV||David Suchet's complete Poirot.
+Inspector Morse|1987–2000|Anthony Minghella et al. (from Colin Dexter)|ITV||An Oxford detective who loves Wagner and crosswords.
+Terriers|2010|Ted Griffin|FX||Two loser PIs in San Diego. One perfect season.
+Mr Inbetween|2018–2021|Scott Ryan|FX/Foxtel||An Australian hitman and good dad. Deadpan, short, brutal.
+ER|1994–2009|Michael Crichton|NBC||The first seasons invented the modern medical show.
+St. Elsewhere|1982–1988|Joshua Brand & John Falsey|NBC||A Boston hospital; its famous final shot reframes the whole show.
+Scrubs|2001–2010|Bill Lawrence|NBC/ABC||Silly hospital comedy that handles death better than most dramas.
+This Is Going to Hurt|2022|Adam Kay|BBC/AMC||A junior doctor's diary from the NHS.
+Getting On|2009–2012|Jo Brand, Vicki Pepperdine & Joanna Scanlan|BBC||A geriatric ward, played bone-dry.
+
+Nurse Jackie|2009–2015|Liz Brixius, Linda Wallem & Evan Dunsky|Showtime||Edie Falco as an addict nurse. House's shelf.
+## 7. Mind, Time & Reality
+@ Twilight Zone to Severance: TV for the reader of Wilson, Dick, Greene and the consciousness books.
+The Twilight Zone|1959–1964|Rod Serling|CBS|*|Moral fables with a twist; Serling's narration is poetry.
+The Outer Limits|1963–1965|Leslie Stevens|ABC||The Twilight Zone's darker, more scientific sibling.
+The Prisoner|1967–1968|Patrick McGoohan|ITV|*|"I am not a number." A spy trapped in a village of control.
+Night Gallery|1970–1973|Rod Serling|NBC||Serling's later horror anthology.
+Star Trek|1966–1969|Gene Roddenberry|NBC||Philosophy plays in cardboard sets.
+Star Trek: The Next Generation|1987–1994|Gene Roddenberry|Syndication|S|"The Inner Light," "Darmok," "Measure of a Man."
+Star Trek: Deep Space Nine|1993–1999|Rick Berman & Michael Piller|Syndication|S|The Trek that stayed put: war, religion and a station that keeps its consequences.
+Star Trek: Voyager|1995–2001|Rick Berman, Michael Piller & Jeri Taylor|UPN|S|Lost on the far side of the galaxy.
+Star Trek: Enterprise|2001–2005|Rick Berman & Brannon Braga|UPN|S|The prequel, before the Federation.
+Star Trek: Discovery|2017–2024|Bryan Fuller & Alex Kurtzman|CBS All Access/Paramount+|S|Serialized Trek; a mycelial network as a means of travel.
+Star Trek: Strange New Worlds|2022–|Akiva Goldsman, Alex Kurtzman & Jenny Lumet|Paramount+|S|Pike's Enterprise, back to an episode a week.
+Star Trek: Lower Decks|2020–2024|Mike McMahan|Paramount+|S|The ensigns who do the work, animated, by a Rick and Morty writer.
+Doctor Who|1963–1989|Sydney Newman et al.|BBC||The classic run; start with the Tom Baker years.
+The Hitchhiker's Guide to the Galaxy|1981|Douglas Adams|BBC||Adams's own adaptation; Vonnegut's British cousin.
+Red Dwarf|1988–|Rob Grant & Doug Naylor|BBC||The last human alive, three million years out, bored.
+Max Headroom|1987–1988|George Stone, Rocky Morton & Annabel Jankel|ABC||Cyberpunk TV satire of TV, twenty minutes into the future.
+Twin Peaks|1990–1991|David Lynch & Mark Frost|ABC|*|Small-town murder mystery as a door to the other side.
+Twin Peaks: The Return|2017|David Lynch & Mark Frost|Showtime|*|Eighteen hours of the strangest thing ever broadcast. Part 8 is a work of art.
+Wild Palms|1993|Bruce Wagner|ABC|*|Virtual reality, a cult and a media empire. Produced by Oliver Stone; very Robert Anton Wilson.
+The X-Files|1993–2002|Chris Carter|Fox||The 90s conspiracy mind. The standalone episodes are best.
+The Lost Room|2006|Christopher Leone & Laura Harkcom|Sci Fi||A motel room key opens any door. A cult puzzle miniseries.
+Babylon 5|1993–1998|J. Michael Straczynski|PTEN/TNT||One five-year novel planned in advance.
+Black Mirror|2011–|Charlie Brooker|Channel 4/Netflix|*|Tech parables. Start with "San Junipero," "Be Right Back," "USS Callister."
+Dark|2017–2020|Baran bo Odar & Jantje Friese|Netflix|*|German time-travel puzzle over three generations. Bring a notebook.
+Devs|2020|Alex Garland|FX on Hulu|*|Determinism and quantum computing.
+Severance|2022–|Dan Erickson|Apple TV|*|Work-self and home-self split by surgery. Very Vonnegut.
+Mrs. Davis|2023|Tara Hernandez & Damon Lindelof|Peacock|*|A nun goes to war with an all-knowing AI. Absurd, religious, wildly inventive.
+Counterpart|2017–2019|Justin Marks|Starz|*|A Berlin office guards a door to a parallel world. J.K. Simmons plays both versions of himself.
+Legion|2017–2019|Noah Hawley|FX||Mental illness and telepathy as psychedelic pop art.
+Maniac|2018|Patrick Somerville|Netflix||A drug trial sends two people through shared dreams.
+The OA|2016–2019|Brit Marling & Zal Batmanglij|Netflix||Near-death experiences and movement as a portal. Earnest and strange.
+Russian Doll|2019–2022|Natasha Lyonne, Leslye Headland & Amy Poehler|Netflix|*|A woman keeps dying at her 36th birthday party. Groundhog Day as philosophy.
+The Man in the High Castle|2015–2019|Frank Spotnitz|Amazon||Philip K. Dick's alternate history.
+Philip K. Dick's Electric Dreams|2017–2018|Ronald D. Moore & Michael Dinner|Channel 4/Amazon||A Dick short-story anthology.
+Tales from the Loop|2020|Nathaniel Halpern|Amazon||Quiet, melancholy sci-fi in a small town over a physics lab.
+Love, Death & Robots|2019–|Tim Miller|Netflix||Animated sci-fi shorts; "Zima Blue" is the one.
+3 Body Problem|2024–|David Benioff, D.B. Weiss & Alexander Woo|Netflix||Liu Cixin's physics epic, Westernized.
+Three-Body|2023|Yang Lei (director)|Tencent||The faithful Chinese adaptation of Liu Cixin, 30 episodes.
+Utopia|2013–2014|Dennis Kelly|Channel 4||A graphic novel predicts the end of the world. Lurid and smart.
+
+Quantum Leap|1989–1993|Donald P. Bellisario|NBC||Unstuck in time every week, then a last title card. Billy Pilgrim as a network hero.
+Dispatches from Elsewhere|2020|Jason Segel|AMC|*|Jason Segel's alternate-reality game in Philadelphia. The Crying of Lot 49 as a series.
+Nowhere Man|1995–1996|Lawrence Hertzog|UPN||A photographer's identity is erased. The Prisoner, again.
+American Gothic|1995–1996|Shaun Cassidy|CBS||A small-town sheriff who is the devil. Twin Peaks' Southern cousin.
+Eerie, Indiana|1991–1992|José Rivera & Karl Schaefer|NBC||The Twilight Zone for kids; I was the right age.
+Firefly|2002|Joss Whedon|Fox||One season of a space western; the cult is earned.
+Sapphire & Steel|1979–1982|P.J. Hammond|ITV||Joanna Lumley and David McCallum as agents of time. Eerie, cheap, unforgettable.
+## 8. God, Death & Meaning
+@ The Six Feet Under shelf: faith, grief and the absurd, for the Camus and Vonnegut in me.
+The Leftovers|2014–2017|Damon Lindelof & Tom Perrotta|HBO|*|2% of the world vanishes. Grief and faith. Seasons 2 and 3 are among the best TV ever made.
+The Good Place|2016–2020|Michael Schur|NBC|*|A sitcom about the afterlife that teaches real moral philosophy.
+Enlightened|2011–2013|Mike White & Laura Dern|HBO|*|A breakdown, a retreat, and a woman who wants to be good in a corporate world.
+Kidding|2018–2020|Dave Holstein|Showtime||Jim Carrey as a Mr. Rogers figure falling apart after his son's death. Michel Gondry directs.
+Forever|2018|Alan Yang & Matt Hubbard|Amazon||A married couple after death. Watch without reading anything about it.
+Somebody Somewhere|2022–2024|Hannah Bos & Paul Thureen|HBO|*|Grief and choir practice in Kansas. Small and lovely.
+After Life|2019–2022|Ricky Gervais|Netflix||A widower decides to say whatever he wants.
+Pushing Daisies|2007–2009|Bryan Fuller|ABC||A pie-maker can bring the dead back for one minute.
+Dead Like Me|2003–2004|Bryan Fuller|Showtime||A dead teenager works as a grim reaper.
+Ramy|2019–2022|Ramy Youssef, Ari Katcher & Ryan Welch|Hulu||A young Muslim in New Jersey wants to be good and fails. Funny about God.
+The Righteous Gemstones|2019–2025|Danny McBride|HBO||A megachurch family in the McBride cringe style.
+Big Love|2006–2011|Mark V. Olsen & Will Scheffer|HBO||A polygamist family in Utah; faith as a family business.
+Fleabag|2016–2019|Phoebe Waller-Bridge|BBC/Amazon|*|Grief behind fourth-wall jokes. Season 2 and the priest.
+
+Wonderfalls|2004|Bryan Fuller & Todd Holland|Fox||Bryan Fuller; inanimate objects talk to a Niagara Falls gift-shop clerk. Between Pushing Daisies and Lodge 49.
+Midnight Mass|2021|Mike Flanagan|Netflix|*|Mike Flanagan; a dying island, a new priest, long monologues about death and God. Six Feet Under's heart in a horror shape.
+Evil|2019–2024|Robert King & Michelle King|CBS/Paramount+||A psychologist, a priest-in-training and an engineer investigate miracles. Science vs. faith, ridiculous and smart.
+Good Omens|2019–2025|Neil Gaiman (from Gaiman & Terry Pratchett)|Amazon||Gaiman and Pratchett's angel and demon avert the apocalypse. Douglas Adams's lineage.
+Miracle Workers|2019|Simon Rich|TBS||Simon Rich; God as a slacker CEO, Daniel Radcliffe answering prayers. Season 1 only.
+Joan of Arcadia|2003–2005|Barbara Hall|CBS||God appears to a teenager as strangers.
+## 9. Sketch & Surreal
+@ The I Think You Should Leave family tree, from Python to Mr. Show.
+Monty Python's Flying Circus|1969–1974|Graham Chapman, John Cleese, Terry Gilliam, Eric Idle, Terry Jones & Michael Palin|BBC|*|Sketches that refuse to end with a punchline.
+Q|1969–1982|Spike Milligan|BBC||The surreal sketch show Python learned from.
+SCTV|1976–1984|Second City|Global/NBC|*|A whole fake TV station; Eugene Levy, Catherine O'Hara, John Candy, Martin Short.
+Saturday Night Live (1975–1980)|1975–1980|Lorne Michaels|NBC||The original cast years.
+Late Night with David Letterman|1982–1993|David Letterman|NBC|*|Anti-comedy on network TV: Stupid Pet Tricks, the Chris Elliott bits.
+Pee-wee's Playhouse|1986–1990|Paul Reubens|CBS||Kids' TV as an avant-garde art project.
+The Kids in the Hall|1988–1995|The Kids in the Hall|CBC/HBO|*|Canadian, dark and odd; the Head Crusher.
+A Bit of Fry & Laurie|1989–1995|Stephen Fry & Hugh Laurie|BBC||Hugh Laurie before House.
+The Ben Stiller Show|1992–1993|Ben Stiller & Judd Apatow|Fox||With Odenkirk and Janeane Garofalo.
+The State|1993–1995|The State|MTV||The troupe behind Reno 911 and Wet Hot American Summer.
+The Day Today|1994|Chris Morris & Armando Iannucci|BBC||A news parody where the news itself becomes absurd.
+Mr. Show with Bob and David|1995–1998|Bob Odenkirk & David Cross|HBO|*|Saul Goodman's creator's sketch show, where each sketch flows into the next.
+The Dana Carvey Show|1996|Robert Smigel & Dana Carvey|ABC||Seven episodes with Colbert, Carell and Louis C.K. writing.
+Brass Eye|1997|Chris Morris|Channel 4|*|Fake moral panics that fooled real politicians. Satire at its most dangerous.
+Big Train|1998–2002|Arthur Mathews & Graham Linehan|BBC||Deadpan absurdism from the Father Ted writers.
+Upright Citizens Brigade|1998–2000|Matt Besser, Amy Poehler, Ian Roberts & Matt Walsh|Comedy Central||Linked, surreal sketches.
+Jam|2000|Chris Morris|Channel 4||Ambient horror-comedy; disturbing and hypnotic.
+TV Funhouse|2000–2001|Robert Smigel|Comedy Central||Puppets, cartoons, and pure wrongness.
+Chappelle's Show|2003–2006|Dave Chappelle & Neal Brennan|Comedy Central|*|The sharpest racial satire on TV.
+Wonder Showzen|2005–2006|John Lee & Vernon Chatman|MTV2||A children's show that's anything but.
+Snuff Box|2006|Matt Berry & Rich Fulcher|BBC||Two men in a gentlemen's club for hangmen.
+The Whitest Kids U' Know|2007–2011|Trevor Moore & Zach Cregger|Fuse/IFC||Crude, loose sketch comedy.
+Limmy's Show|2010–2013|Brian Limond|BBC Scotland||Glasgow surrealism.
+Portlandia|2011–2018|Fred Armisen, Carrie Brownstein & Jonathan Krisel|IFC||Hipsters, gently skewered.
+Key & Peele|2012–2015|Keegan-Michael Key & Jordan Peele|Comedy Central||Expertly made genre parodies.
+Inside Amy Schumer|2013–2016|Amy Schumer & Daniel Powell|Comedy Central||"Twelve Angry Men Inside Amy Schumer."
+A Black Lady Sketch Show|2019–2023|Robin Thede|HBO||Sketches in a shared post-apocalyptic world.
+Random Acts of Flyness|2018–2022|Terence Nance|HBO||Sketch comedy as experimental film.
+
+Fridays|1980–1982|John Moffitt & Bill Lee|ABC||The SNL knockoff where Larry David and Michael Richards met, and Andy Kaufman started a fight on air. Hard to find; worth the hunt for the Kaufman episode.
+Andy's Funhouse / The Andy Kaufman Special|1979|Andy Kaufman & Bob Zmuda|ABC||Kaufman's one special, with the Foreign Man, the wrestling and the gospel choir. Taxi is on shelf 1; this is the real Kaufman.
+The Characters|2016|Netflix (one episode per comedian)|Netflix||One half hour per comedian; Tim Robinson's episode is ITYSL before ITYSL.
+Stella|2005|Michael Showalter, Michael Ian Black & David Wain|Comedy Central||Showalter, Wain and Black in suits, surreal and polite.
+Documentary Now!|2015–|Fred Armisen, Bill Hader, Seth Meyers & Rhys Thomas|IFC||Armisen, Hader and Meyers parody one documentary per episode, including a Talking Heads concert film and an Eagles-style band. Pairs with the music list.
+Late Night with Conan O'Brien|1993–2009|Conan O'Brien & Robert Smigel|NBC||A Simpsons writer runs a talk show with Robert Smigel. Not animation, but it's the Simpsons room's other output.
+Sifl & Olly|1997–1999|Liam Lynch & Matt Crocco|MTV||Sock puppets, Liam Lynch's songs, lo-fi anti-comedy.
+Look Around You|2002–2005|Robert Popper & Peter Serafinowicz|BBC|*|Fake 1980s school science programmes, deadpan. For the physics shelf.
+Cunk on Earth|2022|Charlie Brooker & Diane Morgan|BBC/Netflix||Charlie Brooker and Diane Morgan's fake history documentary. Brass Eye's heir.
+## 10. Classic TV: Nick at Nite and Before
+@ The golden era I grew up with in reruns, plus the shows that built it.
+Mork & Mindy|1978–1982|Garry Marshall|ABC|S|Robin Williams let loose.
+Happy Days|1974–1984|Garry Marshall|ABC|S|
+The Brady Bunch|1969–1974|Sherwood Schwartz|ABC|S|
+### The 50s and 60s
+The Honeymooners|1955–1956|Jackie Gleason|CBS|*|Thirty-nine episodes. A bus driver's tiny apartment.
+The Phil Silvers Show|1955–1959|Nat Hiken|CBS|*|Sgt. Bilko's schemes; machine-gun dialogue.
+The George Burns and Gracie Allen Show|1950–1958|George Burns|CBS||Burns breaks the fourth wall decades before Fleabag.
+The Jack Benny Program|1950–1965|Jack Benny|CBS/NBC||The master of the pause.
+The Many Loves of Dobie Gillis|1959–1963|Max Shulman|CBS|*|With Maynard G. Krebs, TV's first beatnik.
+Car 54, Where Are You?|1961–1963|Nat Hiken|NBC||The Bilko writer's police comedy.
+The Andy Griffith Show|1960–1968|Aaron Ruben & Sheldon Leonard|CBS||Small-town kindness; Don Knotts as Barney.
+Get Smart|1965–1970|Mel Brooks & Buck Henry|NBC|*|Mel Brooks and the Graduate's screenwriter spoof James Bond.
+Green Acres|1965–1971|Jay Sommers|CBS|*|Secretly the most surreal show of the 60s. The credits know they're credits.
+The Addams Family|1964–1966|David Levy|ABC|S|
+The Munsters|1964–1966|Allan Burns & Chris Hayward|CBS|S|
+Bewitched|1964–1972|Sol Saks|ABC|S|
+I Dream of Jeannie|1965–1970|Sidney Sheldon|NBC|S|
+Mister Ed|1961–1966|Arthur Lubin (producer)|CBS|S|
+Gilligan's Island|1964–1967|Sherwood Schwartz|CBS|S|
+Hogan's Heroes|1965–1971|Bernard Fein & Albert S. Ruddy|CBS||A POW camp as farce; strange to watch next to Slaughterhouse-Five.
+The Monkees|1966–1968|Bob Rafelson & Bert Schneider|NBC||A Beatles knockoff that was really French New Wave in disguise.
+### The 70s
+All in the Family|1971–1979|Norman Lear|CBS|*|The sitcom that let America argue with itself.
+M*A*S*H|1972–1983|Larry Gelbart|CBS|*|Gallows humor in Korea; Gelbart's early seasons are the best.
+Barney Miller|1975–1982|Danny Arnold & Theodore J. Flicker|ABC|*|A precinct squad room as a stage play about city life.
+Mary Hartman, Mary Hartman|1976–1977|Norman Lear|Syndication|*|A soap opera parody so deadpan it becomes existential.
+Sanford and Son|1972–1977|Norman Lear & Bud Yorkin|NBC||Steptoe and Son's American half, and Redd Foxx.
+WKRP in Cincinnati|1978–1982|Hugh Wilson|CBS||"As God is my witness, I thought turkeys could fly."
+Soap|1977–1981|Susan Harris|ABC||A prime-time soap parody; Billy Crystal's early role.
+Lou Grant|1977–1982|James L. Brooks, Allan Burns & Gene Reynolds|CBS||The Mary Tyler Moore spin-off that became a newspaper drama.
+### Variety, Sketch & Talk Pioneers
+Your Show of Shows|1950–1954|Sid Caesar & Max Liebman|NBC|*|Sid Caesar's writers' room: Mel Brooks, Carl Reiner, Neil Simon. The Dick Van Dyke Show is based on it.
+The Ernie Kovacs Show|1952–1956|Ernie Kovacs|NBC/CBS|*|The first person to treat TV as an art medium. Surreal visual jokes.
+The Steve Allen Show|1956–1960|Steve Allen|NBC||The template for Letterman's anti-comedy.
+The Smothers Brothers Comedy Hour|1967–1969|Tom & Dick Smothers|CBS||Countercultural variety, cancelled for its politics.
+The Carol Burnett Show|1967–1978|Carol Burnett|CBS||The last great variety show; the Korman and Conway breaks are live-TV improvisation, Curb's method before Curb.
+The Dick Cavett Show|1968–1974|Dick Cavett|ABC|*|The literate talk show: Lennon, Bergman, Hendrix, Groucho, Mailer vs Vidal.
+### Classic Drama & Anthology
+Route 66|1960–1964|Stirling Silliphant & Herbert B. Leonard|CBS|*|Two drifters in a Corvette; Kerouac on network TV.
+Alfred Hitchcock Presents|1955–1962|Alfred Hitchcock|CBS/NBC||Hitchcock's dry intros are a one-man anti-comedy act; the anthology feeds The Twilight Zone and Inside No. 9.
+The Fugitive|1963–1967|Roy Huggins|ABC||The first series finale the whole country watched; the endings thread starts here.
+Peter Gunn|1958–1961|Blake Edwards|NBC/ABC||Cool jazz noir; Mancini's theme.
+The Defenders|1961–1965|Reginald Rose|CBS||Twelve Angry Men's writer on courtroom ethics.
+Dragnet|1951–1959|Jack Webb|NBC||Jack Webb's flat delivery is the root of deadpan police comedy; Police Squad! and Square One's Mathnet both parody it.
+Kung Fu|1972–1975|Ed Spielman|ABC||Taoist parables in the Old West; Alan Watts territory.
+
+## 11. British, Irish & Commonwealth Comedy
+@ Where cringe and absurdism came from, and where they still live.
+### Britain and Ireland
+Hancock's Half Hour|1956–1961|Ray Galton & Alan Simpson|BBC||The root of British sitcom.
+Steptoe and Son|1962–1974|Ray Galton & Alan Simpson|BBC||The original of Sanford and Son; much darker.
+Yes Minister|1980–1988|Antony Jay & Jonathan Lynn|BBC||Bureaucracy as a perfect machine for doing nothing.
+The Young Ones|1982–1984|Rik Mayall, Ben Elton & Lise Mayer|BBC||Punk sitcom anarchy.
+Blackadder|1983–1989|Richard Curtis, Rowan Atkinson & Ben Elton|BBC|S|History as farce. Blackadder Goes Forth ends in the trenches, and it's devastating.
+Father Ted|1995–1998|Graham Linehan & Arthur Mathews|Channel 4|*|Three priests exiled to an island. Absurdism at its silliest.
+I'm Alan Partridge|1997–2002|Steve Coogan, Armando Iannucci & Peter Baynham|BBC|*|A local radio host with no self-awareness. The cringe masterpiece.
+The Royle Family|1998–2000|Caroline Aherne & Craig Cash|BBC||A family on a couch. Nothing happens, and that's the joke.
+The League of Gentlemen|1999–2002|Jeremy Dyson, Mark Gatiss, Steve Pemberton & Reece Shearsmith|BBC||A small town as a horror show.
+Spaced|1999–2001|Simon Pegg & Jessica Hynes|Channel 4||Edgar Wright directs a slacker sitcom like an action film.
+Black Books|2000–2004|Dylan Moran & Graham Linehan|Channel 4||A drunk misanthrope runs a bookshop. An anti-library with a till.
+Nighty Night|2004–2005|Julia Davis|BBC||A sociopath in the suburbs; extremely dark.
+The Mighty Boosh|2004–2007|Julian Barratt & Noel Fielding|BBC||Psychedelic, musical, absurd.
+Garth Marenghi's Darkplace|2004|Matthew Holness & Richard Ayoade|Channel 4|*|A fake lost 80s horror show; every bad acting choice is deliberate.
+Nathan Barley|2005|Chris Morris & Charlie Brooker|Channel 4||Hipster media idiocy, ahead of its time.
+The Thick of It|2005–2012|Armando Iannucci|BBC|*|Government as screaming panic. Malcolm Tucker's swearing is poetry.
+Him & Her|2010–2013|Stefan Golaszewski|BBC||A couple who barely leave bed.
+Rev.|2010–2014|Tom Hollander & James Wood|BBC||An inner-city vicar losing faith.
+The Trip|2010–2020|Michael Winterbottom|BBC||Coogan and Brydon eat, do impressions and face mortality.
+Toast of London|2012–2020|Matt Berry & Arthur Mathews|Channel 4||A vain actor; Matt Berry's voice.
+Inside No. 9|2014–2024|Reece Shearsmith & Steve Pemberton|BBC|*|A new half-hour story every week, all twists. Comedy and horror.
+Detectorists|2014–2022|Mackenzie Crook|BBC|*|Two men with metal detectors. The most peaceful show on TV.
+People Just Do Nothing|2014–2018|Allan Mustafa, Hugo Chegwin, Steve Stamp et al.|BBC||Mockumentary pirate radio.
+This Country|2017–2020|Daisy May Cooper & Charlie Cooper|BBC||Rural boredom, mockumentary.
+Stath Lets Flats|2018–2021|Jamie Demetriou|Channel 4||A clueless letting agent.
+Derry Girls|2018–2022|Lisa McGee|Channel 4||Teenagers during the Troubles.
+Green Wing|2004–2007|Victoria Pile|Channel 4||A hospital as surreal sketch; the House shelf's comedy twin.
+Knowing Me Knowing You with Alan Partridge|1994|Steve Coogan, Armando Iannucci & Patrick Marber|BBC||The fake chat show that preceded I'm Alan Partridge. Larry Sanders' British cousin.
+Marion and Geoff|2000–2003|Rob Brydon & Hugo Blick|BBC||Rob Brydon alone in his car, monologuing about a marriage he hasn't noticed is over. Joe Pera's tragic ancestor.
+Jeeves and Wooster|1990–1993|Clive Exton (from P.G. Wodehouse)|ITV||Fry and Laurie do Wodehouse. The book pass just added Wodehouse; Hugh Laurie before House.
+Ghosts|2019–2023|Mathew Baynton, Simon Farnaby, Martha Howe-Douglas, Jim Howick, Laurence Rickard & Ben Willbond|BBC||A house full of ghosts from every century; gentle, about death. The Horrible Histories troupe.
+Psychoville|2009–2011|Reece Shearsmith & Steve Pemberton|BBC||Shearsmith and Pemberton between League of Gentlemen and Inside No. 9.
+Human Remains|2000|Rob Brydon & Julia Davis|BBC||Brydon and Julia Davis as six awful couples.
+Saxondale|2006–2007|Steve Coogan & Neil Maclennan|BBC||Coogan as an ex-roadie pest controller. For the music list's spirit.
+Chewing Gum|2015–2017|Michaela Coel|Channel 4||Michaela Coel before I May Destroy You.
+We Are Lady Parts|2021–|Nida Manzoor|Channel 4||A Muslim women's punk band. Music list.
+Mum|2016–2019|Stefan Golaszewski|BBC||Stefan Golaszewski; a widow's year, in a kitchen. Grief as sitcom.
+Bottom|1991–1995|Rik Mayall & Adrian Edmondson|BBC||Mayall and Edmondson in violent squalor.
+Upstart Crow|2016–2020|Ben Elton|BBC||Ben Elton's Shakespeare sitcom; for the Blackadder fan.
+The IT Crowd|2006–2013|Graham Linehan|Channel 4||Linehan's basement.
+Would I Lie to You?|2007–|Peter Holmes & Ruth Phillips|BBC||The panel show as an art form.
+A Very Peculiar Practice|1986–1988|Andrew Davies|BBC||A campus medical practice with nuns in the bushes.
+Horrible Histories|2009–|Terry Deary (books); Caroline Norris|CBBC||History sketches for kids that adults watch.
+### Canada, Australia and New Zealand
+Slings & Arrows|2003–2006|Susan Coyne, Bob Martin & Mark McKinney|Showcase|*|A Canadian Shakespeare festival, haunted by its old director. Three seasons, three plays, perfect.
+Twitch City|1998–2000|Bruce McDonald & Don McKellar|CBC||A shut-in who only watches TV.
+Trailer Park Boys|2001–2018|Mike Clattenburg|Showcase/Netflix||Mockumentary petty crime in Nova Scotia.
+Letterkenny|2016–2023|Jared Keeso|Crave/Hulu||Rural Canadian banter at Shakespearean speed.
+Frontline|1994–1997|Rob Sitch, Santo Cilauro, Tom Gleisner & Jane Kennedy|ABC (Australia)||A TV newsroom satire that the world's newsrooms copied.
+Kath & Kim|2002–2007|Jane Turner & Gina Riley|ABC (Australia)||Suburban vanity.
+Summer Heights High|2007|Chris Lilley|ABC (Australia)||One man plays every character.
+Flight of the Conchords|2007–2009|Bret McKenzie, Jemaine Clement & James Bobin|HBO||Two shy Kiwi musicians in New York.
+Please Like Me|2013–2016|Josh Thomas|ABC (Australia)||Coming of age, mental illness and chickens.
+
+This Hour Has 22 Minutes|1993–|Mary Walsh|CBC||Where Fielder started. Canadian news satire.
+Taskmaster|2015–|Alex Horne|Dave/Channel 4||Comedians given absurd tasks, judged by Greg Davies. Fielder-like without the cruelty.
+The Newsroom|1996–2005|Ken Finkleman|CBC||Ken Finkleman's Larry Sanders in a newsroom. Not the Sorkin one.
+The Red Green Show|1991–2006|Steve Smith & Rick Green|CBC/PBS||Duct tape, Possum Lodge, the men's prayer. Newhart-gentle.
+The Games|1998–2000|Rob Sitch, Santo Cilauro, Tom Gleisner & Jane Kennedy|ABC Australia||A mockumentary of the Sydney Olympics organizers, three years before The Office.
+Utopia (Australia)|2014–|Rob Sitch, Santo Cilauro & Tom Gleisner|ABC Australia||Working Dog on infrastructure bureaucracy; Yes Minister's heir.
+Rake|2010–2018|Peter Duncan, Richard Roxburgh & Charles Waterstreet|ABC Australia||A brilliant, self-destructive barrister. House and Cracker's cousin.
+Degrassi Junior High|1987–1989|Linda Schuyler & Kit Hood|CBC||The honest teen show; I was the age.
+Orphan Black|2013–2017|Graeme Manson & John Fawcett|Space/BBC America||Tatiana Maslany as every clone.
+Fisk|2021–|Kitty Flanagan & Vincent Sheehan|ABC Australia||A dry probate lawyer.
+Aunty Donna's Big Ol' House of Fun|2020|Mark Bonanno, Broden Kelly & Zachary Ruane|Netflix||Australian absurdism, ITYSL-adjacent.
+Wilfred|2007–2010|Jason Gann & Adam Zwar|SBS||The original; a man in a dog suit.
+## 12. World TV
+@ Television's best from beyond the English-speaking world.
+### Scandinavia
+The Kingdom|1994–2022|Lars von Trier|DR|*|A haunted Copenhagen hospital. Von Trier's soap opera, with ghosts.
+The Killing (Forbrydelsen)|2007–2012|Søren Sveistrup|DR||The Nordic noir benchmark.
+Borgen|2010–2022|Adam Price|DR||Danish coalition politics, gripping.
+The Bridge|2011–2018|Hans Rosenfeldt|SVT/DR||A body on the Øresund Bridge.
+Norsemen|2016–2020|Jon Iver Helgaker & Jonas Torgersen|NRK||Vikings as office comedy.
+Klovn|2005–2018|Casper Christensen & Frank Hvam|TV2 Denmark|*|Denmark's Curb, explicitly; Frank Hvam and Casper Christensen as themselves. The films are worse-behaved still.
+Real Humans|2012–2014|Lars Lundström|SVT||Swedish androids; the source of Humans.
+Lilyhammer|2012–2014|Anne Bjørnstad & Eilif Skodvin|NRK/Netflix||Steven Van Zandt's Sopranos gangster hides in Norway.
+Beforeigners|2019–2021|Anne Bjørnstad & Eilif Skodvin|HBO Nordic||Time-displaced migrants from the Viking age in Oslo.
+### France and Belgium
+The Returned (Les Revenants)|2012–2015|Fabrice Gobert|Canal+|*|The dead come home to a mountain town, as if nothing happened. Mogwai's score.
+The Bureau (Le Bureau des Légendes)|2015–2020|Éric Rochant|Canal+|*|French spies who live false identities. The best spy show ever made.
+Spiral (Engrenages)|2005–2020|Alexandra Clert & Guy-Patrick Sainderichin|Canal+||Paris police and courts, grimy and real.
+Call My Agent! (Dix pour cent)|2015–2020|Fanny Herrero|France 2||Talent agents juggling real French stars.
+P'tit Quinquin|2014|Bruno Dumont|Arte||A rural murder mystery and something much weirder.
+En thérapie|2021–2022|Éric Toledano & Olivier Nakache|Arte||The French In Treatment, set after the Bataclan.
+Kaamelott|2005–2009|Alexandre Astier|M6||King Arthur's court as short sketch sitcom; France's Python.
+Au service de la France|2015–2018|Jean-François Halin, Claire Lemaréchal & Jean-André Yerlès|Arte||A 1960 French spy bureau as satire; The Bureau's comic twin.
+L'Effondrement|2019|Les Parasites (Guillaume Desjardins, Jérémy Bernard & Bastien Ughetto)|Canal+||Eight single-take episodes of society collapsing.
+Bref.|2011–2012, 2025|Kyan Khojandi & Bruno Muschio|Canal+||Two-minute episodes of a Parisian's life, cut like a machine gun.
+Hippocrate|2018–|Thomas Lilti|Canal+||Junior doctors in a Paris hospital. The House shelf.
+Un village français|2009–2017|Frédéric Krivine, Philippe Triboit & Emmanuel Daucé|France 3||The Occupation across seven seasons; nobody clean.
+Les Shadoks|1968–2000|Jacques Rouxel|ORTF||Absurdist animated shorts that baffled France; proto-Adult Swim.
+Hotel Beau Séjour|2017|Nathalie Basteyns & Kaat Beels|Eén||A dead Flemish girl investigates her own murder.
+### Germany and Italy
+Crime Scene Cleaner (Der Tatortreiniger)|2011–2018|Mizzi Meyer (Ingrid Lausund)|NDR|*|A man who cleans murder scenes has philosophical chats with whoever turns up. Small and brilliant.
+Babylon Berlin|2017–2025|Tom Tykwer, Achim von Borries & Henk Handloegten|Sky/ARD||Weimar Berlin, decadent and doomed.
+Deutschland 83|2015–2020|Anna & Jörg Winger|RTL/Amazon||An East German spy in the West, with 80s pop.
+Heimat|1984|Edgar Reitz|ARD||Germany's 20th century through one village.
+Berlin Alexanderplatz|1980|Rainer Werner Fassbinder|WDR||Döblin's novel over fifteen hours.
+My Brilliant Friend|2018–2024|Saverio Costanzo|HBO/RAI|*|Elena Ferrante's Neapolitan novels, faithfully told, in dialect.
+The Young Pope|2016|Paolo Sorrentino|Sky/HBO|*|Jude Law as an American pope who may not believe in God. Surreal and grand.
+Gomorrah|2014–2021|Roberto Saviano (from his book)|Sky Italia||The Camorra, without glamour.
+### Eastern Europe and Russia
+Dekalog|1989|Krzysztof Kieślowski|TVP|*|Ten hours, one for each commandment, in a Warsaw housing block.
+Seventeen Moments of Spring|1973|Tatyana Lioznova|Soviet TV||The Soviet spy epic everyone in Russia still quotes.
+The Master and Margarita|2005|Vladimir Bortko|Rossiya||Bulgakov's novel, faithfully adapted in ten episodes.
+Burning Bush|2013|Agnieszka Holland|HBO Europe||Jan Palach's self-immolation and its aftermath.
+Alternatywy 4|1983|Stanisław Bareja|TVP||Stanisław Bareja's Warsaw apartment block as a satire of communism. Dekalog's comic neighbor, same kind of building.
+Top lista nadrealista|1984–1991|Nele Karajlić & Zenit Đozić|TV Sarajevo||Surrealist sketch show that satirized the war before it came.
+The Meeting Place Cannot Be Changed|1979|Stanislav Govorukhin (from the Vayner brothers)|Soviet TV||Vysotsky as a postwar Moscow detective; the most loved Soviet series. Vysotsky belongs on the music list, next to Waits.
+### Israel
+BeTipul|2005–2008|Hagai Levi|HOT||The original therapy show In Treatment adapted.
+Prisoners of War (Hatufim)|2009–2012|Gideon Raff|Channel 2||The source of Homeland, quieter and better.
+Shtisel|2013–2021|Ori Elon & Yehonatan Indursky|yes||A Haredi family in Jerusalem. Gentle, funny, about faith and desire.
+Our Boys|2019|Hagai Levi, Joseph Cedar & Tawfik Abu-Wael|HBO/Keshet||Hagai Levi on the 2014 murder of a Palestinian teenager. Hard.
+Arab Labor|2007–2013|Sayed Kashua|Channel 2||Sayed Kashua's Arab-Israeli sitcom.
+Autonomies|2018|Yehonatan Indursky & Ori Elon|HOT||An alternate Israel split into secular and ultra-Orthodox states.
+### Latin America and Spain
+One Hundred Years of Solitude|2024–|José Rivera & Natalia Santa (writers)|Netflix|*|García Márquez's novel, shot in Colombia in Spanish.
+Okupas|2000|Bruno Stagnaro|Canal 7||Buenos Aires squatters; a cult classic.
+City of Men (Cidade dos Homens)|2002–2005|Fernando Meirelles & Kátia Lund|Globo||The City of God team's TV follow-up.
+The Ministry of Time (El Ministerio del Tiempo)|2015–2020|Javier & Pablo Olivares|TVE||A Spanish bureaucracy that guards history.
+30 Coins|2020–2023|Álex de la Iglesia & Jorge Guerricaechevarría|HBO Europe||Álex de la Iglesia; a Vatican conspiracy over Judas's silver. RAW-grade.
+Los Simuladores|2002–2003|Damián Szifron|Telefe||Four men stage elaborate cons to solve ordinary people's problems. Argentina's Nathan for You, scripted.
+El Chavo del Ocho|1973–1980|Roberto Gómez Bolaños (Chespirito)|Televisa||The most-watched sitcom in the Spanish-speaking world; Chespirito's orphan in a barrel.
+Nobody's Looking|2019|Daniel Rezende|Netflix Brazil||An angel bureaucracy; God, death and meaning as office comedy.
+Narcos|2015–2017|Chris Brancato, Carlo Bernard & Doug Miro|Netflix||Escobar; the Breaking Bad line. Likely seen.
+### Japan: Anime
+Neon Genesis Evangelion|1995–1996|Hideaki Anno|TV Tokyo|*|A robot show that collapses into a breakdown about depression and self.
+Serial Experiments Lain|1998|Chiaki J. Konaka & Ryūtarō Nakamura|TV Tokyo|*|A girl, the Wired, and the end of the boundary between mind and network. Pure consciousness-studies.
+Cowboy Bebop|1998|Shinichirō Watanabe|TV Tokyo/WOWOW|*|Space bounty hunters, jazz, and regret.
+Samurai Champloo|2004–2005|Shinichirō Watanabe|Fuji TV||Edo Japan with hip-hop.
+Paranoia Agent|2004|Satoshi Kon|WOWOW|*|A boy with a bat attacks people, and a city's collective mind comes undone.
+Ghost in the Shell: Stand Alone Complex|2002–2005|Kenji Kamiyama|Animax||Copies without originals; mind and machine.
+Mushishi|2005–2014|Hiroshi Nagahama|Fuji TV||A wandering healer and quiet nature spirits.
+Monster|2004–2005|Masayuki Kojima|Nippon TV||A surgeon saves a boy who grows up a killer. Moral thriller.
+The Tatami Galaxy|2010|Masaaki Yuasa|Fuji TV|*|A student relives his college years over and over, choosing different clubs. Vonnegut through a kaleidoscope.
+Kaiba|2008|Masaaki Yuasa|WOWOW||Memories can be bought and sold. Looks like Osamu Tezuka, feels like Philip K. Dick.
+Ping Pong the Animation|2014|Masaaki Yuasa|Fuji TV||A sports show about talent and loneliness.
+Haibane Renmei|2002|Yoshitoshi ABe|Fuji TV||Angel-like beings in a walled town; an allegory of the afterlife.
+FLCL|2000–2001|Kazuya Tsurumaki|Gainax||Six episodes of adolescence as an explosion.
+Odd Taxi|2021|Kazuya Konomoto (writer)|TV Tokyo||A walrus cab driver and a city's interlocking secrets. Tight and witty.
+Sonny Boy|2021|Shingo Natsume|AT-X||Students drift through dimensions. Lonely and lovely.
+Frieren: Beyond Journey's End|2023–|Keiichirō Saitō (director)|Nippon TV||An elf outlives her friends and learns what the time meant.
+Legend of the Galactic Heroes|1988–1997|Noboru Ishiguro|Tokuma||110 episodes on democracy vs. enlightened tyranny. A space Thucydides.
+Welcome to the N.H.K.|2006|Yusuke Yamamoto (from Tatsuhiko Takimoto)|||A shut-in believes a conspiracy made him one. Robert Anton Wilson's paranoia as anime comedy.
+Steins;Gate|2011|Hiroshi Hamasaki & Takuya Satō|||A microwave that sends texts to the past; free will and fate, my deepest thread.
+Puella Magi Madoka Magica|2011|Akiyuki Shinbo & Gen Urobuchi|||A magical-girl show that becomes a Faustian time loop about entropy.
+Planetes|2003–2004|Gorō Taniguchi (from Makoto Yukimura)|||Orbital debris collectors; the most grounded sci-fi anime, humane like Vonnegut.
+Mononoke|2007|Kenji Nakamura|||A medicine seller exorcises spirits in ukiyo-e psychedelia.
+Space Dandy|2014|Shinichirō Watanabe|||Watanabe; each episode a different universe and style; physics jokes.
+Kids on the Slope|2012|Shinichirō Watanabe|||Watanabe; jazz and friendship in 1966 Japan. For the music list.
+Devilman Crybaby|2018|Masaaki Yuasa|||Yuasa's apocalypse.
+Mob Psycho 100|2016–2022|Yuzuru Tachikawa (from ONE)|||A psychic kid who decides being special doesn't matter.
+Vinland Saga|2019–|Shūhei Yabuta (from Makoto Yukimura)|||Revenge, then pacifism. For the war shelf.
+Pop Team Epic|2018–|Jun Aoki (from Bkub Okawa)|||Anti-comedy anime; Japan's Tim and Eric.
+Aggretsuko|2018–2023|Rarecho|||Office rage sung as death metal.
+Nichijou|2011|Tatsuya Ishihara (from Keiichi Arawi)|||Everyday life at Kovacs-level visual absurdity.
+Texhnolyze|2003|Hiroshi Hamasaki & Chiaki J. Konaka|||The Lain team, bleaker.
+### Japan: Live Action
+Midnight Diner (Shinya Shokudō)|2009–|Joji Matsuoka|MBS/Netflix||A late-night diner's regulars, one dish per story.
+Solitary Gourmet (Kodoku no Gurume)|2012–|Masayuki Kusumi|TV Tokyo||A salesman eats lunch alone, and narrates his thoughts. Meditative.
+Hibana: Spark|2016|Hiroshi Okuyama et al. (from Naoki Matayoshi)|Netflix Japan||Two manzai comedians over ten years, from Naoki Matayoshi's novel. A show about comedy as a way of thinking.
+### Korea
+My Mister|2018|Park Hae-young|tvN|*|A worn-out engineer and a young woman who's spying on him. The great Korean drama.
+Reply 1988|2015–2016|Lee Woo-jung|tvN||A Seoul alley's families in 1988.
+Move to Heaven|2021|Yoon Ji-ryun|Netflix||Trauma cleaners who finish the dead's last tasks. Six Feet Under's cousin.
+Signal|2016|Kim Eun-hee|tvN||Detectives across time via a walkie-talkie.
+Stranger (Secret Forest)|2017–2020|Lee Soo-yeon|tvN||A prosecutor without emotions.
+Kingdom|2019–2020|Kim Eun-hee|Netflix||Zombies in the Joseon court.
+Squid Game|2021–2025|Hwang Dong-hyuk|Netflix||Debt as a deadly playground game.
+Pachinko|2022–2024|Soo Hugh|Apple TV||Min Jin Lee's novel of a Korean family in Japan.
+Misaeng: Incomplete Life|2014|Jung Yoon-jung|tvN||A failed Go player becomes an office temp. The best workplace drama Korea has made.
+Prison Playbook|2017|Jung Bo-hoon|tvN||A star pitcher does a year in prison; warm, funny ensemble.
+Mr. Sunshine|2018|Kim Eun-sook|tvN||A Korean-born US Marine returns to Joseon at the dawn of empire. Lavish and sad.
+Hospital Playlist|2020–2021|Lee Woo-jung|tvN||Five doctor friends who play in a band. The gentle opposite of House.
+Beyond Evil|2021|Kim Su-jin|JTBC|*|Two cops, each suspecting the other of being a serial killer. A great Korean thriller in miniseries form.
+D.P.|2021–2023|Han Jun-hee|Netflix|*|Military police hunting deserters. Catch-22's cruelty played straight.
+Hellbound|2021–2024|Yeon Sang-ho|Netflix|*|Angels announce people's damnation, then demons carry it out. A cult grows around it. Pure God, death and meaning.
+Our Blues|2022|Noh Hee-kyung|tvN||Linked stories on Jeju Island. Bittersweet and humane.
+The Glory|2022–2023|Kim Eun-sook|Netflix||A long, cold revenge on school bullies.
+Extraordinary Attorney Woo|2022|Moon Ji-won|ENA||An autistic lawyer and her cases. Light and charming.
+When Life Gives You Tangerines|2025|Lim Sang-choon|Netflix||One Jeju woman's life over fifty years. A national weeper.
+The Little Drummer Girl|2018|Michael Lesslie & Claire Wilson; Park Chan-wook|BBC/AMC||Park Chan-wook directs le Carré. Every frame lush.
+### China, Taiwan and Hong Kong
+The Bad Kids|2020|Xin Shuang (director)|iQIYI||Kids film a murder by accident. A taut 12-episode thriller.
+Blossoms Shanghai|2023|Wong Kar-wai|Tencent||Wong Kar-wai's first series: 1990s Shanghai and the stock boom.
+### India
+Sacred Games|2018–2019|Vikramaditya Motwane & Anurag Kashyap|Netflix||Vikram Chandra's Mumbai crime epic.
+Scam 1992|2020|Hansal Mehta|SonyLIV||A stockbroker who rigged India's market.
+Panchayat|2020–|The Viral Fever|Amazon||An engineer stuck as a village clerk. Gentle comedy.
+Delhi Crime|2019–|Richie Mehta|Netflix||The 2012 bus case, as procedure.
+### Africa
+Kizazi Moto: Generation Fire|2023|Peter Ramsey (executive producer)|Disney+||Afrofuturist animated shorts from across the continent.
+
+Iwájú|2024|Olufikayo Ziki Adeola; Kugali & Disney|Disney+||Lagos, animated by Kugali.
+### Germany, Austria and Italy
+Boris|2007–2022|Luca Vendruscolo, Mattia Torre & Giacomo Ciarrapico|Fox Italia/Disney+|*|An Italian crew makes a terrible TV show. Larry Sanders in Rome; a cult.
+Stromberg|2004–2012|Ralf Husmann|ProSieben|*|Germany's Office, with its own monster of a boss.
+Inspector Montalbano|1999–2021|Alberto Sironi (from Andrea Camilleri)|RAI|*|Camilleri's Sicilian detective, with lunch.
+Esterno Notte|2022|Marco Bellocchio|RAI||Bellocchio on the Aldo Moro kidnapping.
+M – Son of the Century|2025|Joe Wright (from Antonio Scurati)|Sky||Joe Wright does Mussolini to camera. Pairs with Andor.
+Braunschlag|2012|David Schalko|ORF||An Austrian village fakes a Virgin Mary apparition to attract pilgrims. Faith as farce.
+## 13. Limited Series & TV Novels
+@ One-and-done stories, adapted novels and miniseries. Many are from books on my shelf.
+The Singing Detective|1986|Dennis Potter|BBC|*|A crime writer in a hospital bed, his mind slipping between his life, his novel, and 1940s songs.
+Pennies from Heaven|1978|Dennis Potter|BBC||Potter's lip-sync musical of Depression England.
+I, Claudius|1976|Jack Pulman (from Robert Graves)|BBC||Rome's emperors as a family horror show.
+Tinker Tailor Soldier Spy|1979|Arthur Hopcraft (from John le Carré)|BBC||Alec Guinness as Smiley.
+Boys from the Blackstuff|1982|Alan Bleasdale|BBC||Unemployment in Thatcher's Liverpool.
+The Jewel in the Crown|1984|Ken Taylor (from Paul Scott)|ITV||The end of the Raj.
+Edge of Darkness|1985|Troy Kennedy Martin|BBC||A grieving detective uncovers a nuclear conspiracy that turns mystical.
+Scenes from a Marriage|1973|Ingmar Bergman|SVT|*|Bergman's anatomy of a marriage, six hours.
+Roots|1977|William Blinn et al. (from Alex Haley)|ABC||Still the most-watched miniseries in US history; the format's origin.
+Lonesome Dove|1989|William D. Wittliff (from Larry McMurtry)|CBS||The great cattle-drive western.
+Our Friends in the North|1996|Peter Flannery|BBC||Four friends across 30 years of British politics.
+Band of Brothers|2001|Steven Spielberg & Tom Hanks (producers)|HBO||Easy Company from D-Day to the end.
+Angels in America|2003|Tony Kushner; Mike Nichols|HBO|*|Kushner's AIDS-era epic about angels, Roy Cohn and America.
+Bleak House|2005|Andrew Davies (from Dickens)|BBC||Dickens as fast-cut soap.
+Generation Kill|2008|David Simon & Ed Burns|HBO|*|Marines in the 2003 Iraq invasion. Catch-22 logic, real profanity.
+Olive Kitteridge|2014|Jane Anderson (from Elizabeth Strout)|HBO||Frances McDormand as a hard Maine woman.
+Wolf Hall|2015|Peter Straughan (from Hilary Mantel)|BBC||Cromwell, lit by candles.
+Show Me a Hero|2015|David Simon & William F. Zorzi|HBO||Yonkers housing politics; The Wire's spirit in six hours.
+The Night Of|2016|Richard Price & Steven Zaillian|HBO|*|One night, one arrest; the justice system slowly devours a kid.
+Patrick Melrose|2018|David Nicholls (from Edward St Aubyn)|Showtime/Sky||Benedict Cumberbatch as an addict aristocrat.
+Chernobyl|2019|Craig Mazin|HBO|*|"What is the cost of lies?"
+Catch-22|2019|Luke Davies & David Michôd (from Joseph Heller)|Hulu|*|Heller's novel as a miniseries. The closest literary cousin to Billy Pilgrim.
+Watchmen|2019|Damon Lindelof|HBO||A sequel to the comic about Tulsa and racial violence.
+I May Destroy You|2020|Michaela Coel|BBC/HBO|*|Memory, consent, and a writer's life after an assault. Formally daring.
+Normal People|2020|Sally Rooney & Alice Birch; Lenny Abrahamson|BBC/Hulu||Sally Rooney.
+Station Eleven|2021|Patrick Somerville (from Emily St. John Mandel)|HBO Max|*|Shakespeare after the end. A pandemic show about why art matters.
+Beef|2023|Lee Sung Jin|Netflix||A road-rage feud spirals out of control.
+Baby Reindeer|2024|Richard Gadd|Netflix||A comedian's real stalker story; very uncomfortable.
+Ripley|2024|Steven Zaillian (from Patricia Highsmith)|Netflix|*|Black and white, Caravaggio, a con man in Italy. Every frame a photograph.
+The Sympathizer|2024|Park Chan-wook & Don McKellar (from Viet Thanh Nguyen)|HBO||Vietnam spy satire; Robert Downey Jr. plays four parts.
+Adolescence|2025|Jack Thorne & Stephen Graham|Netflix||Four episodes, each one unbroken take.
+
+The Plot Against America|2020|David Simon & Ed Burns (from Philip Roth)|HBO||Simon adapts Roth's alternate history. Pairs with Andor on how fascism arrives.
+House of Cards|1990|Andrew Davies (from Michael Dobbs)|BBC||Ian Richardson's Francis Urquhart to camera. The British original.
+State of Play|2003|Paul Abbott|BBC||Paul Abbott's journalism thriller in six hours.
+Red Riding|2009|Tony Grisoni (from David Peace)|Channel 4||Three films from David Peace's Yorkshire noir. True Detective's model.
+Blue Remembered Hills|1979|Dennis Potter|BBC||Dennis Potter; adults play seven-year-olds in wartime. Potter's third entry on the list.
+Threads|1984|Barry Hines; Mick Jackson|BBC||A nuclear attack on Sheffield; the most frightening thing British TV made. It's a TV film and belongs with Slaughterhouse-Five's firestorm.
+GBH|1991|Alan Bleasdale|Channel 4||Alan Bleasdale's political breakdown with Robert Lindsay.
+## 14. Documentary & Nonfiction TV
+@ Essays, science and true stories over many hours.
+Cosmos: A Personal Voyage|1980|Carl Sagan, Ann Druyan & Steven Soter|PBS|*|The original. Still the best hour-by-hour tour of the universe.
+Connections|1978|James Burke|BBC|*|How one invention leads to another; history as a Rube Goldberg machine.
+The Day the Universe Changed|1985|James Burke|BBC||How changes in knowledge change reality.
+The Ascent of Man|1973|Jacob Bronowski|BBC||Science as the human story.
+Ways of Seeing|1972|John Berger|BBC|*|Four short episodes that change how you look at any image.
+The Power of Myth|1988|Joseph Campbell & Bill Moyers|PBS|*|Campbell on myth, meaning and following your bliss.
+The Elegant Universe|2003|Brian Greene (NOVA)|PBS|*|Greene's string-theory book, on screen.
+The Fabric of the Cosmos|2011|Brian Greene (NOVA)|PBS||Space, time, and the multiverse.
+Closer to Truth|2000–|Robert Lawrence Kuhn|PBS||Interviews with physicists and philosophers on consciousness, God and the cosmos.
+The World at War|1973|Jeremy Isaacs|ITV||The definitive WWII documentary, narrated by Laurence Olivier.
+The Civil War|1990|Ken Burns|PBS||Ken Burns' method, defined: photographs, letters, a fiddle.
+Jazz|2001|Ken Burns|PBS||Burns on the music; for the album list's jazz shelf.
+Eyes on the Prize|1987|Henry Hampton|PBS||The civil rights movement.
+The Up Series|1964–2019|Paul Almond & Michael Apted|ITV|*|The same British kids filmed every seven years, from 7 to 63.
+An American Family|1973|Craig Gilbert|PBS||The first reality TV; the Louds of Santa Barbara. The Rehearsal's great-grandparent.
+The Century of the Self|2002|Adam Curtis|BBC|*|How Freud's ideas built consumer culture. Curtis's best.
+All Watched Over by Machines of Loving Grace|2011|Adam Curtis|BBC||Named for the Brautigan poem; cybernetics and the dream of balance.
+Can't Get You Out of My Head|2021|Adam Curtis|BBC||Six hours on why everyone feels lost. Robert Anton Wilson would have something to say.
+Wormwood|2017|Errol Morris|Netflix|*|The CIA, LSD and a death in 1953. Documentary and drama woven together.
+Wild Wild Country|2018|Maclain & Chapman Way|Netflix||Rajneesh's commune takes over an Oregon town.
+The Staircase|2004|Jean-Xavier de Lestrade|Canal+||The original true-crime docuseries.
+The Jinx|2015|Andrew Jarecki|HBO||Ends with one of the most shocking moments in TV history.
+O.J.: Made in America|2016|Ezra Edelman|ESPN|*|Eight hours on race, fame and Los Angeles. Won the Oscar as a film.
+The Beatles: Get Back|2021|Peter Jackson|Disney+||Eight hours watching songs being written.
+Anthony Bourdain: Parts Unknown|2013–2018|Anthony Bourdain|CNN||A writer's travel show.
+
+Couples Therapy|2019–|Josh Kriegman, Elyse Steinberg & Eli Despres|Showtime|*|Real sessions with Orna Guralnik. In Treatment, documented.
+Fun to Imagine|1983|Richard Feynman; Christopher Sykes|BBC|*|Richard Feynman explains rubber bands, fire and magnets in six short episodes. My physics shelf's best hour.
+Alan Watts: Eastern Wisdom and Modern Life|1959–1960|Alan Watts|KQED|*|Watts in a studio with props, explaining Zen and Taoism. Watts is on my shelf and this is him on TV.
+Hemingway|2021|Ken Burns & Lynn Novick|PBS||Ken Burns; Hemingway is on my shelf.
+Mark Twain|2001|Ken Burns|PBS||Ken Burns; Twain is on the book list.
+Paradise Lost|1996–2011|Joe Berlinger & Bruce Sinofsky|HBO||The West Memphis Three trilogy, scored with Metallica; the true-crime documentary that changed a verdict.
+First Person|2000–2001|Errol Morris|Bravo/IFC||Errol Morris interviews one strange person per episode through his Interrotron.
+HyperNormalisation|2016|Adam Curtis|BBC||Adam Curtis's best for the Robert Anton Wilson reader.
+The Trap|2007|Adam Curtis|BBC||Curtis on game theory, R.D. Laing and what "freedom" came to mean.
+Pandora's Box|1992|Adam Curtis|BBC||Curtis's first series; science and political power.
+The Shock of the New|1980|Robert Hughes|BBC||Robert Hughes on modern art; Ways of Seeing's argumentative cousin.
+Sister Wendy's Story of Painting|1996|Wendy Beckett|BBC||A nun explains painting with startling frankness.
+In Search of...|1977–1982|Alan Landsburg; Leonard Nimoy (host)|syndication||Leonard Nimoy on Bigfoot, Atlantis and ESP. the TV of my Robert Anton Wilson shelf.
+The Private Life of Plants|1995|David Attenborough|BBC||Attenborough; pairs with *The Light Eaters* on my shelf.
+30 for 30|2009–|Bill Simmons & Connor Schell|ESPN||O.J.: Made in America was one of these.
+This American Life|2007–2009|Ira Glass|Showtime||Ira Glass's two TV seasons.
+Unsolved Mysteries|1987–2010|John Cosgrove & Terry Dunn Meurer; Robert Stack|NBC/CBS|S|Robert Stack, then Dennis Farina. The template for every true-crime show since.
+Bitter Lake|2015|Adam Curtis|BBC||Curtis on Afghanistan.
+The Mind of a Chef|2012–2017|David Chang & Anthony Bourdain|PBS||Bourdain narrates.
+### Film on Television
+The Story of Film: An Odyssey|2011|Mark Cousins|More4|*|Mark Cousins' fifteen-hour history. The film list's spine.
+A Personal Journey with Martin Scorsese Through American Movies|1995|Martin Scorsese & Michael Henry Wilson|Channel 4/BFI||Four hours. Pairs with the Ebert shelf.
+My Voyage to Italy|1999|Martin Scorsese|||Scorsese on Italian cinema; four more hours.
+Siskel & Ebert|1975–1999|Gene Siskel & Roger Ebert|PBS/syndication||*Sneak Previews* and *At the Movies*; Ebert's four-star book is on my shelf, and the archive is online.
+Hollywood|1980|Kevin Brownlow & David Gill|Thames||Kevin Brownlow's thirteen hours on the silent era.
+### Music on Television
+Night Music|1988–1990|Hal Willner (producer); David Sanborn & Jools Holland (hosts)|NBC|*|Hal Willner booked Sun Ra next to Sonny Rollins next to Leonard Cohen. The music list on one stage.
+Austin City Limits|1974–|Bill Arhos|PBS||The 1978 Tom Waits episode.
+Later... with Jools Holland|1992–|Jools Holland|BBC||The round-robin studio.
+The Old Grey Whistle Test|1971–1988|Rowan Ayers|BBC||Album rock, live.
+Classic Albums|1997–|Nick de Grunwald & Martin R. Smith|BBC/VH1|*|One album per episode, with the master tapes. For the music list's "start here" picks.
+Soundbreaking|2016|Maro Chermayeff & Jeff Dupre|PBS||Eight hours on the recording studio.
+Long Strange Trip|2017|Amir Bar-Lev|Amazon||Four hours of the Grateful Dead; the psychedelia shelf.
+Behind the Music|1997–|Jeff Gaspin & Gay Rosenthal|VH1||The format that taught my generation how bands end.
+Country Music|2019|Ken Burns|PBS||Burns, sixteen hours. Pairs with Tales from the Tour Bus.
+## 15. TGIF & Saturday Mornings
+@ The comfort food. Seen, and I might find it trashy now. Kept for the record.
+Home Improvement|1991–1999|Matt Williams, Carmen Finestra & David McFadzean|ABC|S|Detroit, Tool Time, the neighbor behind the fence.
+Saved by the Bell|1989–1993|Sam Bobrick|NBC|S|
+Full House|1987–1995|Jeff Franklin|ABC|S|
+Family Matters|1989–1998|William Bickley & Michael Warren|ABC|S|
+Perfect Strangers|1986–1993|Dale McRaven|ABC|S|
+Step by Step|1991–1998|William Bickley & Michael Warren|ABC|S|
+Boy Meets World|1993–2000|Michael Jacobs & April Kelly|ABC|S|The one that holds up best.
+Dinosaurs|1991–1994|Michael Jacobs & Bob Young; Jim Henson Productions|ABC|S|Henson puppets, TGIF, and a finale where the family freezes to death in an ice age. For the TGIF shelf; I probably saw it.
+ALF|1986–1990|Paul Fusco & Tom Patchett|NBC|S|Ends with ALF captured by the military. I saw it.
+
+## 16. Kids' TV That Built the Taste
+@ The shows of childhood that carry the same DNA as the core: backstage vaudeville, suburban melancholy, science in a kitchen, a dog reading the classics.
+Clarissa Explains It All|1991–1994|Mitchell Kriegman|Nickelodeon||Direct address, before Fleabag.
+Animaniacs|1993–1998|Tom Ruegger|Fox/WB|S|Layered gags, Simpsons-dense.
+Invader Zim|2001–2006|Jhonen Vasquez|Nickelodeon||Jhonen Vasquez's alien; too dark for its channel.
+Hey Arnold!|1996–2004|Craig Bartlett|Nickelodeon||A melancholy city kid; jazz score; "Pigeon Man."
+The Muppet Show|1976–1981|Jim Henson|ITV/syndication|*|Vaudeville backstage, with Alice Cooper, Peter Sellers and Steve Martin. Dr. Teeth is Dr. John; Pigs in Space is Star Trek.
+Mister Rogers' Neighborhood|1968–2001|Fred Rogers|PBS||Kidding and Joe Pera both come from here.
+The Adventures of Pete & Pete|1993–1996|Will McRobb & Chris Viscardi|Nickelodeon|*|Suburban melancholy with Iggy Pop and Michael Stipe cameos; the music list in a kids' show.
+You Can't Do That on Television|1979–1990|Roger Price & Geoffrey Darby|CTV/Nickelodeon||Canadian anarchic sketch; the slime; Kids in the Hall for ten-year-olds.
+Fraggle Rock|1983–1987|Jim Henson|HBO||Henson's show about species that don't understand each other, made to end war.
+The Storyteller|1988|Jim Henson & Anthony Minghella|NBC||Henson and Anthony Minghella; John Hurt tells folktales.
+Wishbone|1995–1998|Rick Duffield|PBS||A Jack Russell acts out Great Expectations and the Odyssey. The anti-library for children.
+Mr. Wizard's World|1983–1990|Don Herbert|Nickelodeon||Don Herbert's kitchen physics.
+Square One TV|1987–1992|Children's Television Workshop|PBS||Math sketch comedy; "Mathnet" is Dragnet.
+The Peanuts Specials|1965–|Charles M. Schulz, Bill Melendez & Lee Mendelson|CBS||Schulz's melancholy, Guaraldi's piano. The music list has Guaraldi.
+The Wonder Years|1988–1993|Neal Marlens & Carol Black|ABC|*|Narrated suburbia; see Part 1.
+Reading Rainbow|1983–2006|Twila Liggett & Tony Buttino; LeVar Burton|PBS||LeVar Burton. "But you don't have to take my word for it."
+Salute Your Shorts|1991–1992|Steve Slavkin|Nickelodeon||Camp Anawanna; the sitcom Nick made before it knew how.
+Rocko's Modern Life|1993–1996|Joe Murray|Nickelodeon||Adult jokes smuggled in.
+Doug|1991–1994|Jim Jinkins|Nickelodeon||A kid's journal as voiceover; Quailman.
+Rugrats|1991–2004|Arlene Klasky, Gábor Csupó & Paul Germain|Nickelodeon||The world from a toddler's eye level, drawn by the Simpsons' first animators.
+
+## 17. Stand-Up & Talk: Comedy as Philosophy
+@ Stand-up and talk that does philosophical work: Carlin, Pilkington, Pryor, Wright, Lee. The Comedy as Philosophy shelf, on screen.
+George Carlin's HBO specials|1977–2008|George Carlin|HBO|*|Fourteen specials; *Jammin' in New York* (1992) is the one. Carlin is on my shelf.
+An Idiot Abroad|2010–2012|Ricky Gervais & Stephen Merchant|Sky|*|Karl Pilkington sent around the world by Gervais and Merchant. Pilkington is on my shelf.
+The Ricky Gervais Show|2010–2012|Ricky Gervais, Stephen Merchant & Karl Pilkington|HBO||The animated podcast where Pilkington's monkey-news and head-like-an-orange routines happened.
+George Carlin's American Dream|2022|Judd Apatow & Michael Bonfiglio|HBO||Judd Apatow's two-part documentary.
+The Richard Pryor Show|1977|Richard Pryor|NBC||Four episodes, with Robin Williams and Paul Mooney, before the censors won.
+A Steven Wright Special|1985|Steven Wright|HBO||The root of Mitch Hedberg and every deadpan one-liner comic.
+Stewart Lee's Comedy Vehicle|2009–2016|Stewart Lee|BBC||Stand-up that explains and dismantles itself as it goes.
+Norm Macdonald Has a Show|2018|Norm Macdonald|Netflix||Plus the earlier *Norm Macdonald Live*. Anti-comedy on a talk-show set; the moth joke.
+Everybody's in L.A.|2024|John Mulaney|Netflix||John Mulaney's live week of chaos with Letterman's spirit in it.
+Rothaniel|2022|Jerrod Carmichael; Bill Hader|HBO||Jerrod Carmichael's confession, directed by Bill Hader.
+Bo Burnham: Inside|2021|Bo Burnham|Netflix||A special that's really a one-man series about being alone with a camera.
+The George Carlin Show|1994–1995|Sam Simon & George Carlin|Fox|S|His one sitcom; a note more than a pick.

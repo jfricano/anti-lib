@@ -1,0 +1,224 @@
+# title|hours|watch   (hours: rough total to finish what "watch" recommends; watch: all / seasons 1–3 / one season / episodes)
+Seinfeld|66|all
+The Simpsons|75|seasons 2–9
+Curb Your Enthusiasm|60|all
+House|130|seasons 1–4
+Nathan for You|16|all
+The Rehearsal|10|all
+Breaking Bad|62|all
+Better Call Saul|63|all
+The Sopranos|86|all
+Six Feet Under|63|all
+Detroiters|7|all
+I Think You Should Leave with Tim Robinson|4|all
+The Dick Van Dyke Show|65|seasons 1–3
+The Mary Tyler Moore Show|70|seasons 1–4
+Newhart|75|seasons 1–4 and the finale
+Leave It to Beaver|100|episodes
+Lassie|200|episodes
+I Love Lucy|90|seasons 1–3
+The Larry Sanders Show|45|all
+The Curse|10|all
+The Chair Company|8|all
+How To with John Wilson|9|all
+Review|11|all
+Fishing with John|2|all
+Pluribus|9|all
+Rectify|25|all
+The Wire|60|all
+Mad Men|70|all
+Deadwood|36|all, plus the film
+Fawlty Towers|6|all
+Peep Show|27|all
+Arrested Development|20|seasons 1–3
+BoJack Horseman|38|all
+Barry|16|all
+Lodge 49|20|all
+Patriot|19|all
+Get a Life|17|all
+Fernwood 2 Night|20|episodes
+The Bob Newhart Show|70|seasons 1–3
+Taxi|50|seasons 1–3
+Columbo|110|episodes
+Party Down|15|seasons 1–2
+It's Garry Shandling's Show|35|episodes
+Atlanta|20|all
+Northern Exposure|85|seasons 1–4
+Between Time and Timbuktu|1.5|all
+Who Am I This Time?|1|all
+The Office (UK)|7|all
+The Comeback|11|all
+Tim and Eric Awesome Show, Great Job!|10|episodes
+Nirvanna the Band the Show|7|all
+Joe Pera Talks with You|6|all
+Veep|32|all
+Los Espookys|7|all
+Louis Theroux's Weird Weekends|17|episodes
+Cheers|100|seasons 1–5
+NewsRadio|35|seasons 1–4
+It's Always Sunny in Philadelphia|60|seasons 1–8
+Community|35|seasons 1–3
+Freaks and Geeks|14|all
+Reservation Dogs|14|all
+Police Squad!|2.5|all
+Roseanne|90|seasons 1–5 and the final season
+Futurama|50|seasons 1–4
+King of the Hill|90|seasons 1–7
+The Venture Bros.|35|all
+Moral Orel|7|all
+Undone|6|all
+The Midnight Gospel|4|all
+Pantheon|12|all
+Over the Garden Wall|2|all
+Scavengers Reign|5|all
+The Shield|65|all
+Succession|40|all
+Halt and Catch Fire|40|all
+Fargo|45|seasons 1–2
+True Detective|8|one season
+In Treatment|30|seasons 1–2
+Andor|24|all
+Carnivàle|24|all
+Rubicon|13|all
+The Pitt|15|one season
+The Knick|20|all
+Sherlock Holmes (Granada)|40|episodes
+Cracker|25|all
+Homicide: Life on the Street|90|seasons 1–4
+Mindhunter|19|all
+Happy Valley|18|all
+The Twilight Zone|45|episodes
+The Prisoner|17|all
+Twin Peaks|30|all
+Twin Peaks: The Return|18|all
+Wild Palms|5|all
+Black Mirror|12|episodes
+Dark|26|all
+Devs|8|all
+Severance|19|all
+Mrs. Davis|8|all
+Counterpart|20|all
+Russian Doll|6|one season
+Dispatches from Elsewhere|10|all
+The Leftovers|28|all
+The Good Place|22|all
+Enlightened|9|all
+Somebody Somewhere|11|all
+Fleabag|6|all
+Midnight Mass|7|all
+Monty Python's Flying Circus|22|seasons 1–2
+SCTV|40|episodes
+Late Night with David Letterman|10|episodes
+The Kids in the Hall|50|episodes
+Mr. Show with Bob and David|15|all
+Brass Eye|3.5|all
+Chappelle's Show|12|seasons 1–2
+Look Around You|4|all
+The Honeymooners|17|all
+The Phil Silvers Show|40|episodes
+The Many Loves of Dobie Gillis|30|episodes
+Get Smart|40|seasons 1–2
+Green Acres|40|seasons 1–3
+All in the Family|50|seasons 1–4
+M*A*S*H|60|seasons 1–5
+Barney Miller|40|seasons 1–4
+Mary Hartman, Mary Hartman|30|episodes
+Your Show of Shows|5|episodes
+The Ernie Kovacs Show|4|episodes
+The Dick Cavett Show|10|episodes
+Route 66|30|episodes
+Blackadder|12|all
+Father Ted|12|all
+I'm Alan Partridge|6|all
+Garth Marenghi's Darkplace|2.5|all
+The Thick of It|12|all
+Inside No. 9|28|all
+Detectorists|10|all
+Slings & Arrows|18|all
+The Kingdom|12|seasons 1–2
+Klovn|30|seasons 1–3
+The Returned (Les Revenants)|16|one season
+The Bureau (Le Bureau des Légendes)|50|all
+Crime Scene Cleaner (Der Tatortreiniger)|15|all
+My Brilliant Friend|32|all
+The Young Pope|10|all
+Dekalog|10|all
+One Hundred Years of Solitude|16|all
+Neon Genesis Evangelion|11|all, plus The End of Evangelion
+Serial Experiments Lain|5|all
+Cowboy Bebop|11|all
+Paranoia Agent|5|all
+The Tatami Galaxy|4|all
+My Mister|22|all
+Beyond Evil|16|all
+D.P.|10|all
+Hellbound|12|one season
+Boris|30|seasons 1–3
+Stromberg|25|seasons 1–3
+Inspector Montalbano|60|episodes
+The Singing Detective|7|all
+Scenes from a Marriage|5|all
+Angels in America|6|all
+Generation Kill|7|all
+The Night Of|8|all
+Chernobyl|5.5|all
+Catch-22|5|all
+I May Destroy You|6|all
+Station Eleven|9|all
+Ripley|8|all
+Cosmos: A Personal Voyage|13|all
+Connections|10|all
+Ways of Seeing|2|all
+The Power of Myth|6|all
+The Elegant Universe|3|all
+The Up Series|16|all
+The Century of the Self|4|all
+Wormwood|4|all
+O.J.: Made in America|8|all
+Couples Therapy|25|seasons 1–2
+Fun to Imagine|1|all
+Alan Watts: Eastern Wisdom and Modern Life|4|episodes
+The Story of Film: An Odyssey|15|all
+Night Music|10|episodes
+Classic Albums|20|episodes
+Saved by the Bell|30|
+Full House|70|
+Family Matters|85|
+Perfect Strangers|55|
+Step by Step|60|
+Boy Meets World|60|
+Dinosaurs|25|
+ALF|40|
+The Muppet Show|60|episodes
+The Adventures of Pete & Pete|20|all
+The Wonder Years|45|all
+George Carlin's HBO specials|14|episodes
+An Idiot Abroad|12|all
+The Addams Family|30|
+The Munsters|30|
+Bewitched|100|
+I Dream of Jeannie|55|
+Mister Ed|55|
+Gilligan's Island|40|
+The George Carlin Show|10|
+Married... with Children|90|
+Unsolved Mysteries|200|
+The Office (US)|75|
+Parks and Recreation|45|
+Rick and Morty|25|
+Frasier|100|
+Animaniacs|40|
+Home Improvement|75|
+Mork & Mindy|40|
+Happy Days|100|
+The Brady Bunch|45|
+Friends|90|
+South Park|150|
+Family Guy|150|
+Star Trek: The Next Generation|125|seasons 3–7
+Star Trek: Deep Space Nine|125|all
+Star Trek: Voyager|120|
+Star Trek: Enterprise|70|
+Star Trek: Discovery|50|
+Star Trek: Strange New Worlds|30|
+Star Trek: Lower Decks|20|
