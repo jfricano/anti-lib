@@ -1,6 +1,6 @@
 # A Path Through the Anti-Library
 
-You won't get through 1,117 books, and you don't need to. The plan is to keep pulling titles off the horizon at a steady pace, follow the threads that pull you, and let the rest stay as the edge of what you know.
+You won't get through 1,100 books, and you don't need to. The plan is to keep pulling titles off the horizon at a steady pace, follow the threads that pull you, and let the rest stay as the edge of what you know.
 
 ## The rhythm
 
@@ -8,7 +8,7 @@ You won't get through 1,117 books, and you don't need to. The plan is to keep pu
 - **One track at a time.** Each track has 8 to 10 books that talk to each other, so each digest builds on the last one.
 - **Alternate fiction and ideas** inside a track, so a novel is followed by the philosophy or science it raises.
 - **One "go deeper" a month.** Pick the digest that hit hardest and read it in full, or read the chapter the digest recommends.
-- **Mark progress** in the Status column of `anti-library.xlsx` (Digested, Reading, Read). Fill in the Style axis and Shelf neighbor columns as each digest lands.
+- **Mark progress** in owner mode on the page: Digested once the digest is read, Fully read once the book is. Either one crosses the book off. Fill in the style axis and shelf neighbor in `lists/anti-library.json` as each digest lands.
 
 ## The first ten, in order
 

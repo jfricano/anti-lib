@@ -6,6 +6,8 @@ One file per book, so each one pulls a title out of the anti-library. The goal i
 - Title, author, year, length, and how long it would take to read in full
 - **Why it's on your list:** one line tying it to your shelf (for example, "Pynchon is what happens when Illuminatus! gets a physics degree")
 - **Vonnegut meter:** how close it sits to Slaughterhouse-Five in feel, with one sentence on why
+- **Style axis:** where the book sits between lean (Hemingway's omissions, Camus, Bukowski, Carver) and maximal (Joyce, Infinite Jest, Pynchon, Robbins), and the one sentence-level move that puts it there (Vonnegut's refrain, DFW's footnote, Bukowski's flat declarative)
+- **Respectful fringe:** flagged when the book is consciousness-first or heterodox science, so it can be read on its own terms beside the skeptics without the list taking a side
 
 ## 2. The story or argument (cliff notes)
 - For fiction: the plot in 5 to 8 movements, then the main characters, each in a line
@@ -27,6 +29,7 @@ This section carries the most weight. It has 4 to 6 short passages quoted from t
 - The one line from the book worth remembering
 
 ## 6. Connections and next step
+- **Shelf neighbor:** the one book you already own that this one argues with or completes, in a sentence
 - 2 to 3 links to other titles in your anti-library (read next, read against, or the book it argues with)
 - **Worth reading in full?** A verdict (yes, sample it, or the digest is enough), and if the answer is sample, which chapter
 
