@@ -5,7 +5,8 @@
 // recorded in data/tags.json, which the importer applies over the source lists.
 // A batch sent as one prefilled link comes compact instead, naming titles by short code (scripts/short-key.mjs):
 // { "v": 2, "m": { "<list id>": { "<value>": "<codes>" } }, "t": { "<list id>": { "<flag>": { "1" or "0": "<codes>" } } } },
-// where a value is a date, "remove" or "null"; it is expanded against data/<list id>.json before applying.
+// where a value is a date, "remove" or "null"; it is expanded against data/<list id>.json (plus the artist path
+// albums in data/paths.json and titles already in progress.json) before applying.
 // Usage: ISSUE_BODY=... node scripts/progress.mjs
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -26,8 +27,14 @@ async function expandCompact({ m = {}, t = {} }) {
   const codes = {};
   const keysFor = async listId => {
     if (!lists.has(listId)) throw Error(`Unknown list ${JSON.stringify(listId)}`);
-    const items = codes[listId] ? [] : JSON.parse(await readFile(path.join(dataDir, `${listId}.json`), 'utf8'));
-    codes[listId] ??= new Map(items.map(i => [shortKey(`${i.t}|${i.c || ''}`), `${i.t}|${i.c || ''}`]));
+    if (!codes[listId]) {
+      // Titles on the list, the artist path pages' minor albums (which aren't list rows) and anything already marked.
+      const read = async name => { try { return JSON.parse(await readFile(path.join(dataDir, name), 'utf8')); } catch { return null; } };
+      const keys = (await read(`${listId}.json`)).map(i => `${i.t}|${i.c || ''}`);
+      if (listId === 'albums') for (const p of (await read('paths.json')) || []) for (const r of p.records || []) keys.push(`${r.t}|${r.c || ''}`);
+      keys.push(...Object.keys((await read('progress.json'))?.[listId] || {}));
+      codes[listId] = new Map(keys.map(key => [shortKey(key), key]));
+    }
     return codes[listId];
   };
   const out = {};
