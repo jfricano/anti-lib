@@ -276,8 +276,7 @@
   "search": "https://www.discogs.com/search/?type=all&q=",
   "listen": "https://open.spotify.com/search/",
   "flags": {
-   "start": "Start here",
-   "path": "Artist path"
+   "start": "Start here"
   },
   "privateFlags": [
    "start"
@@ -287,7 +286,7 @@
   ],
   "toggles": [],
   "hasYear": true,
-  "count": 1629,
+  "count": 1568,
   "threads": [
    {
     "id": "in-tempore-belli",
