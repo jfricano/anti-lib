@@ -1,3 +1,47 @@
 # Anti-library
 
-Jason's anti-library: the books, films and albums he hasn't gotten to yet.
+Jason's anti-library: the books, films, TV and albums he hasn't gotten to yet (after Umberto Eco's unread library, as Nassim Taleb tells it). This repository holds the lists and the data pipeline. The page that shows them lives in the portfolio site at [jasonfricano.com/antilibrary](https://jasonfricano.com/antilibrary/) ([jfricano/personal-portfolio](https://github.com/jfricano/personal-portfolio), `site/antilibrary/`).
+
+## Layout
+
+- `lists/`: the source lists, edited by hand. `anti-library.json` (books), `movies.csv` (films), `tv.csv` (TV), `music.csv` (albums).
+- `data/`: generated JSON the page reads. Don't edit it, except `progress.json` and `removed.json` through owner mode.
+- `scripts/import.mjs`: normalizes `lists/` into `data/<list>.json` and `data/lists.json`.
+- `scripts/lookup.mjs`: finds a public page, cover and (for albums) genres for each title, cached in `data/lookups.json`.
+- `scripts/progress.mjs`: applies owner-mode marks to `data/progress.json` and removals to `data/removed.json`.
+- `docs/`: the reading path and the digest format.
+
+## Changing a list
+
+Edit a file in `lists/` on a branch and push. The **Rebuild data** workflow runs the importer and the lookups and commits the new `data/` to the same branch. New titles take a while because MusicBrainz allows one request a second. To run it yourself:
+
+```sh
+npm run import    # lists/ -> data/
+npm run lookup    # links and covers for new titles (needs open network access)
+```
+
+Each list is one entry in `LISTS` at the top of `scripts/import.mjs` (source file, column names, flags). A new list is one more entry there; the page picks it up from `lists.json`.
+
+Every list has a primary source and at least one fallback, all keyless public APIs:
+
+| List | Primary | Fallback |
+| --- | --- | --- |
+| Books | Open Library (link and cover) | Wikipedia, then Google Books for a missing cover |
+| Films | IMDb link (via Wikidata) and TMDB poster | OMDb poster, then Wikipedia and iTunes |
+| TV | Wikipedia (link and image) | iTunes for a missing image |
+| Albums | MusicBrainz (Discogs link, genres, Rate Your Music) with Deezer and Wikipedia artwork | Cover Art Archive for missing artwork |
+| Music links | AllMusic (artist discography or album page, via the AllMusic IDs on Wikidata), except where Discogs matched an album | AllMusic search |
+
+A title with no match at all links to a search on the list's site instead.
+
+Film posters from TMDB and OMDb need free API keys, stored as the repository secrets `TMDB_API_KEY` (TMDB's API read access token) and `OMDB_API_KEY`. Without them the workflow still runs and uses the keyless sources. An optional `GOOGLE_BOOKS_API_KEY` secret gives Google Books, the last-resort book cover source, its own quota; keyless calls from GitHub's runners are usually rate-limited, so without it the workflow skips Google Books once it refuses three titles in a row. Keys stay in GitHub Actions; the page never sees them. Run the workflow by hand with **retry** to re-check titles that had no match.
+
+## How the page reads this
+
+The portfolio page fetches `data/*.json` from `https://raw.githubusercontent.com/jfricano/anti-lib/main/data/` when it loads, so whatever is on `main` here is what the page shows, a few minutes after it lands (GitHub caches raw files for about five minutes). Changing a list never needs a portfolio deploy. Data on other branches isn't shown until it merges.
+
+This repository has to stay public for that to work.
+
+## Marking titles finished
+
+Owner mode on the page (`/antilibrary/?owner=on`, not linked anywhere) opens a prefilled issue in this repository titled "Anti-library: update N titles". When Jason opens it, the **Progress** workflow applies the marks to `data/progress.json` on `main` and closes the issue. A **Remove** in owner mode records the title in `data/removed.json` with the date and rebuilds the lists without it; the importer keeps leaving it out even if a working copy of a list still has it, and deleting its line from `removed.json` brings it back. Issues from anyone else are ignored, and the page holds no credentials.

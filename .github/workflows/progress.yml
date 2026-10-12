@@ -1,0 +1,48 @@
+name: Progress
+# The anti-library page's owner mode opens a prefilled issue here with finished and removed titles.
+# Issues from the repository owner are applied to data/progress.json and data/removed.json on main,
+# and removals are rebuilt out of data/<list>.json; the page reads those files directly, so there is
+# nothing to redeploy.
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: progress
+  cancel-in-progress: false
+jobs:
+  apply:
+    if: github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, 'Anti-library:')
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ISSUE: ${{ github.event.issue.number }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      # Commits (and the rebase before pushing) are made as Jason.
+      - run: |
+          git config user.name "Jason Fricano"
+          git config user.email "44284799+jfricano@users.noreply.github.com"
+      - run: node scripts/progress.mjs
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+      # Rebuilds the lists from lists/ and the cached lookups, leaving removed titles out.
+      - run: node scripts/import.mjs
+      - name: Commit
+        run: |
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m "Update progress (#$ISSUE)"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+          gh issue close "$ISSUE" --comment "Applied. The page shows it within a few minutes."
+      - if: failure()
+        run: gh issue comment "$ISSUE" --body "These marks could not be applied. See the workflow run for the error."

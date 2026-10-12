@@ -1,0 +1,106 @@
+[
+ {
+  "id": "books",
+  "label": "Books",
+  "noun": [
+   "book",
+   "books"
+  ],
+  "creatorLabel": "Author",
+  "groupLabel": "Part",
+  "shelfLabel": "Section",
+  "doneLabel": "Read",
+  "search": "https://openlibrary.org/search?q=",
+  "flags": {
+   "core": "Core shelf",
+   "fringe": "Respectful fringe",
+   "owned": "On my shelf",
+   "star": "Vonnegut frequency",
+   "formative": "Formative",
+   "reading": "Reading now"
+  },
+  "privateFlags": [],
+  "privateFilters": [
+   "formative",
+   "reading"
+  ],
+  "hasYear": false,
+  "count": 1117
+ },
+ {
+  "id": "films",
+  "label": "Films",
+  "noun": [
+   "film",
+   "films"
+  ],
+  "creatorLabel": "Director",
+  "shelfLabel": "Shelf",
+  "doneLabel": "Watched",
+  "search": "https://www.imdb.com/find/?s=tt&q=",
+  "flags": {
+   "start": "Start here",
+   "fringe": "Respectful fringe"
+  },
+  "privateFlags": [
+   "start"
+  ],
+  "privateFilters": [
+   "start"
+  ],
+  "hasYear": true,
+  "count": 1286
+ },
+ {
+  "id": "tv",
+  "label": "TV",
+  "noun": [
+   "show",
+   "shows"
+  ],
+  "creatorLabel": "Creator",
+  "shelfLabel": "Shelf",
+  "doneLabel": "Watched",
+  "search": "https://en.wikipedia.org/w/index.php?search=",
+  "searchSuffix": "TV series",
+  "flags": {
+   "start": "Start here",
+   "fringe": "Respectful fringe"
+  },
+  "privateFlags": [
+   "start"
+  ],
+  "privateFilters": [
+   "start"
+  ],
+  "hasYear": true,
+  "count": 683
+ },
+ {
+  "id": "albums",
+  "label": "Albums",
+  "noun": [
+   "album",
+   "albums"
+  ],
+  "creatorLabel": "Artist",
+  "groupLabel": "Part",
+  "shelfLabel": "Shelf",
+  "doneLabel": "Heard",
+  "cover": "square",
+  "search": "https://www.discogs.com/search/?type=all&q=",
+  "listen": "https://open.spotify.com/search/",
+  "flags": {
+   "start": "Start here",
+   "path": "Artist path"
+  },
+  "privateFlags": [
+   "start"
+  ],
+  "privateFilters": [
+   "start"
+  ],
+  "hasYear": true,
+  "count": 1337
+ }
+]

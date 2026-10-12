@@ -1,0 +1,9 @@
+{
+  "name": "anti-lib",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "import": "node scripts/import.mjs",
+    "lookup": "node scripts/lookup.mjs"
+  }
+}

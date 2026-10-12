@@ -1,0 +1,73 @@
+name: Rebuild data
+# Rebuilds data/ from the source lists, looks up a public page and cover for new titles,
+# and commits the results to the same branch. Runs when a list or script changes, or by hand.
+on:
+  push:
+    paths: ['lists/**', 'scripts/import.mjs', 'scripts/lookup.mjs', 'data/lookups.json']
+  workflow_dispatch:
+    inputs:
+      retry:
+        description: Re-check titles that had no match last time
+        type: boolean
+        default: false
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: lookups-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      # The branch's latest commit, not the pushed one, so a run queued behind another starts from its results.
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.ref }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      # Commits (and the rebase before pushing) are made as Jason.
+      - run: |
+          git config user.name "Jason Fricano"
+          git config user.email "44284799+jfricano@users.noreply.github.com"
+      - run: node scripts/import.mjs
+      # A cancelled or failed run still uploads its lookups, so pick up where the last one stopped.
+      - name: Resume from the last run's lookups
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          id=$(gh api "repos/$GITHUB_REPOSITORY/actions/artifacts?name=data&per_page=1" -q '.artifacts[0] | select(.expired | not) | .id')
+          if [ -z "$id" ]; then echo "No earlier lookups to resume."; exit 0; fi
+          gh api "repos/$GITHUB_REPOSITORY/actions/artifacts/$id/zip" > "$RUNNER_TEMP/last.zip"
+          unzip -o -q "$RUNNER_TEMP/last.zip" lookups.json -d "$RUNNER_TEMP/last"
+          node -e '
+            const fs = require("fs"), [mine, last] = process.argv.slice(1).map(f => JSON.parse(fs.readFileSync(f, "utf8")));
+            const merged = { ...last, ...mine };
+            fs.writeFileSync(process.argv[1], JSON.stringify(Object.fromEntries(Object.entries(merged).sort())));
+            console.log(`Resumed ${Object.keys(merged).length - Object.keys(mine).length} lookups from the last run.`);
+          ' data/lookups.json "$RUNNER_TEMP/last/lookups.json"
+      - run: node scripts/lookup.mjs ${{ inputs.retry && '--retry' || '' }}
+        env:
+          # Optional: film posters from TMDB (API read access token) and OMDb. Without them, posters
+          # come from Wikipedia and iTunes.
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+          # Optional: its own quota for Google Books, the last-resort book cover source.
+          GOOGLE_BOOKS_API_KEY: ${{ secrets.GOOGLE_BOOKS_API_KEY }}
+      # Keeps the lookups even if the commit below fails, since they can take an hour to redo.
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: data
+          path: data/
+      - name: Commit results
+        run: |
+          git add data
+          if git diff --cached --quiet; then echo "Data is up to date."; exit 0; fi
+          git commit -m "Rebuild anti-library data"
+          # Progress updates can land on main while this runs; they touch a different file.
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin HEAD:"$GITHUB_REF_NAME"
