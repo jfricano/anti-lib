@@ -16,18 +16,12 @@
    "fringe": "Respectful fringe",
    "owned": "On my shelf",
    "star": "Vonnegut frequency",
-   "formative": "Formative",
-   "reading": "Reading now"
+   "formative": "Formative"
   },
   "privateFlags": [],
   "privateFilters": [],
   "toggles": [
-   "core",
-   "fringe",
-   "owned",
-   "star",
-   "formative",
-   "reading"
+   "formative"
   ],
   "hasYear": false,
   "count": 1109,
@@ -145,10 +139,7 @@
   "privateFilters": [
    "start"
   ],
-  "toggles": [
-   "start",
-   "fringe"
-  ],
+  "toggles": [],
   "hasYear": true,
   "count": 1279,
   "threads": [
@@ -266,10 +257,7 @@
   "privateFilters": [
    "start"
   ],
-  "toggles": [
-   "start",
-   "fringe"
-  ],
+  "toggles": [],
   "hasYear": true,
   "count": 686
  },
@@ -297,10 +285,7 @@
   "privateFilters": [
    "start"
   ],
-  "toggles": [
-   "start",
-   "path"
-  ],
+  "toggles": [],
   "hasYear": true,
   "count": 1285,
   "threads": [
