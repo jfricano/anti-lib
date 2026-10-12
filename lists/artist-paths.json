@@ -1,0 +1,6692 @@
+{
+ "Bob Dylan": {
+  "about": "I know the early records, so this starts at the 1975 divorce album and walks the peaks after the folk years, ending on the late run where he turned into an old bluesman with a library card.",
+  "names": [
+   "Bob Dylan",
+   "Bob Dylan & The Band"
+  ],
+  "records": [
+   {
+    "t": "Bob Dylan",
+    "y": 1962,
+    "heard": true,
+    "note": "Mostly covers of old blues and folk songs; the start of the early run I know."
+   },
+   {
+    "t": "The Freewheelin' Bob Dylan",
+    "y": 1963,
+    "heard": true,
+    "note": "The protest songs and the first great originals. I know this one."
+   },
+   {
+    "t": "The Times They Are a-Changin'",
+    "y": 1964,
+    "heard": true,
+    "note": "The bleakest of the topical records. Part of the early run I know."
+   },
+   {
+    "t": "Another Side of Bob Dylan",
+    "y": 1964,
+    "heard": true,
+    "note": "One night's session where he walks away from protest songs. Part of the early run I know."
+   },
+   {
+    "t": "Bringing It All Back Home",
+    "y": 1965,
+    "heard": true,
+    "note": "Half electric, half acoustic, and the start of the Beat-style word torrents. I know this one."
+   },
+   {
+    "t": "Highway 61 Revisited",
+    "y": 1965,
+    "heard": true,
+    "note": "\"Like a Rolling Stone\" and \"Desolation Row\": the full-band peak of the early years. I know this one."
+   },
+   {
+    "t": "Blonde on Blonde",
+    "y": 1966,
+    "step": 2,
+    "note": "The thin wild mercury sound of Nashville session players and long surreal songs; after the door, this is the record the early run was heading toward."
+   },
+   {
+    "t": "John Wesley Harding",
+    "y": 1967,
+    "step": 3,
+    "note": "After the motorcycle crash he came back spare and biblical, three musicians and parables. The quietest left turn in rock."
+   },
+   {
+    "t": "Nashville Skyline",
+    "y": 1969,
+    "note": "Straight country with Johnny Cash on one song and a crooner's voice; short and pleasant, and the alt-country line runs through it."
+   },
+   {
+    "t": "Self Portrait",
+    "y": 1970,
+    "note": "A strange double album of covers and odds that Greil Marcus opened his review of with \"What is this shit?\". It can wait."
+   },
+   {
+    "t": "New Morning",
+    "y": 1970,
+    "note": "A warm, domestic recovery from Self Portrait; good songs, small stakes."
+   },
+   {
+    "t": "Pat Garrett & Billy the Kid",
+    "y": 1973,
+    "kind": "soundtrack",
+    "note": "The soundtrack to Peckinpah's western, mostly instrumental, with \"Knockin' on Heaven's Door.\""
+   },
+   {
+    "t": "Dylan",
+    "y": 1973,
+    "note": "Outtakes the label released after he left for Asylum. Skip it."
+   },
+   {
+    "t": "Planet Waves",
+    "y": 1974,
+    "note": "His only studio album with the Band; \"Forever Young\" and some fine playing, but the live record from that tour hits harder."
+   },
+   {
+    "t": "Before the Flood",
+    "y": 1974,
+    "by": "Bob Dylan & The Band",
+    "kind": "live",
+    "note": "The 1974 comeback tour with the Band, loud and shouted. Worth hearing once the main path is done."
+   },
+   {
+    "t": "Blood on the Tracks",
+    "y": 1975,
+    "step": 1,
+    "note": "The door: a breakup record with the depth of a novel, songs told from shifting points of view in time. The best place to meet him after the early years."
+   },
+   {
+    "t": "The Basement Tapes",
+    "y": 1975,
+    "by": "Bob Dylan & The Band",
+    "note": "The 1967 Woodstock sessions with the Band, the sound of the old weird America in a basement. Comes after the main path, alongside the Harry Smith anthology."
+   },
+   {
+    "t": "Desire",
+    "y": 1976,
+    "step": 4,
+    "note": "Scarlet Rivera's violin and long story songs like \"Hurricane\" and \"Isis\"; the Rolling Thunder spirit in the studio."
+   },
+   {
+    "t": "Hard Rain",
+    "y": 1976,
+    "kind": "live",
+    "note": "The ragged second leg of the Rolling Thunder Revue."
+   },
+   {
+    "t": "Street-Legal",
+    "y": 1978,
+    "note": "Big band, backup singers and a muddy mix; good songs buried in the production."
+   },
+   {
+    "t": "Slow Train Coming",
+    "y": 1979,
+    "note": "The first born-again gospel record, produced by Jerry Wexler with Mark Knopfler. Fervent and well played, but a detour."
+   },
+   {
+    "t": "Saved",
+    "y": 1980,
+    "note": "The second gospel album, even more doctrinaire. Can wait."
+   },
+   {
+    "t": "Shot of Love",
+    "y": 1981,
+    "note": "The end of the gospel trilogy, with \"Every Grain of Sand.\""
+   },
+   {
+    "t": "Infidels",
+    "y": 1983,
+    "note": "The best of the 1980s albums, with Knopfler again; the stronger songs from these sessions ended up on the bootleg series."
+   },
+   {
+    "t": "Empire Burlesque",
+    "y": 1985,
+    "note": "Slick mid-80s production on decent songs. Skip it."
+   },
+   {
+    "t": "Knocked Out Loaded",
+    "y": 1986,
+    "note": "Mostly filler, saved only by the eleven-minute \"Brownsville Girl\" written with Sam Shepard."
+   },
+   {
+    "t": "Down in the Groove",
+    "y": 1988,
+    "note": "His low point: covers and leftovers."
+   },
+   {
+    "t": "Oh Mercy",
+    "y": 1989,
+    "note": "Daniel Lanois's swampy production and a real recovery; the first sign of the late Dylan sound."
+   },
+   {
+    "t": "Under the Red Sky",
+    "y": 1990,
+    "note": "Nursery-rhyme songs with a starry cast; a step back after Oh Mercy."
+   },
+   {
+    "t": "The Bootleg Series Volumes 1–3 (Rare & Unreleased) 1961–1991",
+    "y": 1991,
+    "kind": "compilation",
+    "note": "The outtakes, including \"Blind Willie McTell\"; proof that he left some of his best songs off the records."
+   },
+   {
+    "t": "Good as I Been to You",
+    "y": 1992,
+    "note": "Solo acoustic folk and blues covers; a reset that led straight to Time Out of Mind."
+   },
+   {
+    "t": "World Gone Wrong",
+    "y": 1993,
+    "note": "More solo acoustic covers, darker than Good as I Been to You, with his own liner notes on each song."
+   },
+   {
+    "t": "Time Out of Mind",
+    "y": 1997,
+    "step": 5,
+    "note": "The late comeback: Lanois's murky sound and a man walking through a world that's emptied out. Mortality without self-pity."
+   },
+   {
+    "t": "The Bootleg Series Vol. 4: Bob Dylan Live 1966, The \"Royal Albert Hall\" Concert",
+    "y": 1998,
+    "kind": "live",
+    "note": "The famous \"Judas!\" show, the electric tour that caused riots. Worth hearing after Blonde on Blonde."
+   },
+   {
+    "t": "\"Love and Theft\"",
+    "y": 2001,
+    "step": 6,
+    "note": "Released on 9/11; jump blues, Tin Pan Alley and stolen lines from Twain and a Japanese gangster memoir. Funny and sly."
+   },
+   {
+    "t": "Modern Times",
+    "y": 2006,
+    "note": "The same road-band sound as \"Love and Theft\", more relaxed; a good one once the path is done."
+   },
+   {
+    "t": "Together Through Life",
+    "y": 2009,
+    "note": "Accordion and border-town blues; minor but likable."
+   },
+   {
+    "t": "Christmas in the Heart",
+    "y": 2009,
+    "note": "A sincere Christmas album in his ruined voice. A curiosity."
+   },
+   {
+    "t": "Tempest",
+    "y": 2012,
+    "note": "Long, violent ballads including a fourteen-minute Titanic song; the darkest of the late albums and the next one to hear after the path."
+   },
+   {
+    "t": "Shadows in the Night",
+    "y": 2015,
+    "note": "Sinatra standards, sung softly. The first of three standards albums that can wait."
+   },
+   {
+    "t": "Fallen Angels",
+    "y": 2016,
+    "note": "More Sinatra-era standards."
+   },
+   {
+    "t": "Triplicate",
+    "y": 2017,
+    "note": "Three discs of standards; for completists."
+   },
+   {
+    "t": "Rough and Rowdy Ways",
+    "y": 2020,
+    "step": 7,
+    "note": "At 79, a long record of death, history and \"Murder Most Foul,\" seventeen minutes on the Kennedy killing. The late peak."
+   },
+   {
+    "t": "Shadow Kingdom",
+    "y": 2023,
+    "note": "Re-recordings of older songs from a filmed concert; can wait."
+   }
+  ]
+ },
+ "Leonard Cohen": {
+  "about": "From the bleak early folk records to the synth-and-baritone albums of his last decades, ending on the record he made knowing he was dying.",
+  "records": [
+   {
+    "t": "Songs of Leonard Cohen",
+    "y": 1967,
+    "step": 5,
+    "note": "The debut: \"Suzanne,\" \"So Long, Marianne,\" a poet learning to sing. Back to the start once the path has shown the whole arc."
+   },
+   {
+    "t": "Songs from a Room",
+    "y": 1969,
+    "note": "Even sparser than the debut, with \"Bird on the Wire\" and \"The Partisan.\" Good, but the next one goes further."
+   },
+   {
+    "t": "Songs of Love and Hate",
+    "y": 1971,
+    "step": 1,
+    "note": "The door: the darkest and most intense of the early records, \"Avalanche\" and \"Famous Blue Raincoat.\" Guitar, voice, and nothing to hide behind."
+   },
+   {
+    "t": "Live Songs",
+    "y": 1973,
+    "kind": "live",
+    "note": "A loose live record from the early tours; skip until the studio albums land."
+   },
+   {
+    "t": "New Skin for the Old Ceremony",
+    "y": 1974,
+    "note": "Bigger arrangements and \"Chelsea Hotel #2.\" The best of the records left off the path."
+   },
+   {
+    "t": "Death of a Ladies' Man",
+    "y": 1977,
+    "note": "Produced by Phil Spector, who reportedly held him at gunpoint; the wall of sound swallows him."
+   },
+   {
+    "t": "Recent Songs",
+    "y": 1979,
+    "note": "Warm, with oud and Mexican mariachi players; a quiet one to come back to."
+   },
+   {
+    "t": "Various Positions",
+    "y": 1984,
+    "note": "Has \"Hallelujah\" and \"Dance Me to the End of Love\"; the cheap synths that the next record perfected start here."
+   },
+   {
+    "t": "I'm Your Man",
+    "y": 1988,
+    "step": 2,
+    "note": "Cheap keyboards, a voice gone to gravel, and jokes: \"First We Take Manhattan,\" \"Tower of Song.\" The reinvention."
+   },
+   {
+    "t": "The Future",
+    "y": 1992,
+    "step": 3,
+    "note": "Apocalyptic and funny, written as the Cold War ended and LA burned. The title track is the bleakest dance song you'll hear."
+   },
+   {
+    "t": "Cohen Live: Leonard Cohen in Concert",
+    "y": 1994,
+    "kind": "live",
+    "note": "Live versions from the late 80s and early 90s tours."
+   },
+   {
+    "t": "Ten New Songs",
+    "y": 2001,
+    "note": "Made with Sharon Robinson after five years in a Zen monastery; smooth and hushed, a bit too much so."
+   },
+   {
+    "t": "Dear Heather",
+    "y": 2004,
+    "note": "Odd and slight, with poems set to music; can wait."
+   },
+   {
+    "t": "Live in London",
+    "y": 2009,
+    "kind": "live",
+    "note": "The 2008 comeback tour, which he took on after his manager drained his savings. A generous, warm show."
+   },
+   {
+    "t": "Old Ideas",
+    "y": 2012,
+    "step": 6,
+    "note": "The start of the late trilogy: spare, wry, and about God and death."
+   },
+   {
+    "t": "Popular Problems",
+    "y": 2014,
+    "note": "The middle of the late trilogy, bluesier; worth it once the path is done."
+   },
+   {
+    "t": "You Want It Darker",
+    "y": 2016,
+    "step": 4,
+    "note": "Released weeks before he died, with a synagogue choir: \"Hineni, I'm ready, my Lord.\" Where the path ends."
+   },
+   {
+    "t": "Thanks for the Dance",
+    "y": 2019,
+    "note": "Posthumous, finished by his son Adam from vocal sketches; a coda, not a main record."
+   }
+  ]
+ },
+ "Nick Cave & the Bad Seeds": {
+  "about": "Murder ballads and gospel rage first, then the long turn toward the grief records, with a stop back at the Birthday Party's noise.",
+  "names": [
+   "Nick Cave & the Bad Seeds",
+   "The Birthday Party",
+   "Grinderman",
+   "Nick Cave & Warren Ellis",
+   "Nick Cave"
+  ],
+  "records": [
+   {
+    "t": "Prayers on Fire",
+    "y": 1981,
+    "by": "The Birthday Party",
+    "note": "The Birthday Party's first album under that name; Junkyard is the one that matters."
+   },
+   {
+    "t": "Junkyard",
+    "y": 1982,
+    "by": "The Birthday Party",
+    "step": 7,
+    "note": "The Birthday Party at their most feral: scraping guitars, howled Southern Gothic, nothing like rock and roll politeness. Where he came from."
+   },
+   {
+    "t": "From Her to Eternity",
+    "y": 1984,
+    "note": "The first Bad Seeds record, still half in the Birthday Party's chaos, with a Leonard Cohen cover."
+   },
+   {
+    "t": "The Firstborn Is Dead",
+    "y": 1985,
+    "note": "His Delta blues and Elvis mythology record; interesting but stiff."
+   },
+   {
+    "t": "Kicking Against the Pricks",
+    "y": 1986,
+    "note": "Covers album, from Johnny Cash to Gene Pitney; can wait."
+   },
+   {
+    "t": "Your Funeral... My Trial",
+    "y": 1986,
+    "note": "Gothic and slow, with \"The Carny\"; the closest runner-up to Tender Prey from the early years."
+   },
+   {
+    "t": "Tender Prey",
+    "y": 1988,
+    "step": 8,
+    "note": "\"The Mercy Seat,\" a man in the electric chair; written alongside his Southern Gothic novel. The best of the 1980s albums."
+   },
+   {
+    "t": "The Good Son",
+    "y": 1990,
+    "note": "Made in Brazil, sober and string-laden; the first gentle record."
+   },
+   {
+    "t": "Henry's Dream",
+    "y": 1992,
+    "note": "Loud and wordy folk-rock about violence; the producer's thin mix held it back."
+   },
+   {
+    "t": "Live Seeds",
+    "y": 1993,
+    "kind": "live",
+    "note": "A live set from the early 90s tours."
+   },
+   {
+    "t": "Let Love In",
+    "y": 1994,
+    "step": 1,
+    "note": "The door: \"Red Right Hand\" and \"Loverman,\" the Bad Seeds fully formed, menace and love songs on the same record."
+   },
+   {
+    "t": "Murder Ballads",
+    "y": 1996,
+    "step": 2,
+    "note": "Ten songs, sixty-odd killings, including a duet with Kylie Minogue and PJ Harvey on \"Henry Lee.\" Black comedy and folk tradition."
+   },
+   {
+    "t": "The Boatman's Call",
+    "y": 1997,
+    "step": 9,
+    "note": "Piano and voice after two breakups, including PJ Harvey; his most naked record. Come back to it at the end if it hasn't been heard already."
+   },
+   {
+    "t": "No More Shall We Part",
+    "y": 2001,
+    "note": "Piano ballads with the McGarrigle sisters; good, but the path has stronger records from both sides of it."
+   },
+   {
+    "t": "Nocturama",
+    "y": 2003,
+    "note": "The weakest of the Bad Seeds albums apart from the closing fifteen-minute \"Babe, I'm on Fire.\""
+   },
+   {
+    "t": "Abattoir Blues / The Lyre of Orpheus",
+    "y": 2004,
+    "step": 3,
+    "note": "A double album, one loud gospel record and one quiet one, after Blixa Bargeld left. Ragged and joyous."
+   },
+   {
+    "t": "The Abattoir Blues Tour",
+    "y": 2007,
+    "kind": "live",
+    "note": "Live record from that tour."
+   },
+   {
+    "t": "Grinderman",
+    "y": 2007,
+    "by": "Grinderman",
+    "kind": "side project",
+    "note": "Cave and a stripped Bad Seeds playing filthy garage rock; funny midlife-crisis noise."
+   },
+   {
+    "t": "Dig, Lazarus, Dig!!!",
+    "y": 2008,
+    "note": "Lazarus reimagined as a New York burnout; the Grinderman energy brought back to the band. A good next stop after the path."
+   },
+   {
+    "t": "Grinderman 2",
+    "y": 2010,
+    "by": "Grinderman",
+    "kind": "side project",
+    "note": "The second Grinderman record, heavier and stranger."
+   },
+   {
+    "t": "Push the Sky Away",
+    "y": 2013,
+    "step": 4,
+    "note": "Warren Ellis's loops replace the band's bluster; quiet, hypnotic, and the start of the late sound."
+   },
+   {
+    "t": "Skeleton Tree",
+    "y": 2016,
+    "step": 5,
+    "note": "Finished after his 15-year-old son's death; drones and half-spoken grief. The hardest record on the path."
+   },
+   {
+    "t": "Ghosteen",
+    "y": 2019,
+    "step": 6,
+    "note": "Ambient hymns about where the dead go: the gentlest answer to Skeleton Tree."
+   },
+   {
+    "t": "Carnage",
+    "y": 2021,
+    "by": "Nick Cave & Warren Ellis",
+    "kind": "collaboration",
+    "note": "Cave and Ellis alone, made in the 2020 lockdown; dark and electronic."
+   },
+   {
+    "t": "Wild God",
+    "y": 2024,
+    "note": "Ecstatic and choral, the record after the grief trilogy; hear it once the path is done."
+   }
+  ]
+ },
+ "David Bowie": {
+  "about": "I know him through the Berlin trilogy, so this starts where Berlin left off, walks the late art records to Blackstar, then goes back for the early classics I haven't heard.",
+  "records": [
+   {
+    "t": "David Bowie",
+    "y": 1967,
+    "note": "The music-hall debut, Anthony Newley more than rock. A curiosity."
+   },
+   {
+    "t": "David Bowie",
+    "y": 1969,
+    "note": "Also known as Space Oddity. Folk-rock with the hit; can wait."
+   },
+   {
+    "t": "The Man Who Sold the World",
+    "y": 1970,
+    "heard": true,
+    "note": "Heavy and paranoid, with Mick Ronson. I know this one."
+   },
+   {
+    "t": "Hunky Dory",
+    "y": 1971,
+    "step": 6,
+    "note": "Piano songs about Nietzsche, Warhol and Dylan: \"Life on Mars?\" and \"Quicksand.\" The best of the early records I haven't heard."
+   },
+   {
+    "t": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+    "y": 1972,
+    "step": 7,
+    "note": "The alien rock star concept album, glam at its sharpest. Essential once the late path is done."
+   },
+   {
+    "t": "Aladdin Sane",
+    "y": 1973,
+    "heard": true,
+    "note": "Ziggy goes to America, with Mike Garson's avant-garde piano. I know this one."
+   },
+   {
+    "t": "Pin Ups",
+    "y": 1973,
+    "note": "A covers album of 60s London bands; can wait."
+   },
+   {
+    "t": "Diamond Dogs",
+    "y": 1974,
+    "heard": true,
+    "note": "Started as a stage musical of Orwell's 1984. I know this one."
+   },
+   {
+    "t": "Young Americans",
+    "y": 1975,
+    "heard": true,
+    "note": "His \"plastic soul\" record made in Philadelphia. I know this one."
+   },
+   {
+    "t": "Station to Station",
+    "y": 1976,
+    "step": 8,
+    "note": "Cocaine and occult funk, the Thin White Duke; the bridge into Berlin and the last big gap after the path."
+   },
+   {
+    "t": "Low",
+    "y": 1977,
+    "heard": true,
+    "note": "The first Berlin record with Eno: song fragments on one side, instrumentals on the other. I know this one."
+   },
+   {
+    "t": "\"Heroes\"",
+    "y": 1977,
+    "heard": true,
+    "note": "The second Berlin record, with Fripp's guitar on the title track. I know this one."
+   },
+   {
+    "t": "Lodger",
+    "y": 1979,
+    "heard": true,
+    "note": "The last of the trilogy, travelogue art-pop. I know this one."
+   },
+   {
+    "t": "Scary Monsters (and Super Creeps)",
+    "y": 1980,
+    "step": 1,
+    "note": "The door: the Berlin experiments turned into hard, nervy songs, with Fripp's guitar again. The natural next step from the trilogy."
+   },
+   {
+    "t": "Let's Dance",
+    "y": 1983,
+    "note": "Nile Rodgers and the big hit years; slick and commercial, skip it."
+   },
+   {
+    "t": "Tonight",
+    "y": 1984,
+    "note": "A rushed follow-up to Let's Dance. Skip."
+   },
+   {
+    "t": "Never Let Me Down",
+    "y": 1987,
+    "note": "He called it his low point. Skip."
+   },
+   {
+    "t": "Tin Machine",
+    "y": 1989,
+    "by": "Tin Machine",
+    "kind": "side project",
+    "note": "His hard-rock band; noisy and blunt."
+   },
+   {
+    "t": "Tin Machine II",
+    "y": 1991,
+    "by": "Tin Machine",
+    "kind": "side project",
+    "note": "The second Tin Machine record."
+   },
+   {
+    "t": "Black Tie White Noise",
+    "y": 1993,
+    "note": "Wedding-themed and back with Rodgers; the return to form starts here, tentatively."
+   },
+   {
+    "t": "The Buddha of Suburbia",
+    "y": 1993,
+    "note": "Nominally a TV soundtrack, really an overlooked art record; Bowie called it a favorite. Worth it after the path."
+   },
+   {
+    "t": "Outside",
+    "y": 1995,
+    "step": 2,
+    "note": "A murder-mystery concept album with Eno: art-crime in a dystopian 1999, industrial and spoken-word. The Berlin team reunited."
+   },
+   {
+    "t": "Earthling",
+    "y": 1997,
+    "note": "His drum and bass record; dated but energetic."
+   },
+   {
+    "t": "Hours",
+    "y": 1999,
+    "note": "Soft and reflective, made partly for a video game. Can wait."
+   },
+   {
+    "t": "Heathen",
+    "y": 2002,
+    "step": 3,
+    "note": "With Tony Visconti again, a grown-up record about faith and age."
+   },
+   {
+    "t": "Reality",
+    "y": 2003,
+    "note": "The rockier companion to Heathen; fine, but Heathen does it better."
+   },
+   {
+    "t": "The Next Day",
+    "y": 2013,
+    "step": 4,
+    "note": "The surprise comeback after ten years of silence, its cover a defaced copy of the \"Heroes\" sleeve. Taut and full of history."
+   },
+   {
+    "t": "Blackstar",
+    "y": 2016,
+    "step": 5,
+    "note": "Made while dying with a New York jazz band; released two days before his death. Where everything ends."
+   },
+   {
+    "t": "Toy",
+    "y": 2021,
+    "note": "Posthumous release of his 2000-01 re-recordings of early songs; for completists."
+   }
+  ]
+ },
+ "Lou Reed / The Velvet Underground": {
+  "about": "The four Velvet Underground records in order, then Reed's solo peaks, from glam to his grim Berlin to the New York street reporter.",
+  "names": [
+   "Lou Reed",
+   "The Velvet Underground",
+   "Lou Reed & John Cale",
+   "Lou Reed & Metallica"
+  ],
+  "records": [
+   {
+    "t": "The Velvet Underground & Nico",
+    "y": 1967,
+    "by": "The Velvet Underground",
+    "step": 1,
+    "note": "The door: drones, heroin, \"Venus in Furs,\" and Nico's deadpan; Warhol produced it and few bought it, but it shaped everything after."
+   },
+   {
+    "t": "White Light/White Heat",
+    "y": 1968,
+    "by": "The Velvet Underground",
+    "step": 2,
+    "note": "Feedback and the seventeen-minute \"Sister Ray\"; the band at its loudest, with John Cale's viola."
+   },
+   {
+    "t": "The Velvet Underground",
+    "y": 1969,
+    "by": "The Velvet Underground",
+    "step": 3,
+    "note": "Cale gone, the band turns quiet and tender: \"Pale Blue Eyes,\" \"Jesus.\""
+   },
+   {
+    "t": "Loaded",
+    "y": 1970,
+    "by": "The Velvet Underground",
+    "step": 4,
+    "note": "Made for radio: \"Sweet Jane\" and \"Rock & Roll.\" Reed left before it came out."
+   },
+   {
+    "t": "Live at Max's Kansas City",
+    "y": 1972,
+    "by": "The Velvet Underground",
+    "kind": "live",
+    "note": "Reed's last show with the band, recorded on a cassette by Brigid Berlin from Warhol's circle."
+   },
+   {
+    "t": "Lou Reed",
+    "y": 1972,
+    "note": "The solo debut, mostly reworked Velvets songs; flat production."
+   },
+   {
+    "t": "Transformer",
+    "y": 1972,
+    "step": 5,
+    "note": "Bowie and Mick Ronson produce: \"Walk on the Wild Side,\" \"Perfect Day.\" Glam with a street sense."
+   },
+   {
+    "t": "Squeeze",
+    "y": 1973,
+    "by": "The Velvet Underground",
+    "note": "Made after Reed left, with Doug Yule alone; not really a Velvet Underground record."
+   },
+   {
+    "t": "Berlin",
+    "y": 1973,
+    "step": 6,
+    "note": "A grim novel in ten songs about a couple falling apart in Berlin; critics hated it, then changed their minds."
+   },
+   {
+    "t": "Rock 'n' Roll Animal",
+    "y": 1974,
+    "kind": "live",
+    "note": "Live hard-rock versions of Velvets songs with heavy guitars."
+   },
+   {
+    "t": "1969: The Velvet Underground Live",
+    "y": 1974,
+    "by": "The Velvet Underground",
+    "kind": "live",
+    "note": "Live recordings from the 1969 tour; the best live Velvets."
+   },
+   {
+    "t": "Sally Can't Dance",
+    "y": 1974,
+    "note": "His biggest chart record and one he disowned. Skip."
+   },
+   {
+    "t": "Metal Machine Music",
+    "y": 1975,
+    "note": "An hour of feedback that ended his deal and became a sacred text of noise. On the far shelf."
+   },
+   {
+    "t": "Coney Island Baby",
+    "y": 1976,
+    "note": "Warm and romantic, the title song is one of his best. The first solo record after the path."
+   },
+   {
+    "t": "Rock and Roll Heart",
+    "y": 1976,
+    "note": "Light and forgettable."
+   },
+   {
+    "t": "Street Hassle",
+    "y": 1978,
+    "note": "The title song is an eleven-minute street suite with Springsteen reciting a few lines; the rest is uneven."
+   },
+   {
+    "t": "Live: Take No Prisoners",
+    "y": 1978,
+    "kind": "live",
+    "note": "Reed riffing and insulting critics between songs, like a comedy record."
+   },
+   {
+    "t": "The Bells",
+    "y": 1979,
+    "note": "Free-jazz trumpeter Don Cherry plays on it; odd and late-night."
+   },
+   {
+    "t": "Growing Up in Public",
+    "y": 1980,
+    "note": "Domestic and wry; can wait."
+   },
+   {
+    "t": "The Blue Mask",
+    "y": 1982,
+    "note": "With Robert Quine's guitar, a clean, sober record; the best of his 1980s albums apart from New York."
+   },
+   {
+    "t": "Legendary Hearts",
+    "y": 1983,
+    "note": "The Quine band again, less striking than The Blue Mask."
+   },
+   {
+    "t": "New Sensations",
+    "y": 1984,
+    "note": "Mid-80s and upbeat. Skip."
+   },
+   {
+    "t": "VU",
+    "y": 1985,
+    "by": "The Velvet Underground",
+    "kind": "compilation",
+    "note": "Unreleased 1968-69 studio recordings, as good as an official album."
+   },
+   {
+    "t": "Mistrial",
+    "y": 1986,
+    "note": "His slickest record. Skip."
+   },
+   {
+    "t": "Another View",
+    "y": 1986,
+    "by": "The Velvet Underground",
+    "kind": "compilation",
+    "note": "More outtakes, weaker than VU."
+   },
+   {
+    "t": "New York",
+    "y": 1989,
+    "step": 7,
+    "note": "Two guitars, bass, drums and fourteen dispatches about the city in the Reagan years. Reed as reporter."
+   },
+   {
+    "t": "Songs for Drella",
+    "y": 1990,
+    "by": "Lou Reed & John Cale",
+    "kind": "collaboration",
+    "step": 8,
+    "note": "Reed and John Cale reunite to tell Andy Warhol's life in songs; spare piano, viola and guitar."
+   },
+   {
+    "t": "Magic and Loss",
+    "y": 1992,
+    "note": "A song cycle about two friends dying of cancer; serious and slow."
+   },
+   {
+    "t": "Set the Twilight Reeling",
+    "y": 1996,
+    "note": "Happy and loose; can wait."
+   },
+   {
+    "t": "Ecstasy",
+    "y": 2000,
+    "note": "Long, noisy songs about marriage; uneven."
+   },
+   {
+    "t": "The Raven",
+    "y": 2003,
+    "note": "Reed's Poe album, with Willem Dafoe, Steve Buscemi and Ornette Coleman."
+   },
+   {
+    "t": "Hudson River Wind Meditations",
+    "y": 2007,
+    "note": "Ambient music for tai chi. A curiosity."
+   },
+   {
+    "t": "Lulu",
+    "y": 2011,
+    "by": "Lou Reed & Metallica",
+    "kind": "collaboration",
+    "note": "With Metallica, based on Wedekind's Lulu plays; reviled, then grudgingly re-evaluated. On the far shelf."
+   }
+  ]
+ },
+ "Patti Smith": {
+  "about": "A Rimbaud-obsessed poet fronting a rock band: the four Patti Smith Group records in order, then the comeback after her husband's death.",
+  "records": [
+   {
+    "t": "Horses",
+    "y": 1975,
+    "step": 1,
+    "note": "The door: \"Jesus died for somebody's sins but not mine,\" Lenny Kaye's garage guitar and John Cale producing. Beat poetry with a rock band."
+   },
+   {
+    "t": "Radio Ethiopia",
+    "y": 1976,
+    "by": "Patti Smith Group",
+    "step": 2,
+    "note": "Louder and messier, a long improvised title track; critics hated it, which is part of its appeal."
+   },
+   {
+    "t": "Easter",
+    "y": 1978,
+    "by": "Patti Smith Group",
+    "step": 3,
+    "note": "\"Because the Night\" with Springsteen, plus \"Rock N Roll Nigger\"; her most direct rock record."
+   },
+   {
+    "t": "Wave",
+    "y": 1979,
+    "by": "Patti Smith Group",
+    "step": 4,
+    "note": "Todd Rundgren produces, and she says goodbye before marrying Fred Smith and leaving music for years."
+   },
+   {
+    "t": "Dream of Life",
+    "y": 1988,
+    "note": "Made with Fred Smith, \"People Have the Power\"; polished and of its time."
+   },
+   {
+    "t": "Gone Again",
+    "y": 1996,
+    "step": 5,
+    "note": "Made after Fred Smith and her brother died; grief, Kurt Cobain and a Tom Verlaine guitar. The comeback."
+   },
+   {
+    "t": "Peace and Noise",
+    "y": 1997,
+    "note": "Beat-influenced, with Ginsberg's \"Footnote to Howl\" set to music as \"Spell\"; worth it after the path."
+   },
+   {
+    "t": "Gung Ho",
+    "y": 2000,
+    "note": "Political and long; uneven."
+   },
+   {
+    "t": "Land (1975–2002)",
+    "y": 2002,
+    "kind": "compilation",
+    "note": "A two-disc best-of with rarities."
+   },
+   {
+    "t": "Trampin'",
+    "y": 2004,
+    "note": "Spiritual and political, closing on a hymn her mother used to sing; solid but not essential."
+   },
+   {
+    "t": "Twelve",
+    "y": 2007,
+    "note": "Covers of Hendrix, Nirvana, Dylan; a curiosity."
+   },
+   {
+    "t": "The Coral Sea",
+    "y": 2008,
+    "by": "Patti Smith & Kevin Shields",
+    "kind": "collaboration",
+    "note": "Her poem for Robert Mapplethorpe read over Kevin Shields's guitar; a spoken-word record for the Beats side of the list."
+   },
+   {
+    "t": "Banga",
+    "y": 2012,
+    "step": 6,
+    "note": "The best of her late records, with songs for Amy Winehouse and the Fukushima victims, and a Bulgakov thread."
+   },
+   {
+    "t": "The Poet Speaks: Homage to Allen Ginsberg",
+    "y": 2021,
+    "by": "Patti Smith & Philip Glass",
+    "kind": "collaboration",
+    "note": "Patti Smith with Philip Glass reading and playing Ginsberg."
+   }
+  ]
+ },
+ "Neil Young": {
+  "about": "I know After the Gold Rush and Sugar Mountain, so this starts in the dark mid-70s \"ditch trilogy\" and moves from Crazy Horse's noise to his country side.",
+  "records": [
+   {
+    "t": "Neil Young",
+    "y": 1968,
+    "note": "The overproduced solo debut; he disowned the mix."
+   },
+   {
+    "t": "Everybody Knows This Is Nowhere",
+    "y": 1969,
+    "step": 4,
+    "note": "The first with Crazy Horse: \"Down by the River\" and \"Cowgirl in the Sand,\" long ragged guitar jams."
+   },
+   {
+    "t": "After the Gold Rush",
+    "y": 1970,
+    "heard": true,
+    "note": "Piano, acoustic songs and \"Southern Man.\" I know this one."
+   },
+   {
+    "t": "Harvest",
+    "y": 1972,
+    "step": 5,
+    "note": "His country-rock hit with \"Heart of Gold\" and \"Old Man\"; smoother than the rest of the path, but central."
+   },
+   {
+    "t": "Time Fades Away",
+    "y": 1973,
+    "kind": "live",
+    "note": "The first of the ditch records, a live album of new songs from a miserable tour."
+   },
+   {
+    "t": "On the Beach",
+    "y": 1974,
+    "step": 1,
+    "note": "The door: hungover and paranoid, after the hippie dream curdled. \"Ambulance Blues\" is nine minutes of Dylan-like despair."
+   },
+   {
+    "t": "Tonight's the Night",
+    "y": 1975,
+    "step": 2,
+    "note": "A drunk wake for two friends who died of overdoses; sloppy on purpose, and one of his best."
+   },
+   {
+    "t": "Zuma",
+    "y": 1975,
+    "note": "Crazy Horse back, with \"Cortez the Killer\"; the next one to hear after the path."
+   },
+   {
+    "t": "Long May You Run",
+    "y": 1976,
+    "by": "The Stills-Young Band",
+    "kind": "collaboration",
+    "note": "A reunion with Stephen Stills; slight."
+   },
+   {
+    "t": "American Stars 'n Bars",
+    "y": 1977,
+    "note": "A grab bag, but has \"Like a Hurricane.\""
+   },
+   {
+    "t": "Decade",
+    "y": 1977,
+    "kind": "compilation",
+    "note": "Three-LP career compilation he picked himself, with unreleased songs."
+   },
+   {
+    "t": "Comes a Time",
+    "y": 1978,
+    "note": "Gentle country-folk; nice, but Harvest covers this ground."
+   },
+   {
+    "t": "Rust Never Sleeps",
+    "y": 1979,
+    "step": 3,
+    "note": "Acoustic side, electric side, both ending in \"Hey hey, my my\"; his answer to punk."
+   },
+   {
+    "t": "Live Rust",
+    "y": 1979,
+    "kind": "live",
+    "note": "The Rust Never Sleeps tour live; good once the studio album lands."
+   },
+   {
+    "t": "Hawks & Doves",
+    "y": 1980,
+    "note": "Short and divided, half folk, half country; minor."
+   },
+   {
+    "t": "Re·ac·tor",
+    "y": 1981,
+    "note": "Crazy Horse on repetitive riffs; minor."
+   },
+   {
+    "t": "Trans",
+    "y": 1982,
+    "note": "His vocoder and synth record, odd and earnest; the start of his weird Geffen years."
+   },
+   {
+    "t": "Everybody's Rockin'",
+    "y": 1983,
+    "by": "Neil Young and the Shocking Pinks",
+    "note": "Rockabilly with the Shocking Pinks; a joke on his label."
+   },
+   {
+    "t": "Old Ways",
+    "y": 1985,
+    "note": "Straight Nashville country; minor."
+   },
+   {
+    "t": "Landing on Water",
+    "y": 1986,
+    "note": "Mid-80s drum sounds. Skip."
+   },
+   {
+    "t": "Life",
+    "y": 1987,
+    "note": "Crazy Horse in 80s production. Skip."
+   },
+   {
+    "t": "This Note's for You",
+    "y": 1988,
+    "note": "A horn band record mocking corporate rock sponsorships; fun but minor."
+   },
+   {
+    "t": "Freedom",
+    "y": 1989,
+    "step": 6,
+    "note": "The comeback: \"Rockin' in the Free World\" in both acoustic and electric forms, bookending a record about America at the end of the 80s."
+   },
+   {
+    "t": "Ragged Glory",
+    "y": 1990,
+    "step": 7,
+    "note": "Crazy Horse at their loudest and most joyous, ten-minute feedback jams; where grunge took notes."
+   },
+   {
+    "t": "Weld",
+    "y": 1991,
+    "kind": "live",
+    "note": "Live with Crazy Horse during the Gulf War, at volume."
+   },
+   {
+    "t": "Harvest Moon",
+    "y": 1992,
+    "note": "A gentle sequel to Harvest twenty years later."
+   },
+   {
+    "t": "Sleeps with Angels",
+    "y": 1994,
+    "note": "Dark, after Kurt Cobain quoted him in his suicide note; the best of the 90s records left off the path."
+   },
+   {
+    "t": "Mirror Ball",
+    "y": 1995,
+    "by": "Neil Young with Pearl Jam",
+    "note": "Backed by Pearl Jam; loud and loose."
+   },
+   {
+    "t": "Dead Man",
+    "y": 1996,
+    "kind": "soundtrack",
+    "note": "Young improvising on electric guitar while watching Jarmusch's film, with Johnny Depp reading William Blake."
+   },
+   {
+    "t": "Broken Arrow",
+    "y": 1996,
+    "note": "Crazy Horse in a lazy mood; minor."
+   },
+   {
+    "t": "Silver & Gold",
+    "y": 2000,
+    "note": "Quiet acoustic songs; minor."
+   },
+   {
+    "t": "Are You Passionate?",
+    "y": 2002,
+    "note": "A soul record with Booker T. & the M.G.'s; minor."
+   },
+   {
+    "t": "Greendale",
+    "y": 2003,
+    "note": "A rock-opera about a small town; long and talky."
+   },
+   {
+    "t": "Prairie Wind",
+    "y": 2005,
+    "note": "Nashville and Harvest-style, written around an aneurysm; warm and mortal."
+   },
+   {
+    "t": "Living with War",
+    "y": 2006,
+    "note": "Written and recorded in two weeks to protest the Iraq War."
+   },
+   {
+    "t": "Chrome Dreams II",
+    "y": 2007,
+    "note": "A sequel to an unreleased 1977 album, with the eighteen-minute \"Ordinary People.\""
+   },
+   {
+    "t": "Sugar Mountain – Live at Canterbury House 1968",
+    "y": 2008,
+    "kind": "live",
+    "heard": true,
+    "note": "A solo acoustic 1968 show, from before the first album came out. I know this one."
+   },
+   {
+    "t": "Fork in the Road",
+    "y": 2009,
+    "note": "About his electric car. Skip."
+   },
+   {
+    "t": "Le Noise",
+    "y": 2010,
+    "note": "Solo electric guitar with Daniel Lanois's echoes; an interesting late one."
+   },
+   {
+    "t": "Americana",
+    "y": 2012,
+    "note": "Crazy Horse doing old folk songs; fun but minor."
+   },
+   {
+    "t": "Psychedelic Pill",
+    "y": 2012,
+    "note": "Crazy Horse in long jams again, \"Driftin' Back\" runs 27 minutes; the best of the late records."
+   },
+   {
+    "t": "A Letter Home",
+    "y": 2014,
+    "note": "Covers recorded in Jack White's vintage voice-recording booth. A curiosity for the Jack White side of me."
+   },
+   {
+    "t": "Storytone",
+    "y": 2014,
+    "note": "Orchestral and big band; minor."
+   },
+   {
+    "t": "The Monsanto Years",
+    "y": 2015,
+    "note": "A protest record against agribusiness, with Promise of the Real; minor."
+   },
+   {
+    "t": "Peace Trail",
+    "y": 2016,
+    "note": "Sparse and quick; minor."
+   },
+   {
+    "t": "The Visitor",
+    "y": 2017,
+    "by": "Neil Young + Promise of the Real",
+    "note": "With Promise of the Real; minor."
+   },
+   {
+    "t": "Colorado",
+    "y": 2019,
+    "note": "Crazy Horse reunited with Nils Lofgren; solid."
+   },
+   {
+    "t": "Homegrown",
+    "y": 2020,
+    "note": "An album shelved in 1975 for Tonight's the Night, finally released; heartbreak songs from the same years as the door."
+   },
+   {
+    "t": "Barn",
+    "y": 2021,
+    "note": "Crazy Horse in a barn; minor."
+   },
+   {
+    "t": "World Record",
+    "y": 2022,
+    "note": "Crazy Horse, produced by Rick Rubin; minor."
+   },
+   {
+    "t": "Talkin to the Trees",
+    "y": 2025,
+    "by": "Neil Young and the Chrome Hearts",
+    "note": "With his new band the Chrome Hearts; minor."
+   }
+  ]
+ },
+ "Joni Mitchell": {
+  "about": "From the confessional folk of Blue into the jazz records she made with the best players of the 70s, ending at her collaboration with Mingus.",
+  "records": [
+   {
+    "t": "Song to a Seagull",
+    "y": 1968,
+    "note": "The David Crosby-produced debut; lovely but tentative."
+   },
+   {
+    "t": "Clouds",
+    "y": 1969,
+    "note": "Her own \"Both Sides Now\" and \"Chelsea Morning\"; folk-era, can wait."
+   },
+   {
+    "t": "Ladies of the Canyon",
+    "y": 1970,
+    "step": 6,
+    "note": "Laurel Canyon folk with \"Big Yellow Taxi\" and \"Woodstock\"; a step back after the path to see where Blue came from."
+   },
+   {
+    "t": "Blue",
+    "y": 1971,
+    "step": 1,
+    "note": "The door: a confessional record of guitar, piano and dulcimer, written after leaving Graham Nash. Every song is personal."
+   },
+   {
+    "t": "For the Roses",
+    "y": 1972,
+    "note": "The bridge from Blue to the jazz years, with Tom Scott's woodwinds; the best of the records left off."
+   },
+   {
+    "t": "Court and Spark",
+    "y": 1974,
+    "step": 2,
+    "note": "Her biggest hit, with jazz players from the L.A. Express; sophisticated pop with sharp lyrics."
+   },
+   {
+    "t": "Miles of Aisles",
+    "y": 1974,
+    "kind": "live",
+    "note": "Live with the L.A. Express."
+   },
+   {
+    "t": "The Hissing of Summer Lawns",
+    "y": 1975,
+    "step": 3,
+    "note": "Suburban satire and African drums (\"The Jungle Line\"); panned at the time, now seen as her most adventurous."
+   },
+   {
+    "t": "Hejira",
+    "y": 1976,
+    "step": 4,
+    "note": "Written on a road trip, built around Jaco Pastorius's fretless bass; restless and jazzy."
+   },
+   {
+    "t": "Don Juan's Reckless Daughter",
+    "y": 1977,
+    "note": "A sprawling double album with a sixteen-minute orchestral piece; the most experimental, worth it after Mingus."
+   },
+   {
+    "t": "Mingus",
+    "y": 1979,
+    "step": 5,
+    "note": "Mingus, dying of ALS, asked her to write words for his last melodies; Jaco and Herbie Hancock play. The jazz bridge, made for my side of the list."
+   },
+   {
+    "t": "Shadows and Light",
+    "y": 1980,
+    "kind": "live",
+    "note": "Live with Jaco Pastorius, Pat Metheny and Michael Brecker."
+   },
+   {
+    "t": "Wild Things Run Fast",
+    "y": 1982,
+    "note": "A light pop-rock record; minor."
+   },
+   {
+    "t": "Dog Eat Dog",
+    "y": 1985,
+    "note": "Synthesizers and Thomas Dolby; dated."
+   },
+   {
+    "t": "Chalk Mark in a Rain Storm",
+    "y": 1988,
+    "note": "More 80s production, with Peter Gabriel and Willie Nelson guesting; minor."
+   },
+   {
+    "t": "Night Ride Home",
+    "y": 1991,
+    "note": "A return to acoustic guitar; quiet and good."
+   },
+   {
+    "t": "Turbulent Indigo",
+    "y": 1994,
+    "note": "Angry and Grammy-winning, with a Van Gogh self-portrait cover; the best of the later records."
+   },
+   {
+    "t": "Taming the Tiger",
+    "y": 1998,
+    "note": "Guitar-synth textures; minor."
+   },
+   {
+    "t": "Both Sides Now",
+    "y": 2000,
+    "note": "Standards with an orchestra, telling a love story; for later."
+   },
+   {
+    "t": "Travelogue",
+    "y": 2002,
+    "note": "Her songs re-recorded with orchestra."
+   },
+   {
+    "t": "Shine",
+    "y": 2007,
+    "note": "Environmental songs after a decade off; minor."
+   }
+  ]
+ },
+ "Kate Bush": {
+  "about": "From the wild teenage debut to the studio experiments and the long domestic suite of Aerial, with the record built on Joyce after.",
+  "records": [
+   {
+    "t": "The Kick Inside",
+    "y": 1978,
+    "step": 2,
+    "note": "Recorded as a teenager, with \"Wuthering Heights\" written after a TV adaptation sent her to the novel."
+   },
+   {
+    "t": "Lionheart",
+    "y": 1978,
+    "note": "A rushed second album from the same year; minor."
+   },
+   {
+    "t": "Never for Ever",
+    "y": 1980,
+    "note": "The first she co-produced, with early Fairlight sampling; the best of the records left off."
+   },
+   {
+    "t": "The Dreaming",
+    "y": 1982,
+    "step": 3,
+    "note": "Her most extreme record: dense sampling, Aboriginal drones, Houdini. Polarising and strange, on the far shelf."
+   },
+   {
+    "t": "Hounds of Love",
+    "y": 1985,
+    "step": 1,
+    "note": "The door: one side of art-pop singles, one side \"The Ninth Wave,\" a suite about someone drifting in the sea at night."
+   },
+   {
+    "t": "The Sensual World",
+    "y": 1989,
+    "step": 5,
+    "note": "The title song was written to Molly Bloom's soliloquy from Ulysses; she later got the Joyce estate's permission."
+   },
+   {
+    "t": "The Red Shoes",
+    "y": 1993,
+    "note": "Made around a short film; more conventional, and minor."
+   },
+   {
+    "t": "Aerial",
+    "y": 2005,
+    "step": 4,
+    "note": "After twelve years: a double album, the second disc a song cycle about a single summer day. Domestic and luminous."
+   },
+   {
+    "t": "Director's Cut",
+    "y": 2011,
+    "note": "Re-recordings of songs from The Sensual World and The Red Shoes, including the Joyce lyric she was first refused; for later."
+   },
+   {
+    "t": "50 Words for Snow",
+    "y": 2011,
+    "step": 6,
+    "note": "Long, slow piano songs about snow; a quiet late record to finish on."
+   },
+   {
+    "t": "Before the Dawn",
+    "y": 2016,
+    "kind": "live",
+    "note": "Her 2014 return to live performance, with The Ninth Wave staged in full."
+   }
+  ]
+ },
+ "PJ Harvey": {
+  "about": "From the raw trio records to the war songs of Let England Shake and the dialect poems of her latest, with a look back at the debut.",
+  "records": [
+   {
+    "t": "Dry",
+    "y": 1992,
+    "step": 6,
+    "note": "The trio debut, blunt and sharp; heard after the path, it shows where Rid of Me came from."
+   },
+   {
+    "t": "Rid of Me",
+    "y": 1993,
+    "step": 1,
+    "note": "The door: Steve Albini's live, violent recording, vicious and funny, songs about desire and revenge."
+   },
+   {
+    "t": "4-Track Demos",
+    "y": 1993,
+    "kind": "compilation",
+    "note": "Home demos of Rid of Me songs plus unused ones; for after the album."
+   },
+   {
+    "t": "To Bring You My Love",
+    "y": 1995,
+    "step": 2,
+    "note": "Blues and gothic, with the band behind her and organ; theatrical, closer to Nick Cave."
+   },
+   {
+    "t": "Dance Hall at Louse Point",
+    "y": 1996,
+    "by": "PJ Harvey & John Parish",
+    "kind": "collaboration",
+    "note": "Experimental record with John Parish; worth it after the path."
+   },
+   {
+    "t": "Is This Desire?",
+    "y": 1998,
+    "note": "Short stories set to electronics; underrated but minor."
+   },
+   {
+    "t": "Stories from the City, Stories from the Sea",
+    "y": 2000,
+    "step": 3,
+    "note": "New York and Dorset, with Thom Yorke dueting on \"This Mess We're In\"; her most accessible."
+   },
+   {
+    "t": "Uh Huh Her",
+    "y": 2004,
+    "note": "Lo-fi and played almost all by herself; minor."
+   },
+   {
+    "t": "The Peel Sessions 1991–2004",
+    "y": 2006,
+    "kind": "compilation",
+    "note": "Radio sessions across the years."
+   },
+   {
+    "t": "White Chalk",
+    "y": 2007,
+    "step": 7,
+    "note": "Piano and a high, ghostly voice; a hushed Victorian record that pairs well with Ghosteen."
+   },
+   {
+    "t": "A Woman a Man Walked By",
+    "y": 2009,
+    "by": "PJ Harvey & John Parish",
+    "kind": "collaboration",
+    "note": "The second John Parish record; noisier."
+   },
+   {
+    "t": "Let England Shake",
+    "y": 2011,
+    "step": 4,
+    "note": "War songs from Gallipoli to Afghanistan, with autoharp; poetry about history, not slogans."
+   },
+   {
+    "t": "The Hope Six Demolition Project",
+    "y": 2016,
+    "note": "Recorded in public at Somerset House, about Kosovo, Afghanistan and Washington D.C.; uneven but interesting."
+   },
+   {
+    "t": "All About Eve",
+    "y": 2019,
+    "kind": "soundtrack",
+    "note": "Incidental music for the Ivo van Hove stage production."
+   },
+   {
+    "t": "I Inside the Old Year Dying",
+    "y": 2023,
+    "step": 5,
+    "note": "Songs from her book-length dialect poem Orlam, set in rural Dorset; strange and lovely."
+   }
+  ]
+ },
+ "Talking Heads": {
+  "about": "From the nervous art-school debut to the Afro-funk of Remain in Light and the concert film, with the Byrne and Eno collage that came out of it.",
+  "names": [
+   "Talking Heads",
+   "David Byrne & Brian Eno"
+  ],
+  "records": [
+   {
+    "t": "Talking Heads: 77",
+    "y": 1977,
+    "step": 2,
+    "note": "The nervy debut, \"Psycho Killer\" and minimal guitar; where they started."
+   },
+   {
+    "t": "More Songs About Buildings and Food",
+    "y": 1978,
+    "step": 6,
+    "note": "The first Eno production; tighter and funkier. The next record to hear after the path."
+   },
+   {
+    "t": "Fear of Music",
+    "y": 1979,
+    "step": 3,
+    "note": "Paranoid and darker, \"Life During Wartime\" and the Hugo Ball poem \"I Zimbra.\""
+   },
+   {
+    "t": "Remain in Light",
+    "y": 1980,
+    "step": 1,
+    "note": "The door: Afrobeat and Fela-inspired polyrhythms, loops and Byrne's anxious sermons. With Eno."
+   },
+   {
+    "t": "My Life in the Bush of Ghosts",
+    "y": 1981,
+    "by": "David Byrne & Brian Eno",
+    "kind": "collaboration",
+    "step": 5,
+    "note": "Byrne and Eno's sampling record, found voices over funk loops; the same lab as Remain in Light."
+   },
+   {
+    "t": "The Name of This Band Is Talking Heads",
+    "y": 1982,
+    "kind": "live",
+    "note": "Live record from 1977 to 1981, with the big band; worth hearing after the studio albums."
+   },
+   {
+    "t": "Speaking in Tongues",
+    "y": 1983,
+    "step": 7,
+    "note": "\"Burning Down the House\" and \"This Must Be the Place\"; the funk band at its most joyful."
+   },
+   {
+    "t": "Stop Making Sense",
+    "y": 1984,
+    "kind": "live",
+    "step": 4,
+    "note": "The concert film soundtrack, the band built up one player at a time. The live culmination."
+   },
+   {
+    "t": "Little Creatures",
+    "y": 1985,
+    "note": "Short, sunny pop songs; minor."
+   },
+   {
+    "t": "True Stories",
+    "y": 1986,
+    "note": "Songs from Byrne's film about a Texas town; slight."
+   },
+   {
+    "t": "Naked",
+    "y": 1988,
+    "note": "Recorded in Paris with African players; a fitting last record, minor."
+   }
+  ]
+ },
+ "Brian Eno": {
+  "about": "I've tried the ambient records; this path is his song albums, the strange art-pop that sits between Bowie's Low and Talking Heads.",
+  "names": [
+   "Brian Eno",
+   "Eno"
+  ],
+  "records": [
+   {
+    "t": "Roxy Music",
+    "y": 1972,
+    "by": "Roxy Music",
+    "note": "His first band, glam with Eno on synths and tapes."
+   },
+   {
+    "t": "For Your Pleasure",
+    "y": 1973,
+    "by": "Roxy Music",
+    "note": "The second Roxy Music record, Eno's last with them."
+   },
+   {
+    "t": "(No Pussyfooting)",
+    "y": 1973,
+    "by": "Fripp & Eno",
+    "kind": "collaboration",
+    "note": "Long loops with Robert Fripp's guitar; ambient before ambient."
+   },
+   {
+    "t": "Here Come the Warm Jets",
+    "y": 1974,
+    "step": 2,
+    "note": "The first solo song record: glam, noise, and words chosen for their sound."
+   },
+   {
+    "t": "Taking Tiger Mountain (By Strategy)",
+    "y": 1974,
+    "step": 3,
+    "note": "A concept album about Chinese revolutionary opera and espionage; catchy and weird."
+   },
+   {
+    "t": "Another Green World",
+    "y": 1975,
+    "step": 1,
+    "note": "The door: half instrumentals, half songs, made with Oblique Strategies cards; the bridge between the songs and ambient."
+   },
+   {
+    "t": "Discreet Music",
+    "y": 1975,
+    "note": "An early ambient record, conceived while he was laid up after an accident; part of the ambient side, not this path."
+   },
+   {
+    "t": "Evening Star",
+    "y": 1975,
+    "by": "Fripp & Eno",
+    "kind": "collaboration",
+    "note": "The second Fripp and Eno record, gentler."
+   },
+   {
+    "t": "Before and After Science",
+    "y": 1977,
+    "step": 4,
+    "note": "The last of the song records, split between nervy rock and hushed pastoral songs."
+   },
+   {
+    "t": "Cluster & Eno",
+    "y": 1977,
+    "by": "Cluster & Eno",
+    "kind": "collaboration",
+    "note": "With the German duo Cluster; for after the path."
+   },
+   {
+    "t": "Ambient 1: Music for Airports",
+    "y": 1978,
+    "heard": true,
+    "note": "Tape loops for an airport terminal. I know this one."
+   },
+   {
+    "t": "Music for Films",
+    "y": 1978,
+    "note": "Short cues for imaginary films; ambient."
+   },
+   {
+    "t": "Ambient 2: The Plateaux of Mirror",
+    "y": 1980,
+    "by": "Harold Budd & Brian Eno",
+    "kind": "collaboration",
+    "note": "With Harold Budd's piano."
+   },
+   {
+    "t": "Fourth World, Vol. 1: Possible Musics",
+    "y": 1980,
+    "by": "Jon Hassell & Brian Eno",
+    "kind": "collaboration",
+    "note": "Jon Hassell's processed trumpet; a world-music-meets-ambient experiment."
+   },
+   {
+    "t": "My Life in the Bush of Ghosts",
+    "y": 1981,
+    "by": "David Byrne & Brian Eno",
+    "kind": "collaboration",
+    "note": "With David Byrne; on the Talking Heads path."
+   },
+   {
+    "t": "Ambient 4: On Land",
+    "y": 1982,
+    "note": "Darker ambient landscapes; the best of the ambient series."
+   },
+   {
+    "t": "Apollo: Atmospheres and Soundtracks",
+    "y": 1983,
+    "note": "With Daniel Lanois and Roger Eno for a moon-landing documentary; ambient."
+   },
+   {
+    "t": "Wrong Way Up",
+    "y": 1990,
+    "by": "Brian Eno & John Cale",
+    "kind": "collaboration",
+    "step": 5,
+    "note": "Song album with John Cale; wry and warm, his first singing in years."
+   },
+   {
+    "t": "Another Day on Earth",
+    "y": 2005,
+    "note": "His first solo vocal album in decades; quieter and melancholic."
+   },
+   {
+    "t": "Everything That Happens Will Happen Today",
+    "y": 2008,
+    "by": "David Byrne & Brian Eno",
+    "kind": "collaboration",
+    "step": 6,
+    "note": "With David Byrne, \"electronic gospel\"; the late song record to finish on."
+   },
+   {
+    "t": "Small Craft on a Milk Sea",
+    "y": 2010,
+    "by": "Brian Eno, Jon Hopkins & Leo Abrahams",
+    "kind": "collaboration",
+    "note": "With Leo Abrahams and Jon Hopkins; instrumental soundscapes."
+   },
+   {
+    "t": "Drums Between the Bells",
+    "y": 2011,
+    "note": "Settings of Rick Holland's poems; worth it for the poetry side of the list."
+   },
+   {
+    "t": "ForeverAndEverNoMore",
+    "y": 2022,
+    "note": "Songs about the climate crisis in his own voice; slow and grave."
+   }
+  ]
+ },
+ "The Beatles": {
+  "about": "I know them all; this is a re-listen order that starts at my two favorites and walks forward through the studio years, then goes back to hear where the songwriting came from.",
+  "records": [
+   {
+    "t": "Rubber Soul",
+    "y": 1965,
+    "step": 1,
+    "heard": true,
+    "note": "The door, again: the first record made as an album, with folk-rock guitars, a sitar on \"Norwegian Wood\" and lyrics that turn inward."
+   },
+   {
+    "t": "Revolver",
+    "y": 1966,
+    "step": 2,
+    "heard": true,
+    "note": "The other favorite, straight after: tape loops, backwards guitar and \"Tomorrow Never Knows,\" the point where the studio becomes the instrument."
+   },
+   {
+    "t": "Sgt. Pepper's Lonely Hearts Club Band",
+    "y": 1967,
+    "step": 3,
+    "heard": true,
+    "note": "The concept-album idea Revolver made possible; hear it right after to see how much is costume and how much is new."
+   },
+   {
+    "t": "Magical Mystery Tour",
+    "y": 1967,
+    "step": 4,
+    "heard": true,
+    "note": "The 1967 singles collected with the film songs: \"Strawberry Fields Forever,\" \"Penny Lane,\" \"I Am the Walrus.\" The psychedelic peak lives here as much as on Pepper."
+   },
+   {
+    "t": "The Beatles",
+    "y": 1968,
+    "step": 5,
+    "heard": true,
+    "note": "The White Album: four songwriters pulling apart, from \"Helter Skelter\" to \"Revolution 9.\" The sprawl is the point."
+   },
+   {
+    "t": "Abbey Road",
+    "y": 1969,
+    "step": 6,
+    "heard": true,
+    "note": "The last record they made together, with the side-two medley as a deliberate farewell."
+   },
+   {
+    "t": "A Hard Day's Night",
+    "y": 1964,
+    "step": 7,
+    "heard": true,
+    "note": "Then go back: the first album of all Lennon-McCartney songs, and George's twelve-string chime that the Byrds took whole."
+   },
+   {
+    "t": "Help!",
+    "y": 1965,
+    "step": 8,
+    "heard": true,
+    "note": "The bridge into Rubber Soul: \"Yesterday,\" \"You've Got to Hide Your Love Away\" and the Dylan influence arriving."
+   },
+   {
+    "t": "Please Please Me",
+    "y": 1963,
+    "heard": true,
+    "note": "The debut, mostly cut in one day; the energy is great, but half of it is covers."
+   },
+   {
+    "t": "With the Beatles",
+    "y": 1963,
+    "heard": true,
+    "note": "More of the debut's formula, with Motown and girl-group covers."
+   },
+   {
+    "t": "Beatles for Sale",
+    "y": 1964,
+    "heard": true,
+    "note": "The tired one, made between tours; the country and Carl Perkins side of the band, worth a later visit."
+   },
+   {
+    "t": "Yellow Submarine",
+    "y": 1969,
+    "heard": true,
+    "note": "Four new songs and a side of George Martin's film score."
+   },
+   {
+    "t": "Let It Be",
+    "y": 1970,
+    "heard": true,
+    "note": "Recorded before Abbey Road and released after the breakup; the rooftop songs are better in the film."
+   },
+   {
+    "t": "Past Masters",
+    "y": 1988,
+    "kind": "compilation",
+    "heard": true,
+    "note": "The non-album singles and B-sides, including \"Rain\" and \"Hey Jude\"; worth having but not a record to study."
+   }
+  ]
+ },
+ "The Kinks": {
+  "about": "Ray Davies at his most English and most literary, from the 1966 turn to character songs through the early-1970s Americana record.",
+  "records": [
+   {
+    "t": "The Kinks Are the Village Green Preservation Society",
+    "y": 1968,
+    "step": 1,
+    "note": "The door: a gentle, funny concept record about a vanishing English village, which sold almost nothing and became the one everyone treasures."
+   },
+   {
+    "t": "Something Else by the Kinks",
+    "y": 1967,
+    "step": 2,
+    "note": "The year before: \"Waterloo Sunset,\" \"Two Sisters,\" and Dave Davies's \"Death of a Clown.\" Character songs in three minutes."
+   },
+   {
+    "t": "Arthur (Or the Decline and Fall of the British Empire)",
+    "y": 1969,
+    "step": 3,
+    "note": "Written for a TV play that was never made: one family's life from Victoria to emigration to Australia, with louder guitars."
+   },
+   {
+    "t": "Muswell Hillbillies",
+    "y": 1971,
+    "step": 4,
+    "note": "North London working-class life set to American country and music hall; the most alt-country thing in the British Invasion."
+   },
+   {
+    "t": "Face to Face",
+    "y": 1966,
+    "step": 5,
+    "note": "Back to where the observing started: \"Sunny Afternoon\" and satire of the rich and the bored."
+   },
+   {
+    "t": "Lola Versus Powerman and the Moneygoround, Part One",
+    "y": 1970,
+    "step": 6,
+    "note": "The music business as a villain, with \"Lola\" and \"Apeman\" in the middle of it."
+   },
+   {
+    "t": "Kinks",
+    "y": 1964,
+    "note": "The debut, built around \"You Really Got Me\"; the riff is history, the rest is filler and covers."
+   },
+   {
+    "t": "Kinda Kinks",
+    "y": 1965,
+    "note": "Rushed out between tours; \"Tired of Waiting for You\" is the one to keep."
+   },
+   {
+    "t": "The Kink Kontroversy",
+    "y": 1965,
+    "note": "The garage-rock band starting to turn into Ray Davies's band; \"Where Have All the Good Times Gone\" points ahead."
+   },
+   {
+    "t": "Live at Kelvin Hall",
+    "y": 1967,
+    "kind": "live",
+    "note": "A live record mostly of screaming fans."
+   },
+   {
+    "t": "Everybody's in Show-Biz",
+    "y": 1972,
+    "note": "Half studio, half live; \"Celluloid Heroes\" is the song to know."
+   },
+   {
+    "t": "Preservation Act 1",
+    "y": 1973,
+    "note": "The start of the overreaching rock-theater period."
+   },
+   {
+    "t": "Preservation Act 2",
+    "y": 1974,
+    "note": "More of the Preservation story, for those already invested in it."
+   },
+   {
+    "t": "The Kinks Present a Soap Opera",
+    "y": 1975,
+    "note": "Another theatrical concept album; thin songs."
+   },
+   {
+    "t": "The Kinks Present Schoolboys in Disgrace",
+    "y": 1975,
+    "note": "The last of the theater records, a prequel to Preservation."
+   },
+   {
+    "t": "Sleepwalker",
+    "y": 1977,
+    "note": "The start of the arena-rock run on Arista."
+   },
+   {
+    "t": "Misfits",
+    "y": 1978,
+    "note": "Arena-era, with a good title song."
+   },
+   {
+    "t": "Low Budget",
+    "y": 1979,
+    "note": "Big, loud and American; a hit, but slicker than the 1960s work."
+   },
+   {
+    "t": "One for the Road",
+    "y": 1980,
+    "kind": "live",
+    "note": "The arena-era band live."
+   },
+   {
+    "t": "Give the People What They Want",
+    "y": 1981,
+    "note": "Arena rock with Ray's sharper lyrics."
+   },
+   {
+    "t": "State of Confusion",
+    "y": 1983,
+    "note": "Has \"Come Dancing\"; otherwise for completists."
+   },
+   {
+    "t": "Word of Mouth",
+    "y": 1984,
+    "note": "Late-period; the band was coming apart."
+   },
+   {
+    "t": "Think Visual",
+    "y": 1986,
+    "note": "Late-period, mostly forgotten."
+   },
+   {
+    "t": "UK Jive",
+    "y": 1989,
+    "note": "Late-period, mostly forgotten."
+   },
+   {
+    "t": "Phobia",
+    "y": 1993,
+    "note": "The last studio album."
+   }
+  ]
+ },
+ "The Rolling Stones": {
+  "about": "The 1968 to 1972 run, when the Stones went back to blues and country and made four records in a row that hold up; then a few side doors around it.",
+  "records": [
+   {
+    "t": "Exile on Main St.",
+    "y": 1972,
+    "step": 1,
+    "note": "The door: a murky, sprawling double album recorded in a basement in France, blues and gospel and country under the mud."
+   },
+   {
+    "t": "Beggars Banquet",
+    "y": 1968,
+    "step": 2,
+    "note": "Back to the start of the run: acoustic blues, \"Sympathy for the Devil\" and \"Street Fighting Man.\""
+   },
+   {
+    "t": "Let It Bleed",
+    "y": 1969,
+    "step": 3,
+    "note": "\"Gimme Shelter\" to \"You Can't Always Get What You Want\"; the end of the 1960s as a record."
+   },
+   {
+    "t": "Sticky Fingers",
+    "y": 1971,
+    "step": 4,
+    "note": "Mick Taylor's guitar, \"Wild Horses,\" \"Sister Morphine\" and the long jam of \"Can't You Hear Me Knocking.\""
+   },
+   {
+    "t": "Aftermath",
+    "y": 1966,
+    "step": 5,
+    "note": "The first album of all Jagger-Richards songs, with Brian Jones on marimba and dulcimer."
+   },
+   {
+    "t": "Get Yer Ya-Ya's Out!",
+    "y": 1970,
+    "kind": "live",
+    "step": 6,
+    "note": "The 1969 tour live, Mick Taylor and Keith trading guitars; the band at its rawest."
+   },
+   {
+    "t": "Some Girls",
+    "y": 1978,
+    "step": 7,
+    "note": "The late return: punk-sharp, with \"Beast of Burden\" and \"Shattered.\""
+   },
+   {
+    "t": "The Rolling Stones",
+    "y": 1964,
+    "note": "The debut, almost all blues and R&B covers."
+   },
+   {
+    "t": "The Rolling Stones No. 2",
+    "y": 1965,
+    "note": "More covers; still a blues band learning."
+   },
+   {
+    "t": "Out of Our Heads",
+    "y": 1965,
+    "note": "Mostly covers; the US version has \"Satisfaction\" on it."
+   },
+   {
+    "t": "Between the Buttons",
+    "y": 1967,
+    "note": "Their most English pop record, a near-miss that has its fans."
+   },
+   {
+    "t": "Their Satanic Majesties Request",
+    "y": 1967,
+    "note": "The psychedelic detour; \"2000 Light Years from Home\" is worth one listen."
+   },
+   {
+    "t": "Hot Rocks 1964–1971",
+    "y": 1971,
+    "kind": "compilation",
+    "note": "The singles that never made the UK albums: \"Satisfaction,\" \"Jumpin' Jack Flash,\" \"Honky Tonk Women.\""
+   },
+   {
+    "t": "Goats Head Soup",
+    "y": 1973,
+    "note": "The hangover after Exile; \"Angie\" and a lot of drift."
+   },
+   {
+    "t": "It's Only Rock 'n Roll",
+    "y": 1974,
+    "note": "Mick Taylor's last; uneven."
+   },
+   {
+    "t": "Black and Blue",
+    "y": 1976,
+    "note": "Guitarist auditions on tape; \"Memory Motel\" and \"Fool to Cry.\""
+   },
+   {
+    "t": "Emotional Rescue",
+    "y": 1980,
+    "note": "Disco and leftovers."
+   },
+   {
+    "t": "Tattoo You",
+    "y": 1981,
+    "note": "Assembled from outtakes; has \"Start Me Up\" and a soft second side."
+   },
+   {
+    "t": "Undercover",
+    "y": 1983,
+    "note": "The 1980s sheen the list steers away from."
+   },
+   {
+    "t": "Dirty Work",
+    "y": 1986,
+    "note": "Made while Mick and Keith weren't speaking."
+   },
+   {
+    "t": "Steel Wheels",
+    "y": 1989,
+    "note": "The stadium comeback."
+   },
+   {
+    "t": "Voodoo Lounge",
+    "y": 1994,
+    "note": "Competent and long."
+   },
+   {
+    "t": "Bridges to Babylon",
+    "y": 1997,
+    "note": "Late-period, mostly forgotten."
+   },
+   {
+    "t": "A Bigger Bang",
+    "y": 2005,
+    "note": "Late-period, louder than it needs to be."
+   },
+   {
+    "t": "Blue & Lonesome",
+    "y": 2016,
+    "note": "An album of blues covers cut in three days; a fun return to where they started."
+   },
+   {
+    "t": "Hackney Diamonds",
+    "y": 2023,
+    "note": "The big-budget late album, with guests."
+   },
+   {
+    "t": "Foreign Tongues",
+    "y": 2026,
+    "note": "The newest; not needed to understand the band."
+   }
+  ]
+ },
+ "Pink Floyd": {
+  "about": "Two doors, Syd Barrett's psychedelic debut and Roger Waters's lament for him, then the Waters concept records of the 1970s.",
+  "records": [
+   {
+    "t": "The Piper at the Gates of Dawn",
+    "y": 1967,
+    "step": 1,
+    "note": "The first door: Syd Barrett's only full album with the band, nursery rhymes and gnomes against the space-rock of \"Interstellar Overdrive.\""
+   },
+   {
+    "t": "Wish You Were Here",
+    "y": 1975,
+    "step": 2,
+    "note": "The second door: eight years on, the band's song for Syd, and a sour one about the music industry."
+   },
+   {
+    "t": "The Dark Side of the Moon",
+    "y": 1973,
+    "step": 3,
+    "note": "Back two years: madness, money and time, with the band's studio craft at its peak."
+   },
+   {
+    "t": "Animals",
+    "y": 1977,
+    "step": 4,
+    "note": "Orwell's farm, rewritten for 1970s Britain: dogs, pigs and sheep, in long angry songs."
+   },
+   {
+    "t": "The Wall",
+    "y": 1979,
+    "step": 5,
+    "note": "Waters's double-album rock opera about isolation; the end of the classic band."
+   },
+   {
+    "t": "Meddle",
+    "y": 1971,
+    "step": 6,
+    "note": "After the path: the side-long \"Echoes\" is where the Dark Side sound began."
+   },
+   {
+    "t": "A Saucerful of Secrets",
+    "y": 1968,
+    "note": "The transition: Syd fading out, David Gilmour coming in; the title track is the reason to hear it."
+   },
+   {
+    "t": "The Madcap Laughs",
+    "y": 1970,
+    "by": "Syd Barrett",
+    "kind": "solo",
+    "note": "Syd's first solo record, fragile and broken, produced in part by Gilmour and Waters."
+   },
+   {
+    "t": "Barrett",
+    "y": 1970,
+    "by": "Syd Barrett",
+    "kind": "solo",
+    "note": "Syd's second and last solo album."
+   },
+   {
+    "t": "Soundtrack from the Film More",
+    "y": 1969,
+    "note": "A film score; some pretty folk songs and a lot of mood."
+   },
+   {
+    "t": "Ummagumma",
+    "y": 1969,
+    "kind": "live",
+    "note": "Half live, half solo experiments; the live half is the good half."
+   },
+   {
+    "t": "Atom Heart Mother",
+    "y": 1970,
+    "note": "The orchestral side-long suite; the band disowned it later."
+   },
+   {
+    "t": "Obscured by Clouds",
+    "y": 1972,
+    "note": "Another film score, recorded quickly between bigger records."
+   },
+   {
+    "t": "The Final Cut",
+    "y": 1983,
+    "note": "Essentially a Waters solo record about the Falklands War; bitter and thin."
+   },
+   {
+    "t": "A Momentary Lapse of Reason",
+    "y": 1987,
+    "note": "Gilmour's Floyd without Waters, with a 1980s sheen."
+   },
+   {
+    "t": "The Division Bell",
+    "y": 1994,
+    "note": "Gilmour's Floyd, smoother."
+   },
+   {
+    "t": "The Endless River",
+    "y": 2014,
+    "note": "Ambient leftovers from the Division Bell sessions."
+   }
+  ]
+ },
+ "Frank Zappa": {
+  "about": "Zappa as satirist and composer: the jazz-rock door, the Mothers' early lampoons, the 1970s hits and the Joe's Garage parable, then the chamber music he cared about most.",
+  "records": [
+   {
+    "t": "Hot Rats",
+    "y": 1969,
+    "step": 1,
+    "note": "The door: mostly instrumental jazz-rock, with Captain Beefheart singing on \"Willie the Pimp\" and Zappa's guitar out front."
+   },
+   {
+    "t": "Freak Out!",
+    "y": 1966,
+    "by": "The Mothers of Invention",
+    "step": 2,
+    "note": "Back to the start: a double debut that mocks hippies and squares alike and ends in a long tape-collage freak-out."
+   },
+   {
+    "t": "We're Only in It for the Money",
+    "y": 1968,
+    "by": "The Mothers of Invention",
+    "step": 3,
+    "note": "A parody of Sgt. Pepper and the Summer of Love, chopped up with tape edits; satire as dense as Pynchon."
+   },
+   {
+    "t": "Apostrophe (')",
+    "y": 1974,
+    "step": 4,
+    "note": "The 1970s Zappa most people know: an Eskimo saga and \"Cosmik Debris,\" tight and funny."
+   },
+   {
+    "t": "Joe's Garage Act I",
+    "y": 1979,
+    "step": 5,
+    "note": "A rock opera about a country that bans music; a central scrutinizer narrates, Kafka by way of a garage band."
+   },
+   {
+    "t": "Joe's Garage Acts II & III",
+    "y": 1979,
+    "step": 6,
+    "note": "The story's second half, released two months later, ending in \"Watermelon in Easter Hay,\" his best guitar solo."
+   },
+   {
+    "t": "Uncle Meat",
+    "y": 1969,
+    "by": "The Mothers of Invention",
+    "step": 7,
+    "note": "Back to the Mothers for the composer: tape music, Varèse-like percussion and a soundtrack to a film that never got made."
+   },
+   {
+    "t": "One Size Fits All",
+    "y": 1975,
+    "by": "The Mothers of Invention",
+    "step": 8,
+    "note": "The best of the 1970s bands, with George Duke and Ruth Underwood; \"Inca Roads\" is the showpiece."
+   },
+   {
+    "t": "The Yellow Shark",
+    "y": 1993,
+    "step": 9,
+    "note": "The last record of his lifetime: his chamber music played by Ensemble Modern, the serious composer he always said he was."
+   },
+   {
+    "t": "Absolutely Free",
+    "y": 1967,
+    "by": "The Mothers of Invention",
+    "note": "The second Mothers record, two side-long suites; good, but Money does the same thing better."
+   },
+   {
+    "t": "Lumpy Gravy",
+    "y": 1968,
+    "note": "An orchestral and tape-collage piece, the companion to Money; for after the path."
+   },
+   {
+    "t": "Cruising with Ruben & the Jets",
+    "y": 1968,
+    "by": "The Mothers of Invention",
+    "note": "A loving parody of doo-wop."
+   },
+   {
+    "t": "Burnt Weeny Sandwich",
+    "y": 1970,
+    "by": "The Mothers of Invention",
+    "note": "Leftovers from the original Mothers, with some fine instrumentals."
+   },
+   {
+    "t": "Weasels Ripped My Flesh",
+    "y": 1970,
+    "by": "The Mothers of Invention",
+    "note": "More of the original Mothers' archive, noisier."
+   },
+   {
+    "t": "Chunga's Revenge",
+    "y": 1970,
+    "note": "A transition record between bands."
+   },
+   {
+    "t": "Fillmore East – June 1971",
+    "y": 1971,
+    "by": "The Mothers of Invention",
+    "kind": "live",
+    "note": "The Flo & Eddie band live; mostly groupie comedy."
+   },
+   {
+    "t": "200 Motels",
+    "y": 1971,
+    "by": "The Mothers of Invention",
+    "kind": "soundtrack",
+    "note": "Soundtrack to his film; a mess with some orchestral moments."
+   },
+   {
+    "t": "Just Another Band from L.A.",
+    "y": 1972,
+    "by": "The Mothers of Invention",
+    "kind": "live",
+    "note": "More of the Flo & Eddie band live."
+   },
+   {
+    "t": "Waka/Jawaka",
+    "y": 1972,
+    "note": "Big-band jazz-rock recorded while he recovered from being pushed off a stage."
+   },
+   {
+    "t": "The Grand Wazoo",
+    "y": 1972,
+    "by": "The Mothers of Invention",
+    "note": "The big-band follow-up to Waka/Jawaka; worth it if Hot Rats lands."
+   },
+   {
+    "t": "Over-Nite Sensation",
+    "y": 1973,
+    "by": "The Mothers of Invention",
+    "note": "The sibling to Apostrophe, cruder and funnier."
+   },
+   {
+    "t": "Roxy & Elsewhere",
+    "y": 1974,
+    "by": "The Mothers of Invention",
+    "kind": "live",
+    "note": "The 1973 band live, maybe his best live band."
+   },
+   {
+    "t": "Bongo Fury",
+    "y": 1975,
+    "by": "Frank Zappa, Captain Beefheart and the Mothers of Invention",
+    "kind": "collaboration",
+    "note": "A live reunion with Captain Beefheart."
+   },
+   {
+    "t": "Zoot Allures",
+    "y": 1976,
+    "note": "A leaner rock record."
+   },
+   {
+    "t": "Zappa in New York",
+    "y": 1978,
+    "kind": "live",
+    "note": "A live record with a horn section and \"The Black Page.\""
+   },
+   {
+    "t": "Studio Tan",
+    "y": 1978,
+    "note": "Released from the vault during a label fight."
+   },
+   {
+    "t": "Sleep Dirt",
+    "y": 1979,
+    "note": "More vault material from the same label fight."
+   },
+   {
+    "t": "Sheik Yerbouti",
+    "y": 1979,
+    "note": "His biggest seller, crude comedy rock."
+   },
+   {
+    "t": "Orchestral Favorites",
+    "y": 1979,
+    "note": "Orchestral pieces from 1975."
+   },
+   {
+    "t": "Tinsel Town Rebellion",
+    "y": 1981,
+    "kind": "live",
+    "note": "Live, mostly punk-era parody."
+   },
+   {
+    "t": "Shut Up 'n Play Yer Guitar",
+    "y": 1981,
+    "note": "Guitar solos edited from live shows, for guitar people."
+   },
+   {
+    "t": "You Are What You Is",
+    "y": 1981,
+    "note": "Satire of the early 1980s, religion and fashion; sharp but dated."
+   },
+   {
+    "t": "Ship Arriving Too Late to Save a Drowning Witch",
+    "y": 1982,
+    "note": "Has \"Valley Girl,\" his only hit single."
+   },
+   {
+    "t": "The Man from Utopia",
+    "y": 1983,
+    "note": "Uneven early-1980s record."
+   },
+   {
+    "t": "The Perfect Stranger",
+    "y": 1984,
+    "note": "His chamber music conducted by Pierre Boulez; a preview of The Yellow Shark."
+   },
+   {
+    "t": "Them or Us",
+    "y": 1984,
+    "note": "Mid-1980s rock record."
+   },
+   {
+    "t": "Thing-Fish",
+    "y": 1984,
+    "note": "A broadway satire that offends nearly everyone; for after the path."
+   },
+   {
+    "t": "Frank Zappa Meets the Mothers of Prevention",
+    "y": 1985,
+    "note": "Includes his response to the record-labeling hearings in Washington."
+   },
+   {
+    "t": "Jazz from Hell",
+    "y": 1986,
+    "note": "Almost all Synclavier; won a Grammy."
+   },
+   {
+    "t": "Broadway the Hard Way",
+    "y": 1988,
+    "kind": "live",
+    "note": "Live political satire from the 1988 tour."
+   },
+   {
+    "t": "You Can't Do That on Stage Anymore, Vol. 1",
+    "y": 1988,
+    "kind": "live",
+    "note": "The first of six volumes of live recordings from every era; a library, not a record."
+   },
+   {
+    "t": "Make a Jazz Noise Here",
+    "y": 1991,
+    "kind": "live",
+    "note": "Instrumentals from the 1988 tour."
+   }
+  ]
+ },
+ "Prince": {
+  "about": "Prince as a one-man band and studio maximalist, from the new-wave funk of Dirty Mind to the double-album peak of Sign o' the Times.",
+  "records": [
+   {
+    "t": "Sign o' the Times",
+    "y": 1987,
+    "step": 1,
+    "note": "The door: a double album that covers funk, psychedelia, gospel and the news in its title song, played mostly by Prince alone."
+   },
+   {
+    "t": "Dirty Mind",
+    "y": 1980,
+    "step": 2,
+    "note": "Back to the start of his real voice: cheap synths, punk speed, home-recorded."
+   },
+   {
+    "t": "1999",
+    "y": 1982,
+    "step": 3,
+    "note": "Long synth-funk grooves; the Minneapolis sound, at full length."
+   },
+   {
+    "t": "Purple Rain",
+    "y": 1984,
+    "by": "Prince and the Revolution",
+    "step": 4,
+    "note": "The soundtrack and the blockbuster; the guitar in \"Purple Rain\" and the bare \"When Doves Cry.\""
+   },
+   {
+    "t": "Parade",
+    "y": 1986,
+    "by": "Prince and the Revolution",
+    "kind": "soundtrack",
+    "step": 5,
+    "note": "After the path: a strange, European-flavored record from his film Under the Cherry Moon, with \"Kiss.\""
+   },
+   {
+    "t": "For You",
+    "y": 1978,
+    "note": "The debut, made alone at nineteen; slick R&B."
+   },
+   {
+    "t": "Prince",
+    "y": 1979,
+    "note": "The second, with \"I Wanna Be Your Lover.\""
+   },
+   {
+    "t": "Controversy",
+    "y": 1981,
+    "note": "Between Dirty Mind and 1999; the title song is the reason."
+   },
+   {
+    "t": "Around the World in a Day",
+    "y": 1985,
+    "by": "Prince and the Revolution",
+    "note": "The psychedelic follow-up to Purple Rain; a gentler Parade."
+   },
+   {
+    "t": "Lovesexy",
+    "y": 1988,
+    "note": "A sequenced, single-track gospel-funk record; pleasant but slight."
+   },
+   {
+    "t": "Batman",
+    "y": 1989,
+    "kind": "soundtrack",
+    "note": "Soundtrack to the Tim Burton film."
+   },
+   {
+    "t": "Graffiti Bridge",
+    "y": 1990,
+    "kind": "soundtrack",
+    "note": "Soundtrack to his flop sequel to Purple Rain."
+   },
+   {
+    "t": "Diamonds and Pearls",
+    "y": 1991,
+    "by": "Prince and the New Power Generation",
+    "note": "Polished, commercial 1990s R&B."
+   },
+   {
+    "t": "Love Symbol Album",
+    "y": 1992,
+    "by": "Prince and the New Power Generation",
+    "note": "Its title is a glyph; long and uneven."
+   },
+   {
+    "t": "Come",
+    "y": 1994,
+    "note": "From the years he fought Warner Bros."
+   },
+   {
+    "t": "The Black Album",
+    "y": 1994,
+    "note": "Withdrawn in 1987 and released officially in 1994; raw funk, for after the path."
+   },
+   {
+    "t": "The Gold Experience",
+    "y": 1995,
+    "note": "The best of his 1990s records, with \"The Most Beautiful Girl in the World.\""
+   },
+   {
+    "t": "Chaos and Disorder",
+    "y": 1996,
+    "note": "Delivered to finish his Warner contract."
+   },
+   {
+    "t": "Emancipation",
+    "y": 1996,
+    "note": "Three CDs to celebrate his freedom; too long."
+   },
+   {
+    "t": "Crystal Ball",
+    "y": 1998,
+    "note": "Vault material sold by mail order."
+   },
+   {
+    "t": "Rave Un2 the Joy Fantastic",
+    "y": 1999,
+    "note": "A late-1990s pop attempt."
+   },
+   {
+    "t": "The Rainbow Children",
+    "y": 2001,
+    "note": "Jazz-funk concept record about his faith."
+   },
+   {
+    "t": "One Nite Alone...",
+    "y": 2002,
+    "note": "Just Prince at a piano, quiet and good."
+   },
+   {
+    "t": "Musicology",
+    "y": 2004,
+    "note": "The return to form most critics named at the time."
+   },
+   {
+    "t": "3121",
+    "y": 2006,
+    "note": "Mid-2000s, light."
+   },
+   {
+    "t": "Planet Earth",
+    "y": 2007,
+    "note": "Given away free with a newspaper."
+   },
+   {
+    "t": "Lotusflow3r / MPLSound",
+    "y": 2009,
+    "note": "A double set sold through Target."
+   },
+   {
+    "t": "20Ten",
+    "y": 2010,
+    "note": "Given away free with newspapers in Europe."
+   },
+   {
+    "t": "Art Official Age",
+    "y": 2014,
+    "note": "His return to Warner Bros."
+   },
+   {
+    "t": "Plectrumelectrum",
+    "y": 2014,
+    "by": "Prince and 3rdEyeGirl",
+    "note": "A guitar-rock record with his band 3rdEyeGirl."
+   },
+   {
+    "t": "Hit n Run Phase One",
+    "y": 2015,
+    "note": "Late electronic funk."
+   },
+   {
+    "t": "Hit n Run Phase Two",
+    "y": 2015,
+    "note": "His last album in his lifetime."
+   },
+   {
+    "t": "Piano and a Microphone 1983",
+    "y": 2018,
+    "note": "A posthumous cassette of him alone at the piano in 1983; a short, intimate extra."
+   }
+  ]
+ },
+ "Bruce Springsteen": {
+  "about": "Springsteen as a Steinbeck novelist with a guitar: starting from the stark home recordings, then the big records they grew out of and the folk records that came after.",
+  "records": [
+   {
+    "t": "Nebraska",
+    "y": 1982,
+    "step": 1,
+    "note": "The door: songs about killers and losers, recorded alone on a four-track cassette in his bedroom and released as is."
+   },
+   {
+    "t": "Born to Run",
+    "y": 1975,
+    "step": 2,
+    "note": "The other side of him: Spector-sized rock about escaping a dead-end town."
+   },
+   {
+    "t": "Darkness on the Edge of Town",
+    "y": 1978,
+    "step": 3,
+    "note": "The town didn't let go: harder, tighter songs about work and family."
+   },
+   {
+    "t": "The Ghost of Tom Joad",
+    "y": 1995,
+    "step": 4,
+    "note": "Nebraska's sequel, built on Steinbeck and on migrant lives along the border; Steinbeck's ghost, literally."
+   },
+   {
+    "t": "The River",
+    "y": 1980,
+    "step": 5,
+    "note": "A double album that mixes bar-band rock with the bleak songs that point to Nebraska."
+   },
+   {
+    "t": "Tunnel of Love",
+    "y": 1987,
+    "step": 6,
+    "note": "Quiet songs about a failing marriage, made mostly alone; the adult record after Born in the U.S.A."
+   },
+   {
+    "t": "The Wild, the Innocent & the E Street Shuffle",
+    "y": 1973,
+    "step": 7,
+    "note": "Back to the beginning: long, jazzy street operas, closer to Van Morrison than to arena rock."
+   },
+   {
+    "t": "Greetings from Asbury Park, N.J.",
+    "y": 1973,
+    "note": "The wordy, Dylan-styled debut."
+   },
+   {
+    "t": "Born in the U.S.A.",
+    "y": 1984,
+    "note": "The huge one; the title song is a protest song people mistake for a cheer, but the production is the slick 1980s sound."
+   },
+   {
+    "t": "Live/1975–85",
+    "y": 1986,
+    "kind": "live",
+    "note": "Three discs of the E Street Band live; for after the studio records."
+   },
+   {
+    "t": "Human Touch",
+    "y": 1992,
+    "note": "Released the same day as Lucky Town; the weaker of the two."
+   },
+   {
+    "t": "Lucky Town",
+    "y": 1992,
+    "note": "The better of the 1992 pair, but both can wait."
+   },
+   {
+    "t": "Tracks",
+    "y": 1998,
+    "kind": "compilation",
+    "note": "Four discs of outtakes; a sign of how much he left off the albums."
+   },
+   {
+    "t": "The Rising",
+    "y": 2002,
+    "note": "His response to September 11."
+   },
+   {
+    "t": "Devils & Dust",
+    "y": 2005,
+    "note": "A quieter acoustic record in the Tom Joad line; the first one to hear after the path."
+   },
+   {
+    "t": "We Shall Overcome: The Seeger Sessions",
+    "y": 2006,
+    "note": "Pete Seeger songs played by a loose folk big band."
+   },
+   {
+    "t": "Magic",
+    "y": 2007,
+    "note": "Rock record about the Iraq War years."
+   },
+   {
+    "t": "Working on a Dream",
+    "y": 2009,
+    "note": "Late-period, lighter."
+   },
+   {
+    "t": "Wrecking Ball",
+    "y": 2012,
+    "note": "Angry songs about the financial crash."
+   },
+   {
+    "t": "High Hopes",
+    "y": 2014,
+    "note": "Covers and reworked outtakes."
+   },
+   {
+    "t": "Western Stars",
+    "y": 2019,
+    "note": "Orchestral, 1970s-California pop."
+   },
+   {
+    "t": "Letter to You",
+    "y": 2020,
+    "note": "The E Street Band live in the studio."
+   },
+   {
+    "t": "Only the Strong Survive",
+    "y": 2022,
+    "note": "A soul covers album."
+   }
+  ]
+ },
+ "Johnny Cash": {
+  "about": "Cash in prisons and at the end of his life, then back to the Sun records and the 1960s concept albums where his storytelling started.",
+  "records": [
+   {
+    "t": "At Folsom Prison",
+    "y": 1968,
+    "kind": "live",
+    "step": 1,
+    "note": "The door: a show for the inmates, with \"Folsom Prison Blues\" and the crowd cheering the murder line."
+   },
+   {
+    "t": "At San Quentin",
+    "y": 1969,
+    "kind": "live",
+    "step": 2,
+    "note": "The follow-up prison show, looser and angrier; \"A Boy Named Sue\" and \"San Quentin\" played twice in a row."
+   },
+   {
+    "t": "American Recordings",
+    "y": 1994,
+    "step": 3,
+    "note": "Rick Rubin sits him in a living room with a guitar; murder ballads and hymns, sparse as Nebraska."
+   },
+   {
+    "t": "American IV: The Man Comes Around",
+    "y": 2002,
+    "step": 4,
+    "note": "The last record of his lifetime, with \"Hurt\" and the apocalyptic title song."
+   },
+   {
+    "t": "American II: Unchained",
+    "y": 1996,
+    "step": 5,
+    "note": "Tom Petty's band behind him on Soundgarden, Beck and old country songs."
+   },
+   {
+    "t": "Johnny Cash with His Hot and Blue Guitar!",
+    "y": 1957,
+    "step": 6,
+    "note": "Now go back to Sun: the boom-chicka-boom sound and the first \"Folsom Prison Blues.\""
+   },
+   {
+    "t": "Ride This Train",
+    "y": 1960,
+    "step": 7,
+    "note": "A spoken-word railroad tour of America; Cash as a Steinbeck narrator."
+   },
+   {
+    "t": "Bitter Tears: Ballads of the American Indian",
+    "y": 1964,
+    "step": 8,
+    "note": "A protest record about Native Americans that radio wouldn't play; \"The Ballad of Ira Hayes.\""
+   },
+   {
+    "t": "The Fabulous Johnny Cash",
+    "y": 1958,
+    "note": "His first Columbia album; fine, not essential."
+   },
+   {
+    "t": "Songs of Our Soil",
+    "y": 1959,
+    "note": "An early concept record about death and the land."
+   },
+   {
+    "t": "Blood, Sweat and Tears",
+    "y": 1963,
+    "note": "Work songs, a cousin of Ride This Train; \"The Legend of John Henry's Hammer.\""
+   },
+   {
+    "t": "Orange Blossom Special",
+    "y": 1965,
+    "note": "Dylan covers and the harmonica-led title track."
+   },
+   {
+    "t": "Johnny Cash Sings the Ballads of the True West",
+    "y": 1965,
+    "note": "A double album of cowboy songs and narrations; long but rewarding later."
+   },
+   {
+    "t": "Hello, I'm Johnny Cash",
+    "y": 1970,
+    "note": "Made at the peak of his TV fame; uneven."
+   },
+   {
+    "t": "Man in Black",
+    "y": 1971,
+    "note": "The title song is his creed; the rest is weaker."
+   },
+   {
+    "t": "Highwayman",
+    "y": 1985,
+    "by": "Waylon Jennings, Willie Nelson, Johnny Cash & Kris Kristofferson",
+    "kind": "collaboration",
+    "note": "The supergroup with Waylon Jennings, Willie Nelson and Kris Kristofferson."
+   },
+   {
+    "t": "American III: Solitary Man",
+    "y": 2000,
+    "note": "Strong, but the path already has the best of the Rubin records."
+   },
+   {
+    "t": "Unearthed",
+    "y": 2003,
+    "kind": "compilation",
+    "note": "Five discs of Rubin-session outtakes."
+   },
+   {
+    "t": "American V: A Hundred Highways",
+    "y": 2006,
+    "note": "Posthumous, finished from his last sessions; very frail."
+   },
+   {
+    "t": "American VI: Ain't No Grave",
+    "y": 2010,
+    "note": "The last of the posthumous Rubin records."
+   }
+  ]
+ },
+ "Townes Van Zandt": {
+  "about": "The songwriter's songwriter: a live solo set to start, then the early studio records under the strings and overdubs.",
+  "records": [
+   {
+    "t": "Live at the Old Quarter, Houston, Texas",
+    "y": 1977,
+    "kind": "live",
+    "step": 1,
+    "note": "The door: recorded in a small Houston bar in 1973, just Townes and a guitar, the songs without any studio dressing."
+   },
+   {
+    "t": "Townes Van Zandt",
+    "y": 1969,
+    "step": 2,
+    "note": "The self-titled third album, re-recordings of earlier songs in plainer arrangements; \"Waitin' Around to Die\" and \"For the Sake of the Song.\""
+   },
+   {
+    "t": "The Late Great Townes Van Zandt",
+    "y": 1972,
+    "step": 3,
+    "note": "\"Pancho and Lefty\" and \"If I Needed You\"; the title was a joke that became true."
+   },
+   {
+    "t": "Our Mother the Mountain",
+    "y": 1969,
+    "step": 4,
+    "note": "Earlier the same year: \"Kathleen\" and \"Tecumseh Valley,\" with heavier orchestral production."
+   },
+   {
+    "t": "High, Low and In Between",
+    "y": 1971,
+    "step": 5,
+    "note": "A plainer, darker record; \"To Live Is to Fly.\""
+   },
+   {
+    "t": "Flyin' Shoes",
+    "y": 1978,
+    "step": 6,
+    "note": "After a long gap: a fuller country band, and the title song."
+   },
+   {
+    "t": "For the Sake of the Song",
+    "y": 1968,
+    "note": "The debut, smothered in production he later disliked; the self-titled record redoes most of it."
+   },
+   {
+    "t": "Delta Momma Blues",
+    "y": 1971,
+    "note": "A good record with blues covers; the first to hear after the path."
+   },
+   {
+    "t": "At My Window",
+    "y": 1987,
+    "note": "His first studio album in nine years, plainly recorded."
+   },
+   {
+    "t": "Rear View Mirror",
+    "y": 1993,
+    "kind": "live",
+    "note": "A live record from 1978, a second Old Quarter in tone."
+   },
+   {
+    "t": "The Nashville Sessions",
+    "y": 1993,
+    "note": "Songs recorded in 1972 and 1973 and shelved for twenty years."
+   },
+   {
+    "t": "No Deeper Blue",
+    "y": 1994,
+    "note": "His last studio album, made in Ireland."
+   }
+  ]
+ },
+ "Elliott Smith": {
+  "about": "Whispered double-tracked songs, from the home-recorded records to the Beatles-sized studio albums.",
+  "records": [
+   {
+    "t": "Either/Or",
+    "y": 1997,
+    "step": 1,
+    "note": "The door: home-recorded mostly by himself, quiet and precise, with \"Between the Bars\" and \"Say Yes.\""
+   },
+   {
+    "t": "Elliott Smith",
+    "y": 1995,
+    "step": 2,
+    "note": "The record before: darker and barer, nearly all acoustic guitar and voice."
+   },
+   {
+    "t": "XO",
+    "y": 1998,
+    "step": 3,
+    "note": "The first studio album: the same songwriting with piano, strings and Beatles harmonies."
+   },
+   {
+    "t": "Figure 8",
+    "y": 2000,
+    "step": 4,
+    "note": "Recorded partly at Abbey Road; the biggest-sounding of his records."
+   },
+   {
+    "t": "Roman Candle",
+    "y": 1994,
+    "step": 5,
+    "note": "The four-track debut, recorded without plans to release it."
+   },
+   {
+    "t": "From a Basement on the Hill",
+    "y": 2004,
+    "step": 6,
+    "note": "Finished after his death; rougher and noisier, a record he never got to complete."
+   },
+   {
+    "t": "Mic City Sons",
+    "y": 1996,
+    "by": "Heatmiser",
+    "note": "The last album by his rock band Heatmiser, where his songs were already taking over."
+   },
+   {
+    "t": "New Moon",
+    "y": 2007,
+    "kind": "compilation",
+    "note": "Two discs of outtakes from 1994 to 1997; good, but after the albums."
+   }
+  ]
+ },
+ "Sufjan Stevens": {
+  "about": "I know Illinois; this path starts there and walks through the states, the banjo record, the electronic turn and the grief records.",
+  "records": [
+   {
+    "t": "Illinois",
+    "y": 2005,
+    "step": 1,
+    "heard": true,
+    "note": "The door, already open: I know this one."
+   },
+   {
+    "t": "Michigan",
+    "y": 2003,
+    "step": 2,
+    "note": "The first of the states records; banjo, brass and Detroit, the template for Illinois."
+   },
+   {
+    "t": "Seven Swans",
+    "y": 2004,
+    "step": 3,
+    "note": "Quiet banjo songs about faith, between the two states records."
+   },
+   {
+    "t": "Carrie & Lowell",
+    "y": 2015,
+    "step": 4,
+    "note": "Spare songs about his mother's death; the best of him after Illinois."
+   },
+   {
+    "t": "The Age of Adz",
+    "y": 2010,
+    "step": 5,
+    "note": "The electronic turn: glitchy and huge, inspired by the outsider artist Royal Robertson."
+   },
+   {
+    "t": "Javelin",
+    "y": 2023,
+    "step": 6,
+    "note": "Gentle songs, with the choirs and banjos of Illinois back in them."
+   },
+   {
+    "t": "The Ascension",
+    "y": 2020,
+    "step": 7,
+    "note": "The full electronic album, angry about America; if Adz lands, this comes next."
+   },
+   {
+    "t": "A Sun Came",
+    "y": 2000,
+    "note": "The rough debut; more interesting than good."
+   },
+   {
+    "t": "Enjoy Your Rabbit",
+    "y": 2001,
+    "note": "An electronic album about the Chinese zodiac; the seeds of Adz."
+   },
+   {
+    "t": "The Avalanche",
+    "y": 2006,
+    "kind": "compilation",
+    "note": "Outtakes from Illinois; for after the path."
+   },
+   {
+    "t": "Songs for Christmas",
+    "y": 2006,
+    "kind": "compilation",
+    "note": "Five EPs of home-recorded Christmas songs."
+   },
+   {
+    "t": "The BQE",
+    "y": 2009,
+    "kind": "soundtrack",
+    "note": "Orchestral suite about a Brooklyn expressway, with a film."
+   },
+   {
+    "t": "All Delighted People",
+    "y": 2010,
+    "kind": "EP",
+    "note": "An hour-long EP released just before Adz."
+   },
+   {
+    "t": "Silver & Gold",
+    "y": 2012,
+    "kind": "compilation",
+    "note": "A second Christmas box."
+   },
+   {
+    "t": "Planetarium",
+    "y": 2017,
+    "by": "Sufjan Stevens, Bryce Dessner, Nico Muhly & James McAlister",
+    "kind": "collaboration",
+    "note": "A song cycle on the planets, with trombones and electronics."
+   },
+   {
+    "t": "Aporia",
+    "y": 2020,
+    "by": "Sufjan Stevens & Lowell Brams",
+    "kind": "collaboration",
+    "note": "New-age synth instrumentals with his stepfather."
+   },
+   {
+    "t": "A Beginner's Mind",
+    "y": 2021,
+    "by": "Sufjan Stevens & Angelo De Augustine",
+    "kind": "collaboration",
+    "note": "Songs written while watching films, with Angelo De Augustine."
+   },
+   {
+    "t": "Convocations",
+    "y": 2021,
+    "note": "Five volumes of ambient instrumentals about grief."
+   }
+  ]
+ },
+ "The National": {
+  "about": "Matt Berninger's baritone over brothers Aaron and Bryce Dessner's guitars and arrangements: anxious, literate rock about adult life.",
+  "records": [
+   {
+    "t": "Boxer",
+    "y": 2007,
+    "step": 1,
+    "note": "The door: steady drums, horns and piano, songs about middle-class unease."
+   },
+   {
+    "t": "Alligator",
+    "y": 2005,
+    "step": 2,
+    "note": "The record before: rougher and angrier, with \"Mr. November\" and \"Abel.\""
+   },
+   {
+    "t": "High Violet",
+    "y": 2010,
+    "step": 3,
+    "note": "Bigger and denser, with \"Bloodbuzz Ohio\" and \"Afraid of Everyone.\""
+   },
+   {
+    "t": "Trouble Will Find Me",
+    "y": 2013,
+    "step": 4,
+    "note": "Quieter, looser, the most melodic of their records."
+   },
+   {
+    "t": "Sleep Well Beast",
+    "y": 2017,
+    "step": 5,
+    "note": "Electronics creep in, around a marriage coming apart."
+   },
+   {
+    "t": "First Two Pages of Frankenstein",
+    "y": 2023,
+    "step": 6,
+    "note": "Late, sparse and depressed, with Phoebe Bridgers and Sufjan Stevens as guests."
+   },
+   {
+    "t": "The National",
+    "y": 2001,
+    "note": "The debut; country-tinged, not yet their sound."
+   },
+   {
+    "t": "Sad Songs for Dirty Lovers",
+    "y": 2003,
+    "note": "The second; the voice is there, the band isn't yet."
+   },
+   {
+    "t": "Cherry Tree",
+    "y": 2004,
+    "kind": "EP",
+    "note": "An EP that bridges to Alligator."
+   },
+   {
+    "t": "The Virginia EP",
+    "y": 2008,
+    "kind": "EP",
+    "note": "Boxer outtakes and live tracks."
+   },
+   {
+    "t": "I Am Easy to Find",
+    "y": 2019,
+    "note": "Built around guest female singers and a short film; long."
+   },
+   {
+    "t": "Laugh Track",
+    "y": 2023,
+    "note": "The surprise companion to Frankenstein, looser."
+   },
+   {
+    "t": "Rome",
+    "y": 2024,
+    "kind": "live",
+    "note": "A live record from their 2024 show in Rome; for after the studio albums."
+   }
+  ]
+ },
+ "Wilco": {
+  "about": "Start with the record where the alt-country band came apart into something stranger, then go back and watch Jeff Tweedy get there.",
+  "records": [
+   {
+    "t": "A.M.",
+    "y": 1995,
+    "note": "The straight alt-country debut, made right after the Uncle Tupelo split; pleasant, and the least Wilco-sounding record here."
+   },
+   {
+    "t": "Being There",
+    "y": 1996,
+    "step": 2,
+    "note": "A double album that breaks out of country-rock into Stones swagger, feedback and drunk ballads; the first sign of the band's range."
+   },
+   {
+    "t": "Summerteeth",
+    "y": 1999,
+    "step": 3,
+    "note": "Bright Beach Boys arrangements over some of Tweedy's darkest lyrics; it's on the list on its own too."
+   },
+   {
+    "t": "Mermaid Avenue",
+    "y": 1998,
+    "by": "Billy Bragg & Wilco",
+    "kind": "collaboration",
+    "step": 5,
+    "note": "Unrecorded Woody Guthrie lyrics set to new music, sung half by Bragg and half by Tweedy; a direct line back to the Dust Bowl."
+   },
+   {
+    "t": "Mermaid Avenue Vol. II",
+    "y": 2000,
+    "by": "Billy Bragg & Wilco",
+    "kind": "collaboration",
+    "note": "More from the same sessions; good, but the first volume has the best songs."
+   },
+   {
+    "t": "Yankee Hotel Foxtrot",
+    "y": 2001,
+    "step": 1,
+    "note": "Songs about radio static and lost signals, wrapped in noise and found sound; the record that got them dropped by their label and then made their name."
+   },
+   {
+    "t": "A Ghost Is Born",
+    "y": 2004,
+    "step": 4,
+    "note": "Nels Cline-style guitar freakouts before Nels Cline joined, plus a fifteen-minute drone; the end of the experimental run."
+   },
+   {
+    "t": "Kicking Television: Live in Chicago",
+    "y": 2005,
+    "kind": "live",
+    "note": "A strong live set from the first lineup with Nels Cline; worth it once the studio records are in."
+   },
+   {
+    "t": "Sky Blue Sky",
+    "y": 2007,
+    "step": 6,
+    "note": "The settled, warm, guitar-solo record that followed the chaos; quieter, and it shows what the new band could do as players."
+   },
+   {
+    "t": "Wilco (The Album)",
+    "y": 2009,
+    "note": "A well-made, comfortable record; nothing here that the earlier albums don't do better."
+   },
+   {
+    "t": "The Whole Love",
+    "y": 2011,
+    "note": "Opens with a seven-minute noise-pop track and closes with a twelve-minute ballad; the middle is ordinary."
+   },
+   {
+    "t": "Star Wars",
+    "y": 2015,
+    "note": "A short, scrappy surprise release; fun, slight."
+   },
+   {
+    "t": "Schmilco",
+    "y": 2016,
+    "note": "Small acoustic songs about childhood; a minor companion to Tweedy's solo work."
+   },
+   {
+    "t": "Ode to Joy",
+    "y": 2019,
+    "note": "Hushed and drum-heavy; a mood record more than a destination."
+   },
+   {
+    "t": "Cruel Country",
+    "y": 2022,
+    "step": 7,
+    "note": "A double album of country songs recorded live in the room, with the band finally embracing the label they'd spent decades dodging."
+   },
+   {
+    "t": "Cousin",
+    "y": 2023,
+    "note": "Produced by Cate Le Bon, with a cooler, stranger sheen; a reasonable late record to hear after the rest."
+   },
+   {
+    "t": "No Depression",
+    "y": 1990,
+    "by": "Uncle Tupelo",
+    "note": "Tweedy's first band with Jay Farrar; the record that named a whole alt-country movement."
+   },
+   {
+    "t": "Anodyne",
+    "y": 1993,
+    "by": "Uncle Tupelo",
+    "note": "Uncle Tupelo's last and best album, Farrar and Tweedy trading songs right before the split that produced Son Volt and Wilco."
+   }
+  ]
+ },
+ "Bon Iver": {
+  "about": "Four records that drift from a cabin in the Wisconsin woods into glitchy, processed collage; the path follows that drift in order.",
+  "records": [
+   {
+    "t": "For Emma, Forever Ago",
+    "y": 2007,
+    "step": 1,
+    "note": "Justin Vernon alone in a hunting cabin, falsetto and acoustic guitar; self-released in 2007, widely issued in 2008."
+   },
+   {
+    "t": "Blood Bank",
+    "y": 2009,
+    "kind": "EP",
+    "note": "Four-song EP; the title track and the Auto-Tuned 'Woods' point toward everything that came next."
+   },
+   {
+    "t": "Bon Iver, Bon Iver",
+    "y": 2011,
+    "step": 2,
+    "note": "A full band, horns and pedal steel, each song named for a place; the cabin opened up into a landscape."
+   },
+   {
+    "t": "22, A Million",
+    "y": 2016,
+    "step": 3,
+    "note": "Chopped-up vocals, saxophone choirs and broken electronics; the hardest and most interesting record of the three."
+   },
+   {
+    "t": "i,i",
+    "y": 2019,
+    "step": 4,
+    "note": "Ties the earlier sounds together in a warmer, communal way; the natural last stop."
+   },
+   {
+    "t": "Sable",
+    "y": 2024,
+    "kind": "EP",
+    "note": "Three-song EP of stripped, sad songs that closes out the old era."
+   },
+   {
+    "t": "Sable, Fable",
+    "y": 2025,
+    "note": "A turn toward glossy, contented soft-rock and R&B; easy to leave for later."
+   }
+  ]
+ },
+ "Portishead": {
+  "about": "Only three studio albums, so the path covers all of them, then the live record and Beth Gibbons on her own.",
+  "names": [
+   "Portishead",
+   "Beth Gibbons & Rustin Man",
+   "Beth Gibbons"
+  ],
+  "records": [
+   {
+    "t": "Dummy",
+    "y": 1994,
+    "step": 1,
+    "note": "Scratched vinyl, spy-film strings and Beth Gibbons sounding heartbroken over slow breakbeats; the trip-hop record everyone knows."
+   },
+   {
+    "t": "Glory Times",
+    "y": 1995,
+    "kind": "compilation",
+    "note": "A short promotional compilation of mixes and B-sides; not needed."
+   },
+   {
+    "t": "Portishead",
+    "y": 1997,
+    "step": 2,
+    "note": "Colder and more abrasive than the debut, built from their own recordings pressed to vinyl and sampled back."
+   },
+   {
+    "t": "Roseland NYC Live",
+    "y": 1998,
+    "kind": "live",
+    "step": 4,
+    "note": "The songs played with a thirty-piece orchestra in New York; heavier and more dramatic than the studio versions."
+   },
+   {
+    "t": "Out of Season",
+    "y": 2002,
+    "by": "Beth Gibbons & Rustin Man",
+    "kind": "collaboration",
+    "step": 5,
+    "note": "Gibbons with Talk Talk's bassist, making a smoky 1960s folk-jazz record; it's on the list on its own too."
+   },
+   {
+    "t": "Third",
+    "y": 2008,
+    "step": 3,
+    "note": "Eleven years later: krautrock pulses, a machine-gun drum loop and a ukulele; nothing like trip-hop."
+   },
+   {
+    "t": "Lives Outgrown",
+    "y": 2024,
+    "by": "Beth Gibbons",
+    "kind": "solo",
+    "step": 6,
+    "note": "Gibbons' first true solo album, about middle age and loss, with hand percussion and strings; a quiet ending."
+   }
+  ]
+ },
+ "Massive Attack": {
+  "about": "The Bristol collective that more or less invented trip-hop; start with the darkest record, then go back to the start.",
+  "names": [
+   "Massive Attack",
+   "Tricky"
+  ],
+  "records": [
+   {
+    "t": "Blue Lines",
+    "y": 1991,
+    "step": 2,
+    "note": "Soul samples, dub bass and low-key raps; where the Bristol sound began."
+   },
+   {
+    "t": "Protection",
+    "y": 1994,
+    "step": 3,
+    "note": "Softer and more spacious, with Tracey Thorn singing the title track; the bridge between the first record and Mezzanine."
+   },
+   {
+    "t": "No Protection",
+    "y": 1995,
+    "kind": "collaboration",
+    "note": "Mad Professor's dub remix of Protection; good if the bass is what pulls you in."
+   },
+   {
+    "t": "Maxinquaye",
+    "y": 1995,
+    "by": "Tricky",
+    "kind": "solo",
+    "step": 4,
+    "note": "Tricky's solo debut after leaving the group, murkier and more paranoid; it's on the list on its own too."
+   },
+   {
+    "t": "Mezzanine",
+    "y": 1998,
+    "step": 1,
+    "note": "Heavy guitars, slow menace and Elizabeth Fraser on 'Teardrop'; the darkest and most complete of their records."
+   },
+   {
+    "t": "Singles 90/98",
+    "y": 1998,
+    "kind": "compilation",
+    "note": "A singles box; the albums cover it."
+   },
+   {
+    "t": "100th Window",
+    "y": 2003,
+    "step": 5,
+    "note": "Mostly Robert Del Naja alone, cold and electronic, with Sinéad O'Connor guesting; less loved, but it shows where the group went."
+   },
+   {
+    "t": "Danny the Dog",
+    "y": 2004,
+    "kind": "soundtrack",
+    "note": "Instrumental score for a Jet Li film; background music."
+   },
+   {
+    "t": "Collected",
+    "y": 2006,
+    "kind": "compilation",
+    "note": "Best-of; skip it."
+   },
+   {
+    "t": "Heligoland",
+    "y": 2010,
+    "step": 6,
+    "note": "A return to guests and grooves, with Damon Albarn and Hope Sandoval; it's on the list on its own too."
+   },
+   {
+    "t": "Ritual Spirit",
+    "y": 2016,
+    "kind": "EP",
+    "note": "Four-track EP with Tricky back on one song; a postscript."
+   }
+  ]
+ },
+ "Björk": {
+  "about": "Start with the record where strings and beats finally fused, then walk through the run from Debut to Medúlla, and on to the breakup album.",
+  "records": [
+   {
+    "t": "Life's Too Good",
+    "y": 1988,
+    "by": "The Sugarcubes",
+    "note": "Her Icelandic post-punk band; fun and jagged, the background to everything after."
+   },
+   {
+    "t": "Gling-Gló",
+    "y": 1990,
+    "by": "Björk Guðmundsdóttir & tríó Guðmundar Ingólfssonar",
+    "kind": "collaboration",
+    "note": "Icelandic jazz standards with a piano trio; a charming detour."
+   },
+   {
+    "t": "Debut",
+    "y": 1993,
+    "step": 2,
+    "note": "House beats, harps and show tunes; the first solo record, bright and curious."
+   },
+   {
+    "t": "Post",
+    "y": 1995,
+    "step": 3,
+    "note": "Wilder and more scattered, swinging from big band to industrial noise; she's trying everything at once."
+   },
+   {
+    "t": "Homogenic",
+    "y": 1997,
+    "step": 1,
+    "note": "Icelandic strings and volcanic, crunching beats; the most unified record she made and the one where it all clicks."
+   },
+   {
+    "t": "Selmasongs",
+    "y": 2000,
+    "kind": "soundtrack",
+    "note": "Songs from Dancer in the Dark, built from factory and train sounds; worth hearing with the film."
+   },
+   {
+    "t": "Vespertine",
+    "y": 2001,
+    "step": 4,
+    "note": "Whispered, music-box intimacy made from micro-beats, harps and choirs; a winter record."
+   },
+   {
+    "t": "Medúlla",
+    "y": 2004,
+    "step": 5,
+    "note": "Made almost entirely from voices: throat singers, beatboxers, choirs; it's on the list on its own too."
+   },
+   {
+    "t": "Drawing Restraint 9",
+    "y": 2005,
+    "kind": "soundtrack",
+    "note": "Score for Matthew Barney's film; for completists."
+   },
+   {
+    "t": "Volta",
+    "y": 2007,
+    "note": "Brass and Timbaland beats; the loudest and least focused album."
+   },
+   {
+    "t": "Biophilia",
+    "y": 2011,
+    "note": "Released as a set of apps about nature and music theory; the concept is more interesting than the songs."
+   },
+   {
+    "t": "Vulnicura",
+    "y": 2015,
+    "step": 6,
+    "note": "A chronological account of a breakup, strings and stark beats; the most direct record she has made."
+   },
+   {
+    "t": "Utopia",
+    "y": 2017,
+    "note": "Flutes and birdsong after the breakup album; lush and long."
+   },
+   {
+    "t": "Fossora",
+    "y": 2022,
+    "step": 7,
+    "note": "Bass clarinets, gabber beats and grief for her mother, framed around mushrooms; a strong late record."
+   }
+  ]
+ },
+ "Kendrick Lamar": {
+  "about": "Four albums that read like linked novels about Compton, fame and conscience; then the side records that fill in the story.",
+  "records": [
+   {
+    "t": "Kendrick Lamar",
+    "y": 2009,
+    "kind": "EP",
+    "note": "The early EP under his real name; a talented rapper still finding the voice."
+   },
+   {
+    "t": "Overly Dedicated",
+    "y": 2010,
+    "note": "The last mixtape before the albums; for completists."
+   },
+   {
+    "t": "Section.80",
+    "y": 2011,
+    "step": 6,
+    "note": "The independent debut, about kids born into the Reagan and crack era; a sketchbook for what came next."
+   },
+   {
+    "t": "good kid, m.A.A.d city",
+    "y": 2012,
+    "step": 1,
+    "note": "A day in teenage Compton told as a film, skits and voicemails from his parents included; the story that makes everything else click."
+   },
+   {
+    "t": "To Pimp a Butterfly",
+    "y": 2015,
+    "step": 2,
+    "note": "Free jazz, funk and spoken word with Kamasi Washington and Thundercat; a long poem on race and success."
+   },
+   {
+    "t": "untitled unmastered.",
+    "y": 2016,
+    "kind": "compilation",
+    "step": 5,
+    "note": "Jazz-heavy leftovers from the Butterfly sessions; rough and alive."
+   },
+   {
+    "t": "DAMN.",
+    "y": 2017,
+    "step": 3,
+    "note": "Tighter and harder, built on the question of wickedness or weakness; it won a Pulitzer."
+   },
+   {
+    "t": "Black Panther: The Album",
+    "y": 2018,
+    "kind": "soundtrack",
+    "note": "A curated soundtrack with many guests; a side project."
+   },
+   {
+    "t": "Mr. Morale & the Big Steppers",
+    "y": 2022,
+    "step": 4,
+    "note": "A double album of therapy sessions and family trauma; uncomfortable and deliberate."
+   },
+   {
+    "t": "GNX",
+    "y": 2024,
+    "note": "A short, West Coast party record that came out of a feud; fun, but not part of the main arc."
+   }
+  ]
+ },
+ "Beck": {
+  "about": "Beck alternates between collage records and sad acoustic ones; the path takes both strands, starting with the collage that made his name.",
+  "records": [
+   {
+    "t": "Golden Feelings",
+    "y": 1993,
+    "note": "A cassette of lo-fi noise and folk; for completists."
+   },
+   {
+    "t": "Stereopathetic Soulmanure",
+    "y": 1994,
+    "note": "Scrappy home recordings, country to noise; fun in pieces."
+   },
+   {
+    "t": "Mellow Gold",
+    "y": 1994,
+    "step": 2,
+    "note": "'Loser' and its slacker folk-hop neighbors, made on a four-track; the first draft of Odelay."
+   },
+   {
+    "t": "One Foot in the Grave",
+    "y": 1994,
+    "step": 6,
+    "note": "Bare acoustic folk and blues cut for the K label in Olympia; the root of the sad-Beck records."
+   },
+   {
+    "t": "Odelay",
+    "y": 1996,
+    "step": 1,
+    "note": "Hip-hop beats, slide guitar and samples from everywhere, made with the Dust Brothers; the collage at its best."
+   },
+   {
+    "t": "Mutations",
+    "y": 1998,
+    "step": 3,
+    "note": "A quick, unpolished album of melancholy folk and bossa nova, cut in two weeks."
+   },
+   {
+    "t": "Midnite Vultures",
+    "y": 1999,
+    "step": 7,
+    "note": "A deliberately ridiculous Prince-style funk record; the joke is the point, and it's a good one."
+   },
+   {
+    "t": "Sea Change",
+    "y": 2002,
+    "step": 4,
+    "note": "Breakup songs with Nigel Godrich and lush strings, some lifted from Gainsbourg's Melody Nelson, which is on the list too."
+   },
+   {
+    "t": "Guero",
+    "y": 2005,
+    "note": "A return to the Odelay sound with the Dust Brothers; competent, familiar."
+   },
+   {
+    "t": "Guerolito",
+    "y": 2005,
+    "note": "Remixes of Guero; skip."
+   },
+   {
+    "t": "The Information",
+    "y": 2006,
+    "note": "Long, loose and produced by Godrich; a few good songs in a sprawl."
+   },
+   {
+    "t": "Modern Guilt",
+    "y": 2008,
+    "note": "Short psych-pop with Danger Mouse; fine."
+   },
+   {
+    "t": "Morning Phase",
+    "y": 2014,
+    "step": 5,
+    "note": "A companion to Sea Change, sunlit rather than broken; same players, same strings."
+   },
+   {
+    "t": "Colors",
+    "y": 2017,
+    "note": "Glossy, radio-ready pop; the furthest he gets from the scrappy records."
+   },
+   {
+    "t": "Hyperspace",
+    "y": 2019,
+    "note": "Moody synth-pop with Pharrell Williams; skip for now."
+   },
+   {
+    "t": "Ride Lonesome",
+    "y": 2026,
+    "note": "The newest record, said to return to the Sea Change and Morning Phase mode; one to hear after the path."
+   }
+  ]
+ },
+ "Queens of the Stone Age": {
+  "about": "Desert-rock riffs played with machine precision; start with the classic, then trace Josh Homme backward and forward.",
+  "records": [
+   {
+    "t": "Welcome to Sky Valley",
+    "y": 1994,
+    "by": "Kyuss",
+    "step": 5,
+    "note": "Josh Homme's earlier band at its peak, fuzzed-out desert jams; where the sound came from."
+   },
+   {
+    "t": "Queens of the Stone Age",
+    "y": 1998,
+    "step": 4,
+    "note": "The debut, hypnotic repeated riffs and Homme's 'robot rock' idea in its pure form."
+   },
+   {
+    "t": "Rated R",
+    "y": 2000,
+    "step": 2,
+    "note": "Shorter, stranger songs, with Mark Lanegan and Rob Halford guesting; a druggy, funny record."
+   },
+   {
+    "t": "Songs for the Deaf",
+    "y": 2002,
+    "step": 1,
+    "note": "A drive through the desert flipping between hellish radio stations, with Dave Grohl on drums and Lanegan singing; the band's best."
+   },
+   {
+    "t": "Lullabies to Paralyze",
+    "y": 2005,
+    "note": "Darker and murkier after Nick Oliveri left; good in parts."
+   },
+   {
+    "t": "Over the Years and Through the Woods",
+    "y": 2005,
+    "kind": "live",
+    "note": "Live film and album; for fans."
+   },
+   {
+    "t": "Era Vulgaris",
+    "y": 2007,
+    "note": "Clanky and abrasive; a cult favorite but uneven."
+   },
+   {
+    "t": "...Like Clockwork",
+    "y": 2013,
+    "step": 3,
+    "note": "Written after Homme nearly died, slower and more piano-led, with Elton John and Trent Reznor along the way; their most personal record."
+   },
+   {
+    "t": "Villains",
+    "y": 2017,
+    "note": "Produced by Mark Ronson, with a dance-rock gloss; skip for now."
+   },
+   {
+    "t": "In Times New Roman...",
+    "y": 2023,
+    "note": "A raw, bitter record written through divorce and illness; worth it after the path."
+   }
+  ]
+ },
+ "The Black Keys": {
+  "about": "Two guys from Akron playing Junior Kimbrough-style hill-country blues in a basement, and then getting famous; the path stays near the basement.",
+  "records": [
+   {
+    "t": "The Big Come Up",
+    "y": 2002,
+    "note": "The debut, raw two-piece blues covers and originals; Thickfreakness does it better."
+   },
+   {
+    "t": "Thickfreakness",
+    "y": 2003,
+    "step": 2,
+    "note": "Recorded in one fourteen-hour session in Patrick Carney's basement; fuzz, slide and nothing else."
+   },
+   {
+    "t": "Rubber Factory",
+    "y": 2004,
+    "step": 1,
+    "note": "Made in an abandoned tire factory in Akron; the best balance of raw blues and real songs."
+   },
+   {
+    "t": "Chulahoma: The Songs of Junior Kimbrough",
+    "y": 2006,
+    "kind": "EP",
+    "step": 5,
+    "note": "A six-song EP of covers of the Mississippi bluesman they learned from; the clearest look at the source."
+   },
+   {
+    "t": "Magic Potion",
+    "y": 2006,
+    "note": "Their first major-label album, still self-recorded; more of the same, a bit flatter."
+   },
+   {
+    "t": "Attack & Release",
+    "y": 2008,
+    "step": 4,
+    "note": "Danger Mouse produces, adding flutes and organ; it's on the list on its own too."
+   },
+   {
+    "t": "Brothers",
+    "y": 2010,
+    "step": 3,
+    "note": "Muscle Shoals soul and falsetto, the record that made them stars; still rough enough to fit."
+   },
+   {
+    "t": "El Camino",
+    "y": 2011,
+    "note": "Glam and rockabilly singles; the slick, arena turn."
+   },
+   {
+    "t": "Turn Blue",
+    "y": 2014,
+    "note": "Psychedelic and polished; skip."
+   },
+   {
+    "t": "Let's Rock",
+    "y": 2019,
+    "note": "A guitar-rock reset; fine, forgettable."
+   },
+   {
+    "t": "Delta Kream",
+    "y": 2021,
+    "step": 6,
+    "note": "Hill-country blues covers cut live with Kimbrough's and R.L. Burnside's old sidemen; a full circle back to Chulahoma."
+   },
+   {
+    "t": "Dropout Boogie",
+    "y": 2022,
+    "note": "Short and loose with guests like Billy Gibbons; minor."
+   },
+   {
+    "t": "Ohio Players",
+    "y": 2024,
+    "note": "Pop collaborations with Beck and Noel Gallagher; the commercial end."
+   },
+   {
+    "t": "No Rain, No Flowers",
+    "y": 2025,
+    "note": "More polished rock; skip."
+   },
+   {
+    "t": "Peaches!",
+    "y": 2026,
+    "note": "A covers album of Earl Hooker, R.L. Burnside and Junior Kimbrough songs; worth checking after Delta Kream."
+   },
+   {
+    "t": "Blakroc",
+    "y": 2009,
+    "by": "Blakroc",
+    "kind": "collaboration",
+    "note": "The band backing rappers including Mos Def and RZA; an odd, fun side project."
+   }
+  ]
+ },
+ "Mark Lanegan": {
+  "about": "A ruined baritone that runs from Seattle grunge to cracked folk and murky electronic blues; start with the noir record, then the folk ones.",
+  "names": [
+   "Mark Lanegan",
+   "Mark Lanegan Band"
+  ],
+  "records": [
+   {
+    "t": "Buzz Factory",
+    "y": 1989,
+    "by": "Screaming Trees",
+    "note": "Screaming Trees' psychedelic garage years; for later."
+   },
+   {
+    "t": "The Winding Sheet",
+    "y": 1990,
+    "step": 5,
+    "note": "His first solo record, sparse acoustic blues with Kurt Cobain guesting on a Lead Belly song."
+   },
+   {
+    "t": "Uncle Anesthesia",
+    "y": 1991,
+    "by": "Screaming Trees",
+    "note": "Screaming Trees' major-label debut, produced with Chris Cornell; a step toward Sweet Oblivion."
+   },
+   {
+    "t": "Sweet Oblivion",
+    "y": 1992,
+    "by": "Screaming Trees",
+    "step": 2,
+    "note": "Screaming Trees' big record, heavy psychedelic grunge with Lanegan at full roar."
+   },
+   {
+    "t": "Whiskey for the Holy Ghost",
+    "y": 1994,
+    "step": 3,
+    "note": "Hushed, lonely folk-blues made over several hard years; the voice at its most bruised."
+   },
+   {
+    "t": "Dust",
+    "y": 1996,
+    "by": "Screaming Trees",
+    "note": "Screaming Trees' last album, more polished and Eastern-tinged; a good goodbye."
+   },
+   {
+    "t": "Scraps at Midnight",
+    "y": 1998,
+    "note": "Quiet, late-night folk in the same vein as Whiskey; minor but lovely."
+   },
+   {
+    "t": "I'll Take Care of You",
+    "y": 1999,
+    "note": "A covers record of soul, blues and country songs; a short, warm detour."
+   },
+   {
+    "t": "Field Songs",
+    "y": 2001,
+    "step": 4,
+    "note": "Spare, steady acoustic songs; the best of the folk records."
+   },
+   {
+    "t": "Bubblegum",
+    "y": 2004,
+    "by": "Mark Lanegan Band",
+    "step": 1,
+    "note": "Drum machines, distorted blues and guests from PJ Harvey to Josh Homme; noir with menace, and the easiest way in."
+   },
+   {
+    "t": "Ballad of the Broken Seas",
+    "y": 2006,
+    "by": "Isobel Campbell & Mark Lanegan",
+    "kind": "collaboration",
+    "step": 6,
+    "note": "Lanegan's baritone against Isobel Campbell's whisper, a Nancy and Lee record for the gutter."
+   },
+   {
+    "t": "It's Not How Far You Fall, It's the Way You Land",
+    "y": 2007,
+    "by": "Soulsavers",
+    "kind": "collaboration",
+    "note": "Gospel-tinged electronic soul with Soulsavers; worth it if Bubblegum hooks you."
+   },
+   {
+    "t": "Saturnalia",
+    "y": 2008,
+    "by": "The Gutter Twins",
+    "kind": "collaboration",
+    "note": "Lanegan and Greg Dulli as the Gutter Twins; dark, dramatic rock."
+   },
+   {
+    "t": "Sunday at Devil Dirt",
+    "y": 2008,
+    "by": "Isobel Campbell & Mark Lanegan",
+    "kind": "collaboration",
+    "note": "The second record with Isobel Campbell; more of the first."
+   },
+   {
+    "t": "Hawk",
+    "y": 2010,
+    "by": "Isobel Campbell & Mark Lanegan",
+    "kind": "collaboration",
+    "note": "The third Campbell record; the weakest."
+   },
+   {
+    "t": "Blues Funeral",
+    "y": 2012,
+    "step": 7,
+    "note": "Krautrock pulses and synths under his blues; the late-period record that matters most."
+   },
+   {
+    "t": "Imitations",
+    "y": 2013,
+    "note": "A second covers record, crooner songs this time; minor."
+   },
+   {
+    "t": "Black Pudding",
+    "y": 2013,
+    "by": "Mark Lanegan & Duke Garwood",
+    "kind": "collaboration",
+    "note": "Spare guitar and voice with Duke Garwood; slow and smoky."
+   },
+   {
+    "t": "Phantom Radio",
+    "y": 2014,
+    "note": "More synth-blues in the Blues Funeral style; fine."
+   },
+   {
+    "t": "Gargoyle",
+    "y": 2017,
+    "note": "Gothic rock with Rob Marshall; solid but familiar."
+   },
+   {
+    "t": "Somebody's Knocking",
+    "y": 2019,
+    "note": "Leans into 1980s synth-pop; a curiosity."
+   },
+   {
+    "t": "Straight Songs of Sorrow",
+    "y": 2020,
+    "note": "Written alongside his memoir Sing Backwards and Weep; the songs fill in the book."
+   }
+  ]
+ },
+ "Morphine": {
+  "about": "Only five albums before Mark Sandman died on stage in 1999, so the path covers almost all of it.",
+  "records": [
+   {
+    "t": "Good",
+    "y": 1992,
+    "step": 4,
+    "note": "The debut, already fully formed; it's on the list on its own too."
+   },
+   {
+    "t": "Cure for Pain",
+    "y": 1993,
+    "step": 1,
+    "note": "Two-string slide bass, baritone sax and drums, with Sandman murmuring about bars and bad decisions; the clearest statement of the sound."
+   },
+   {
+    "t": "Yes",
+    "y": 1995,
+    "step": 2,
+    "note": "Faster and funnier, with more spoken-word bits; a confident follow-up."
+   },
+   {
+    "t": "Like Swimming",
+    "y": 1997,
+    "step": 3,
+    "note": "A major-label record, slower and more drowsy; the noir thickens."
+   },
+   {
+    "t": "B-Sides and Otherwise",
+    "y": 1997,
+    "kind": "compilation",
+    "note": "Outtakes and live tracks; good, not essential."
+   },
+   {
+    "t": "The Night",
+    "y": 2000,
+    "step": 5,
+    "note": "Finished before Sandman's death and released after it; strings and organ around a darker, more spacious band."
+   },
+   {
+    "t": "At Your Service",
+    "y": 2009,
+    "kind": "compilation",
+    "note": "Two discs of unreleased material; for after the albums."
+   }
+  ]
+ },
+ "Bill Callahan / Smog": {
+  "about": "Thirty-plus years of the same deep, deadpan voice; start with the Smog record that opened up, then follow it into the Bill Callahan albums.",
+  "records": [
+   {
+    "t": "Sewn to the Sky",
+    "y": 1990,
+    "by": "Smog",
+    "note": "Home-taped lo-fi noise and fragments; for completists."
+   },
+   {
+    "t": "Forgotten Foundation",
+    "y": 1992,
+    "by": "Smog",
+    "note": "Still lo-fi and lurching; songs starting to show through."
+   },
+   {
+    "t": "Julius Caesar",
+    "y": 1993,
+    "by": "Smog",
+    "note": "The first Smog album that sounds like songs; spiky and odd."
+   },
+   {
+    "t": "Wild Love",
+    "y": 1995,
+    "by": "Smog",
+    "note": "Abrasive, funny and sad by turns; an early cult favorite."
+   },
+   {
+    "t": "The Doctor Came at Dawn",
+    "y": 1996,
+    "by": "Smog",
+    "note": "Bleak, slow and bare, his most depressive record; for later."
+   },
+   {
+    "t": "Red Apple Falls",
+    "y": 1997,
+    "by": "Smog",
+    "step": 5,
+    "note": "Pedal steel and French horn around quiet songs; the gentle prelude to Knock Knock."
+   },
+   {
+    "t": "Knock Knock",
+    "y": 1999,
+    "by": "Smog",
+    "step": 1,
+    "note": "A children's choir and Jim O'Rourke's production around songs about running away; Smog at its warmest."
+   },
+   {
+    "t": "Dongs of Sevotion",
+    "y": 2000,
+    "by": "Smog",
+    "note": "Darker and more loose; good, overshadowed by its neighbors."
+   },
+   {
+    "t": "Rain on Lens",
+    "y": 2001,
+    "by": "Smog",
+    "note": "Rigid, repetitive grooves; the hardest Smog record to love."
+   },
+   {
+    "t": "Supper",
+    "y": 2003,
+    "by": "Smog",
+    "note": "Relaxed, country-tinged band record; minor."
+   },
+   {
+    "t": "A River Ain't Too Much to Love",
+    "y": 2005,
+    "by": "Smog",
+    "step": 2,
+    "note": "Spare acoustic arrangements and plain, steady songs; the last Smog record and the first that sounds like Bill Callahan."
+   },
+   {
+    "t": "Woke on a Whaleheart",
+    "y": 2007,
+    "by": "Bill Callahan",
+    "note": "The first under his own name, gospel-tinged and sunny; transitional."
+   },
+   {
+    "t": "Sometimes I Wish We Were an Eagle",
+    "y": 2009,
+    "by": "Bill Callahan",
+    "step": 3,
+    "note": "Strings and big open spaces, songs about God and eagles and hesitation; his best-loved record."
+   },
+   {
+    "t": "Rough Travel for a Rare Thing",
+    "y": 2010,
+    "by": "Bill Callahan",
+    "kind": "live",
+    "note": "Live in Melbourne, 2007; fine but not essential."
+   },
+   {
+    "t": "Apocalypse",
+    "y": 2011,
+    "by": "Bill Callahan",
+    "step": 4,
+    "note": "Seven long songs about America, history and himself, with a loose, jazzy band."
+   },
+   {
+    "t": "Dream River",
+    "y": 2013,
+    "by": "Bill Callahan",
+    "step": 6,
+    "note": "Flute, hand drums and patient songs about a man in a hotel bar; the calmest of the late records."
+   },
+   {
+    "t": "Have Fun with God",
+    "y": 2014,
+    "by": "Bill Callahan",
+    "note": "A dub remix of Dream River; a curiosity."
+   },
+   {
+    "t": "Shepherd in a Sheepskin Vest",
+    "y": 2019,
+    "by": "Bill Callahan",
+    "step": 7,
+    "note": "Twenty songs about marriage and fatherhood after a long silence; funny and tender."
+   },
+   {
+    "t": "Gold Record",
+    "y": 2020,
+    "by": "Bill Callahan",
+    "note": "Short story-songs that open with the line \"Hello, I'm Johnny Cash\"; good after the path."
+   },
+   {
+    "t": "Blind Date Party",
+    "y": 2021,
+    "by": "Bill Callahan & Bonnie \"Prince\" Billy",
+    "kind": "collaboration",
+    "note": "Covers with Bonnie \"Prince\" Billy and many guests; a loose side project."
+   },
+   {
+    "t": "YTI⅃AƎЯ",
+    "y": 2022,
+    "by": "Bill Callahan",
+    "note": "Looser and more jammy, with a full band; for later."
+   },
+   {
+    "t": "Resuscitate!",
+    "y": 2024,
+    "by": "Bill Callahan",
+    "kind": "live",
+    "note": "Live in Chicago with his touring band; a minor live record."
+   },
+   {
+    "t": "My Days of 58",
+    "y": 2026,
+    "by": "Bill Callahan",
+    "note": "The newest record; hear it after the path."
+   }
+  ]
+ },
+ "Silver Jews": {
+  "about": "David Berman's band, read like a book of poems: start at the warm middle, then follow him to the end, Purple Mountains.",
+  "names": [
+   "Silver Jews",
+   "Purple Mountains"
+  ],
+  "records": [
+   {
+    "t": "American Water",
+    "y": 1998,
+    "step": 1,
+    "note": "The door. Stephen Malkmus is back on guitar, and Berman's lines (\"In 1984 I was hospitalized for approaching perfection\") land like short poems over loose country rock."
+   },
+   {
+    "t": "Bright Flight",
+    "y": 2001,
+    "step": 2,
+    "note": "Recorded in Nashville, slower and more country, with pedal steel and Cassie Berman singing along. The sad, funny voice of the door with the edges sanded down."
+   },
+   {
+    "t": "Tanglewood Numbers",
+    "y": 2005,
+    "step": 3,
+    "note": "The comeback after addiction and a suicide attempt: the loudest, most rattled Silver Jews record, with Malkmus and Cassie both on it."
+   },
+   {
+    "t": "Purple Mountains",
+    "y": 2019,
+    "step": 4,
+    "by": "Purple Mountains",
+    "kind": "side project",
+    "note": "His last record, made eleven years after he quit music and released weeks before he died. Plain, funny and unbearably direct about depression; it closes the study."
+   },
+   {
+    "t": "The Natural Bridge",
+    "y": 1996,
+    "step": 5,
+    "note": "Back to the start: the first record built around Berman alone, after Malkmus and Bob Nastanovich were busy with Pavement. Shambling and wry."
+   },
+   {
+    "t": "Starlite Walker",
+    "y": 1994,
+    "step": 6,
+    "note": "The first full album, still half a Pavement side project. Hear it last to see where the voice came from."
+   },
+   {
+    "t": "Lookout Mountain, Lookout Sea",
+    "y": 2008,
+    "step": 7,
+    "note": "The final Silver Jews album: tidier and more upbeat, a little thinner than the run before it."
+   },
+   {
+    "t": "The Arizona Record",
+    "y": 1993,
+    "kind": "EP",
+    "note": "Early lo-fi EP of tape noise and half-songs; for completists."
+   },
+   {
+    "t": "Tennessee",
+    "y": 2001,
+    "kind": "EP",
+    "note": "A short EP from the Bright Flight period; the album already holds its best idea."
+   },
+   {
+    "t": "Early Times",
+    "y": 2012,
+    "kind": "compilation",
+    "note": "Collects the pre-album singles and EPs. Interesting as history, rough as listening."
+   }
+  ]
+ },
+ "The Mountain Goats": {
+  "about": "John Darnielle, songwriter and novelist: the Alpha couple's marriage falling apart, then his own childhood, then the band years.",
+  "records": [
+   {
+    "t": "Tallahassee",
+    "y": 2002,
+    "step": 1,
+    "note": "The door. The first record with a real studio and a real label: a whole album about a married couple drinking themselves apart in a house in Florida."
+   },
+   {
+    "t": "The Sunset Tree",
+    "y": 2005,
+    "step": 2,
+    "note": "The autobiographical one, about growing up with an abusive stepfather. \"This Year\" is the shout-along; the rest is quieter and harder."
+   },
+   {
+    "t": "All Hail West Texas",
+    "y": 2002,
+    "step": 3,
+    "note": "Back to the boombox: fourteen songs recorded alone, tape hiss and all. \"The Best Death Metal Band in Denton\" is pure Darnielle."
+   },
+   {
+    "t": "Goths",
+    "y": 2017,
+    "step": 4,
+    "note": "No guitars, Rhodes piano and horns, songs about aging goth musicians. Gentle and funny, a late-career peak."
+   },
+   {
+    "t": "We Shall All Be Healed",
+    "y": 2004,
+    "step": 5,
+    "note": "Meth addicts in a Portland apartment complex, drawn from his own years in Pomona. Bridges the Tallahassee sound and The Sunset Tree's honesty."
+   },
+   {
+    "t": "The Life of the World to Come",
+    "y": 2009,
+    "step": 6,
+    "note": "Twelve songs each named for a Bible verse, written as portraits rather than sermons. Quiet piano and guitar."
+   },
+   {
+    "t": "Beat the Champ",
+    "y": 2015,
+    "step": 7,
+    "note": "A whole album about 1970s and 1980s territory wrestling, the heroes of his childhood. Proves the concept-record mode works outside his own life."
+   },
+   {
+    "t": "Zopilote Machine",
+    "y": 1994,
+    "note": "Boombox-era Darnielle: one man, a guitar and a tape deck. The early records are a world of their own; save them for after the main path."
+   },
+   {
+    "t": "Sweden",
+    "y": 1995,
+    "note": "Another early boombox record; good songs buried in hiss."
+   },
+   {
+    "t": "Nothing for Juice",
+    "y": 1996,
+    "note": "Early tape-era record; for when the boombox sound has won you over."
+   },
+   {
+    "t": "Full Force Galesburg",
+    "y": 1997,
+    "note": "The strongest of the pre-label tape records, but All Hail West Texas does that sound best."
+   },
+   {
+    "t": "The Coroner's Gambit",
+    "y": 2000,
+    "note": "The last lo-fi album before the switch to 4AD; darker and quieter. A good first detour once the path is done."
+   },
+   {
+    "t": "Get Lonely",
+    "y": 2006,
+    "note": "Hushed and lonely, close to whispered. Fine, but it repeats the mood of The Sunset Tree with less at stake."
+   },
+   {
+    "t": "Heretic Pride",
+    "y": 2008,
+    "note": "Full band, strings, songs about cults and outsiders. Solid, a little even."
+   },
+   {
+    "t": "All Eternals Deck",
+    "y": 2011,
+    "note": "A loose set of songs with different producers; no strong center."
+   },
+   {
+    "t": "Transcendental Youth",
+    "y": 2012,
+    "note": "Horn arrangements by Owen Pallett and songs about people barely holding on. Good, but not essential."
+   },
+   {
+    "t": "In League with Dragons",
+    "y": 2019,
+    "note": "A half-finished rock opera about a wizard, plus a song about Waylon Jennings. Fun, loose."
+   },
+   {
+    "t": "Songs for Pierre Chuvin",
+    "y": 2020,
+    "note": "Recorded alone on a boombox during the 2020 lockdown, a deliberate return to the tape sound."
+   },
+   {
+    "t": "Getting Into Knives",
+    "y": 2020,
+    "note": "Recorded at Sam Phillips Recording in Memphis; warm and band-driven."
+   },
+   {
+    "t": "Dark in Here",
+    "y": 2021,
+    "note": "Recorded at Muscle Shoals; songs about disaster and survival."
+   },
+   {
+    "t": "Bleed Out",
+    "y": 2022,
+    "note": "Darnielle's action-movie record: guitars up, plots borrowed from 1970s revenge films."
+   },
+   {
+    "t": "Jenny from Thebes",
+    "y": 2023,
+    "note": "A rock opera returning to Jenny, the biker girl from the All Hail West Texas era songs."
+   },
+   {
+    "t": "Through This Fire Across from Peter Balkan",
+    "y": 2025,
+    "note": "A recent record; late-period, for after the path."
+   },
+   {
+    "t": "Protein Source of the Future...Now!",
+    "y": 1999,
+    "kind": "compilation",
+    "note": "Collected early cassette tracks; for completists."
+   },
+   {
+    "t": "Bitter Melon Farm",
+    "y": 1999,
+    "kind": "compilation",
+    "note": "More early tape tracks gathered on CD."
+   },
+   {
+    "t": "Ghana",
+    "y": 2002,
+    "kind": "compilation",
+    "note": "The third early-rarities collection; the best of the three, still optional."
+   }
+  ]
+ },
+ "Neutral Milk Hotel": {
+  "about": "A tiny catalog: one strange masterpiece, the record that led to it, and the scraps Jeff Mangum left behind.",
+  "records": [
+   {
+    "t": "In the Aeroplane Over the Sea",
+    "y": 1998,
+    "step": 1,
+    "note": "The door. Fuzz guitar, singing saw, horns and Jeff Mangum's strained voice; Anne Frank's diary as a fever dream."
+   },
+   {
+    "t": "On Avery Island",
+    "y": 1996,
+    "step": 2,
+    "note": "The first album, mostly Mangum alone with Robert Schneider producing. Rougher and noisier, with the same melodies trying to get out."
+   },
+   {
+    "t": "Ferris Wheel on Fire",
+    "y": 2011,
+    "step": 3,
+    "kind": "EP",
+    "note": "Old songs released with the vinyl box set, solo acoustic and close to the Aeroplane material. A small coda."
+   },
+   {
+    "t": "Everything Is",
+    "y": 1995,
+    "kind": "EP",
+    "note": "The first single and EP on Cher Doll; early sketches."
+   },
+   {
+    "t": "Live at Jittery Joe's",
+    "y": 2001,
+    "kind": "live",
+    "note": "A solo Mangum show at an Athens coffee shop, released by him. Lovely, but the studio versions come first."
+   }
+  ]
+ },
+ "Arcade Fire": {
+  "about": "The first three records are a set: grief and family, then fear and religion, then where you grew up.",
+  "records": [
+   {
+    "t": "Funeral",
+    "y": 2004,
+    "step": 1,
+    "note": "The door. Written in a season when several band members lost family; strings, accordion and big shouted choruses about kids, snow and the neighborhood."
+   },
+   {
+    "t": "Neon Bible",
+    "y": 2007,
+    "step": 2,
+    "note": "Recorded in a church they bought outside Montreal, with a pipe organ. Darker, about media, war and fear."
+   },
+   {
+    "t": "The Suburbs",
+    "y": 2010,
+    "step": 3,
+    "note": "A long record about growing up in Houston suburbs, sprawl and nostalgia. Closes the first-three-albums arc."
+   },
+   {
+    "t": "Reflektor",
+    "y": 2013,
+    "step": 4,
+    "note": "Produced with James Murphy, disco and Haitian rhythm, Orpheus and Eurydice and Kierkegaard's The Present Age. A real change of sound; the last essential one."
+   },
+   {
+    "t": "Arcade Fire",
+    "y": 2003,
+    "kind": "EP",
+    "note": "The early self-released EP; the songs are good but the band is not yet itself."
+   },
+   {
+    "t": "Everything Now",
+    "y": 2017,
+    "note": "A satire of consumer culture that ends up sounding like the thing it mocks. Can wait."
+   },
+   {
+    "t": "WE",
+    "y": 2022,
+    "note": "A tighter, more earnest record, released just before abuse allegations against Win Butler. Optional."
+   },
+   {
+    "t": "Pink Elephant",
+    "y": 2025,
+    "note": "Late-period record produced with Daniel Lanois; for after the main path."
+   },
+   {
+    "t": "Open Your Heart or Die Trying",
+    "y": 2026,
+    "note": "The newest record; leave it until the first four have settled."
+   }
+  ]
+ },
+ "LCD Soundsystem": {
+  "about": "I know the middle two. The rest of the study is the debut, the farewell show, and the reunion record.",
+  "records": [
+   {
+    "t": "Sound of Silver",
+    "y": 2007,
+    "step": 1,
+    "heard": true,
+    "note": "The door, and the one I know. \"All My Friends\" and \"Someone Great\" are dance music about getting older and losing people."
+   },
+   {
+    "t": "This Is Happening",
+    "y": 2010,
+    "step": 2,
+    "heard": true,
+    "note": "The one I know second, meant as the last album. Longer songs, Bowie and Eno all through it."
+   },
+   {
+    "t": "LCD Soundsystem",
+    "y": 2005,
+    "step": 3,
+    "note": "The debut, with a second disc of early singles like \"Losing My Edge\" and \"Yeah\". Jokier and rawer: James Murphy the record-collector DJ before he became the songwriter."
+   },
+   {
+    "t": "The Long Goodbye: LCD Soundsystem Live at Madison Square Garden",
+    "y": 2014,
+    "step": 4,
+    "kind": "live",
+    "note": "The nearly four-hour farewell show from April 2011. Hear the songs the way the band played them, as the end of a story."
+   },
+   {
+    "t": "American Dream",
+    "y": 2017,
+    "step": 5,
+    "note": "The reunion record: darker, slower, about death and aging, with Bowie's passing in the background. The real epilogue."
+   },
+   {
+    "t": "45:33",
+    "y": 2006,
+    "note": "A 45-minute piece commissioned by Nike as a running soundtrack. Interesting, but it reads like a side commission."
+   },
+   {
+    "t": "London Sessions",
+    "y": 2010,
+    "kind": "live",
+    "note": "Live-in-studio versions of songs you will already know by now."
+   },
+   {
+    "t": "Electric Lady Sessions",
+    "y": 2019,
+    "kind": "live",
+    "note": "Studio-live set with a few covers; for fans."
+   },
+   {
+    "t": "Introns",
+    "y": 2006,
+    "kind": "compilation",
+    "note": "Remixes and B-sides; skip unless you want more of the debut era."
+   }
+  ]
+ },
+ "Fiona Apple": {
+  "about": "Five albums over twenty-five years, each one stranger and freer than the last; start in the middle and work outward.",
+  "records": [
+   {
+    "t": "Extraordinary Machine",
+    "y": 2005,
+    "step": 1,
+    "note": "The door. Jon Brion's arrangements, then a second producer after the label stalled it. Witty, theatrical songs about getting over people."
+   },
+   {
+    "t": "When the Pawn...",
+    "y": 1999,
+    "step": 2,
+    "note": "The full title is a 90-word poem. Jon Brion produces again; jazzier and angrier than the debut, with tight, punchy piano songs."
+   },
+   {
+    "t": "The Idler Wheel...",
+    "y": 2012,
+    "step": 3,
+    "note": "Stripped down to piano, voice and odd percussion. Raw, rhythmic and funny about her own mind."
+   },
+   {
+    "t": "Fetch the Bolt Cutters",
+    "y": 2020,
+    "step": 4,
+    "note": "Recorded mostly at home, banging on pots and furniture, with dogs barking. About getting free of everyone who held her down; the end of the path."
+   },
+   {
+    "t": "Tidal",
+    "y": 1996,
+    "step": 5,
+    "note": "The debut at 18, with \"Criminal\". Glossier 1990s production than the rest; hear it last to see where she started."
+   }
+  ]
+ },
+ "Joanna Newsom": {
+  "about": "Four albums, each longer and denser than the last. Start with the big orchestral one, then go wide and back to the beginning.",
+  "records": [
+   {
+    "t": "Ys",
+    "y": 2006,
+    "step": 1,
+    "note": "The door. Five songs, 55 minutes, harp, a Van Dyke Parks orchestra, Steve Albini recording, lyrics like Victorian poetry."
+   },
+   {
+    "t": "Have One on Me",
+    "y": 2010,
+    "step": 2,
+    "note": "Three discs, two hours, looser and warmer, with piano and a band. Takes time, and rewards it."
+   },
+   {
+    "t": "Divers",
+    "y": 2015,
+    "step": 3,
+    "note": "An album about time looping back on itself, each song a separate arrangement. The most finished of the four."
+   },
+   {
+    "t": "The Milk-Eyed Mender",
+    "y": 2004,
+    "step": 4,
+    "note": "The debut: just harp and that high, cracked voice. Hear it last, once the voice no longer surprises you."
+   },
+   {
+    "t": "Walnut Whales",
+    "y": 2002,
+    "kind": "EP",
+    "note": "Self-released early demos; the songs reappear in better form on the debut."
+   },
+   {
+    "t": "Yarn and Glue",
+    "y": 2003,
+    "kind": "EP",
+    "note": "More early self-released demos."
+   },
+   {
+    "t": "Joanna Newsom and the Ys Street Band",
+    "y": 2007,
+    "kind": "EP",
+    "note": "Three songs played with a small touring band, including a new one. A footnote to Ys."
+   }
+  ]
+ },
+ "Low": {
+  "about": "Slowcore from Duluth: the hushed harmonies first, then the louder years, then the noise of the last records.",
+  "records": [
+   {
+    "t": "Things We Lost in the Fire",
+    "y": 2001,
+    "step": 1,
+    "note": "The door. Steve Albini recording, Mimi Parker and Alan Sparhawk singing in close harmony, very slow and very quiet."
+   },
+   {
+    "t": "The Great Destroyer",
+    "y": 2005,
+    "step": 2,
+    "note": "Dave Fridmann produces, the guitars get loud, and the songs speed up a little. Same voices, more violence."
+   },
+   {
+    "t": "Double Negative",
+    "y": 2018,
+    "step": 3,
+    "note": "Songs buried under digital distortion and static, like a radio dying. A late reinvention that sounds like 2018 felt."
+   },
+   {
+    "t": "I Could Live in Hope",
+    "y": 1994,
+    "step": 4,
+    "note": "The debut: barely moving, almost no drums. Where the slowcore label came from."
+   },
+   {
+    "t": "Secret Name",
+    "y": 1999,
+    "step": 5,
+    "note": "First album with Albini; spare and beautiful, the bridge to the door."
+   },
+   {
+    "t": "Hey What",
+    "y": 2021,
+    "step": 6,
+    "note": "The last album before Mimi Parker died in 2022. Harmonies fighting through the noise of Double Negative; it closes the study."
+   },
+   {
+    "t": "Long Division",
+    "y": 1995,
+    "note": "Second album, more of the debut's stillness."
+   },
+   {
+    "t": "The Curtain Hits the Cast",
+    "y": 1996,
+    "note": "Longer songs, some drones; good but covered by the steps."
+   },
+   {
+    "t": "Trust",
+    "y": 2002,
+    "note": "Darker and murkier follow-up to the door."
+   },
+   {
+    "t": "Drums and Guns",
+    "y": 2007,
+    "note": "Sparse and angry about the Iraq war. Interesting, not essential."
+   },
+   {
+    "t": "C'mon",
+    "y": 2011,
+    "note": "Warm and pretty, a step back toward the early sound."
+   },
+   {
+    "t": "The Invisible Way",
+    "y": 2013,
+    "note": "Produced by Jeff Tweedy; gentle and plain."
+   },
+   {
+    "t": "Ones and Sixes",
+    "y": 2015,
+    "note": "The first record with BJ Burton, pointing toward Double Negative."
+   },
+   {
+    "t": "Christmas",
+    "y": 1999,
+    "kind": "EP",
+    "note": "A short Christmas EP that became a cult favorite. Seasonal."
+   },
+   {
+    "t": "A Lifetime of Temporary Relief: 10 Years of B-Sides and Rarities",
+    "y": 2004,
+    "kind": "compilation",
+    "note": "Box set of B-sides and rarities; for completists."
+   }
+  ]
+ },
+ "Godspeed You! Black Emperor": {
+  "about": "Montreal's anonymous collective: long instrumental pieces built from field recordings, strings and slow-building guitars.",
+  "records": [
+   {
+    "t": "Lift Your Skinny Fists Like Antennas to Heaven",
+    "y": 2000,
+    "step": 1,
+    "note": "The door. Four twenty-minute pieces, field recordings of a man on Coney Island, strings and guitars building to huge peaks."
+   },
+   {
+    "t": "F♯ A♯ ∞",
+    "y": 1997,
+    "step": 2,
+    "note": "The first album: darker and more broken, opening with a voice describing a dying city. Apocalypse as a tape collage."
+   },
+   {
+    "t": "Slow Riot for New Zerø Kanada",
+    "y": 1999,
+    "step": 3,
+    "kind": "EP",
+    "note": "Two pieces; one samples a street preacher reading his own apocalyptic poem. The bridge between the first two albums."
+   },
+   {
+    "t": "Yanqui U.X.O.",
+    "y": 2002,
+    "step": 4,
+    "note": "Recorded with Steve Albini, angrier and more political, about war and arms companies. The last record before a ten-year break."
+   },
+   {
+    "t": "'Allelujah! Don't Bend! Ascend!",
+    "y": 2012,
+    "step": 5,
+    "note": "The comeback: two long, heavy pieces they had played live for years. Louder than anything before it."
+   },
+   {
+    "t": "Asunder, Sweet and Other Distress",
+    "y": 2015,
+    "note": "One long piece in parts; drone-heavy and good, but repeats the comeback."
+   },
+   {
+    "t": "Luciferian Towers",
+    "y": 2017,
+    "note": "Warmer and more hopeful; for after the path."
+   },
+   {
+    "t": "G_d's Pee at State's End!",
+    "y": 2021,
+    "note": "A strong late record written in the pandemic; worth it once the path is done."
+   },
+   {
+    "t": "No Title as of 13 February 2024 28,340 Dead",
+    "y": 2024,
+    "note": "Named for the Gaza death toll on the day it was finished. Late-period, for after the path."
+   }
+  ]
+ },
+ "Swans": {
+  "about": "Michael Gira's band in two lives: the brutal 1980s and 1990s, and the long, ecstatic reunion records. Start with the reunion.",
+  "records": [
+   {
+    "t": "The Seer",
+    "y": 2012,
+    "step": 1,
+    "note": "The door. Two hours of repetition building to huge crescendos, with Karen O and Jarboe guesting. Hypnotic rather than punishing."
+   },
+   {
+    "t": "Children of God",
+    "y": 1987,
+    "step": 2,
+    "note": "Where the early brutality turns toward beauty: Jarboe's voice, religious imagery, acoustic passages next to the slow pounding."
+   },
+   {
+    "t": "Soundtracks for the Blind",
+    "y": 1996,
+    "step": 3,
+    "note": "Meant as the last Swans record: two and a half hours of drones, tape collage and songs. The bridge to the reunion sound."
+   },
+   {
+    "t": "To Be Kind",
+    "y": 2014,
+    "step": 4,
+    "note": "The Seer's follow-up, groovier and more physical. Long songs that lock into a riff and refuse to let go."
+   },
+   {
+    "t": "Filth",
+    "y": 1983,
+    "step": 5,
+    "note": "The debut: slow, pounding no-wave noise, as bleak as music gets. Hear it once the later records make sense."
+   },
+   {
+    "t": "The Great Annihilator",
+    "y": 1995,
+    "step": 6,
+    "note": "The most song-based 1990s record, with Gira and Jarboe writing almost pop-length pieces. A good way into that decade."
+   },
+   {
+    "t": "My Father Will Guide Me up a Rope to the Sky",
+    "y": 2010,
+    "step": 7,
+    "note": "The reunion's first record, shorter and folkier than what came next."
+   },
+   {
+    "t": "The Glowing Man",
+    "y": 2016,
+    "step": 8,
+    "note": "The last of the reunion trilogy with The Seer and To Be Kind; long and meditative."
+   },
+   {
+    "t": "Cop",
+    "y": 1984,
+    "note": "More of Filth's slow brutality."
+   },
+   {
+    "t": "Greed",
+    "y": 1986,
+    "note": "Sound starts to open up toward Holy Money."
+   },
+   {
+    "t": "Holy Money",
+    "y": 1986,
+    "note": "Jarboe arrives; the turn toward Children of God begins here."
+   },
+   {
+    "t": "The Burning World",
+    "y": 1989,
+    "note": "A major-label record produced by Bill Laswell; Gira later disowned it."
+   },
+   {
+    "t": "White Light from the Mouth of Infinity",
+    "y": 1991,
+    "note": "Lush and gothic, with acoustic guitars. A good detour after the path."
+   },
+   {
+    "t": "Love of Life",
+    "y": 1992,
+    "note": "Close companion to White Light; can wait."
+   },
+   {
+    "t": "Leaving Meaning",
+    "y": 2019,
+    "note": "A new lineup with guests; quieter and folkier."
+   },
+   {
+    "t": "The Beggar",
+    "y": 2023,
+    "note": "Late-period, long and gentle."
+   },
+   {
+    "t": "Birthing",
+    "y": 2025,
+    "note": "Gira's last record with the current band setup; for after the path."
+   },
+   {
+    "t": "Swans Are Dead",
+    "y": 1998,
+    "kind": "live",
+    "note": "Live recordings from the 1995 and 1997 tours, the farewell before the long break."
+   }
+  ]
+ },
+ "Talk Talk": {
+  "about": "The road from synth-pop to silence: the two late albums first, Mark Hollis's solo coda, then back to see how the band got there.",
+  "names": [
+   "Talk Talk",
+   "Mark Hollis"
+  ],
+  "records": [
+   {
+    "t": "Spirit of Eden",
+    "y": 1988,
+    "step": 1,
+    "note": "The door. Improvised over months in a dark studio, then edited down: long quiet passages, sudden noise, organ, harmonica. A direct ancestor of Kid A."
+   },
+   {
+    "t": "Laughing Stock",
+    "y": 1991,
+    "step": 2,
+    "note": "Even sparser, on Verve. Six pieces of near-silence and slow builds; the start of what people later called post-rock."
+   },
+   {
+    "t": "Mark Hollis",
+    "y": 1998,
+    "step": 3,
+    "by": "Mark Hollis",
+    "kind": "solo",
+    "note": "Hollis's only solo record, then he left music. Acoustic, chamber-jazz, almost whispered."
+   },
+   {
+    "t": "The Colour of Spring",
+    "y": 1986,
+    "step": 4,
+    "note": "Step back to see the turn: still songs, but with organ, choir and real instruments. \"Life's What You Make It\" was a hit."
+   },
+   {
+    "t": "It's My Life",
+    "y": 1984,
+    "step": 5,
+    "note": "Synth-pop with something odd underneath. Shows how far the band traveled."
+   },
+   {
+    "t": "The Party's Over",
+    "y": 1982,
+    "note": "The debut, in the shadow of Duran Duran. Only for the history."
+   },
+   {
+    "t": "Natural History: The Very Best of Talk Talk",
+    "y": 1990,
+    "kind": "compilation",
+    "note": "Hits compilation; the studio albums do this better."
+   },
+   {
+    "t": "London 1986",
+    "y": 1999,
+    "kind": "live",
+    "note": "Live recording from The Colour of Spring tour."
+   },
+   {
+    "t": "Asides Besides",
+    "y": 1998,
+    "kind": "compilation",
+    "note": "B-sides and remixes; for completists."
+   },
+   {
+    "t": "Missing Pieces",
+    "y": 2001,
+    "kind": "compilation",
+    "note": "Leftover tracks, including a few late-era pieces worth hearing after Laughing Stock."
+   },
+   {
+    "t": "Out of Season",
+    "y": 2002,
+    "by": "Beth Gibbons & Rustin Man",
+    "kind": "collaboration",
+    "note": "Portishead's Beth Gibbons with Talk Talk bassist Paul Webb; smoky folk-jazz. A side road."
+   }
+  ]
+ },
+ "Can": {
+  "about": "Cologne's Krautrock band: Stockhausen students and a Japanese street singer, playing long, locked grooves edited from hours of tape.",
+  "records": [
+   {
+    "t": "Tago Mago",
+    "y": 1971,
+    "step": 1,
+    "note": "The door. A double album, Damo Suzuki singing, Jaki Liebezeit's drums locked in a loop, the second half turning into tape experiments. Radiohead covered and copied them."
+   },
+   {
+    "t": "Ege Bamyasi",
+    "y": 1972,
+    "step": 2,
+    "note": "Shorter, funkier and catchier: \"Vitamin C\" and \"Spoon\". The easiest Can to love."
+   },
+   {
+    "t": "Future Days",
+    "y": 1973,
+    "step": 3,
+    "note": "Suzuki's last album: soft, floating, almost ambient. The side-long \"Bel Air\" is the end of their best run."
+   },
+   {
+    "t": "Monster Movie",
+    "y": 1969,
+    "step": 4,
+    "note": "The first album, with American singer Malcolm Mooney. Rawer, closer to the Velvet Underground; \"Yoo Doo Right\" runs twenty minutes."
+   },
+   {
+    "t": "Soundtracks",
+    "y": 1970,
+    "step": 5,
+    "kind": "soundtrack",
+    "note": "Film music, with both Mooney and Suzuki; \"Mother Sky\" is essential."
+   },
+   {
+    "t": "Soon Over Babaluma",
+    "y": 1974,
+    "step": 6,
+    "note": "The first album after Suzuki left: instrumental, smooth and spacey. The last essential record."
+   },
+   {
+    "t": "Landed",
+    "y": 1975,
+    "note": "Cleaner, more rock-oriented; good but less strange."
+   },
+   {
+    "t": "Flow Motion",
+    "y": 1976,
+    "note": "Includes the disco hit \"I Want More\"; the decline begins."
+   },
+   {
+    "t": "Saw Delight",
+    "y": 1977,
+    "note": "Ex-Traffic members join on percussion and bass; world-music grooves."
+   },
+   {
+    "t": "Out of Reach",
+    "y": 1978,
+    "note": "Generally considered their weakest; skip."
+   },
+   {
+    "t": "Can",
+    "y": 1979,
+    "note": "The last of the 1970s albums; for completists."
+   },
+   {
+    "t": "Rite Time",
+    "y": 1989,
+    "note": "A reunion with Mooney, recorded in 1986. A curiosity."
+   },
+   {
+    "t": "Unlimited Edition",
+    "y": 1976,
+    "kind": "compilation",
+    "note": "Outtakes and experiments from 1968 to 1975; the studio albums come first."
+   },
+   {
+    "t": "Delay 1968",
+    "y": 1981,
+    "kind": "compilation",
+    "note": "The shelved first album with Mooney, released later. Raw and worth hearing after Monster Movie."
+   },
+   {
+    "t": "Live in Stuttgart 1975",
+    "y": 2021,
+    "kind": "live",
+    "note": "First of the archival live series; long improvisations. Optional."
+   }
+  ]
+ },
+ "Nina Simone": {
+  "about": "Start with the Philips years, where she moved between jazz, blues, folk and protest without asking anyone's permission, then go back to the debut and forward to the furious live sets and the late exile records.",
+  "records": [
+   {
+    "t": "Wild Is the Wind",
+    "y": 1966,
+    "step": 1,
+    "note": "The door: the title track, \"Four Women\" and \"Lilac Wine\" all in one place. Dark, intimate and impossible to file under one genre."
+   },
+   {
+    "t": "Pastel Blues",
+    "y": 1965,
+    "step": 2,
+    "note": "Spare and heavy, ending in the ten-minute \"Sinnerman,\" which builds like a revival meeting coming apart."
+   },
+   {
+    "t": "I Put a Spell on You",
+    "y": 1965,
+    "step": 3,
+    "note": "Her Philips sound with strings: the title song, \"Feeling Good\" and \"Ne me quitte pas.\""
+   },
+   {
+    "t": "Nina Simone Sings the Blues",
+    "y": 1967,
+    "step": 4,
+    "note": "Her first RCA record, a tight blues band and the bawdy \"I Want a Little Sugar in My Bowl\" next to \"Backlash Blues,\" with words by Langston Hughes."
+   },
+   {
+    "t": "Little Girl Blue",
+    "y": 1959,
+    "step": 5,
+    "note": "The debut, recorded in 1957: a classically trained pianist playing jazz trio standards, with Bach under the title track. Going back here shows where all of it started."
+   },
+   {
+    "t": "Nina Simone in Concert",
+    "y": 1964,
+    "step": 6,
+    "note": "Live at Carnegie Hall with \"Mississippi Goddam,\" her answer to Medgar Evers and Birmingham. The point where the protest singer arrives."
+   },
+   {
+    "t": "Black Gold",
+    "y": 1970,
+    "step": 7,
+    "kind": "live",
+    "note": "A live set that holds the first \"To Be Young, Gifted and Black\" and a long, loose \"Who Knows Where the Time Goes.\""
+   },
+   {
+    "t": "Baltimore",
+    "y": 1978,
+    "step": 8,
+    "note": "The comeback after years away, cut in Brussels: reggae-tinged, weary and graceful. A good last stop."
+   },
+   {
+    "t": "The Amazing Nina Simone",
+    "y": 1959,
+    "note": "Her Colpix debut, arranged and orchestrated; the trio records show her better."
+   },
+   {
+    "t": "Nina Simone at Town Hall",
+    "y": 1959,
+    "kind": "live",
+    "note": "Early concert record, part live and part studio; fine, but the later live sets go further."
+   },
+   {
+    "t": "Nina Simone at Newport",
+    "y": 1960,
+    "kind": "live",
+    "note": "A good festival set from the early trio; worth it after the main path."
+   },
+   {
+    "t": "Forbidden Fruit",
+    "y": 1961,
+    "note": "Colpix-era studio album of standards and blues; pleasant, not essential."
+   },
+   {
+    "t": "Nina at the Village Gate",
+    "y": 1962,
+    "kind": "live",
+    "note": "Strong club recording with \"House of the Rising Sun\"; for after the path."
+   },
+   {
+    "t": "Nina Simone Sings Ellington",
+    "y": 1962,
+    "note": "An Ellington songbook with choir; more polished than the records on the path."
+   },
+   {
+    "t": "Nina Simone at Carnegie Hall",
+    "y": 1963,
+    "kind": "live",
+    "note": "Her first Carnegie Hall record, mostly ballads; the 1964 concert is the one that matters."
+   },
+   {
+    "t": "Folksy Nina",
+    "y": 1964,
+    "note": "Folk songs from the Village Gate shows; a minor Colpix release."
+   },
+   {
+    "t": "Broadway-Blues-Ballads",
+    "y": 1964,
+    "note": "The first Philips album, with the original \"Don't Let Me Be Misunderstood\"; uneven around it."
+   },
+   {
+    "t": "Let It All Out",
+    "y": 1966,
+    "note": "Philips leftovers and live cuts; good songs, less shape than Wild Is the Wind."
+   },
+   {
+    "t": "High Priestess of Soul",
+    "y": 1967,
+    "note": "Big-band and orchestral pop arrangements; the most dated of the Philips run."
+   },
+   {
+    "t": "Silk & Soul",
+    "y": 1967,
+    "note": "RCA album with \"I Wish I Knew How It Would Feel to Be Free\"; the rest is slicker."
+   },
+   {
+    "t": "'Nuff Said!",
+    "y": 1968,
+    "note": "Mostly live, recorded days after King's murder, with \"Why? (The King of Love Is Dead)\"; strong but rough."
+   },
+   {
+    "t": "Nina Simone and Piano",
+    "y": 1969,
+    "note": "Just her and the piano; lovely, quiet, for later."
+   },
+   {
+    "t": "To Love Somebody",
+    "y": 1969,
+    "note": "Covers of Dylan, Cohen and the Bee Gees; interesting picks, uneven performances."
+   },
+   {
+    "t": "Here Comes the Sun",
+    "y": 1971,
+    "note": "More pop covers with strings; \"My Way\" is the reason to hear it."
+   },
+   {
+    "t": "Emergency Ward",
+    "y": 1972,
+    "note": "Long, gospel-driven live and studio versions of George Harrison songs; for when you're already deep in."
+   },
+   {
+    "t": "It Is Finished",
+    "y": 1974,
+    "note": "The last RCA record, live and ragged, as she left America; a coda to the coda."
+   },
+   {
+    "t": "Fodder on My Wings",
+    "y": 1982,
+    "note": "Made in exile in Europe, personal and odd; worth hearing after Baltimore."
+   },
+   {
+    "t": "A Single Woman",
+    "y": 1993,
+    "note": "Her last studio album, ballads with strings; a farewell, not a starting point."
+   }
+  ]
+ },
+ "Marvin Gaye": {
+  "about": "The three albums named in the row trace the arc from protest to sex to divorce; after that, the side roads show how strange and personal he got once Motown stopped steering.",
+  "records": [
+   {
+    "t": "What's Going On",
+    "y": 1971,
+    "step": 1,
+    "note": "The door: a song cycle about war, poverty and the planet, with the songs flowing into each other like a suite."
+   },
+   {
+    "t": "Let's Get It On",
+    "y": 1973,
+    "step": 2,
+    "note": "The turn inward: sex and devotion, but with the same layered, jazzy production."
+   },
+   {
+    "t": "Here, My Dear",
+    "y": 1978,
+    "step": 3,
+    "note": "A double album about his divorce, with the royalties owed to his ex-wife. Bitter, funny, unpolished and the opposite of slick."
+   },
+   {
+    "t": "I Want You",
+    "y": 1976,
+    "step": 4,
+    "note": "Leon Ware's songs, Gaye's stacked vocals; a hazy, continuous mood record."
+   },
+   {
+    "t": "Trouble Man",
+    "y": 1972,
+    "step": 5,
+    "kind": "soundtrack",
+    "note": "His film score: mostly instrumental, moody jazz-funk, and the title song."
+   },
+   {
+    "t": "In Our Lifetime",
+    "y": 1981,
+    "step": 6,
+    "note": "Made in exile in Europe and released against his wishes; paranoid, spiritual and unfinished in a good way."
+   },
+   {
+    "t": "United",
+    "y": 1967,
+    "step": 7,
+    "by": "Marvin Gaye & Tammi Terrell",
+    "kind": "collaboration",
+    "note": "With Tammi Terrell: \"Ain't No Mountain High Enough\" and \"Your Precious Love.\" Go back here last to hear the Motown hit machine at its best."
+   },
+   {
+    "t": "The Soulful Moods of Marvin Gaye",
+    "y": 1961,
+    "note": "His debut as a jazz crooner; he wanted to be Nat King Cole, and it shows."
+   },
+   {
+    "t": "That Stubborn Kinda Fellow",
+    "y": 1963,
+    "note": "Early Motown R&B with \"Hitch Hike\" and \"Pride and Joy\"; the singles do the job."
+   },
+   {
+    "t": "When I'm Alone I Cry",
+    "y": 1964,
+    "note": "Another standards album; minor."
+   },
+   {
+    "t": "Hello Broadway",
+    "y": 1964,
+    "note": "Show tunes; minor."
+   },
+   {
+    "t": "How Sweet It Is to Be Loved by You",
+    "y": 1965,
+    "note": "Singles-era Motown built around the title hit; a compilation covers it."
+   },
+   {
+    "t": "A Tribute to the Great Nat King Cole",
+    "y": 1965,
+    "note": "A tribute record to his idol; minor."
+   },
+   {
+    "t": "Moods of Marvin Gaye",
+    "y": 1966,
+    "note": "Mid-60s Motown with \"Ain't That Peculiar\"; the hits are on any best-of."
+   },
+   {
+    "t": "In the Groove",
+    "y": 1968,
+    "note": "Home of \"I Heard It Through the Grapevine\"; the song matters more than the album."
+   },
+   {
+    "t": "M.P.G.",
+    "y": 1969,
+    "note": "Late-60s Motown with \"Too Busy Thinking About My Baby\"; minor."
+   },
+   {
+    "t": "That's the Way Love Is",
+    "y": 1970,
+    "note": "The last album before What's Going On, mostly covers; minor."
+   },
+   {
+    "t": "You're All I Need",
+    "y": 1968,
+    "by": "Marvin Gaye & Tammi Terrell",
+    "kind": "collaboration",
+    "note": "Second Tammi Terrell album; good, but United covers the partnership."
+   },
+   {
+    "t": "Easy",
+    "y": 1969,
+    "by": "Marvin Gaye & Tammi Terrell",
+    "kind": "collaboration",
+    "note": "The last duet album with Terrell, made as she was dying, partly with Valerie Simpson singing her parts."
+   },
+   {
+    "t": "Diana & Marvin",
+    "y": 1973,
+    "by": "Diana Ross & Marvin Gaye",
+    "kind": "collaboration",
+    "note": "Duets with Diana Ross; a commercial pairing."
+   },
+   {
+    "t": "Marvin Gaye Live!",
+    "y": 1974,
+    "kind": "live",
+    "note": "His return to the stage, with a long \"Distant Lover\"; for after the path."
+   },
+   {
+    "t": "Live at the London Palladium",
+    "y": 1977,
+    "kind": "live",
+    "note": "Double live set plus the studio track \"Got to Give It Up\"; for completists."
+   },
+   {
+    "t": "Midnight Love",
+    "y": 1982,
+    "note": "\"Sexual Healing\" and drum machines; the most commercial record here."
+   },
+   {
+    "t": "You're the Man",
+    "y": 2019,
+    "note": "A shelved 1972 album, released posthumously; interesting as the missing link after What's Going On."
+   }
+  ]
+ },
+ "Stevie Wonder": {
+  "about": "The run from Music of My Mind to Songs in the Key of Life is five records in five years where he wrote, sang, played and programmed nearly everything; this path walks that run, then looks at the strange coda.",
+  "records": [
+   {
+    "t": "Innervisions",
+    "y": 1973,
+    "step": 1,
+    "note": "The door: \"Living for the City\" and \"Higher Ground,\" with him playing nearly every instrument. Social realism over synthesizers."
+   },
+   {
+    "t": "Talking Book",
+    "y": 1972,
+    "step": 2,
+    "note": "\"Superstition\" and \"You Are the Sunshine of My Life\" on the same record; the moment he took full control."
+   },
+   {
+    "t": "Songs in the Key of Life",
+    "y": 1976,
+    "step": 3,
+    "note": "A double album plus EP: jazz, funk, gospel, ballads and \"Pastime Paradise.\" Sprawling on purpose."
+   },
+   {
+    "t": "Music of My Mind",
+    "y": 1972,
+    "step": 4,
+    "note": "The first fully self-produced record, made with the synth programmers Malcolm Cecil and Robert Margouleff; rougher and more experimental than what follows."
+   },
+   {
+    "t": "Fulfillingness' First Finale",
+    "y": 1974,
+    "step": 5,
+    "note": "The quieter, more brooding sibling of Innervisions, with \"You Haven't Done Nothin'\" aimed at Nixon."
+   },
+   {
+    "t": "Stevie Wonder's Journey Through \"The Secret Life of Plants\"",
+    "y": 1979,
+    "step": 6,
+    "kind": "soundtrack",
+    "note": "A mostly instrumental score for a documentary about plants. Baffling to buyers in 1979; strange and lovely now."
+   },
+   {
+    "t": "Hotter than July",
+    "y": 1980,
+    "step": 7,
+    "note": "The last great one, with \"Master Blaster\" and \"Happy Birthday,\" his campaign for a holiday for King."
+   },
+   {
+    "t": "The Jazz Soul of Little Stevie",
+    "y": 1962,
+    "note": "An instrumental debut at eleven; a curiosity."
+   },
+   {
+    "t": "Tribute to Uncle Ray",
+    "y": 1962,
+    "note": "Ray Charles covers by a child; a curiosity."
+   },
+   {
+    "t": "With a Song in My Heart",
+    "y": 1963,
+    "note": "Standards; minor."
+   },
+   {
+    "t": "Stevie at the Beach",
+    "y": 1964,
+    "note": "A beach-movie cash-in; minor."
+   },
+   {
+    "t": "Up-Tight",
+    "y": 1966,
+    "note": "Mid-60s Motown with \"Uptight\" and \"Blowin' in the Wind\"; the singles are enough."
+   },
+   {
+    "t": "Down to Earth",
+    "y": 1966,
+    "note": "Singles-era Motown; minor."
+   },
+   {
+    "t": "I Was Made to Love Her",
+    "y": 1967,
+    "note": "The title hit is the reason; minor as an album."
+   },
+   {
+    "t": "Someday at Christmas",
+    "y": 1967,
+    "note": "A Christmas album."
+   },
+   {
+    "t": "Eivets Rednow",
+    "y": 1968,
+    "note": "An instrumental album under his name spelled backward; a curiosity."
+   },
+   {
+    "t": "For Once in My Life",
+    "y": 1968,
+    "note": "Strong singles, a Motown album around them."
+   },
+   {
+    "t": "My Cherie Amour",
+    "y": 1969,
+    "note": "Hit-driven; minor."
+   },
+   {
+    "t": "Signed, Sealed & Delivered",
+    "y": 1970,
+    "note": "The title hit and good covers; the last record before he took control."
+   },
+   {
+    "t": "Where I'm Coming From",
+    "y": 1971,
+    "note": "His first self-written album, made just before he turned 21; a sketch of what came next."
+   },
+   {
+    "t": "In Square Circle",
+    "y": 1985,
+    "note": "Mid-80s gloss with \"Part-Time Lover\"; can wait."
+   },
+   {
+    "t": "Characters",
+    "y": 1987,
+    "note": "Late-80s production; minor."
+   },
+   {
+    "t": "Conversation Peace",
+    "y": 1995,
+    "note": "A long, warm late album; minor."
+   },
+   {
+    "t": "A Time to Love",
+    "y": 2005,
+    "note": "His most recent album; minor."
+   },
+   {
+    "t": "The Woman in Red",
+    "y": 1984,
+    "kind": "soundtrack",
+    "note": "Soundtrack with \"I Just Called to Say I Love You\"; skip."
+   },
+   {
+    "t": "Jungle Fever",
+    "y": 1991,
+    "kind": "soundtrack",
+    "note": "His songs for the Spike Lee film; for completists."
+   },
+   {
+    "t": "Recorded Live: The 12 Year Old Genius",
+    "y": 1963,
+    "kind": "live",
+    "note": "Home of \"Fingertips\"; the single version is the story."
+   }
+  ]
+ },
+ "Curtis Mayfield": {
+  "about": "Curtis Mayfield's solo records of the early 70s brought long grooves, strings and wah guitar together with clear-eyed songs about the street; the path covers that peak, then goes back to the Impressions, where the civil rights songs started.",
+  "records": [
+   {
+    "t": "Curtis",
+    "y": 1970,
+    "step": 1,
+    "note": "The door: \"Move On Up\" and \"(Don't Worry) If There's a Hell Below, We're All Going to Go.\" Psychedelic soul with horns, strings and a conscience."
+   },
+   {
+    "t": "Super Fly",
+    "y": 1972,
+    "step": 2,
+    "kind": "soundtrack",
+    "note": "A soundtrack that outlasted the film: \"Pusherman\" and \"Freddie's Dead\" tell the story the movie glamorizes."
+   },
+   {
+    "t": "There's No Place Like America Today",
+    "y": 1975,
+    "step": 3,
+    "note": "Slow, stripped back and bleak; the cover is a breadline under a billboard of a smiling white family."
+   },
+   {
+    "t": "Roots",
+    "y": 1971,
+    "step": 4,
+    "note": "The second solo record, longer and looser, with \"We People Who Are Darker Than Blue.\""
+   },
+   {
+    "t": "Curtis/Live!",
+    "y": 1971,
+    "step": 5,
+    "kind": "live",
+    "note": "Recorded at the Bitter End in Greenwich Village with a small band; his guitar and falsetto up close."
+   },
+   {
+    "t": "Back to the World",
+    "y": 1973,
+    "step": 6,
+    "note": "About soldiers coming home from Vietnam to a broken country; lush and angry."
+   },
+   {
+    "t": "This Is My Country",
+    "y": 1968,
+    "step": 7,
+    "by": "The Impressions",
+    "note": "The Impressions on his own Curtom label, with the title song and \"Choice of Colors.\" The civil rights songs before the solo career."
+   },
+   {
+    "t": "Keep On Pushing",
+    "y": 1964,
+    "by": "The Impressions",
+    "note": "The Impressions' early civil rights statement; the title song is the one to know."
+   },
+   {
+    "t": "People Get Ready",
+    "y": 1965,
+    "by": "The Impressions",
+    "note": "The title song is one of the great American songs; the album around it is slighter."
+   },
+   {
+    "t": "The Young Mods' Forgotten Story",
+    "y": 1969,
+    "by": "The Impressions",
+    "note": "Late Impressions with \"Choice of Colors\" carried over from the singles; for after the path."
+   },
+   {
+    "t": "Check Out Your Mind!",
+    "y": 1970,
+    "by": "The Impressions",
+    "note": "The Impressions after he left the lineup; he still wrote and produced it."
+   },
+   {
+    "t": "Sweet Exorcist",
+    "y": 1974,
+    "note": "Solid mid-70s groove; the peak records say more."
+   },
+   {
+    "t": "Got to Find a Way",
+    "y": 1974,
+    "note": "Short, mellow follow-up; minor."
+   },
+   {
+    "t": "Claudine",
+    "y": 1974,
+    "by": "Gladys Knight & the Pips",
+    "kind": "soundtrack",
+    "note": "His songs for the film, sung by Gladys Knight & the Pips."
+   },
+   {
+    "t": "Let's Do It Again",
+    "y": 1975,
+    "by": "The Staple Singers",
+    "kind": "soundtrack",
+    "note": "His songs for the film, sung by the Staple Singers; the title song was a hit."
+   },
+   {
+    "t": "Give, Get, Take and Have",
+    "y": 1976,
+    "note": "Drifting toward disco; minor."
+   },
+   {
+    "t": "Sparkle",
+    "y": 1976,
+    "by": "Aretha Franklin",
+    "kind": "soundtrack",
+    "note": "His songs for the film, sung by Aretha Franklin."
+   },
+   {
+    "t": "Never Say You Can't Survive",
+    "y": 1977,
+    "note": "Soft and romantic; minor."
+   },
+   {
+    "t": "Short Eyes",
+    "y": 1977,
+    "kind": "soundtrack",
+    "note": "A score for a prison film; for completists."
+   },
+   {
+    "t": "Do It All Night",
+    "y": 1978,
+    "note": "A disco record; skip."
+   },
+   {
+    "t": "Heartbeat",
+    "y": 1979,
+    "note": "Late-70s gloss; minor."
+   },
+   {
+    "t": "Something to Believe In",
+    "y": 1980,
+    "note": "Minor."
+   },
+   {
+    "t": "Love Is the Place",
+    "y": 1981,
+    "note": "Minor."
+   },
+   {
+    "t": "Honesty",
+    "y": 1983,
+    "note": "A modest return to form; still minor."
+   },
+   {
+    "t": "We Come in Peace with a Message of Love",
+    "y": 1985,
+    "note": "Minor."
+   },
+   {
+    "t": "Take It to the Streets",
+    "y": 1990,
+    "note": "His last album before the stage accident that paralyzed him; minor."
+   },
+   {
+    "t": "New World Order",
+    "y": 1996,
+    "note": "Recorded lying down, a line at a time, after the accident; moving to hear, but not the place to start."
+   }
+  ]
+ },
+ "Hank Williams": {
+  "about": "The songs came out as singles, so start with the hits and then hear the records built around them, including the dark recitations he cut as Luke the Drifter.",
+  "records": [
+   {
+    "t": "40 Greatest Hits",
+    "y": 1978,
+    "step": 1,
+    "kind": "compilation",
+    "note": "The door: the singles in one place, \"I'm So Lonesome I Could Cry\" to \"Your Cheatin' Heart.\" Short, plain songs that hit hard."
+   },
+   {
+    "t": "Moanin' the Blues",
+    "y": 1952,
+    "step": 2,
+    "note": "One of only two LPs out in his lifetime: eight blues-leaning sides, \"Lovesick Blues\" among them."
+   },
+   {
+    "t": "Hank Williams as Luke the Drifter",
+    "y": 1953,
+    "step": 3,
+    "note": "Recitations and moral sermons under a pseudonym; gloomy, strange and the closest he came to a short story."
+   },
+   {
+    "t": "I Saw the Light",
+    "y": 1954,
+    "step": 4,
+    "note": "His gospel songs; the other half of the honky-tonk story."
+   },
+   {
+    "t": "Hank Williams Sings",
+    "y": 1951,
+    "note": "His first 10-inch LP; the songs are on the hits set."
+   },
+   {
+    "t": "Memorial Album",
+    "y": 1953,
+    "kind": "compilation",
+    "note": "The first posthumous collection; superseded by later compilations."
+   },
+   {
+    "t": "Honky Tonkin'",
+    "y": 1954,
+    "kind": "compilation",
+    "note": "Posthumous LP of honky-tonk sides; covered by the hits."
+   },
+   {
+    "t": "Ramblin' Man",
+    "y": 1955,
+    "kind": "compilation",
+    "note": "Another posthumous gathering, with the title song; for after the path."
+   },
+   {
+    "t": "The Complete Hank Williams",
+    "y": 1998,
+    "kind": "compilation",
+    "note": "Ten discs, demos and radio shows included; for when one album isn't enough."
+   }
+  ]
+ },
+ "Daniel Romano": {
+  "about": "Daniel Romano went from rhinestone heartbreak country to wordy psych rock and then to a band records nearly everything live. Start with the record where he turned, go back to the country years, then follow him forward.",
+  "names": [
+   "Daniel Romano",
+   "Daniel Romano's Outfit"
+  ],
+  "records": [
+   {
+    "t": "Modern Pressure",
+    "y": 2017,
+    "step": 1,
+    "note": "The door: his Dylan-in-1966 record, wordy, warped and funny. The country singer gone strange."
+   },
+   {
+    "t": "Come Cry With Me",
+    "y": 2013,
+    "step": 2,
+    "note": "Straight heartbreak country in a Nudie suit; the revivalist at his purest."
+   },
+   {
+    "t": "If I've Only One Time Askin'",
+    "y": 2015,
+    "step": 3,
+    "note": "Countrypolitan strings and steel, sadder and more ornate than the one before."
+   },
+   {
+    "t": "Mosey",
+    "y": 2016,
+    "step": 4,
+    "note": "The break: country colliding with 60s pop, rock and Leonard Cohen talk-singing."
+   },
+   {
+    "t": "Finally Free",
+    "y": 2018,
+    "step": 5,
+    "note": "Folky, psychedelic and lyrically knotty; he says it came to him while driving through the Prairies."
+   },
+   {
+    "t": "Cobra Poems",
+    "y": 2021,
+    "step": 6,
+    "by": "Daniel Romano's Outfit",
+    "note": "With the Outfit, his live band, at their own studio on the Welland Canal: electric, horn-heavy rock, power pop and psychedelia."
+   },
+   {
+    "t": "How Ill Thy World Is Ordered",
+    "y": 2020,
+    "step": 7,
+    "by": "Daniel Romano's Outfit",
+    "note": "The best of the 2020 flood: the Outfit full-band, horn-laden and euphoric."
+   },
+   {
+    "t": "Content to Point the Way",
+    "y": 2020,
+    "step": 8,
+    "by": "Daniel Romano's Outfit",
+    "note": "A full turn back to classic country with the Outfit, male and female harmonies and slide guitar."
+   },
+   {
+    "t": "Daniel, Fred & Julie",
+    "y": 2009,
+    "by": "Daniel, Fred & Julie",
+    "kind": "collaboration",
+    "note": "Rustic folk with Frederick Squire and Julie Doiron, mostly public-domain songs."
+   },
+   {
+    "t": "Songs for Misha",
+    "y": 2009,
+    "kind": "EP",
+    "note": "An early EP of folk ballads."
+   },
+   {
+    "t": "Workin' for the Music Man",
+    "y": 2010,
+    "note": "The solo debut, folk turning toward country; the sound gets sharper on the next records."
+   },
+   {
+    "t": "Sleep Beneath the Willow",
+    "y": 2011,
+    "note": "Downcast retro country; Come Cry With Me does the same thing better."
+   },
+   {
+    "t": "Ancient Shapes",
+    "y": 2016,
+    "by": "Ancient Shapes",
+    "kind": "side project",
+    "note": "His punk band; loud and short, a side road."
+   },
+   {
+    "t": "Human Touch",
+    "y": 2018,
+    "note": "A surprise Bandcamp release of quiet country-folk; for after the path."
+   },
+   {
+    "t": "Nerveless",
+    "y": 2018,
+    "note": "Released with Human Touch: 70s-style pop rock with a few fuzzed-out turns."
+   },
+   {
+    "t": "Silent Rave",
+    "y": 2018,
+    "by": "Ancient Shapes",
+    "kind": "side project",
+    "note": "More punk from Ancient Shapes."
+   },
+   {
+    "t": "A Flower That Wouldn't Bloom",
+    "y": 2019,
+    "by": "Ancient Shapes",
+    "kind": "side project",
+    "note": "Ancient Shapes again; for punk days."
+   },
+   {
+    "t": "Visions of the Higher Dream",
+    "y": 2020,
+    "note": "The first of the 2020 releases, made alone in quarantine: sax, baroque pop and psychedelia."
+   },
+   {
+    "t": "Super Pollen",
+    "y": 2020,
+    "kind": "EP",
+    "note": "Six angry, playful power-pop songs with members of Fucked Up and Jade Hairpins."
+   },
+   {
+    "t": "Okay Wow",
+    "y": 2020,
+    "by": "Daniel Romano's Outfit",
+    "kind": "live",
+    "note": "The Outfit live in Scandinavia in 2019, mostly Modern Pressure and Finally Free songs rocked up."
+   },
+   {
+    "t": "Dandelion",
+    "y": 2020,
+    "note": "Soft, sunny psych pop recorded alone in about a week."
+   },
+   {
+    "t": "Forever Love's Fool",
+    "y": 2020,
+    "by": "Daniel Romano's Outfit",
+    "kind": "collaboration",
+    "note": "A single 22-minute prog piece with Tool's Danny Carey on drums; a curiosity."
+   },
+   {
+    "t": "Daniel Romano's Outfit Do (What Could Have Been) Infidels by Bob Dylan & the Plugz",
+    "y": 2020,
+    "by": "Daniel Romano's Outfit",
+    "note": "Dylan's Infidels re-imagined as if he'd made it with the L.A. punk band the Plugz; a fun experiment."
+   },
+   {
+    "t": "Spider Bite",
+    "y": 2020,
+    "by": "Spider Bite",
+    "kind": "side project",
+    "note": "Raw hardcore with Steve Lambke of the Constantines, as the band Spider Bite."
+   },
+   {
+    "t": "A Splendour of Heart",
+    "y": 2020,
+    "by": "Alias Ensemble",
+    "kind": "side project",
+    "note": "British-style psych folk with Kelly Sloan and David Nardi as Alias Ensemble."
+   },
+   {
+    "t": "White Flag",
+    "y": 2020,
+    "note": "The tenth 2020 release, solo and Beatles-breezy; a compact sampler of the year."
+   },
+   {
+    "t": "Kissing the Foe",
+    "y": 2021,
+    "note": "Twelve songs with him playing nearly everything; for after the path."
+   },
+   {
+    "t": "Fully Plugged In",
+    "y": 2021,
+    "by": "Daniel Romano's Outfit",
+    "kind": "live",
+    "note": "A live Outfit record; the studio albums come first."
+   },
+   {
+    "t": "La Luna",
+    "y": 2022,
+    "by": "Daniel Romano's Outfit",
+    "note": "One song in twelve parts, about 33 minutes, with the Outfit; ambitious, but not where to start."
+   },
+   {
+    "t": "The Rainbow and the Dove",
+    "y": 2023,
+    "by": "Spider Bite",
+    "kind": "side project",
+    "note": "The second Spider Bite record."
+   },
+   {
+    "t": "Too Hot to Sleep",
+    "y": 2024,
+    "by": "Daniel Romano's Outfit",
+    "note": "Tight garage rock with MC5 and Stooges energy; strong, and a good next step after the path."
+   },
+   {
+    "t": "Live in Oslo",
+    "y": 2025,
+    "kind": "live",
+    "note": "A recent live record."
+   },
+   {
+    "t": "Preservers of the Pearl",
+    "y": 2026,
+    "by": "Outfit",
+    "note": "The newest, credited to Outfit, with songwriting shared across the band; recorded live to tape."
+   }
+  ]
+ },
+ "Woody Guthrie": {
+  "about": "Start with the dust storms, then the plain-spoken Asch recordings and the long conversation with Alan Lomax, and end with Billy Bragg and Wilco setting his unrecorded lyrics to music.",
+  "records": [
+   {
+    "t": "Dust Bowl Ballads",
+    "y": 1940,
+    "step": 1,
+    "note": "The door: songs of the Okie migration, \"Tom Joad\" retelling The Grapes of Wrath in seventeen verses."
+   },
+   {
+    "t": "This Land Is Your Land: The Asch Recordings, Vol. 1",
+    "y": 1997,
+    "step": 2,
+    "kind": "compilation",
+    "note": "The 1940s Asch sessions, with the full \"This Land Is Your Land,\" the verses about private property included."
+   },
+   {
+    "t": "Library of Congress Recordings",
+    "y": 1964,
+    "step": 3,
+    "note": "Recorded with Alan Lomax in 1940: songs, stories and talk. You hear the man, not just the songbook."
+   },
+   {
+    "t": "Struggle",
+    "y": 1976,
+    "step": 4,
+    "note": "Labor songs, including \"Ludlow Massacre\" and \"1913 Massacre\"; the angriest set."
+   },
+   {
+    "t": "Ballads of Sacco & Vanzetti",
+    "y": 1960,
+    "step": 5,
+    "note": "A song cycle on the executed anarchists, commissioned by Moe Asch in 1946."
+   },
+   {
+    "t": "Mermaid Avenue",
+    "y": 1998,
+    "step": 6,
+    "by": "Billy Bragg & Wilco",
+    "kind": "collaboration",
+    "note": "His unrecorded lyrics set to music by Billy Bragg and Wilco; a bridge to the Wilco path."
+   },
+   {
+    "t": "Nursery Days",
+    "y": 1951,
+    "note": "Children's songs; charming but minor."
+   },
+   {
+    "t": "Songs to Grow on for Mother and Child",
+    "y": 1956,
+    "note": "More children's songs; minor."
+   },
+   {
+    "t": "Bound for Glory",
+    "y": 1956,
+    "kind": "compilation",
+    "note": "Songs with readings from his autobiography; a decent sampler."
+   },
+   {
+    "t": "Columbia River Collection",
+    "y": 1987,
+    "kind": "compilation",
+    "note": "Songs written for the Bonneville Power Administration in 1941, \"Roll On, Columbia\" among them."
+   },
+   {
+    "t": "Muleskinner Blues: The Asch Recordings, Vol. 2",
+    "y": 1997,
+    "kind": "compilation",
+    "note": "More of the Asch sessions; after Vol. 1."
+   },
+   {
+    "t": "Hard Travelin': The Asch Recordings, Vol. 3",
+    "y": 1998,
+    "kind": "compilation",
+    "note": "More of the Asch sessions."
+   },
+   {
+    "t": "Buffalo Skinners: The Asch Recordings, Vol. 4",
+    "y": 1999,
+    "kind": "compilation",
+    "note": "More of the Asch sessions."
+   }
+  ]
+ },
+ "Robert Johnson": {
+  "about": "There are only twenty-nine songs, so one set holds all of it; the other records here are the LPs that carried the myth to Dylan, Clapton and the Stones.",
+  "records": [
+   {
+    "t": "The Complete Recordings",
+    "y": 1990,
+    "step": 1,
+    "kind": "compilation",
+    "note": "The door and the whole catalog: every side from the 1936 and 1937 sessions plus alternate takes. Spare, fast guitar and a high, haunted voice."
+   },
+   {
+    "t": "King of the Delta Blues Singers",
+    "y": 1961,
+    "kind": "compilation",
+    "note": "The LP that Dylan and Keith Richards heard; same songs, now inside the complete set."
+   },
+   {
+    "t": "King of the Delta Blues Singers, Vol. II",
+    "y": 1970,
+    "kind": "compilation",
+    "note": "The rest of the songs; also inside the complete set."
+   },
+   {
+    "t": "The Centennial Collection",
+    "y": 2011,
+    "kind": "compilation",
+    "note": "A newer remaster of everything; pick one complete set, not both."
+   }
+  ]
+ },
+ "Howlin' Wolf": {
+  "about": "Two Chess albums of singles hold most of what matters; after them come the folk-blues repackagings, the odd psychedelic record he hated, and the last studio album.",
+  "records": [
+   {
+    "t": "Moanin' in the Moonlight",
+    "y": 1959,
+    "step": 1,
+    "kind": "compilation",
+    "note": "The door: \"Smokestack Lightning\" and \"How Many More Years.\" A huge, rasping voice over Hubert Sumlin's jagged guitar."
+   },
+   {
+    "t": "Howlin' Wolf",
+    "y": 1962,
+    "step": 2,
+    "kind": "compilation",
+    "note": "The rocking chair album: \"Spoonful,\" \"Back Door Man,\" \"Little Red Rooster,\" all Willie Dixon songs, all covered later by the rock bands."
+   },
+   {
+    "t": "The Real Folk Blues",
+    "y": 1965,
+    "step": 3,
+    "kind": "compilation",
+    "note": "More Chess singles, sold to the folk-revival crowd; \"Killing Floor\" is here."
+   },
+   {
+    "t": "More Real Folk Blues",
+    "y": 1967,
+    "step": 4,
+    "kind": "compilation",
+    "note": "Earlier 1950s sides; rougher and older-sounding."
+   },
+   {
+    "t": "The Howlin' Wolf Album",
+    "y": 1969,
+    "step": 5,
+    "note": "Chess's attempt at psychedelic blues; the cover says he didn't like it. Fuzz and wah over the old songs; strange and worth hearing once."
+   },
+   {
+    "t": "The Back Door Wolf",
+    "y": 1973,
+    "step": 6,
+    "note": "His last studio album, recorded when he was ill; tough and unshowy."
+   },
+   {
+    "t": "Howling Wolf Sings the Blues",
+    "y": 1962,
+    "kind": "compilation",
+    "note": "Crown budget LP of early Memphis sides; the same period is better covered elsewhere."
+   },
+   {
+    "t": "The Super Super Blues Band",
+    "y": 1968,
+    "kind": "collaboration",
+    "note": "A jam with Muddy Waters and Bo Diddley; fun, loose, minor."
+   },
+   {
+    "t": "Message to the Young",
+    "y": 1971,
+    "note": "A funk-leaning studio record; minor."
+   },
+   {
+    "t": "The London Howlin' Wolf Sessions",
+    "y": 1971,
+    "note": "With Clapton, Winwood, Wyman and Watts; famous, but the British players are too polite."
+   },
+   {
+    "t": "Live and Cookin'",
+    "y": 1972,
+    "kind": "live",
+    "note": "Live at Silvio's in Chicago; for after the path."
+   },
+   {
+    "t": "Chester Burnett A.K.A. Howlin' Wolf",
+    "y": 1972,
+    "kind": "compilation",
+    "note": "A Chess double compilation of the singles; superseded."
+   },
+   {
+    "t": "Change My Way",
+    "y": 1975,
+    "kind": "compilation",
+    "note": "A posthumous-era odds-and-ends compilation."
+   },
+   {
+    "t": "His Best",
+    "y": 1997,
+    "kind": "compilation",
+    "note": "A single-disc hits set if you want the singles without the original LPs."
+   },
+   {
+    "t": "The Chess Box",
+    "y": 1991,
+    "kind": "compilation",
+    "note": "Three discs; when one album isn't enough."
+   }
+  ]
+ },
+ "Skip James": {
+  "about": "Skip James made two careers thirty-five years apart: the 1931 Paramount sides and the 1960s rediscovery records. Start with the later one, where the sound is clear, then go back.",
+  "records": [
+   {
+    "t": "Today!",
+    "y": 1966,
+    "step": 1,
+    "note": "The door: \"Hard Time Killin' Floor Blues\" and \"Cypress Grove\" recorded in good sound, his falsetto and minor-key guitar intact."
+   },
+   {
+    "t": "Complete Early Recordings",
+    "y": 1994,
+    "step": 2,
+    "kind": "compilation",
+    "note": "The 1931 Paramount sides, scratchy and otherworldly: \"Devil Got My Woman\" and \"I'm So Glad.\""
+   },
+   {
+    "t": "Devil Got My Woman",
+    "y": 1968,
+    "step": 3,
+    "note": "The second Vanguard album; quieter and just as eerie."
+   },
+   {
+    "t": "Greatest of the Delta Blues Singers",
+    "y": 1964,
+    "note": "His first rediscovery LP; the Vanguard records sound better."
+   },
+   {
+    "t": "She Lyin'",
+    "y": 1996,
+    "note": "A 1964 session released decades later; for after the path."
+   },
+   {
+    "t": "I'm So Glad",
+    "y": 1978,
+    "kind": "compilation",
+    "note": "A Vanguard compilation of the 60s material; superseded by the two albums."
+   }
+  ]
+ },
+ "Animal Collective": {
+  "about": "Start with the record where the noise turned into pop songs, then walk back through the albums that built it, with Panda Bear's solo record in the middle where it belongs.",
+  "names": [
+   "Animal Collective",
+   "Panda Bear"
+  ],
+  "records": [
+   {
+    "t": "Merriweather Post Pavilion",
+    "y": 2009,
+    "step": 1,
+    "note": "Their clearest record: big sub-bass, layered harmonies and songs like \"My Girls\" that hold still long enough to sing along. If this clicks, the rest opens up."
+   },
+   {
+    "t": "Strawberry Jam",
+    "y": 2007,
+    "step": 2,
+    "note": "The step just before the door, harsher and more electric, with Avey Tare's yelping on \"For Reverend Green\" and \"Fireworks.\""
+   },
+   {
+    "t": "Feels",
+    "y": 2005,
+    "step": 3,
+    "note": "Guitars drenched in reverb and detuned piano; a warm, woozy band record that sounds like summer heat."
+   },
+   {
+    "t": "Sung Tongs",
+    "y": 2004,
+    "step": 4,
+    "note": "Just Avey Tare and Panda Bear with acoustic guitars and campfire chants. Strange and tender, and the root of everything after."
+   },
+   {
+    "t": "Person Pitch",
+    "y": 2007,
+    "by": "Panda Bear",
+    "kind": "solo",
+    "step": 5,
+    "note": "Sample loops and Beach Boys harmonies stacked into long sunlit songs. As important to the band's sound as any of their own albums."
+   },
+   {
+    "t": "Here Comes the Indian",
+    "y": 2003,
+    "step": 6,
+    "note": "The dark, droning, abrasive one. Hard going, but it shows how far out they started."
+   },
+   {
+    "t": "Time Skiffs",
+    "y": 2022,
+    "step": 7,
+    "note": "All four members back together, calmer and more patient, with songs built from live playing. A good late close to the path."
+   },
+   {
+    "t": "Spirit They're Gone, Spirit They've Vanished",
+    "y": 2000,
+    "note": "Avey Tare and Panda Bear's lo-fi debut, credited at the time to the two of them. Interesting as a sketch; can wait."
+   },
+   {
+    "t": "Danse Manatee",
+    "y": 2001,
+    "note": "Shrill, fractured experiments. For after the path, if ever."
+   },
+   {
+    "t": "Campfire Songs",
+    "y": 2003,
+    "note": "Recorded live on a porch in one take; a gentler preview of Sung Tongs."
+   },
+   {
+    "t": "Prospect Hummer",
+    "y": 2005,
+    "kind": "EP",
+    "by": "Animal Collective with Vashti Bunyan",
+    "note": "A short, quiet meeting with the British folk singer. Nice, but minor."
+   },
+   {
+    "t": "Fall Be Kind",
+    "y": 2009,
+    "kind": "EP",
+    "note": "Leftovers from the Merriweather era, including \"What Would I Want? Sky.\" Worth hearing right after the door if it hooks you."
+   },
+   {
+    "t": "Centipede Hz",
+    "y": 2012,
+    "note": "Crowded, loud and busy; the follow-up to their peak tries too hard."
+   },
+   {
+    "t": "Painting With",
+    "y": 2016,
+    "note": "Short, choppy pop songs. The weakest of the band records."
+   },
+   {
+    "t": "Isn't It Now?",
+    "y": 2023,
+    "note": "Long, live-sounding songs from the Time Skiffs lineup. Fine once the path is done."
+   }
+  ]
+ },
+ "Sturgill Simpson": {
+  "about": "A Kentucky country singer who keeps changing the frame around the voice: outlaw country, psychedelia, soul, fuzz rock, bluegrass. The path goes through each change in order after the door.",
+  "names": [
+   "Sturgill Simpson",
+   "Johnny Blue Skies"
+  ],
+  "records": [
+   {
+    "t": "Metamodern Sounds in Country Music",
+    "y": 2014,
+    "step": 1,
+    "heard": true,
+    "note": "I know this one. Waylon-style country with lyrics about DMT, reptile aliens and Terence McKenna, and a slowed-down cover of \"The Promise\"."
+   },
+   {
+    "t": "High Top Mountain",
+    "y": 2013,
+    "step": 2,
+    "note": "The straight hard-country debut, all pedal steel and honky tonk. Shows the base he's working from."
+   },
+   {
+    "t": "A Sailor's Guide to Earth",
+    "y": 2016,
+    "step": 3,
+    "note": "A song cycle written to his newborn son, with the Dap-Kings horns and a Nirvana cover. Country with a soul band behind it."
+   },
+   {
+    "t": "Sound & Fury",
+    "y": 2019,
+    "step": 4,
+    "heard": true,
+    "kind": "soundtrack",
+    "note": "I know this one. Fuzzed-out synth boogie rock, made alongside an anime film; his loudest break with Nashville."
+   },
+   {
+    "t": "Cuttin' Grass, Vol. 1: The Butcher Shoppe Sessions",
+    "y": 2020,
+    "step": 5,
+    "note": "His own songs reworked as bluegrass with a crack band. A good way to hear how well the songs hold up."
+   },
+   {
+    "t": "The Ballad of Dood & Juanita",
+    "y": 2021,
+    "step": 6,
+    "note": "A short bluegrass concept album about a nineteenth-century mountain man chasing his kidnapped wife. Old-time storytelling, under half an hour."
+   },
+   {
+    "t": "Passage du Desir",
+    "y": 2024,
+    "by": "Johnny Blue Skies",
+    "step": 7,
+    "note": "Released under a new name: looser, warmer songs with a seventies singer-songwriter feel."
+   },
+   {
+    "t": "Cuttin' Grass, Vol. 2: The Cowboy Arms Sessions",
+    "y": 2020,
+    "note": "More bluegrass versions of his catalog. Volume 1 covers it."
+   },
+   {
+    "t": "Mutiny After Midnight",
+    "y": 2026,
+    "by": "Johnny Blue Skies",
+    "note": "The second Johnny Blue Skies record. Too new to place; hear it after Passage du Desir."
+   }
+  ]
+ },
+ "Billy Strings": {
+  "about": "A Michigan flatpicker who plays bluegrass with the stretch and volume of a jam band. The path is short because the catalog is.",
+  "names": [
+   "Billy Strings"
+  ],
+  "records": [
+   {
+    "t": "Home",
+    "y": 2019,
+    "step": 1,
+    "heard": true,
+    "note": "I know this one. Fast traditional picking pushed into long, trippy jams; the record that made his name."
+   },
+   {
+    "t": "Turmoil & Tinfoil",
+    "y": 2017,
+    "step": 2,
+    "note": "The debut proper: rawer and closer to straight bluegrass, with songs about addiction and the rural Michigan he grew up in."
+   },
+   {
+    "t": "Renewal",
+    "y": 2021,
+    "step": 3,
+    "note": "Long and ambitious, with more psychedelic stretches and his touring band at full strength."
+   },
+   {
+    "t": "Highway Prayers",
+    "y": 2024,
+    "step": 4,
+    "note": "Twenty songs, more varied and more country, with real attention to songwriting over solos."
+   },
+   {
+    "t": "Me/And/Dad",
+    "y": 2022,
+    "by": "Billy Strings and Terry Barber",
+    "kind": "collaboration",
+    "step": 5,
+    "note": "Old bluegrass and gospel standards sung with his stepfather, who taught him to play. Plain and touching."
+   },
+   {
+    "t": "Rock of Ages",
+    "y": 2013,
+    "by": "Billy Strings and Don Julin",
+    "kind": "collaboration",
+    "note": "An early duo record with mandolinist Don Julin. Fine traditional playing; mostly of historical interest."
+   },
+   {
+    "t": "Fiddle Tune X",
+    "y": 2014,
+    "by": "Billy Strings and Don Julin",
+    "kind": "collaboration",
+    "note": "The second duo record with Don Julin, mostly fiddle tunes. Can wait."
+   },
+   {
+    "t": "Live Vol. 1",
+    "y": 2024,
+    "kind": "live",
+    "note": "His real home is the stage. Worth hearing once the studio path is done."
+   },
+   {
+    "t": "So Much for Goodbyes",
+    "y": 2026,
+    "note": "The newest studio record. Too new to place; hear it after Highway Prayers."
+   }
+  ]
+ },
+ "Son Volt": {
+  "about": "Jay Farrar's band after the Uncle Tupelo split, which means going back to Uncle Tupelo too: the path starts with Trace, then the roots, then the Son Volt records that matter.",
+  "names": [
+   "Son Volt",
+   "Uncle Tupelo",
+   "Jay Farrar"
+  ],
+  "records": [
+   {
+    "t": "Trace",
+    "y": 1995,
+    "step": 1,
+    "heard": true,
+    "note": "I know this one. Farrar's low, worn voice over fiddle, steel and loud guitars; \"Windfall\" is the alt-country song."
+   },
+   {
+    "t": "No Depression",
+    "y": 1990,
+    "by": "Uncle Tupelo",
+    "step": 2,
+    "note": "The debut that named a genre: punk speed and volume played over Carter Family country. Farrar and Jeff Tweedy before Son Volt and Wilco."
+   },
+   {
+    "t": "Anodyne",
+    "y": 1993,
+    "by": "Uncle Tupelo",
+    "step": 3,
+    "note": "Their last and most country record, cut live in the studio, with Doug Sahm on \"Give Back the Key to My Heart.\" The split is audible."
+   },
+   {
+    "t": "Straightaways",
+    "y": 1997,
+    "step": 4,
+    "note": "Quieter and more somber than Trace, closer to the acoustic side."
+   },
+   {
+    "t": "Wide Swing Tremolo",
+    "y": 1998,
+    "step": 5,
+    "note": "Murkier, louder and more experimental, recorded at home. Ends the first run of the band."
+   },
+   {
+    "t": "Okemah and the Melody of Riot",
+    "y": 2005,
+    "step": 6,
+    "heard": true,
+    "note": "I know this one. The comeback with a new lineup: angry protest rock named for Woody Guthrie's hometown."
+   },
+   {
+    "t": "American Central Dust",
+    "y": 2009,
+    "step": 7,
+    "note": "Spare, reflective songs with steel guitar, including one for Keith Richards. A mature middle-period record."
+   },
+   {
+    "t": "Notes of Blue",
+    "y": 2017,
+    "step": 8,
+    "note": "Farrar goes into Mississippi and Skip James-style blues with alternate tunings. A late record with real grit."
+   },
+   {
+    "t": "A Retrospective: 1995-2000",
+    "y": 2005,
+    "kind": "compilation",
+    "heard": true,
+    "note": "My own way in. A good sampler of the first three records, but the albums themselves are the path."
+   },
+   {
+    "t": "Still Feel Gone",
+    "y": 1991,
+    "by": "Uncle Tupelo",
+    "note": "The second Uncle Tupelo record, more rock. Good, but No Depression and Anodyne cover the range."
+   },
+   {
+    "t": "March 16–20, 1992",
+    "y": 1992,
+    "by": "Uncle Tupelo",
+    "note": "An acoustic folk and murder-ballad record produced by Peter Buck. Worth hearing early if the old-time side grabs you."
+   },
+   {
+    "t": "Sebastopol",
+    "y": 2001,
+    "by": "Jay Farrar",
+    "kind": "solo",
+    "note": "Farrar's first solo album, recorded during the Son Volt break. Optional."
+   },
+   {
+    "t": "The Search",
+    "y": 2007,
+    "note": "Adds horns and keyboards; uneven."
+   },
+   {
+    "t": "Honky Tonk",
+    "y": 2013,
+    "note": "A straight Bakersfield-style country tribute. Pleasant but slight."
+   },
+   {
+    "t": "Union",
+    "y": 2019,
+    "note": "Political songs written in the Trump years. Sincere, but the earlier protest record does it better."
+   },
+   {
+    "t": "Electro Melodier",
+    "y": 2021,
+    "note": "Gentler, reflective songs. Fine for completists."
+   },
+   {
+    "t": "Day of the Doug",
+    "y": 2023,
+    "note": "An album of Doug Sahm covers. A fun aside, not part of the study."
+   }
+  ]
+ },
+ "Tami Neilson": {
+  "about": "A Canadian-born singer in New Zealand with a huge voice, mixing classic country with soul, rockabilly and Patsy Cline-style torch songs. The path starts at her breakthrough and follows her as the records get bolder.",
+  "names": [
+   "Tami Neilson"
+  ],
+  "records": [
+   {
+    "t": "Dynamite!",
+    "y": 2014,
+    "step": 1,
+    "note": "The breakthrough: retro country and rockabilly with a big soul voice, and \"Walk (Back to Your Arms).\" The easiest way in."
+   },
+   {
+    "t": "Don't Be Afraid",
+    "y": 2015,
+    "step": 2,
+    "note": "Written after her father's death; more blues and soul, darker and deeper."
+   },
+   {
+    "t": "Sassafrass!",
+    "y": 2018,
+    "step": 3,
+    "note": "Loud, brassy soul and country with sharp feminist songs about the music business."
+   },
+   {
+    "t": "Chickaboom!",
+    "y": 2020,
+    "step": 4,
+    "note": "Short and punchy, built on handclaps and stomps; \"Hey Bus Driver\" is the fun one."
+   },
+   {
+    "t": "Kingmaker",
+    "y": 2022,
+    "step": 5,
+    "note": "Her biggest-sounding record, Western and cinematic, with the Willie Nelson duet \"Beyond the Stars.\""
+   },
+   {
+    "t": "Neon Cowgirl",
+    "y": 2025,
+    "step": 6,
+    "note": "The newest, longlisted for the Polaris Prize. Closes the path where she is now."
+   },
+   {
+    "t": "Red Dirt Angel",
+    "y": 2008,
+    "note": "An early, more conventional country debut. Can wait."
+   },
+   {
+    "t": "The Kitchen Table Sessions, Vol. 1",
+    "y": 2009,
+    "note": "Stripped-down early sessions with her brother Jay Neilson. Minor."
+   },
+   {
+    "t": "Chanteuses & Shotguns",
+    "y": 2011,
+    "by": "Tami Neilson and Lauren Thomson",
+    "kind": "collaboration",
+    "note": "A duo side record. Minor."
+   },
+   {
+    "t": "The Kitchen Table Sessions, Vol. II",
+    "y": 2011,
+    "note": "More stripped-down sessions, with Lauren Thomson. Minor."
+   },
+   {
+    "t": "Songs of Sinners Live",
+    "y": 2017,
+    "kind": "live",
+    "note": "A live record. The studio path covers it."
+   },
+   {
+    "t": "Neilson Sings Nelson",
+    "y": 2024,
+    "note": "A record of Willie Nelson songs. A nice aside after Kingmaker."
+   }
+  ]
+ }
+}
