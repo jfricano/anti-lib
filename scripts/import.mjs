@@ -4,7 +4,7 @@
 // Links and covers already found by lookup.mjs are kept.
 // Flags marked private only show in owner mode; privateFilter flags show as tags for everyone
 // but can only be filtered on in owner mode. Every other flag is a tag and a Show filter for everyone.
-// Flags marked ownerToggle can be switched on or off per title in owner mode; those changes live in
+// Every flag can be switched on or off per title in owner mode; those changes live in
 // data/tags.json ({ "<list id>": { "<title>|<creator>": { "<flag>": true or false } } }) and win over the source.
 import { readFile, writeFile, mkdir, access } from 'node:fs/promises';
 import path from 'node:path';
@@ -19,8 +19,8 @@ const LISTS = [
     doneValues: ['Read', 'Digested', 'Formative'],
     creatorLabel: 'Author', groupLabel: 'Part', shelfLabel: 'Section', doneLabel: 'Read',
     search: 'https://www.goodreads.com/search?q=',
-    flags: { core: { field: 'core', label: 'Core shelf' }, fringe: { field: 'fringe', label: 'Respectful fringe' }, owned: { field: 'owned', label: 'On my shelf', ownerToggle: true }, star: { field: 'star', label: 'Vonnegut frequency' },
-      formative: { field: 'status', equals: 'Formative', label: 'Formative', ownerToggle: true },
+    flags: { core: { field: 'core', label: 'Core shelf' }, fringe: { field: 'fringe', label: 'Respectful fringe' }, owned: { field: 'owned', label: 'On my shelf' }, star: { field: 'star', label: 'Vonnegut frequency' },
+      formative: { field: 'status', equals: 'Formative', label: 'Formative' },
       reading: { field: 'status', equals: 'Reading', label: 'Reading now' } },
   },
   {
@@ -126,7 +126,7 @@ for (const list of LISTS) {
       if (value) item[key] = key === 'y' && /^\d+$/.test(value) ? Number(value) : value;
     }
     const set = tags[list.id]?.[`${item.t}|${item.c || ''}`] || {};
-    const flags = Object.entries(list.flags).filter(([key, flag]) => flag.ownerToggle && typeof set[key] === 'boolean' ? set[key]
+    const flags = Object.entries(list.flags).filter(([key, flag]) => typeof set[key] === 'boolean' ? set[key]
       : flag.equals ? r[flag.field] === flag.equals : truthy(r[flag.field])).map(([key]) => key);
     if (flags.length) item.f = flags;
     if (fields.done && (list.doneValues ? list.doneValues.includes(r[fields.done]) : truthy(r[fields.done]))) item.d = 1;
@@ -138,7 +138,7 @@ for (const list of LISTS) {
   manifest.push({ ...meta, flags: Object.fromEntries(Object.entries(list.flags).map(([key, flag]) => [key, flag.label])),
     privateFlags: Object.keys(list.flags).filter(key => list.flags[key].private),
     privateFilters: Object.keys(list.flags).filter(key => list.flags[key].private || list.flags[key].privateFilter),
-    toggles: Object.keys(list.flags).filter(key => list.flags[key].ownerToggle),
+    toggles: Object.keys(list.flags),
     hasYear: items.some(item => item.y), count: items.length, ...(threads.length && { threads }) });
   console.log(`Imported ${items.length} ${list.noun[1]}`);
 }
