@@ -8,6 +8,11 @@ A path starts at a door (the record most likely to make the artist click), then 
 make the study feel complete. It is not the full discography. The other records still appear in the timeline,
 marked as skipped, so it's clear what was left out and why.
 
+The records with a step are also rows on the albums list, placed right after the artist's path row (the importer adds
+them; music.csv doesn't need them). An album already on the list stays where it is. Ticking a record as heard on
+either page is the same mark, and the artist's path row counts as fully heard once every step is ticked. A path whose
+artist has no row on the list gets one at the end of section 01.
+
 ## Format
 
 `lists/artist-paths.json` is one object keyed by artist name, spelled exactly as in the music.csv `artist`
