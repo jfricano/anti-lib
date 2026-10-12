@@ -1,7 +1,7 @@
 name: Progress
-# The anti-library page's owner mode opens a prefilled issue here with finished and removed titles.
-# Issues from the repository owner are applied to data/progress.json and data/removed.json on main,
-# and removals are rebuilt out of data/<list>.json; the page reads those files directly, so there is
+# The anti-library page's owner mode opens a prefilled issue here with finished, removed and retagged titles.
+# Issues from the repository owner are applied to data/progress.json, data/removed.json and data/tags.json on main,
+# and data/<list>.json is rebuilt from them; the page reads those files directly, so there is
 # nothing to redeploy.
 on:
   issues:
