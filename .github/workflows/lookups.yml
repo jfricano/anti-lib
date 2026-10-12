@@ -2,7 +2,9 @@ name: Rebuild data
 # Rebuilds data/ from the source lists, looks up a public page and cover for new titles,
 # and commits the results to the same branch. Runs when a list or script changes, or by hand.
 on:
+  # Only main: the page reads main, and a rebuild on a PR branch would conflict with main's data.
   push:
+    branches: [main]
     paths: ['lists/**', 'scripts/import.mjs', 'scripts/lookup.mjs', 'data/lookups.json']
   workflow_dispatch:
     inputs:
