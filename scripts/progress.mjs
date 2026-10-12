@@ -28,7 +28,7 @@ async function expandCompact({ m = {}, t = {} }) {
   const keysFor = async listId => {
     if (!lists.has(listId)) throw Error(`Unknown list ${JSON.stringify(listId)}`);
     if (!codes[listId]) {
-      // Titles on the list, albums on the artist path pages (most aren't list rows) and anything already marked.
+      // Titles on the list, the artist path pages' minor albums (which aren't list rows) and anything already marked.
       const read = async name => { try { return JSON.parse(await readFile(path.join(dataDir, name), 'utf8')); } catch { return null; } };
       const keys = (await read(`${listId}.json`)).map(i => `${i.t}|${i.c || ''}`);
       if (listId === 'albums') for (const p of (await read('paths.json')) || []) for (const r of p.records || []) keys.push(`${r.t}|${r.c || ''}`);
