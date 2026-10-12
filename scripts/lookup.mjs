@@ -46,9 +46,14 @@ export function applyLookups(listId, items, lookups) {
   }
   return items;
 }
-// Artist path records take the same links and covers as albums, without genres.
+// Artist path records take the same links and covers as albums, without genres. The artist's name links to their
+// AllMusic page, found when the artist was a row on the albums list.
 export function applyPathLookups(paths, lookups) {
-  for (const p of paths) for (const record of applyLookups('albums', p.records, lookups)) { delete record.k; delete record.r; }
+  for (const p of paths) {
+    for (const record of applyLookups('albums', p.records, lookups)) { delete record.k; delete record.r; }
+    const allmusic = lookups[allmusicKey('albums', { t: p.artist })];
+    if (allmusic) p.g = allmusic.replace(/\/discography$/, ''); else delete p.g;
+  }
   return paths;
 }
 // Author path books on the list take the link and cover of their row (a work read inside a collection takes the

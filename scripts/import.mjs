@@ -43,10 +43,9 @@ const LISTS = [
     fields: { title: 'album', creator: 'artist', year: 'year', group: 'part', shelf: 'section', sub: 'subsection', note: 'note', done: 'status' },
     creatorLabel: 'Artist', groupLabel: 'Part', shelfLabel: 'Shelf', doneLabel: 'Heard', cover: 'square',
     search: 'https://www.discogs.com/search/?type=all&q=', listen: 'https://open.spotify.com/search/',
-    flags: { start: { field: 'start_here', label: 'Start here', private: true }, path: { field: 'artist_path', label: 'Artist path' } },
-    // Artist paths name an artist rather than an album; a few rows carry a whole entry in the artist column.
+    flags: { start: { field: 'start_here', label: 'Start here', private: true } },
+    // A few rows carry a whole entry in the artist column.
     transform(r) {
-      if (r.album === '(artist path)') return { ...r, album: r.artist, artist: '', artist_path: 'yes' };
       if (!r.album && r.artist) {
         let artist = '', text = r.artist;
         const dash = text.split(' — ');
@@ -142,7 +141,7 @@ async function readPaths(name) {
     records.sort((a, b) => a.y - b.y || (a.p || 99) - (b.p || 99));
     const names = entry.names || who.split(' / ');
     const link = /^https:\/\/www\.goodreads\.com\//.test(entry.goodreads || '') ? { g: entry.goodreads } : {};
-    return { id: slug(who), [WHO[name]]: who, ...(entry.about && { about: clean(entry.about) }), ...link, names, records };
+    return { id: slug(who), [WHO[name]]: who, ...(entry.about && { about: clean(entry.about) }), ...link, ...(entry.start && { start: 1 }), names, records };
   });
 }
 const paths = await readPaths('artist-paths.json');
@@ -155,7 +154,7 @@ function linkPathAlbums(items) {
   for (const p of paths || []) {
     const names = new Set([p.artist, ...p.names].map(loose));
     for (const r of p.records.filter(r => r.p)) {
-      const row = items.find(item => !item.f?.includes('path') && loose(item.t) === loose(r.t)
+      const row = items.find(item => loose(item.t) === loose(r.t)
         && (names.has(loose(item.c || '')) || loose(item.c || '') === loose(r.c)));
       if (!row) throw Error(`artist-paths.json, ${p.artist}: step ${r.p}, ${r.t}, isn't on the albums list`);
       r.c = row.c || '';
