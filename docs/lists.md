@@ -40,6 +40,7 @@ An array of objects.
 - `start_here` (`yes`) is a private flag, shown only in owner mode.
 - `watched` (`yes`) marks a film as seen in the source; owner-mode marks go to `data/progress.json` instead.
 - `tag` is `respectful fringe` or empty.
+- Director paths (`lists/director-paths.json`, [director-paths.md](director-paths.md)) point at films here; there is no director row. Every film on a path's main line is an ordinary row, filed once on its proper shelf, and its `watched` mark is what counts on the path page too.
 
 ## TV: `tv.csv`
 
@@ -60,7 +61,7 @@ An array of objects.
 
 ## Paths are an aside
 
-Artist paths (albums), author paths (books) and director paths (films) follow one rule. TV has no paths, by design. A path is an order through titles that already live on their own shelves, so it is never a shelf, never takes a shelf number and never has a row on the list. Its data lives only in `lists/<kind>-paths.json` (`artist-paths.json`, `author-paths.json`), and every step must be a row on the list, which the importer checks. On the page, each list with paths shows them in one unnumbered "Paths" aside above its numbered shelves, folded like a shelf: a line on what paths are, a link to the index page, and every name with a path, struck through once that path is fully done. Each title by a path's artist or author links to the path under the name. The albums shelf "01. Artists to go deep on", which held 61 artist path rows, was removed on 2026-10-12 for this, and the albums shelves after it moved up one number (now 00 to 09).
+Artist paths (albums), author paths (books) and director paths (films) follow one rule. TV has no paths, by design. A path is an order through titles that already live on their own shelves, so it is never a shelf, never takes a shelf number and never has a row on the list. Its data lives only in `lists/<kind>-paths.json` (`artist-paths.json`, `author-paths.json`, `director-paths.json`), and every step must be a row on the list, which the importer checks. On the page, each list with paths shows them in one unnumbered "Paths" aside above its numbered shelves, folded like a shelf: a line on what paths are, a link to the index page, and every name with a path, struck through once that path is fully done. Each title by a path's artist, author or director links to the path under the name. The albums shelf "01. Artists to go deep on", which held 61 artist path rows, was removed on 2026-10-12 for this, and the albums shelves after it moved up one number (now 00 to 09).
 
 ## Threads
 
