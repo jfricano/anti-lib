@@ -1,6 +1,6 @@
 {
  "Bob Dylan": {
-  "about": "I know the early records, so this starts at the 1975 divorce album and walks the peaks after the folk years, ending on the late run where he turned into an old bluesman with a library card.",
+  "about": "I know the early records, so the path opens with the three that matter most, then goes through the door to the rest at the 1975 divorce album, walks the peaks after the folk years, and ends on the late run where he turned into an old bluesman with a library card.",
   "names": [
    "Bob Dylan",
    "Bob Dylan & The Band"
@@ -15,8 +15,8 @@
    {
     "t": "The Freewheelin' Bob Dylan",
     "y": 1963,
-    "heard": true,
-    "note": "The protest songs and the first great originals. I know this one."
+    "note": "The start of the early run I know: the protest songs and the first great originals, \"Blowin' in the Wind\" to \"A Hard Rain's a-Gonna Fall.\"",
+    "step": 1
    },
    {
     "t": "The Times They Are a-Changin'",
@@ -33,25 +33,25 @@
    {
     "t": "Bringing It All Back Home",
     "y": 1965,
-    "heard": true,
-    "note": "Half electric, half acoustic, and the start of the Beat-style word torrents. I know this one."
+    "note": "Half electric, half acoustic, and the start of the Beat-style word torrents.",
+    "step": 2
    },
    {
     "t": "Highway 61 Revisited",
     "y": 1965,
-    "heard": true,
-    "note": "\"Like a Rolling Stone\" and \"Desolation Row\": the full-band peak of the early years. I know this one."
+    "note": "\"Like a Rolling Stone\" and \"Desolation Row\": the full-band peak of the early years, and the end of the run I know.",
+    "step": 3
    },
    {
     "t": "Blonde on Blonde",
     "y": 1966,
-    "step": 2,
+    "step": 5,
     "note": "The thin wild mercury sound of Nashville session players and long surreal songs; after the door, this is the record the early run was heading toward."
    },
    {
     "t": "John Wesley Harding",
     "y": 1967,
-    "step": 3,
+    "step": 6,
     "note": "After the motorcycle crash he came back spare and biblical, three musicians and parables. The quietest left turn in rock."
    },
    {
@@ -95,8 +95,8 @@
    {
     "t": "Blood on the Tracks",
     "y": 1975,
-    "step": 1,
-    "note": "The door: a breakup record with the depth of a novel, songs told from shifting points of view in time. The best place to meet him after the early years."
+    "step": 4,
+    "note": "The door to the rest: a breakup record with the depth of a novel, songs told from shifting points of view."
    },
    {
     "t": "The Basement Tapes",
@@ -107,7 +107,7 @@
    {
     "t": "Desire",
     "y": 1976,
-    "step": 4,
+    "step": 7,
     "note": "Scarlet Rivera's violin and long story songs like \"Hurricane\" and \"Isis\"; the Rolling Thunder spirit in the studio."
    },
    {
@@ -185,7 +185,7 @@
    {
     "t": "Time Out of Mind",
     "y": 1997,
-    "step": 5,
+    "step": 8,
     "note": "The late comeback: Lanois's murky sound and a man walking through a world that's emptied out. Mortality without self-pity."
    },
    {
@@ -197,7 +197,7 @@
    {
     "t": "\"Love and Theft\"",
     "y": 2001,
-    "step": 6,
+    "step": 9,
     "note": "Released on 9/11; jump blues, Tin Pan Alley and stolen lines from Twain and a Japanese gangster memoir. Funny and sly."
    },
    {
@@ -238,7 +238,7 @@
    {
     "t": "Rough and Rowdy Ways",
     "y": 2020,
-    "step": 7,
+    "step": 10,
     "note": "At 79, a long record of death, history and \"Murder Most Foul,\" seventeen minutes on the Kennedy killing. The late peak."
    },
    {
@@ -1842,6 +1842,129 @@
     "kind": "compilation",
     "heard": true,
     "note": "The non-album singles and B-sides, including \"Rain\" and \"Hey Jude\"; worth having but not a record to study."
+   }
+  ]
+ },
+ "The White Stripes": {
+  "about": "Already heard, so this path is here for the record: a re-listen order starting at the breakthrough and running out to the last album, with the debut and the live set noted along the way.",
+  "names": [
+   "The White Stripes"
+  ],
+  "records": [
+   {
+    "t": "The White Stripes",
+    "y": 1999,
+    "step": 3,
+    "note": "The debut: Son House and the Stooges played by two people in a Detroit garage, already fully formed."
+   },
+   {
+    "t": "De Stijl",
+    "y": 2000,
+    "step": 4,
+    "note": "Named for the Dutch art movement; the songwriting sharpens and the blues covers get stranger."
+   },
+   {
+    "t": "White Blood Cells",
+    "y": 2001,
+    "step": 1,
+    "note": "The door: \"Fell in Love with a Girl\" and \"We're Going to Be Friends,\" the record that broke them."
+   },
+   {
+    "t": "Elephant",
+    "y": 2003,
+    "step": 2,
+    "note": "The big one: \"Seven Nation Army,\" \"Ball and Biscuit,\" and the sound at its loudest."
+   },
+   {
+    "t": "Get Behind Me Satan",
+    "y": 2005,
+    "step": 5,
+    "note": "Marimba and piano in place of the riffs; the turn where Jack White starts to sprawl."
+   },
+   {
+    "t": "Icky Thump",
+    "y": 2007,
+    "step": 6,
+    "note": "The last album: bagpipes, mariachi horns and a heavier blues, a fitting close."
+   },
+   {
+    "t": "Under Great White Northern Lights",
+    "y": 2010,
+    "kind": "live",
+    "note": "The Canadian tour film and live album; a farewell, worth it for the stage sound, not needed for the story."
+   }
+  ]
+ },
+ "Radiohead": {
+  "about": "Already heard, so this path is here for the record: a re-listen order that starts at OK Computer and walks the long run from guitar band to something much stranger, with the debut and the odds and ends left to the timeline.",
+  "names": [
+   "Radiohead"
+  ],
+  "records": [
+   {
+    "t": "Pablo Honey",
+    "y": 1993,
+    "note": "The debut with \"Creep\"; a decent grunge-era record that doesn't sound like them yet."
+   },
+   {
+    "t": "The Bends",
+    "y": 1995,
+    "step": 2,
+    "note": "Where they became themselves: big guitars, \"Fake Plastic Trees\" and \"Street Spirit.\""
+   },
+   {
+    "t": "OK Computer",
+    "y": 1997,
+    "step": 1,
+    "note": "The door: the late-90s dread record, \"Paranoid Android\" to \"No Surprises.\""
+   },
+   {
+    "t": "Airbag / How Am I Driving?",
+    "y": 1998,
+    "kind": "EP",
+    "note": "The OK Computer B-sides; \"Palo Alto\" and \"Meeting in the Aisle\" are the reasons to hear it."
+   },
+   {
+    "t": "Kid A",
+    "y": 2000,
+    "step": 3,
+    "note": "The leap: synths, Warp Records electronics and Mingus horns in place of the guitars."
+   },
+   {
+    "t": "Amnesiac",
+    "y": 2001,
+    "step": 4,
+    "note": "Kid A's twin from the same sessions, darker and jazzier, with \"Pyramid Song.\""
+   },
+   {
+    "t": "I Might Be Wrong: Live Recordings",
+    "y": 2001,
+    "kind": "live",
+    "note": "The Kid A songs live, plus \"True Love Waits\" years before it got a studio take."
+   },
+   {
+    "t": "Hail to the Thief",
+    "y": 2003,
+    "step": 6,
+    "note": "The long, political, half-guitar record; uneven but full of keepers like \"There There.\""
+   },
+   {
+    "t": "In Rainbows",
+    "y": 2007,
+    "step": 5,
+    "note": "The warmest one, released pay-what-you-want; \"Reckoner\" and \"Weird Fishes.\""
+   },
+   {
+    "t": "The King of Limbs",
+    "y": 2011,
+    "step": 7,
+    "note": "Short and loop-based, built from samples of their own playing; \"Codex\" and \"Lotus Flower.\""
+   },
+   {
+    "t": "A Moon Shaped Pool",
+    "y": 2016,
+    "step": 8,
+    "note": "The late, grieving record, strings by Jonny Greenwood and \"True Love Waits\" at last."
    }
   ]
  },
