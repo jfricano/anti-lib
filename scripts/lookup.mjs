@@ -35,6 +35,7 @@ export function applyLookups(listId, items, lookups) {
     if (details?.genres?.length) item.k = details.genres;
     if (details?.rym) item.r = details.rym;
     if (details?.imdb) item.l = details.imdb;
+    if (listId === 'films' && pinOf(item)) item.l = `https://www.imdb.com/title/${pinOf(item)}/`;
     if (details?.poster) item.i = details.poster;
     if (details?.cover && !item.i) item.i = details.cover;
     if (details?.link && !item.l) item.l = details.link;
@@ -106,8 +107,17 @@ async function wikipedia(query, accept, fallback = () => null) {
 const nearYear = (text, year) => [year - 1, year, year + 1].some(y => text.includes(String(y)));
 // Wikipedia descriptions often leave out the year, so a page naming the right year wins and a
 // plain title match is the fallback.
+// Pages about a film's soundtrack or score, or an unmade film of the same name, are not the film.
+const NOT_FILM = /soundtrack|score|album|song|cancell?ed|unproduced|unmade|unfinished/i;
+export const wrongFilmPage = link => NOT_FILM.test(decodeURIComponent(String(link || '').split('/wiki/')[1] || '').match(/\(([^)]*)\)$/)?.[1] || '');
 async function film(item) {
-  const isFilm = p => sameTitle(p.title, item.t) && /film|documentary|miniseries|series|anime|movie/i.test(p.description || '');
+  // Short titles must match exactly (Dead Man is not Dead Man Walking), and a description that names
+  // a director has to name this one.
+  const titleOk = p => item.t.length > 20 ? sameTitle(p.title, item.t) : short(p.title) === short(item.t);
+  const names = fold(item.c).split(' ').filter(w => w.length > 3);
+  const directorOk = p => !/ by /i.test(p.description || '') || !names.length || names.some(w => fold(p.description).includes(w));
+  const isFilm = p => titleOk(p) && directorOk(p) && /film|documentary|miniseries|series|anime|movie/i.test(p.description || '') &&
+    !NOT_FILM.test(p.description || '') && !NOT_FILM.test(p.title.match(/\(([^)]*)\)$/)?.[1] || '');
   let pick = null;
   const hit = await wikipedia(`${item.t} ${item.y || ''} film`, p => {
     if (!isFilm(p)) return false;
@@ -260,7 +270,18 @@ const itunes = (entity, field) => async item => {
 // environment variables (repository secrets in the workflow). Without keys, posters fall back to
 // Wikipedia and iTunes.
 const TMDB_KEY = process.env.TMDB_API_KEY || '', OMDB_KEY = process.env.OMDB_API_KEY || '';
+// IMDb IDs checked by hand, by title, year and director, for films the Wikipedia search gets wrong
+// or that share a title (and sometimes a year) with another film on the list.
+export const IMDB_PINS = {
+  'Dune|1984|David Lynch': 'tt0087182', 'Terminator 2: Judgment Day|1991|James Cameron': 'tt0103064',
+  'Pride & Prejudice|2005|Joe Wright': 'tt0414387', 'The Tree of Life|2011|Terrence Malick': 'tt0478304',
+  '1917|2019|Sam Mendes': 'tt8579674', 'Mandy|2018|Panos Cosmatos': 'tt6998518',
+  'Election|1999|Alexander Payne': 'tt0126886', 'Election|2005|Johnnie To': 'tt0434008',
+  'Dead Man|1995|Jim Jarmusch': 'tt0112817', 'Dead Man Walking|1995|Tim Robbins': 'tt0112818',
+};
+const pinOf = item => IMDB_PINS[`${item.t}|${item.y || ''}|${item.c || ''}`];
 async function imdbId(item, lookups) {
+  if (pinOf(item)) return pinOf(item);
   const wiki = lookups[lookupKey('films', item)]?.l || '';
   const title = decodeURIComponent(wiki.split('/wiki/')[1] || '').replace(/_/g, ' ');
   if (!title) return '';
@@ -357,6 +378,13 @@ async function run() {
     if (!find) { console.log(`No lookup source for ${list.id}`); continue; }
     const file = path.join(dataDir, `${list.id}.json`);
     const items = JSON.parse(await readFile(file, 'utf8'));
+    // A film matched to its soundtrack or an unmade namesake is looked up again, details and all.
+    const stale = item => list.id === 'films' && (wrongFilmPage(lookups[lookupKey('films', item)]?.l) ||
+      (pinOf(item) && !lookups[detailsKey('films', item)]?.imdb?.includes(pinOf(item))));
+    for (const item of items.filter(stale)) {
+      if (wrongFilmPage(lookups[lookupKey('films', item)]?.l)) delete lookups[lookupKey('films', item)];
+      delete lookups[detailsKey('films', item)];
+    }
     const todo = items.filter(item => { const key = lookupKey(list.id, item); return !(key in lookups) || (retry && !lookups[key]); });
     console.log(`${list.id}: looking up ${todo.length} of ${items.length}`);
     let next = 0, failed = 0;
