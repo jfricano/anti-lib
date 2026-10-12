@@ -17,7 +17,7 @@ This repository is public, and has to stay public for the page to read it. Diges
 
 ## Changing a list
 
-Additions and edits to the lists happen here, never from the page. Edit files in `lists/` on a branch off `main` and open a pull request with `lists/` changes only; Jason merges. The **Rebuild data** workflow runs only on `main` (a rebuild on a PR branch would conflict with `main`'s data): after a merge it runs the importer and the lookups and commits the new `data/` to `main`. New titles take a while to get covers because MusicBrainz allows one request a second. A pending change (PR #15) commits the imported lists before the lookups start, so new titles and artist paths show up at once and their covers follow. To run it yourself:
+Additions and edits to the lists happen here, never from the page. Edit files in `lists/` on a branch off `main` and open a pull request with `lists/` changes only; Jason merges. The **Rebuild data** workflow runs only on `main` (a rebuild on a PR branch would conflict with `main`'s data): after a merge it runs the importer and the lookups and commits the new `data/` to `main`. The workflow commits the imported lists before the lookups start, so new titles and artist paths show up at once; their covers follow in a later commit, which can take a while because MusicBrainz allows one request a second. To run it yourself:
 
 ```sh
 npm run import    # lists/ -> data/
@@ -50,7 +50,7 @@ A thread is a named path through titles already on one list, in order, with a li
 
 ## Artist paths
 
-Rows on the albums list marked "Artist path" (shelf 01, "Artists to go deep on") get a page each with a suggested listening order: a door record, then the records that make the study complete, with the minor ones shown on a timeline as skipped. The orders live in `lists/artist-paths.json` and are drafts that keep being filled in. See [docs/artist-paths.md](docs/artist-paths.md).
+Rows on the albums list marked "Artist path" (shelf 01, "Artists to go deep on") get a page each with a suggested listening order: a door record, then the records that make the study complete, with the minor ones shown on a timeline as skipped. The records on each path's main line are also rows on the albums list, right after the artist's row; the importer adds them, so `music.csv` doesn't list them. Not every artist on the list gets a path. The orders live in `lists/artist-paths.json` and are drafts that keep being filled in. See [docs/artist-paths.md](docs/artist-paths.md).
 
 ## How the page reads this
 
@@ -66,4 +66,4 @@ What owner mode can change:
 - **Digested** shows on titles that have a digest, when the browser also holds the digests key. It and the fully-read mark on those titles are kept in the private digests repository, not here; a book comes off the public list when it is digested or fully read, while a film, show or album comes off only when it is fully watched or heard, since a digest doesn't stand in for it.
 - **Formative**, the one flag marked `ownerToggle` in `scripts/import.mjs`, is a checkbox on each book. The workflow records each change in `data/tags.json` and the importer applies it over the source list. Every other tag is edited in the source lists. (There is no "Reading now" mark any more; it was dropped on 2026-10-12.)
 - **Remove** records the title in `data/removed.json` with the date and rebuilds the lists without it. The importer keeps leaving it out even if a working copy of a list still has it; deleting its line from `removed.json` brings it back.
-- **Artist paths** (pending, portfolio PR #40): each album on an artist's path page gets a Heard box, which lands in `progress.json` under `albums` like any other album, even when the record isn't its own row on the list. The artist's own row counts as fully heard once every album on the path is heard, and can't be ticked by itself.
+- **Heard on artist paths.** Each album on an artist's path page has a Heard box. It is the same mark as Fully heard on that album's row in the list, and lands in `progress.json` under `albums`. The artist's own row counts as fully heard once every album on the path's main line is heard, and can't be ticked by itself.
