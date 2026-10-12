@@ -38,11 +38,16 @@ export function applyLookups(listId, items, lookups) {
     if (details?.poster) item.i = details.poster;
     if (details?.cover && !item.i) item.i = details.cover;
     if (details?.link && !item.l) item.l = details.link;
+    // Book titles link to Goodreads; without a Goodreads page the page falls back to a Goodreads search.
+    if (listId === 'books' && goodreadsKey(item) in lookups) {
+      if (lookups[goodreadsKey(item)]) item.l = lookups[goodreadsKey(item)]; else delete item.l;
+    }
   }
   return items;
 }
 // Bump a list's version when its details lookup changes, so every title is looked up again.
 const DETAILS_VERSION = { films: 2 };
+const goodreadsKey = item => `books-goodreads|${item.t}|${item.c || ''}`;
 const allmusicKey = (listId, item) => `${listId}-allmusic|${item.t}|${item.c || ''}`;
 const detailsKey = (listId, item) => `${listId}-details${DETAILS_VERSION[listId] || ''}|${item.t}|${item.c || ''}`;
 
@@ -312,6 +317,26 @@ async function allmusicLinks(items, lookups) {
   }
 }
 
+// A book's Goodreads page: the Goodreads ID Open Library keeps for the matched work, or for a book matched on
+// Wikipedia, the one Wikidata keeps (P2969). Open Library, Wikipedia and Google Books still supply the covers.
+async function goodreads(item, lookups) {
+  const link = lookups[lookupKey('books', item)]?.l || '';
+  const work = /^https:\/\/openlibrary\.org(\/works\/OL\d+W)$/.exec(link)?.[1];
+  if (work) {
+    const search = async params => (await getJson(`https://openlibrary.org/search.json?${new URLSearchParams({ ...params, fields: 'key,id_goodreads', limit: '20' })}`)).docs || [];
+    // Look the work up by its key, and failing that by title and author, keeping only the same work.
+    let doc = (await search({ q: `key:"${work}"` })).find(d => d.key === work);
+    doc ??= (await search({ q: `${item.t.replace(/\(.*?\)/g, '').split(':')[0].trim()} ${item.c || ''}` })).find(d => d.key === work);
+    const id = doc?.id_goodreads?.find(g => /^\d+$/.test(g));
+    return id ? `https://www.goodreads.com/book/show/${id}` : null;
+  }
+  const page = decodeURIComponent(link.split('en.wikipedia.org/wiki/')[1] || '').replace(/_/g, ' ').split('#')[0];
+  if (!page) return null;
+  const { entities = {} } = await getJson(`https://www.wikidata.org/w/api.php?${new URLSearchParams({ action: 'wbgetentities', sites: 'enwiki', titles: page, props: 'claims', format: 'json' })}`);
+  const id = Object.values(entities)[0]?.claims?.P2969?.[0]?.mainsnak?.datavalue?.value;
+  return /^\d+$/.test(id || '') ? `https://www.goodreads.com/book/show/${id}` : null;
+}
+
 const FINDERS = { books: book, films: film, tv, albums: album };
 // Second sources: MusicBrainz details for every album; Google Books and iTunes only fill missing covers.
 const DETAILS = { albums: musicbrainzDetails, books: googleBooks, films: filmDetails, tv: itunes('tvSeason', 'artistName') };
@@ -355,6 +380,19 @@ async function run() {
         catch (error) { failed++; console.warn(error.message); }
         if (Date.now() - saved > 30000) { saved = Date.now(); await save(); }
       }
+    }
+    if (list.id === 'books') {
+      const rest = items.filter(item => !(goodreadsKey(item) in lookups) || (retry && !lookups[goodreadsKey(item)]));
+      console.log(`books: finding Goodreads pages for ${rest.length}`);
+      let next = 0;
+      await Promise.all(Array.from({ length: LIMITS.books }, async () => {
+        while (next < rest.length) {
+          const item = rest[next++];
+          try { lookups[goodreadsKey(item)] = await goodreads(item, lookups); }
+          catch (error) { failed++; console.warn(error.message); }
+          if (Date.now() - saved > 30000) { saved = Date.now(); await save(); }
+        }
+      }));
     }
     if (list.id === 'albums') {
       const rest = items.filter(item => !(allmusicKey(list.id, item) in lookups) || (retry && lookups[allmusicKey(list.id, item)].includes('/search/')));

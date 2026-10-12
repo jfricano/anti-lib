@@ -26,7 +26,7 @@ Every list has a primary source and at least one fallback, all keyless public AP
 
 | List | Primary | Fallback |
 | --- | --- | --- |
-| Books | Open Library (link and cover) | Wikipedia, then Google Books for a missing cover |
+| Books | Goodreads link (its ID from Open Library, or from Wikidata for a book matched on Wikipedia); cover from Open Library | Wikipedia, then Google Books for a missing cover; a Goodreads search when there is no Goodreads page |
 | Films | IMDb link (via Wikidata) and TMDB poster | OMDb poster, then Wikipedia and iTunes |
 | TV | Wikipedia (link and image) | iTunes for a missing image |
 | Albums | MusicBrainz (Discogs link, genres, Rate Your Music) with Deezer and Wikipedia artwork | Cover Art Archive for missing artwork |
