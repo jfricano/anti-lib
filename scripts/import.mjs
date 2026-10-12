@@ -145,7 +145,7 @@ async function readPaths(name) {
     // The person's own page: Goodreads for an author, IMDb for a director.
     const page = entry.goodreads || entry.imdb || '';
     const link = /^https:\/\/www\.(goodreads\.com|imdb\.com\/(name|find))\//.test(page) ? { g: page } : {};
-    return { id: slug(who), [WHO[name]]: who, ...(entry.about && { about: clean(entry.about) }), ...link, ...(entry.start && { start: 1 }), names, records };
+    return { id: slug(who), [WHO[name]]: who, ...(entry.about && { about: clean(entry.about) }), ...link, names, records };
   });
 }
 const paths = await readPaths('artist-paths.json');

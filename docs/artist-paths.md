@@ -36,7 +36,6 @@ column (for example `"Bill Callahan / Smog"`). Artists play in the order they ap
 ```
 
 - `about`: optional. One or two sentences in my voice.
-- `start`: optional. `true` marks the artist as a place to start (the private Start here mark, shown in owner mode).
 - `names`: optional. Credits on other album rows that should link to this page. Defaults to the key, split on
   " / " (so "Lou Reed / The Velvet Underground" covers both).
 - `records`: every studio album worth knowing about, plus the live records, compilations, EPs and side projects
