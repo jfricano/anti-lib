@@ -16,7 +16,7 @@ const LISTS = [
     fields: { title: 'title', creator: 'author', group: 'part', shelf: 'section', note: 'hook', done: 'status' },
     doneValues: ['Read', 'Digested', 'Formative'],
     creatorLabel: 'Author', groupLabel: 'Part', shelfLabel: 'Section', doneLabel: 'Read',
-    search: 'https://openlibrary.org/search?q=',
+    search: 'https://www.goodreads.com/search?q=',
     flags: { core: { field: 'core', label: 'Core shelf' }, fringe: { field: 'fringe', label: 'Respectful fringe' }, owned: { field: 'owned', label: 'On my shelf' }, star: { field: 'star', label: 'Vonnegut frequency' },
       formative: { field: 'status', equals: 'Formative', label: 'Formative', privateFilter: true },
       reading: { field: 'status', equals: 'Reading', label: 'Reading now', privateFilter: true } },
