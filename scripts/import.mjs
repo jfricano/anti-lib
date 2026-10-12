@@ -3,7 +3,7 @@
 // A new list is one more entry in LISTS; sources that are missing are skipped.
 // Links and covers already found by lookup.mjs are kept.
 // Flags marked private only show in owner mode; privateFilter flags show as tags for everyone
-// but can only be filtered on in owner mode.
+// but can only be filtered on in owner mode. Every other flag is a tag and a Show filter for everyone.
 import { readFile, writeFile, mkdir, access } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath as toPath } from 'node:url';
@@ -18,8 +18,8 @@ const LISTS = [
     creatorLabel: 'Author', groupLabel: 'Part', shelfLabel: 'Section', doneLabel: 'Read',
     search: 'https://www.goodreads.com/search?q=',
     flags: { core: { field: 'core', label: 'Core shelf' }, fringe: { field: 'fringe', label: 'Respectful fringe' }, owned: { field: 'owned', label: 'On my shelf' }, star: { field: 'star', label: 'Vonnegut frequency' },
-      formative: { field: 'status', equals: 'Formative', label: 'Formative', privateFilter: true },
-      reading: { field: 'status', equals: 'Reading', label: 'Reading now', privateFilter: true } },
+      formative: { field: 'status', equals: 'Formative', label: 'Formative' },
+      reading: { field: 'status', equals: 'Reading', label: 'Reading now' } },
   },
   {
     id: 'films', label: 'Films', noun: ['film', 'films'], source: 'movies.csv',
