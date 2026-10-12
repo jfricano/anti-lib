@@ -8,10 +8,11 @@ A path starts at a door (the record most likely to make the artist click), then 
 make the study feel complete. It is not the full discography. The other records still appear in the timeline,
 marked as skipped, so it's clear what was left out and why.
 
-The records with a step are also rows on the albums list, placed right after the artist's path row (the importer adds
-them; music.csv doesn't need them). An album already on the list stays where it is. Ticking a record as heard on
-either page is the same mark, and the artist's path row counts as fully heard once every step is ticked. A path whose
-artist has no row on the list gets one at the end of section 01.
+A path doesn't hold its own copies of albums. Each record with a step points at the album's row in `music.csv`,
+which is filed once on its proper shelf (usually the canon by decade). Add the album there first; a step that isn't
+on the list fails the rebuild. Heard lives on that row, so ticking it on the list or on the artist page is the same
+mark, and the artist's path row counts as fully heard once every step is ticked. If the row has no note, the list
+shows the step's note.
 
 ## Format
 
@@ -27,7 +28,7 @@ column (for example `"Bill Callahan / Smog"`). Artists play in the order they ap
       { "t": "Here Comes the Indian", "y": 2003, "step": 6, "note": "Why it comes at this point." },
       { "t": "Person Pitch", "y": 2007, "by": "Panda Bear", "kind": "solo", "step": 5, "note": "..." },
       { "t": "Centipede Hz", "y": 2012, "note": "Why it was skipped." },
-      { "t": "Merriweather Post Pavilion", "y": 2009, "step": 1, "heard": true, "note": "..." }
+      { "t": "Merriweather Post Pavilion", "y": 2009, "step": 1, "note": "..." }
     ]
   }
 }
@@ -44,7 +45,7 @@ column (for example `"Bill Callahan / Smog"`). Artists play in the order they ap
   - `note`: one or two sentences. For a step, why it comes here; for a skipped record, why it can wait.
   - `by`: the credit when it isn't the artist (a solo record, an earlier band, a collaboration).
   - `kind`: optional label: `live`, `compilation`, `EP`, `solo`, `side project`, `collaboration`, `soundtrack`.
-  - `heard`: true for records I already know.
+  - `heard`: true for skipped records I already know. For a step, mark the album's row in `music.csv` instead.
 
 Notes follow the list's voice: plain sentences, first person only where it's mine ("I know this one"), no
 em dashes, and no Rate Your Music links. Keep the door and path named in the music.csv row; extra steps can follow

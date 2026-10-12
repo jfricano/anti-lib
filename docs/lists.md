@@ -56,7 +56,7 @@ An array of objects.
 
 - `status` is `heard` for records I know.
 - `tag` groups records across shelves: `artist path`, `far shelf`, `literary`, `soundtrack` and others.
-- An artist path row has `album` set to `(artist path)` and names the door and the path in its note. The importer turns it into a row for the artist, followed by a row for each album on the path's main line (those albums aren't listed in `music.csv`). The listening order lives in `lists/artist-paths.json` ([artist-paths.md](artist-paths.md)). Artists without a path just have their key albums as plain rows.
+- An artist path row has `album` set to `(artist path)` and names the door and the path in its note. The listening order lives in `lists/artist-paths.json` ([artist-paths.md](artist-paths.md)) as references to albums. Every album on a path's main line is an ordinary row here, filed once on its proper shelf (usually the canon by decade), and its `status` is what counts as heard on the path page too. Artists without a path just have their key albums as plain rows.
 
 ## Threads
 
