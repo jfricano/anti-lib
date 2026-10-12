@@ -117,6 +117,8 @@ try { tags = JSON.parse(await readFile(path.join(out, 'tags.json'), 'utf8')); } 
 // Paths: a listening order for some of the albums list's artists (docs/artist-paths.md) and a reading order for some of
 // the books list's authors (docs/author-paths.md). Records are checked here so a typo fails the rebuild instead of
 // breaking the page.
+// Each paths file names its people by the key the page reads: artist-paths.json has artists, author-paths.json authors.
+const WHO = { 'artist-paths.json': 'artist', 'author-paths.json': 'author' };
 const slug = s => fold(s).replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 async function readPaths(name) {
   const file = path.join(sourceDir, name);
@@ -140,7 +142,7 @@ async function readPaths(name) {
     records.sort((a, b) => a.y - b.y || (a.p || 99) - (b.p || 99));
     const names = entry.names || who.split(' / ');
     const link = /^https:\/\/www\.goodreads\.com\//.test(entry.goodreads || '') ? { g: entry.goodreads } : {};
-    return { id: slug(who), [name === 'author-paths.json' ? 'author' : 'artist']: who, ...(entry.about && { about: clean(entry.about) }), ...link, names, records };
+    return { id: slug(who), [WHO[name]]: who, ...(entry.about && { about: clean(entry.about) }), ...link, names, records };
   });
 }
 const paths = await readPaths('artist-paths.json');
@@ -168,13 +170,14 @@ function linkPathAlbums(items) {
 // so a step's read state is that row's, crossed off on the list. A step can name a work read inside a book on the list
 // ("in", such as an essay in a collection); it then points at that book. A step with no row fails the rebuild. A book
 // off the path that is on the list anyway is linked to its row the same way.
-function linkPathBooks(items) {
-  for (const p of authorPaths || []) {
-    const names = new Set([p.author, ...p.names].map(loose));
+function linkPathRows(items, file, pathList) {
+  const who = WHO[file];
+  for (const p of pathList || []) {
+    const names = new Set([p[who], ...p.names].map(loose));
     for (const r of p.records) {
       const row = items.find(item => loose(item.t) === loose(r.v || r.t) && names.has(loose(item.c || '')));
       if (!row && !r.p) continue;
-      if (!row) throw Error(`author-paths.json, ${p.author}: step ${r.p}, ${r.v || r.t}, isn't on the books list`);
+      if (!row) throw Error(`${file}, ${p[who]}: step ${r.p}, ${r.v || r.t}, isn't on the list`);
       r.c = row.c || '';
       if (r.v) r.v = row.t; else r.t = row.t;
       if (row.d) r.d = 1; else delete r.d;
@@ -204,7 +207,7 @@ for (const list of LISTS) {
     return item;
   });
   if (list.id === 'albums') items = linkPathAlbums(items);
-  if (list.id === 'books') items = linkPathBooks(items);
+  if (list.id === 'books') items = linkPathRows(items, 'author-paths.json', authorPaths);
   items = items.filter(item => !removed[list.id]?.[`${item.t}|${item.c || ''}`]);
   const threads = await readThreads(list.id, items);
   await writeFile(path.join(out, `${list.id}.json`), JSON.stringify(applyLookups(list.id, items, lookups)));
