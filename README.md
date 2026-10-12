@@ -9,15 +9,16 @@ This repository is public, and has to stay public for the page to read it. Diges
 - `lists/`: the source lists, edited by hand. `anti-library.json` (books), `movies.csv` (films), `tv.csv` (TV), `music.csv` (albums). Columns and conventions are in [docs/lists.md](docs/lists.md).
 - `lists/threads/<list>.json`: threads, about fifteen named paths per list through titles already on it (books, films and albums so far). See [Threads](#threads).
 - `lists/artist-paths.json`: listening orders for the artists on the albums list. Format in [docs/artist-paths.md](docs/artist-paths.md).
-- `data/`: generated JSON the page reads: `lists.json` (the lists, their flags and threads), `<list>.json`, `paths.json` (artist paths) and the lookup cache `lookups.json`. Don't edit it by hand. `progress.json`, `removed.json` and `tags.json` are written only by the Progress workflow from owner-mode issues.
-- `scripts/import.mjs`: normalizes `lists/` into `data/<list>.json`, `data/lists.json` and `data/paths.json`.
+- `lists/author-paths.json`: reading orders for some of the authors on the books list. Format in [docs/author-paths.md](docs/author-paths.md).
+- `data/`: generated JSON the page reads: `lists.json` (the lists, their flags and threads), `<list>.json`, `paths.json` (artist paths), `author-paths.json` (author paths) and the lookup cache `lookups.json`. Don't edit it by hand. `progress.json`, `removed.json` and `tags.json` are written only by the Progress workflow from owner-mode issues.
+- `scripts/import.mjs`: normalizes `lists/` into `data/<list>.json`, `data/lists.json`, `data/paths.json` and `data/author-paths.json`.
 - `scripts/lookup.mjs`: finds a public page, cover and (for albums) genres for each title and artist-path record, cached in `data/lookups.json`.
 - `scripts/progress.mjs`: applies owner-mode marks to `data/progress.json`, removals to `data/removed.json` and tag toggles to `data/tags.json`.
-- `docs/`: the list conventions, artist paths, the reading path, the book digest format, the roadmap, the [guide for the Anti-Library Builder](docs/BUILDER-GUIDE.md), and `research/` (the proposal passes, cuts, archive, design review and list sources behind the lists).
+- `docs/`: the list conventions, artist and author paths, the reading path, the book digest format, the roadmap, the [guide for the Anti-Library Builder](docs/BUILDER-GUIDE.md), and `research/` (the proposal passes, cuts, archive, design review and list sources behind the lists).
 
 ## Changing a list
 
-Additions and edits to the lists happen here, never from the page. Edit files in `lists/` on a branch off `main` and open a pull request with `lists/` changes only; Jason merges. The **Rebuild data** workflow runs only on `main` (a rebuild on a PR branch would conflict with `main`'s data): after a merge it runs the importer and the lookups and commits the new `data/` to `main`. The workflow commits the imported lists before the lookups start, so new titles and artist paths show up at once; their covers follow in a later commit, which can take a while because MusicBrainz allows one request a second. To run it yourself:
+Additions and edits to the lists happen here, never from the page. Edit files in `lists/` on a branch off `main` and open a pull request with `lists/` changes only; Jason merges. The **Rebuild data** workflow runs only on `main` (a rebuild on a PR branch would conflict with `main`'s data): after a merge it runs the importer and the lookups and commits the new `data/` to `main`. The workflow commits the imported lists before the lookups start, so new titles and paths show up at once; their covers follow in a later commit, which can take a while because MusicBrainz allows one request a second. To run it yourself:
 
 ```sh
 npm run import    # lists/ -> data/
@@ -50,7 +51,13 @@ A thread is a named path through titles already on one list, in order, with a li
 
 ## Artist paths
 
-Rows on the albums list marked "Artist path" (shelf 01, "Artists to go deep on") get a page each with a suggested listening order: a door record, then the records that make the study complete, with the minor ones shown on a timeline as skipped. The records on each path's main line are also rows on the albums list, right after the artist's row; the importer adds them, so `music.csv` doesn't list them. Not every artist on the list gets a path. The orders live in `lists/artist-paths.json`. See [docs/artist-paths.md](docs/artist-paths.md).
+Paths are an aside, not a shelf: they have no shelf number and no rows on the lists, and the page shows them in an unnumbered Paths aside above each list's shelves ([docs/lists.md](docs/lists.md#paths-are-an-aside)).
+
+Some artists on the albums list get a page each with a suggested listening order: a door record, then the records that make the study complete, with the minor ones shown on a timeline as skipped. Each record on a path's main line points at an album filed once on its own shelf in `music.csv`; the path never holds a second copy. Not every artist on the list gets a path. The orders live in `lists/artist-paths.json`. See [docs/artist-paths.md](docs/artist-paths.md).
+
+## Author paths
+
+Some authors on the books list get a reading path of their own, built the same way: a door book, then the books that make the study feel complete, with the rest of the bibliography shown on a timeline as skipped. Each step points at a book filed once on its shelf in `anti-library.json` (or, for a work read inside a collection, at that collection). There is no author row; every book by a path author gets an "Author path" button under the author's name, and the page is `author.html?a=<slug>` on the site. Ten authors have one: Vonnegut, Nietzsche, Philip K. Dick, Pynchon, Dostoevsky, Robert Anton Wilson, Camus, Kafka, David Foster Wallace and Bukowski. The orders live in `lists/author-paths.json`. See [docs/author-paths.md](docs/author-paths.md).
 
 ## How the page reads this
 
@@ -66,4 +73,5 @@ What owner mode can change:
 - **Digested** shows on titles that have a digest, when the browser also holds the digests key. It and the fully-read mark on those titles are kept in the private digests repository, not here; a book comes off the public list when it is digested or fully read, while a film, show or album comes off only when it is fully watched or heard, since a digest doesn't stand in for it.
 - **Formative**, the one flag marked `ownerToggle` in `scripts/import.mjs`, is a checkbox on each book. The workflow records each change in `data/tags.json` and the importer applies it over the source list. Every other tag is edited in the source lists. (There is no "Reading now" mark any more; it was dropped on 2026-10-12.)
 - **Remove** records the title in `data/removed.json` with the date and rebuilds the lists without it. The importer keeps leaving it out even if a working copy of a list still has it; deleting its line from `removed.json` brings it back.
-- **Heard on artist paths.** Each album on an artist's path page has a Heard box. It is the same mark as Fully heard on that album's row in the list, and lands in `progress.json` under `albums`. The artist's own row counts as fully heard once every album on the path's main line is heard, and can't be ticked by itself.
+- **Heard on artist paths.** Each album on an artist's path page has a Heard box. It is the same mark as Fully heard on that album's row in the list, and lands in `progress.json` under `albums`. The artist counts as fully heard once every album on the path's main line is heard (their name is struck through in the Paths aside), and can't be ticked by itself.
+- **Read on author paths.** Author path pages have no boxes; books are marked on the books list. A step counts once its book is crossed off there, and the author counts as fully read once every book on the path's main line is. That can't be ticked by itself either.

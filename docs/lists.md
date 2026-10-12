@@ -55,8 +55,12 @@ An array of objects.
 `part, section, subsection, artist, album, year, start_here, status, tag, neighbor, note`
 
 - `status` is `heard` for records I know.
-- `tag` groups records across shelves: `artist path`, `far shelf`, `literary`, `soundtrack` and others.
-- An artist path row has `album` set to `(artist path)` and names the door and the path in its note. The listening order lives in `lists/artist-paths.json` ([artist-paths.md](artist-paths.md)) as references to albums. Every album on a path's main line is an ordinary row here, filed once on its proper shelf (usually the canon by decade), and its `status` is what counts as heard on the path page too. Artists without a path just have their key albums as plain rows.
+- `tag` groups records across shelves: `far shelf`, `literary`, `soundtrack` and others.
+- Every album on an artist path's main line is an ordinary row here, filed once on its proper shelf (usually the canon by decade), and its `status` is what counts as heard on the path page too. There are no rows for the paths themselves.
+
+## Paths are an aside
+
+Artist paths (albums), author paths (books) and director paths (films) follow one rule. TV has no paths, by design. A path is an order through titles that already live on their own shelves, so it is never a shelf, never takes a shelf number and never has a row on the list. Its data lives only in `lists/<kind>-paths.json` (`artist-paths.json`, `author-paths.json`), and every step must be a row on the list, which the importer checks. On the page, each list with paths shows them in one unnumbered "Paths" aside above its numbered shelves, folded like a shelf: a line on what paths are, a link to the index page, and every name with a path, struck through once that path is fully done. Each title by a path's artist or author links to the path under the name. The albums shelf "01. Artists to go deep on", which held 61 artist path rows, was removed on 2026-10-12 for this, and the albums shelves after it moved up one number (now 00 to 09).
 
 ## Threads
 

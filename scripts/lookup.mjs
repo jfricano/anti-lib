@@ -46,9 +46,27 @@ export function applyLookups(listId, items, lookups) {
   }
   return items;
 }
-// Artist path records take the same links and covers as albums, without genres.
+// Artist path records take the same links and covers as albums, without genres. The artist's name links to their
+// AllMusic page, found when the artist was a row on the albums list.
 export function applyPathLookups(paths, lookups) {
-  for (const p of paths) for (const record of applyLookups('albums', p.records, lookups)) { delete record.k; delete record.r; }
+  for (const p of paths) {
+    for (const record of applyLookups('albums', p.records, lookups)) { delete record.k; delete record.r; }
+    const allmusic = lookups[allmusicKey('albums', { t: p.artist })];
+    if (allmusic) p.g = allmusic.replace(/\/discography$/, ''); else delete p.g;
+  }
+  return paths;
+}
+// Author path books on the list take the link and cover of their row (a work read inside a collection takes the
+// collection's); the rest are looked up as books of their own.
+export function applyAuthorPathLookups(paths, lookups, books) {
+  const rows = new Map(books.map(item => [`${item.t}|${item.c || ''}`, item]));
+  for (const p of paths) for (const record of p.records) {
+    const row = rows.get(`${record.v || record.t}|${record.c}`);
+    if (!row) { applyLookups('books', [record], lookups); continue; }
+    delete record.l; delete record.i;
+    if (row.l) record.l = row.l;
+    if (row.i) record.i = row.i;
+  }
   return paths;
 }
 // Bump a list's version when its details lookup changes, so every title is looked up again.
@@ -452,6 +470,17 @@ async function run() {
     const failed = await lookUpList('albums', records, lookups, retry, saveSoon);
     await writeFile(pathsFile, JSON.stringify(applyPathLookups(paths, lookups)));
     console.log(`paths: ${records.filter(r => r.l).length} linked, ${records.filter(r => r.i).length} with covers, ${failed} requests failed`);
+  }
+  // Books on the author paths that aren't on the list are looked up as books; the steps share their rows' results.
+  const authorFile = path.join(dataDir, 'author-paths.json');
+  const authorPaths = await readFile(authorFile, 'utf8').then(JSON.parse, () => null);
+  if (authorPaths) {
+    const records = authorPaths.flatMap(p => p.records), books = JSON.parse(await readFile(path.join(dataDir, 'books.json'), 'utf8'));
+    console.log('Author paths:');
+    const listed = new Set(books.map(item => `${item.t}|${item.c || ''}`));
+    const failed = await lookUpList('books', records.filter(r => !listed.has(`${r.v || r.t}|${r.c}`)), lookups, retry, saveSoon);
+    await writeFile(authorFile, JSON.stringify(applyAuthorPathLookups(authorPaths, lookups, books)));
+    console.log(`author paths: ${records.filter(r => r.l).length} linked, ${records.filter(r => r.i).length} with covers, ${failed} requests failed`);
   }
   await save();
 }
