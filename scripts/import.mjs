@@ -9,7 +9,7 @@
 import { readFile, writeFile, mkdir, access } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath as toPath } from 'node:url';
-import { readLookups, applyLookups } from './lookup.mjs';
+import { readLookups, applyLookups, applyPathLookups } from './lookup.mjs';
 const root = toPath(new URL('../', import.meta.url));
 
 const LISTS = [
@@ -84,6 +84,7 @@ function parseCsv(text) {
 
 const truthy = value => value === true || /^(yes|y|x|true|1|✓|★|heard|read|watched|seen|done)$/i.test(String(value ?? '').trim());
 const clean = value => String(value ?? '').replace(/\*/g, '').trim();
+const fold = s => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
 const sourceDir = process.argv[2] || path.join(root, 'lists');
 
@@ -143,3 +144,29 @@ for (const list of LISTS) {
   console.log(`Imported ${items.length} ${list.noun[1]}`);
 }
 await writeFile(path.join(out, 'lists.json'), JSON.stringify(manifest, null, 1) + '\n');
+
+// Artist paths: a listening order for some of the albums list's artists (docs/artist-paths.md).
+// Records are checked here so a typo fails the rebuild instead of breaking the page.
+const pathsFile = path.join(sourceDir, 'artist-paths.json');
+try { await access(pathsFile); } catch { console.log('Skipped artist paths: no artist-paths.json'); process.exit(0); }
+const slug = s => fold(s).replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const paths = Object.entries(JSON.parse(await readFile(pathsFile, 'utf8'))).map(([artist, entry]) => {
+  const fail = message => { throw Error(`artist-paths.json, ${artist}: ${message}`); };
+  const records = (entry.records || []).map(r => {
+    if (!clean(r.t) || !Number.isInteger(r.y)) fail(`every record needs a title and a year (${JSON.stringify(r)})`);
+    const record = { t: clean(r.t), c: clean(r.by) || artist, y: r.y };
+    if (r.by) record.b = 1;
+    if (r.step) record.p = r.step;
+    if (r.kind) record.w = clean(r.kind);
+    if (r.heard) record.d = 1;
+    if (r.note) record.n = clean(r.note);
+    return record;
+  });
+  const steps = records.filter(r => r.p).map(r => r.p).sort((a, b) => a - b);
+  if (!steps.length || steps.some((step, n) => step !== n + 1)) fail(`steps must run 1, 2, 3 with no gaps (found ${steps.join(', ') || 'none'})`);
+  records.sort((a, b) => a.y - b.y || (a.p || 99) - (b.p || 99));
+  const names = entry.names || artist.split(' / ');
+  return { id: slug(artist), artist, ...(entry.about && { about: clean(entry.about) }), names, records };
+});
+await writeFile(path.join(out, 'paths.json'), JSON.stringify(applyPathLookups(paths, lookups)));
+console.log(`Imported ${paths.length} artist paths`);

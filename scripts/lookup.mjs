@@ -46,6 +46,11 @@ export function applyLookups(listId, items, lookups) {
   }
   return items;
 }
+// Artist path records take the same links and covers as albums, without genres.
+export function applyPathLookups(paths, lookups) {
+  for (const p of paths) for (const record of applyLookups('albums', p.records, lookups)) { delete record.k; delete record.r; }
+  return paths;
+}
 // Bump a list's version when its details lookup changes, so every title is looked up again.
 const DETAILS_VERSION = { films: 2 };
 const goodreadsKey = item => `books-goodreads|${item.t}|${item.c || ''}`;
@@ -367,69 +372,86 @@ const NEEDS = { books: noCover('books'), tv: noCover('tv'),
   films: (item, lookups) => (TMDB_KEY || OMDB_KEY) && lookups[detailsKey('films', item)]?.noKeys };
 const LIMITS = { books: 2, films: 4, tv: 4, albums: 3 };
 
+// Looks up every item of one list that isn't cached yet; returns how many requests failed.
+async function lookUpList(listId, items, lookups, retry, saveSoon) {
+  const find = FINDERS[listId];
+  // A film matched to its soundtrack or an unmade namesake is looked up again, details and all.
+  const stale = item => listId === 'films' && (wrongFilmPage(lookups[lookupKey('films', item)]?.l) ||
+    (pinOf(item) && !lookups[detailsKey('films', item)]?.imdb?.includes(pinOf(item))));
+  for (const item of items.filter(stale)) {
+    if (wrongFilmPage(lookups[lookupKey('films', item)]?.l)) delete lookups[lookupKey('films', item)];
+    delete lookups[detailsKey('films', item)];
+  }
+  const todo = items.filter(item => { const key = lookupKey(listId, item); return !(key in lookups) || (retry && !lookups[key]); });
+  console.log(`${listId}: looking up ${todo.length} of ${items.length}`);
+  let next = 0, failed = 0;
+  await Promise.all(Array.from({ length: LIMITS[listId] }, async () => {
+    while (next < todo.length) {
+      const item = todo[next++];
+      try { lookups[lookupKey(listId, item)] = await find(item); }
+      catch (error) { failed++; console.warn(error.message); }
+      await saveSoon();
+    }
+  }));
+  const details = DETAILS[listId];
+  if (details) {
+    const needs = NEEDS[listId] || (() => true), key = item => detailsKey(listId, item);
+    const rest = listId === 'films'
+      ? items.filter(item => !(key(item) in lookups) || needs(item, lookups) || (retry && !lookups[key(item)]))
+      : items.filter(item => needs(item, lookups) && (!(key(item) in lookups) || (retry && !lookups[key(item)])));
+    console.log(`${listId}: fetching details for ${rest.length}`);
+    for (const item of rest) {
+      try { lookups[detailsKey(listId, item)] = await details(item, lookups); }
+      catch (error) { failed++; console.warn(error.message); }
+      await saveSoon();
+    }
+  }
+  if (listId === 'books') {
+    const rest = items.filter(item => !(goodreadsKey(item) in lookups) || (retry && !lookups[goodreadsKey(item)]));
+    console.log(`books: finding Goodreads pages for ${rest.length}`);
+    let next = 0;
+    await Promise.all(Array.from({ length: LIMITS.books }, async () => {
+      while (next < rest.length) {
+        const item = rest[next++];
+        try { lookups[goodreadsKey(item)] = await goodreads(item, lookups); }
+        catch (error) { failed++; console.warn(error.message); }
+        await saveSoon();
+      }
+    }));
+  }
+  if (listId === 'albums') {
+    const rest = items.filter(item => !(allmusicKey(listId, item) in lookups) || (retry && lookups[allmusicKey(listId, item)].includes('/search/')));
+    console.log(`albums: finding AllMusic pages for ${rest.length}`);
+    try { await allmusicLinks(rest, lookups); } catch (error) { failed++; console.warn(error.message); }
+  }
+  return failed;
+}
+
 async function run() {
   const retry = process.argv.includes('--retry');
   const lookups = await readLookups();
   const lists = JSON.parse(await readFile(path.join(dataDir, 'lists.json'), 'utf8'));
   let saved = Date.now();
   const save = () => writeFile(cacheFile, JSON.stringify(Object.fromEntries(Object.entries(lookups).sort())));
+  const saveSoon = async () => { if (Date.now() - saved > 30000) { saved = Date.now(); await save(); } };
   for (const list of lists) {
-    const find = FINDERS[list.id];
-    if (!find) { console.log(`No lookup source for ${list.id}`); continue; }
+    if (!FINDERS[list.id]) { console.log(`No lookup source for ${list.id}`); continue; }
     const file = path.join(dataDir, `${list.id}.json`);
     const items = JSON.parse(await readFile(file, 'utf8'));
-    // A film matched to its soundtrack or an unmade namesake is looked up again, details and all.
-    const stale = item => list.id === 'films' && (wrongFilmPage(lookups[lookupKey('films', item)]?.l) ||
-      (pinOf(item) && !lookups[detailsKey('films', item)]?.imdb?.includes(pinOf(item))));
-    for (const item of items.filter(stale)) {
-      if (wrongFilmPage(lookups[lookupKey('films', item)]?.l)) delete lookups[lookupKey('films', item)];
-      delete lookups[detailsKey('films', item)];
-    }
-    const todo = items.filter(item => { const key = lookupKey(list.id, item); return !(key in lookups) || (retry && !lookups[key]); });
-    console.log(`${list.id}: looking up ${todo.length} of ${items.length}`);
-    let next = 0, failed = 0;
-    await Promise.all(Array.from({ length: LIMITS[list.id] }, async () => {
-      while (next < todo.length) {
-        const item = todo[next++];
-        try { lookups[lookupKey(list.id, item)] = await find(item); }
-        catch (error) { failed++; console.warn(error.message); }
-        if (Date.now() - saved > 30000) { saved = Date.now(); await save(); }
-      }
-    }));
-    const details = DETAILS[list.id];
-    if (details) {
-      const needs = NEEDS[list.id] || (() => true), key = item => detailsKey(list.id, item);
-      const rest = list.id === 'films'
-        ? items.filter(item => !(key(item) in lookups) || needs(item, lookups) || (retry && !lookups[key(item)]))
-        : items.filter(item => needs(item, lookups) && (!(key(item) in lookups) || (retry && !lookups[key(item)])));
-      console.log(`${list.id}: fetching details for ${rest.length}`);
-      for (const item of rest) {
-        try { lookups[detailsKey(list.id, item)] = await details(item, lookups); }
-        catch (error) { failed++; console.warn(error.message); }
-        if (Date.now() - saved > 30000) { saved = Date.now(); await save(); }
-      }
-    }
-    if (list.id === 'books') {
-      const rest = items.filter(item => !(goodreadsKey(item) in lookups) || (retry && !lookups[goodreadsKey(item)]));
-      console.log(`books: finding Goodreads pages for ${rest.length}`);
-      let next = 0;
-      await Promise.all(Array.from({ length: LIMITS.books }, async () => {
-        while (next < rest.length) {
-          const item = rest[next++];
-          try { lookups[goodreadsKey(item)] = await goodreads(item, lookups); }
-          catch (error) { failed++; console.warn(error.message); }
-          if (Date.now() - saved > 30000) { saved = Date.now(); await save(); }
-        }
-      }));
-    }
-    if (list.id === 'albums') {
-      const rest = items.filter(item => !(allmusicKey(list.id, item) in lookups) || (retry && lookups[allmusicKey(list.id, item)].includes('/search/')));
-      console.log(`albums: finding AllMusic pages for ${rest.length}`);
-      try { await allmusicLinks(rest, lookups); } catch (error) { failed++; console.warn(error.message); }
-    }
+    const failed = await lookUpList(list.id, items, lookups, retry, saveSoon);
     await writeFile(file, JSON.stringify(applyLookups(list.id, items, lookups)));
     const found = items.filter(item => item.l).length, covers = items.filter(item => item.i).length;
     console.log(`${list.id}: ${found} linked, ${covers} with covers, ${failed} requests failed`);
+  }
+  // Records on the artist paths are looked up as albums, so a record that is also on the list shares its result.
+  const pathsFile = path.join(dataDir, 'paths.json');
+  const paths = await readFile(pathsFile, 'utf8').then(JSON.parse, () => null);
+  if (paths) {
+    const records = paths.flatMap(p => p.records);
+    console.log('Artist paths:');
+    const failed = await lookUpList('albums', records, lookups, retry, saveSoon);
+    await writeFile(pathsFile, JSON.stringify(applyPathLookups(paths, lookups)));
+    console.log(`paths: ${records.filter(r => r.l).length} linked, ${records.filter(r => r.i).length} with covers, ${failed} requests failed`);
   }
   await save();
 }
