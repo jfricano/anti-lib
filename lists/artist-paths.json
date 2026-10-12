@@ -1,6 +1,6 @@
 {
  "Bob Dylan": {
-  "about": "I know the early records, so this starts at the 1975 divorce album and walks the peaks after the folk years, ending on the late run where he turned into an old bluesman with a library card.",
+  "about": "I know the early records, so the path opens with the three that matter most, then goes through the door to the rest at the 1975 divorce album, walks the peaks after the folk years, and ends on the late run where he turned into an old bluesman with a library card.",
   "names": [
    "Bob Dylan",
    "Bob Dylan & The Band"
@@ -15,8 +15,8 @@
    {
     "t": "The Freewheelin' Bob Dylan",
     "y": 1963,
-    "heard": true,
-    "note": "The protest songs and the first great originals. I know this one."
+    "note": "The start of the early run I know: the protest songs and the first great originals, \"Blowin' in the Wind\" to \"A Hard Rain's a-Gonna Fall.\"",
+    "step": 1
    },
    {
     "t": "The Times They Are a-Changin'",
@@ -33,25 +33,25 @@
    {
     "t": "Bringing It All Back Home",
     "y": 1965,
-    "heard": true,
-    "note": "Half electric, half acoustic, and the start of the Beat-style word torrents. I know this one."
+    "note": "Half electric, half acoustic, and the start of the Beat-style word torrents.",
+    "step": 2
    },
    {
     "t": "Highway 61 Revisited",
     "y": 1965,
-    "heard": true,
-    "note": "\"Like a Rolling Stone\" and \"Desolation Row\": the full-band peak of the early years. I know this one."
+    "note": "\"Like a Rolling Stone\" and \"Desolation Row\": the full-band peak of the early years, and the end of the run I know.",
+    "step": 3
    },
    {
     "t": "Blonde on Blonde",
     "y": 1966,
-    "step": 2,
+    "step": 5,
     "note": "The thin wild mercury sound of Nashville session players and long surreal songs; after the door, this is the record the early run was heading toward."
    },
    {
     "t": "John Wesley Harding",
     "y": 1967,
-    "step": 3,
+    "step": 6,
     "note": "After the motorcycle crash he came back spare and biblical, three musicians and parables. The quietest left turn in rock."
    },
    {
@@ -95,8 +95,8 @@
    {
     "t": "Blood on the Tracks",
     "y": 1975,
-    "step": 1,
-    "note": "The door: a breakup record with the depth of a novel, songs told from shifting points of view in time. The best place to meet him after the early years."
+    "step": 4,
+    "note": "The door to the rest: a breakup record with the depth of a novel, songs told from shifting points of view."
    },
    {
     "t": "The Basement Tapes",
@@ -107,7 +107,7 @@
    {
     "t": "Desire",
     "y": 1976,
-    "step": 4,
+    "step": 7,
     "note": "Scarlet Rivera's violin and long story songs like \"Hurricane\" and \"Isis\"; the Rolling Thunder spirit in the studio."
    },
    {
@@ -185,7 +185,7 @@
    {
     "t": "Time Out of Mind",
     "y": 1997,
-    "step": 5,
+    "step": 8,
     "note": "The late comeback: Lanois's murky sound and a man walking through a world that's emptied out. Mortality without self-pity."
    },
    {
@@ -197,7 +197,7 @@
    {
     "t": "\"Love and Theft\"",
     "y": 2001,
-    "step": 6,
+    "step": 9,
     "note": "Released on 9/11; jump blues, Tin Pan Alley and stolen lines from Twain and a Japanese gangster memoir. Funny and sly."
    },
    {
@@ -238,7 +238,7 @@
    {
     "t": "Rough and Rowdy Ways",
     "y": 2020,
-    "step": 7,
+    "step": 10,
     "note": "At 79, a long record of death, history and \"Murder Most Foul,\" seventeen minutes on the Kennedy killing. The late peak."
    },
    {
