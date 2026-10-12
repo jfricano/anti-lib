@@ -141,7 +141,7 @@ async function readPaths(name) {
     records.sort((a, b) => a.y - b.y || (a.p || 99) - (b.p || 99));
     const names = entry.names || who.split(' / ');
     const link = /^https:\/\/www\.goodreads\.com\//.test(entry.goodreads || '') ? { g: entry.goodreads } : {};
-    return { id: slug(who), [WHO[name]]: who, ...(entry.about && { about: clean(entry.about) }), ...link, ...(entry.start && { start: 1 }), names, records };
+    return { id: slug(who), [WHO[name]]: who, ...(entry.about && { about: clean(entry.about) }), ...link, names, records };
   });
 }
 const paths = await readPaths('artist-paths.json');
