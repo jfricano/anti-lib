@@ -1,0 +1,224 @@
+# title|axis|move|neighbor   (axis: lean, middle, maximal; neighbor = a show from the Core, or a book already read)
+Seinfeld|middle|Four separate plots that collide in the last act|
+The Simpsons|maximal|A gag in every corner of the frame|
+Curb Your Enthusiasm|lean|Improvised scenes from an outline, ending in the silence after the faux pas|
+House|middle|The whiteboard diagnosis, wrong until the last act|
+Nathan for You|lean|A straight face held long past comfortable|
+The Rehearsal|maximal|Reality nested inside rehearsals of itself|
+Breaking Bad|middle|Cold opens that flash forward to the consequence|
+Better Call Saul|lean|Long wordless sequences of procedure|
+The Sopranos|middle|Dreams and loose ends instead of resolution|
+Six Feet Under|middle|Every episode opens with a death|
+Detroiters|lean|Sincere friendship played completely straight|
+I Think You Should Leave with Tim Robinson|maximal|One small social lie escalated to cosmic insanity|
+The Dick Van Dyke Show|lean|The split between office and home, sealed with a pratfall|
+The Mary Tyler Moore Show|lean|Character comedy with no gimmick but the ensemble|
+Newhart|lean|Bob's stammering reaction shot|
+Leave It to Beaver|lean|A moral lesson seen from a kid's eye level|
+Lassie|lean|Peril, rescue, lesson|
+I Love Lucy|middle|The scheme that escalates into a physical set piece|
+The Larry Sanders Show|lean|Backstage scenes on film against the talk show on video|Curb Your Enthusiasm
+The Curse|maximal|Fielder's discomfort turned into a scripted marriage, then into the supernatural|The Rehearsal
+The Chair Company|maximal|ITYSL panic stretched over a whole season|I Think You Should Leave with Tim Robinson
+How To with John Wilson|lean|Found street footage cut against a mumbled voiceover|Nathan for You
+Review|lean|A flat report card after each life-wrecking assignment|Nathan for You
+Fishing with John|lean|Grave nature-documentary narration over nothing happening|Albums: Tom Waits
+Pluribus|lean|One unhappy person in a world of happiness, shot in Gilligan's patient long takes|Better Call Saul
+Rectify|lean|Silence, stillness, and very slow time|Six Feet Under
+The Wire|maximal|A whole city, one institution per season|The Sopranos
+Mad Men|middle|Subtext; nobody says what they mean|The Sopranos
+Deadwood|maximal|Profanity spoken as Shakespearean verse|The Sopranos
+Fawlty Towers|middle|Farce wound tighter with every lie|Curb Your Enthusiasm
+Peep Show|lean|Point-of-view camera and inner monologue|Curb Your Enthusiasm
+Arrested Development|maximal|Callbacks layered across seasons; the narrator corrects the show|The Simpsons
+BoJack Horseman|maximal|Animal sight gags in the background of real despair|Six Feet Under
+Barry|middle|Comedy that stops dead for violence|Breaking Bad
+Lodge 49|middle|Drift instead of plot; coincidences that might be alchemy|Slaughterhouse-Five
+Patriot|lean|Deadpan disasters, narrated by folk songs|Better Call Saul
+Get a Life|maximal|Sitcom logic followed until the hero dies|Detroiters
+Fernwood 2 Night|lean|A real talk show format with a fake small town behind it|Nathan for You
+The Bob Newhart Show|lean|The one-sided phone call and the pause|Newhart
+Taxi|middle|Working-class melancholy with Kaufman's alien Latka|The Mary Tyler Moore Show
+Columbo|lean|The killer revealed first; the pleasure is in how he's caught|House
+Party Down|lean|A new party, a new set of humiliations, every episode|Curb Your Enthusiasm
+The Office (UK)|lean|The look to camera after the awful joke|Curb Your Enthusiasm
+The Comeback|lean|Raw reality-show footage as the only camera|Curb Your Enthusiasm
+Tim and Eric Awesome Show, Great Job!|maximal|Public-access video degraded into nightmare|I Think You Should Leave with Tim Robinson
+Nirvanna the Band the Show|middle|Real stunts in public, folded into a scripted plot|Nathan for You
+Joe Pera Talks with You|lean|Slow, whispered sincerity|Detroiters
+Veep|maximal|Insults so dense the plot hides behind them|Seinfeld
+Los Espookys|lean|Surreal deadpan played as normal|I Think You Should Leave with Tim Robinson
+Cheers|middle|A single set and the slow-burn romance|The Mary Tyler Moore Show
+NewsRadio|lean|Deadpan ensemble timing|Seinfeld
+It's Always Sunny in Philadelphia|maximal|Five terrible people, each episode a scheme that ruins them|Seinfeld
+Community|maximal|Each episode becomes a different genre|The Simpsons
+Freaks and Geeks|lean|Real teenage awkwardness, no laugh lines|Leave It to Beaver
+Reservation Dogs|middle|Grief comedy with spirit visitors|Six Feet Under
+Futurama|maximal|Science jokes under emotional sucker punches|The Simpsons
+King of the Hill|lean|Realistic animation with patient, humane jokes|The Simpsons
+The Venture Bros.|maximal|Parody that grows its own mythology|The Simpsons
+Moral Orel|middle|A Sunday-school parody that turns into tragedy|The Simpsons
+Undone|middle|Rotoscoped scenes that slide between time and memory|Slaughterhouse-Five
+The Midnight Gospel|maximal|Cartoon chaos over a calm real conversation|Six Feet Under
+Pantheon|middle|Hard-science ideas through a family story|Breaking Bad
+Over the Garden Wall|lean|A short storybook in ten chapters|The Simpsons
+Scavengers Reign|lean|Wordless alien ecosystems|Breaking Bad
+The Shield|middle|Handheld chaos and a corrupt cop as the hero|Breaking Bad
+Succession|maximal|Insults as a love language|The Sopranos
+Halt and Catch Fire|middle|Chasing the next machine, then the next|Mad Men
+Fargo|middle|"This is a true story" over Coen-style parable|Breaking Bad
+True Detective|maximal|Philosophical monologues in a car|Breaking Bad
+In Treatment|lean|One patient, one room, one session per episode|The Sopranos
+Andor|middle|Slow build to sudden, earned speeches|Better Call Saul
+Carnivàle|maximal|Biblical myth staged in the Dust Bowl|Six Feet Under
+The Pitt|lean|One shift, an hour per episode, in real time|House
+The Knick|middle|Period surgery shot in modern handheld, with an electronic score|House
+Sherlock Holmes (Granada)|middle|Faithful Doyle with a manic, sad Holmes|House
+Cracker|middle|Monologues that pull confessions out of suspects|House
+Homicide: Life on the Street|lean|The interrogation room as a stage|House
+Mindhunter|lean|Interviews in fluorescent rooms|House
+Happy Valley|lean|A cop's grief kept in check|Breaking Bad
+The Twilight Zone|lean|A fable with a twist, framed by narration|Slaughterhouse-Five
+The Prisoner|middle|Allegory dressed as a spy show|Slaughterhouse-Five
+Twin Peaks|maximal|Soap-opera tropes cracked open by dream logic|Albums: Angelo Badalamenti
+Twin Peaks: The Return|maximal|Patience as provocation; time stretched until it breaks|The Sopranos
+Wild Palms|maximal|Media satire as a hallucination|Slaughterhouse-Five
+Black Mirror|middle|One technology, followed to its worst end|Slaughterhouse-Five
+Dark|maximal|Three timelines, cut to match|Slaughterhouse-Five
+Devs|lean|Cold, slow images; a choir on the soundtrack|Slaughterhouse-Five
+Severance|middle|Symmetrical offices; two selves who never meet|The Rehearsal
+Mrs. Davis|maximal|Absurdity piled on until it becomes faith|Slaughterhouse-Five
+Counterpart|lean|One actor as two versions of the same man|Better Call Saul
+Russian Doll|middle|A time loop that changes a little each death|Slaughterhouse-Five
+The Leftovers|middle|Each episode follows one character, out of order|Six Feet Under
+The Good Place|maximal|Plot twists that rebuild the premise every season|Seinfeld
+Enlightened|lean|Whispered voiceover of her hopes against the reality|Curb Your Enthusiasm
+Somebody Somewhere|lean|Small talk as the whole drama|Six Feet Under
+Fleabag|lean|The glance to camera; the camera that finally notices|Curb Your Enthusiasm
+Monty Python's Flying Circus|maximal|Sketches with no punchlines, linked by animation|I Think You Should Leave with Tim Robinson
+SCTV|maximal|A whole fake TV station|I Think You Should Leave with Tim Robinson
+Late Night with David Letterman|lean|Anti-jokes and dead air on network TV|Nathan for You
+The Kids in the Hall|middle|Dark sketches with recurring grotesques|I Think You Should Leave with Tim Robinson
+Mr. Show with Bob and David|maximal|Each sketch hands off to the next|Better Call Saul
+Brass Eye|maximal|News-show gloss on absurd lies|Nathan for You
+Chappelle's Show|middle|Satire with a premise and a punch|I Think You Should Leave with Tim Robinson
+The Honeymooners|lean|One room and a man's temper|I Love Lucy
+The Phil Silvers Show|maximal|Machine-gun patter|The Dick Van Dyke Show
+The Many Loves of Dobie Gillis|lean|Dobie's direct address to camera|Leave It to Beaver
+Get Smart|middle|Catchphrases and spy-gadget slapstick|The Dick Van Dyke Show
+Green Acres|maximal|A sitcom where the jokes know they're in a sitcom|The Dick Van Dyke Show
+All in the Family|lean|Arguments, one living room, live audience|The Mary Tyler Moore Show
+M*A*S*H|middle|Wisecracks over the operating table|Slaughterhouse-Five
+Barney Miller|lean|One squad room; a stage play every week|The Mary Tyler Moore Show
+Mary Hartman, Mary Hartman|lean|Soap-opera flatness held until it turns existential|Six Feet Under
+Your Show of Shows|maximal|Live movie parodies by a legendary writers' room|The Dick Van Dyke Show
+The Ernie Kovacs Show|maximal|Visual tricks only TV can do|I Think You Should Leave with Tim Robinson
+The Dick Cavett Show|lean|Long, literate conversation|Seinfeld
+Route 66|middle|A new town and a new moral story each week|Lassie
+Blackadder|maximal|Elaborate insults; the finale drops the jokes|Slaughterhouse-Five
+Father Ted|maximal|Absurd setups at farce speed|Seinfeld
+I'm Alan Partridge|lean|Silence after his worst lines|Curb Your Enthusiasm
+Garth Marenghi's Darkplace|maximal|Deliberately terrible acting, effects and editing|I Think You Should Leave with Tim Robinson
+The Thick of It|maximal|Handheld chaos and baroque swearing|Seinfeld
+Inside No. 9|middle|Each half hour a new form, built around a twist|The Twilight Zone
+Detectorists|lean|Long fields, small talk, nothing urgent|Newhart
+Slings & Arrows|middle|Each season mirrors the play being staged|The Mary Tyler Moore Show
+The Kingdom|maximal|Soap opera with ghosts, framed by von Trier's commentary|House
+The Returned (Les Revenants)|lean|The dead come back quietly; the horror is the stillness|Albums: Mogwai
+The Bureau (Le Bureau des Légendes)|lean|Spycraft as office work|Better Call Saul
+Crime Scene Cleaner (Der Tatortreiniger)|lean|One room, one stranger, one conversation|Six Feet Under
+My Brilliant Friend|middle|Ferrante's narrator speaks over decades|Books: My Brilliant Friend
+The Young Pope|maximal|Baroque images and a pope who may not believe|The Sopranos
+Dekalog|lean|One commandment, one apartment block, one hour|Films: Krzysztof Kieślowski
+One Hundred Years of Solitude|maximal|Magic stated as fact|Books: One Hundred Years of Solitude
+Neon Genesis Evangelion|maximal|A robot show collapsing into the hero's mind|Six Feet Under
+Serial Experiments Lain|maximal|Network static as a portrait of the self|The Rehearsal
+Cowboy Bebop|middle|Each episode in a different genre, scored like a jazz set|Albums: Yoko Kanno
+Paranoia Agent|maximal|A city's anxiety passed from character to character|I Think You Should Leave with Tim Robinson
+The Tatami Galaxy|maximal|Machine-gun narration through repeating timelines|Slaughterhouse-Five
+My Mister|lean|Quiet scenes; two lonely people overhearing each other|Better Call Saul
+The Singing Detective|maximal|Hospital, memory and pulp novel, broken by lip-synced songs|House
+Scenes from a Marriage|lean|Two faces in close-up, talking|Films: Ingmar Bergman
+Angels in America|maximal|Realism cracked open by angels|Six Feet Under
+Generation Kill|lean|No score, no explanation, only the radio chatter|Slaughterhouse-Five
+The Night Of|lean|Procedure, slow and close|Better Call Saul
+Chernobyl|lean|Dread in grey light; the facts are enough|Breaking Bad
+Catch-22|middle|Heller's circular logic, played straight|Books: Catch-22
+I May Destroy You|middle|Memory gaps edited into the story|Six Feet Under
+Station Eleven|middle|Two timelines held together by a comic book and a play|Books: Station Eleven
+Ripley|lean|Black-and-white, every shot composed like a still|Books: The Talented Mr. Ripley
+Cosmos: A Personal Voyage|middle|One man's voice across the universe|Books: Cosmos
+Connections|maximal|Leaps from one invention to the next across centuries|The Simpsons
+Ways of Seeing|lean|One man, one image, rethought out loud|Books: Ways of Seeing
+The Power of Myth|lean|Two men talking, nothing else|Books: The Hero with a Thousand Faces
+The Elegant Universe|middle|Physics explained through visual metaphors|Books: The Elegant Universe
+The Up Series|lean|The same faces every seven years|The Rehearsal
+The Century of the Self|maximal|Archive collage with an argument in the voiceover|The Sopranos
+Wormwood|maximal|Documentary interviews cut against a drama|Breaking Bad
+O.J.: Made in America|maximal|Eight hours; the trial is only the middle|Breaking Bad
+Saved by the Bell|middle|Zack's time-out to talk to the camera|
+Full House|lean|The hug and the soft music before the credits|
+Family Matters|middle|One catchphrase guest who takes over the show|
+Perfect Strangers|middle|The physical double act of a cousin and a straight man|
+Step by Step|lean|Two families blended, one fight per week|
+Boy Meets World|middle|Lessons from Mr. Feeny that grow up with the kids|
+Beyond Evil|middle|Suspicion flipping back and forth between two leads|Breaking Bad
+D.P.|lean|Small, cruel moments, no relief|Slaughterhouse-Five
+Hellbound|maximal|One supernatural fact, followed into politics and religion|Six Feet Under
+It's Garry Shandling's Show|lean|Talks to the studio audience, then walks through the set|Seinfeld
+Atlanta|lean|Drifts from a rap-manager plot into a surreal standalone episode|Curb Your Enthusiasm
+Northern Exposure|middle|A small town's philosophers monologue over the radio|Newhart
+Between Time and Timbuktu|maximal|Vonnegut's books mashed into one public-TV trip|Books: Slaughterhouse-Five
+Who Am I This Time?|lean|A shy man who only exists in the roles he plays|Books: Welcome to the Monkey House
+Louis Theroux's Weird Weekends|lean|A polite question held until the subject fills the silence|Nathan for You
+Police Squad!|maximal|A sight gag in every frame; the freeze-frame that doesn't freeze|The Simpsons
+Roseanne|lean|Working-class talk at a kitchen table; the last season rewrites it all|The Simpsons
+Rubicon|lean|Paranoia built from patterns in crosswords and silence|Better Call Saul
+Dispatches from Elsewhere|maximal|A game that may be real, narrated by its designer|The Rehearsal
+Midnight Mass|maximal|Ten-minute monologues about what death is|Six Feet Under
+Look Around You|lean|A fake school science film played completely straight|Nathan for You
+Klovn|lean|Curb's method in Danish, with less mercy|Curb Your Enthusiasm
+Boris|middle|A TV crew making a terrible show, with the quality turned to "lousy"|The Larry Sanders Show
+Stromberg|lean|A boss who says the wrong thing and then explains it|The Office (UK)
+Inspector Montalbano|middle|A murder, a long lunch, the sea|House
+Couples Therapy|lean|Real sessions, the camera invisible|The Sopranos
+Fun to Imagine|lean|Feynman explains a rubber band and keeps going|Books: Richard Feynman
+Alan Watts: Eastern Wisdom and Modern Life|lean|A man in a studio with a brush and a bowl, explaining nothing-in-particular|Books: Alan Watts
+The Story of Film: An Odyssey|maximal|Fifteen hours of film history as one essay|Films: the whole film list
+Night Music|maximal|Sun Ra and Leonard Cohen on the same stage|Albums: Sun Ra
+Classic Albums|lean|The master tapes, soloed one track at a time|Albums: the ★ picks on the album list
+Dinosaurs|middle|A Henson family sitcom that ends in an ice age|
+ALF|lean|An alien eating the cat jokes, then a cliffhanger nobody resolved|
+The Muppet Show|maximal|Vaudeville backstage, where the show is always about to collapse|The Dick Van Dyke Show
+The Adventures of Pete & Pete|lean|Suburban melancholy with a rock band playing in the garage|Detroiters
+The Wonder Years|lean|A grown man narrates what his twelve-year-old self didn't know|Leave It to Beaver
+George Carlin's HBO specials|maximal|Lists that pile up until the language breaks|Seinfeld
+An Idiot Abroad|lean|A man who'd rather be home, asked to see the wonders of the world|Nathan for You
+The Addams Family|middle|Macabre family played as the normal ones|
+The Munsters|middle|Monster-movie makeup on a Leave It to Beaver plot|
+Bewitched|lean|A twitch of the nose and the husband's exasperation|
+I Dream of Jeannie|lean|A blink and a problem for the major|
+Mister Ed|lean|A horse that only talks to one man|
+Gilligan's Island|middle|Seven castaways and a scheme that fails by the credits|
+The George Carlin Show|lean|Carlin in a bar, talking|
+Married... with Children|lean|A family that openly hates each other, with a laugh track|
+Unsolved Mysteries|lean|Robert Stack in a trench coat, asking for your help|
+The Office (US)|lean|The look to camera, warmed up for America|
+Parks and Recreation|middle|Optimism as the joke|
+Rick and Morty|maximal|Multiverse nihilism at the speed of improv|
+Frasier|maximal|Farce built with French-theater precision|
+Animaniacs|maximal|Layered gags, Simpsons-dense, for kids|
+Home Improvement|lean|Grunts and a neighbor behind a fence|
+Mork & Mindy|maximal|Robin Williams improvising around the script|
+Happy Days|lean|The jukebox and the leather jacket|
+The Brady Bunch|lean|A moral in every half hour|
+Friends|middle|Six people on a couch, A-plot and B-plot|
+South Park|lean|Construction-paper animation made in a week, about this week|
+Family Guy|maximal|Cutaway gags instead of plot|
+Star Trek: The Next Generation|middle|A moral dilemma solved in the conference room, not with phasers|
+Star Trek: Deep Space Nine|middle|Serialized war and faith on a station that can't warp away|
+Star Trek: Voyager|middle|A ship trying to get home, one planet a week|
+Star Trek: Enterprise|lean|Starfleet before the rules existed|
+Star Trek: Discovery|maximal|Season-long arcs and cinematic scale|
+Star Trek: Strange New Worlds|middle|A different genre every week, in a classic frame|
+Star Trek: Lower Decks|maximal|Deep-cut Trek references at Rick and Morty speed|
