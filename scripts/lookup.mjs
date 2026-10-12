@@ -29,8 +29,9 @@ export function applyLookups(listId, items, lookups) {
     if (hit?.l) item.l = hit.l;
     if (hit?.i) item.i = hit.i;
     if (details?.discogs) item.l = details.discogs;
-    // Artist paths link to the artist's discography on Wikipedia.
-    if (lookups[discographyKey(listId, item)]) item.l = lookups[discographyKey(listId, item)];
+    // Music links go to AllMusic in place of Wikipedia: an artist's discography, or the album's page.
+    const allmusic = lookups[allmusicKey(listId, item)];
+    if (allmusic && (item.f?.includes('path') || !item.l || item.l.includes('wikipedia.org'))) item.l = allmusic;
     if (details?.genres?.length) item.k = details.genres;
     if (details?.rym) item.r = details.rym;
     if (details?.imdb) item.l = details.imdb;
@@ -42,7 +43,7 @@ export function applyLookups(listId, items, lookups) {
 }
 // Bump a list's version when its details lookup changes, so every title is looked up again.
 const DETAILS_VERSION = { films: 2 };
-const discographyKey = (listId, item) => `${listId}-discography|${item.t}`;
+const allmusicKey = (listId, item) => `${listId}-allmusic|${item.t}|${item.c || ''}`;
 const detailsKey = (listId, item) => `${listId}-details${DETAILS_VERSION[listId] || ''}|${item.t}|${item.c || ''}`;
 
 const fold = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
@@ -287,22 +288,28 @@ async function filmDetails(item, lookups) {
     ...(!TMDB_KEY && !OMDB_KEY && { noKeys: true }) };
 }
 
-// An artist's discography on Wikipedia: its own "<artist> discography" page (or where that redirects), else the
-// Discography section of the artist's page, else nothing and the artist's page stays the link.
-const wikiUrl = (title, fragment) => `https://en.wikipedia.org/wiki/${encodeURIComponent(title.replace(/ /g, '_')).replace(/%2F/g, '/')}${fragment ? `#${encodeURIComponent(fragment.replace(/ /g, '_'))}` : ''}`;
-async function discography(item, lookups) {
-  const api = params => getJson(`https://en.wikipedia.org/w/api.php?${new URLSearchParams({ format: 'json', formatversion: '2', ...params })}`);
-  // The artist's own Wikipedia page names them best ("Nick Cave and the Bad Seeds", not the list's "&").
-  const main = /^https:\/\/en\.wikipedia\.org\/wiki\/([^#?]+)/.exec(lookups[lookupKey('albums', item)]?.l || '');
-  const name = main ? decodeURIComponent(main[1]).replace(/_/g, ' ') : item.t;
-  const { query } = await api({ action: 'query', titles: `${name} discography`, redirects: '1' });
-  const page = query?.pages?.[0], redirect = query?.redirects?.[0];
-  if (page && !page.missing && !page.invalid) return wikiUrl(page.title, redirect?.tofragment);
-  if (!main) return null;
-  const parsed = await api({ action: 'parse', page: name, prop: 'sections', redirects: '1' });
-  const section = parsed.parse?.sections?.find(s => /^discography$/i.test(s.line.replace(/<[^>]+>/g, '').trim()))
-    || parsed.parse?.sections?.find(s => /discography/i.test(s.line));
-  return section ? wikiUrl(parsed.parse.title, section.anchor) : null;
+// AllMusic for music links: the AllMusic ID Wikidata keeps for the title's Wikipedia page (P1728 for an artist,
+// P1729 for an album), fifty pages a request, else an AllMusic search. Artist links open the discography.
+const allmusicSearch = (item, artist) => `https://www.allmusic.com/search/${artist ? 'artists' : 'albums'}/${encodeURIComponent(artist ? item.t : [item.t, item.c].filter(Boolean).join(' '))}`;
+async function allmusicLinks(items, lookups) {
+  const pageOf = item => decodeURIComponent((lookups[lookupKey('albums', item)]?.l || '').split('en.wikipedia.org/wiki/')[1] || '').replace(/_/g, ' ').split('#')[0];
+  const found = {};
+  const titles = [...new Set(items.map(pageOf).filter(Boolean))];
+  for (let n = 0; n < titles.length; n += 50) {
+    const { entities = {} } = await getJson(`https://www.wikidata.org/w/api.php?${new URLSearchParams({ action: 'wbgetentities', sites: 'enwiki', titles: titles.slice(n, n + 50).join('|'), props: 'claims|sitelinks', sitefilter: 'enwiki', format: 'json' })}`);
+    for (const entity of Object.values(entities)) {
+      const title = entity.sitelinks?.enwiki?.title;
+      const id = property => entity.claims?.[property]?.[0]?.mainsnak?.datavalue?.value;
+      if (title) found[title] = { artist: id('P1728'), album: id('P1729') };
+    }
+  }
+  for (const item of items) {
+    const artist = item.f?.includes('path'), ids = found[pageOf(item)] || {};
+    const id = artist ? ids.artist : ids.album;
+    lookups[allmusicKey('albums', item)] = artist && /^mn\d+$/.test(id || '') ? `https://www.allmusic.com/artist/${id}/discography`
+      : !artist && /^mw\d+$/.test(id || '') ? `https://www.allmusic.com/album/${id}`
+      : allmusicSearch(item, artist);
+  }
 }
 
 const FINDERS = { books: book, films: film, tv, albums: album };
@@ -350,12 +357,9 @@ async function run() {
       }
     }
     if (list.id === 'albums') {
-      const paths = items.filter(item => item.f?.includes('path') && (!(discographyKey(list.id, item) in lookups) || (retry && !lookups[discographyKey(list.id, item)])));
-      console.log(`albums: finding discographies for ${paths.length} artists`);
-      for (const item of paths) {
-        try { lookups[discographyKey(list.id, item)] = await discography(item, lookups); }
-        catch (error) { failed++; console.warn(error.message); }
-      }
+      const rest = items.filter(item => !(allmusicKey(list.id, item) in lookups) || (retry && lookups[allmusicKey(list.id, item)].includes('/search/')));
+      console.log(`albums: finding AllMusic pages for ${rest.length}`);
+      try { await allmusicLinks(rest, lookups); } catch (error) { failed++; console.warn(error.message); }
     }
     await writeFile(file, JSON.stringify(applyLookups(list.id, items, lookups)));
     const found = items.filter(item => item.l).length, covers = items.filter(item => item.i).length;

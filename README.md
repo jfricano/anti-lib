@@ -30,7 +30,7 @@ Every list has a primary source and at least one fallback, all keyless public AP
 | Films | IMDb link (via Wikidata) and TMDB poster | OMDb poster, then Wikipedia and iTunes |
 | TV | Wikipedia (link and image) | iTunes for a missing image |
 | Albums | MusicBrainz (Discogs link, genres, Rate Your Music) with Deezer and Wikipedia artwork | Cover Art Archive for missing artwork |
-| Artist paths | The artist's Wikipedia discography page, or the Discography section of their page | The artist's Wikipedia page |
+| Music links | AllMusic (artist discography or album page, via the AllMusic IDs on Wikidata), except where Discogs matched an album | AllMusic search |
 
 A title with no match at all links to a search on the list's site instead.
 
