@@ -6198,37 +6198,6 @@
    }
   ]
  },
- "Robert Johnson": {
-  "about": "There are only twenty-nine songs, so one set holds all of it; the other records here are the LPs that carried the myth to Dylan, Clapton and the Stones.",
-  "photo": { "file": "Robert Johnson self-portrait photo.jpg" },
-  "records": [
-   {
-    "t": "The Complete Recordings",
-    "y": 1990,
-    "step": 1,
-    "kind": "compilation",
-    "note": "The door and the whole catalog: every side from the 1936 and 1937 sessions plus alternate takes. Spare, fast guitar and a high, haunted voice."
-   },
-   {
-    "t": "King of the Delta Blues Singers",
-    "y": 1961,
-    "kind": "compilation",
-    "note": "The LP that Dylan and Keith Richards heard; same songs, now inside the complete set."
-   },
-   {
-    "t": "King of the Delta Blues Singers, Vol. II",
-    "y": 1970,
-    "kind": "compilation",
-    "note": "The rest of the songs; also inside the complete set."
-   },
-   {
-    "t": "The Centennial Collection",
-    "y": 2011,
-    "kind": "compilation",
-    "note": "A newer remaster of everything; pick one complete set, not both."
-   }
-  ]
- },
  "Howlin' Wolf": {
   "about": "Two Chess albums of singles hold most of what matters; after them come the folk-blues repackagings, the odd psychedelic record he hated, and the last studio album.",
   "photo": { "file": "Howlin' Wolf 1972.JPG" },
