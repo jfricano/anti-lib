@@ -1075,7 +1075,7 @@ These are good records. They came off the main list because they failed one of t
 
 ## Townes Van Zandt (cut 2026-10-13)
 
-*His studio albums keep re-recording the same songs, so* Live at the Old Quarter, Houston, Texas *(1977) stays alone on the list, as a statement. His artist path went with these, since a one-record path makes no sense. None of these was marked heard. The few good songs the live album lacks, if I ever want them: "Be Here to Love Me" and "Our Mother the Mountain" (on* Our Mother the Mountain*), "Highway Kind" (on* High, Low and In Between*), and "Flyin' Shoes."*
+*His studio albums keep re-recording the same songs, so* Live at the Old Quarter, Houston, Texas *(1977) is the one record of his that stays on the list. His artist path went with these, since a one-record path makes no sense. None of these was marked heard. The few good songs the live album lacks, if I ever want them: "Be Here to Love Me" and "Our Mother the Mountain" (on* Our Mother the Mountain*), "Highway Kind" (on* High, Low and In Between*), and "Flyin' Shoes."*
 
 - [ ] Townes Van Zandt — *Townes Van Zandt* (1969)  
   *Why cut:* Re-recordings of songs from his debut; "Waitin' Around to Die," "For the Sake of the Song" and "Lungs" are all on the live album.
