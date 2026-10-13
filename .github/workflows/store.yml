@@ -1,0 +1,32 @@
+name: Store covers
+# Copies new covers into the cover store on Railway (server/) after each data rebuild on main, or by hand.
+# Does nothing until the STORE_URL and STORE_WRITE_KEY secrets exist.
+on:
+  workflow_run:
+    workflows: [Rebuild data]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: store
+  cancel-in-progress: false
+jobs:
+  store:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      STORE_URL: ${{ secrets.STORE_URL }}
+      STORE_WRITE_KEY: ${{ secrets.STORE_WRITE_KEY }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - if: env.STORE_URL != '' && env.STORE_WRITE_KEY != ''
+        run: npm install --no-save --no-package-lock sharp@0.35.5
+      - run: node scripts/store.mjs

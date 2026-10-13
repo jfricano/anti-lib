@@ -15,6 +15,8 @@ This repository is public, and has to stay public for the page to read it. Diges
 - `scripts/import.mjs`: normalizes `lists/` into `data/<list>.json`, `data/lists.json`, `data/paths.json`, `data/author-paths.json` and `data/director-paths.json`.
 - `scripts/lookup.mjs`: finds a public page, cover and (for albums) genres for each title and artist-path record, cached in `data/lookups.json`.
 - `scripts/progress.mjs`: applies owner-mode marks to `data/progress.json`, removals to `data/removed.json` and tag toggles to `data/tags.json`.
+- `scripts/store.mjs`: copies every cover into the cover store (see [Cover store](#cover-store)).
+- `server/`: the cover store itself, a small file server on Railway. Setup in [server/README.md](server/README.md).
 - `docs/`: the list conventions, artist, author and director paths, the reading path, the book digest format, the roadmap, the [guide for the Anti-Library Builder](docs/BUILDER-GUIDE.md), and `research/` (the proposal passes, cuts, archive, design review and list sources behind the lists).
 
 ## Changing a list
@@ -67,6 +69,12 @@ Some directors on the films list get a viewing path, built like the author paths
 ## How the page reads this
 
 The portfolio page fetches `data/*.json` from `https://raw.githubusercontent.com/jfricano/anti-lib/main/data/` when it loads, so whatever is on `main` here is what the page shows, a few minutes after it lands (GitHub caches raw files for about five minutes). Changing a list never needs a portfolio deploy. Data on other branches isn't shown until it merges.
+
+## Cover store
+
+Covers are found on outside hosts (Open Library, TMDB, Wikimedia, Deezer, Cover Art Archive, iTunes) and their links are kept in `data/`. The cover store keeps a copy of each: the largest version its host offers (Open Library's large size, TMDB's original poster, Deezer's 1000px, Cover Art Archive's full scan, the Wikimedia file itself, and so on) and a 256px-wide WebP thumbnail made from it, on a small Railway service built from `server/`. After every "Rebuild data" run on `main`, the "Store covers" workflow copies any cover the store doesn't have yet. Each file is named by `shortKey` of its source link (`scripts/short-key.mjs`), the same code the page already computes, so the page finds a cover's copy without any extra data and falls back to the original link if the store doesn't have it or is asleep.
+
+The links in `data/` stay the source of truth: the store only ever holds copies, and can be rebuilt from scratch by running the workflow by hand. Until the `STORE_URL` and `STORE_WRITE_KEY` secrets are set, the workflow does nothing.
 
 ## Owner mode
 
