@@ -429,7 +429,8 @@ const NEEDS = { books: noCover('books'), tv: noCover('tv'),
   films: (item, lookups) => (TMDB_KEY || OMDB_KEY) && lookups[detailsKey('films', item)]?.noKeys };
 const LIMITS = { books: 2, films: 4, tv: 4, albums: 3 };
 // Album matches and MusicBrainz details found before sameAlbum carry no mark, so each is looked up once more and
-// replaced unless that lookup fails (it is tried again next run). Bump this to re-check every album again after a matching change.
+// replaced unless that lookup fails (then it is tried again next run). Bump this to re-check every album after a
+// matching change.
 const ALBUM_MATCH = 2;
 const unchecked = (item, hit) => !item.f?.includes('path') && Boolean(hit) && hit.v !== ALBUM_MATCH;
 const marked = (listId, item, hit) => listId === 'albums' && hit && !item.f?.includes('path') ? { ...hit, v: ALBUM_MATCH } : hit;
