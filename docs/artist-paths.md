@@ -38,6 +38,11 @@ column (for example `"Bill Callahan / Smog"`). Artists play in the order they ap
 - `about`: optional. One or two sentences in my voice.
 - `names`: optional. Credits on other album rows that should link to this page. Defaults to the key, split on
   " / " (so "Lou Reed / The Velvet Underground" covers both).
+- `photo`: optional. The artist's photo beside the name at the top of the path page: the file name of an openly
+  licensed picture on Wikimedia Commons, like `"photo": { "file": "Some photo.jpg" }`. Add `"pos": "50% 20%"` to move the
+  crop when the page trims the picture. Without it, the rebuild uses the picture Wikidata keeps for the artist's Wikipedia
+  page, if any; `"photo": false` means no photo. The rebuild saves it once to `data/photos/` at up to 1280 by 1000 pixels and the
+  page credits its author and license, linked to its Commons page. Add `"by"` to word that credit by hand.
 - `records`: every studio album worth knowing about, plus the live records, compilations, EPs and side projects
   that matter. Order in the file doesn't matter; the page sorts by year.
   - `t` title and `y` year of first release (required).

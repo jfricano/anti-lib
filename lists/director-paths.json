@@ -2,6 +2,7 @@
  "Quentin Tarantino": {
   "about": "I've seen all of these. This is the order I'd hand someone: Pulp Fiction first because it's the whole idea at full volume, Reservoir Dogs to see where it came from, then the rest in the order he made them.",
   "imdb": "https://www.imdb.com/name/nm0000233/",
+  "photo": { "file": "Quentin Tarantino by Gage Skidmore.jpg" },
   "records": [
    {
     "t": "Pulp Fiction",
@@ -82,6 +83,7 @@
  "Martin Scorsese": {
   "about": "The New York crime films are the spine. The path opens on Goodfellas, goes back to where it started, and ends on the late films where he looks back at all of it.",
   "imdb": "https://www.imdb.com/name/nm0000217/",
+  "photo": { "file": "Martin Scorsese by David Shankbone.jpg" },
   "records": [
    {
     "t": "Goodfellas",
@@ -254,6 +256,7 @@
  "Steven Spielberg": {
   "about": "Everyone has seen some Spielberg. The path is the ones that hold up as filmmaking, from the blockbusters he invented to the serious late work and the film about his own childhood.",
   "imdb": "https://www.imdb.com/name/nm0000229/",
+  "photo": { "file": "Steven Spielberg Masterclass Cinémathèque Française 2.jpg" },
   "records": [
    {
     "t": "Jaws",
@@ -401,6 +404,7 @@
  "Christopher Nolan": {
   "about": "Puzzles about time and memory, made at blockbuster scale. The path starts at the one where the puzzle and the feeling are the same thing.",
   "imdb": "https://www.imdb.com/name/nm0634240/",
+  "photo": { "file": "Christopher Nolan at WonderCon 2010 1.JPG" },
   "records": [
    {
     "t": "Memento",
@@ -480,6 +484,7 @@
  "Andrei Tarkovsky": {
   "about": "Seven features. Slow, but the slowness is the point. The path starts with the two science fiction films and works toward the hardest ones.",
   "imdb": "https://www.imdb.com/name/nm0001789/",
+  "photo": { "file": "Andrei Tarkovsky by Boris Baldin.jpg", "by": "Boris Baldin" },
   "records": [
    {
     "t": "Solaris",
@@ -534,6 +539,7 @@
  "Stanley Kubrick": {
   "about": "I know Dr. Strangelove, so that's the door. After it, the path goes in order, since each film is a different genre taken as far as it goes.",
   "imdb": "https://www.imdb.com/name/nm0000040/",
+  "photo": { "file": "Stanley Kubrick in Dr. Strangelove Trailer (4) Cropped.jpg" },
   "records": [
    {
     "t": "Dr. Strangelove",
@@ -614,6 +620,7 @@
  "Joel & Ethan Coen": {
   "about": "Two modes, the screwball comedies and the cold crime films, and the best ones are both at once.",
   "imdb": "https://www.imdb.com/find/?s=nm&q=Coen",
+  "photo": { "file": "Coen Brothers at the Castro Theater, 30 April 2016 02.jpg" },
   "records": [
    {
     "t": "Fargo",
@@ -735,6 +742,7 @@
  "Wes Anderson": {
   "about": "Rushmore is my favorite and I've seen Bottle Rocket, so the path is really everything after them.",
   "imdb": "https://www.imdb.com/name/nm0027572/",
+  "photo": { "file": "MJK 08478 Wes Anderson (Opening Gala Berlinale 2018).jpg" },
   "records": [
    {
     "t": "Rushmore",
@@ -815,6 +823,7 @@
  "Paul Thomas Anderson": {
   "about": "The ensemble films of the 90s, then a hard turn into stranger, bigger American stories. Two Pynchon adaptations, which is part of why he is here.",
   "imdb": "https://www.imdb.com/name/nm0000759/",
+  "photo": { "file": "Paul Thomas Anderson 2007.jpg", "by": "Jürgen Fauth" },
   "records": [
    {
     "t": "Boogie Nights",
@@ -879,6 +888,7 @@
  "Werner Herzog": {
   "about": "Two careers side by side: the fiction films, many with Klaus Kinski, and the documentaries he narrates himself. The path braids them.",
   "imdb": "https://www.imdb.com/name/nm0001348/",
+  "photo": { "file": "Werner Herzog Bruxelles 02.jpg", "by": "Erinc Salor" },
   "records": [
    {
     "t": "Aguirre, the Wrath of God",
@@ -1022,6 +1032,7 @@
  "David Lynch": {
   "about": "Small-town America with something rotten underneath, then dreams that don't resolve. Twin Peaks is on the TV list; Fire Walk with Me comes after it.",
   "imdb": "https://www.imdb.com/name/nm0000186/",
+  "photo": { "file": "David Lynch 2016.jpg" },
   "records": [
    {
     "t": "Blue Velvet",
@@ -1087,6 +1098,7 @@
  "Richard Linklater": {
   "about": "Time passing is the subject: one night, one day in Vienna, twelve years of a boy. The path follows the films that are about that.",
   "imdb": "https://www.imdb.com/name/nm0000500/",
+  "photo": { "file": "Richard Linklater at the 2026 Sundance Film Festival for Nouvelle Vague (2) (cropped).jpg" },
   "records": [
    {
     "t": "Dazed and Confused",
@@ -1177,6 +1189,7 @@
  "Jim Jarmusch": {
   "about": "Deadpan, music everywhere, and outsiders drifting. Tom Waits, Iggy Pop and the White Stripes all turn up.",
   "imdb": "https://www.imdb.com/name/nm0000464/",
+  "photo": { "file": "JimJarmusch-byPhilipRomano2.jpg" },
   "records": [
    {
     "t": "Down by Law",
@@ -1269,6 +1282,7 @@
  "David Fincher": {
   "about": "The 90s thrillers I grew up on, then the procedurals about obsession. I know The Game.",
   "imdb": "https://www.imdb.com/name/nm0000399/",
+  "photo": { "file": "TheKillerBFILFF051023 (8 of 22) (53255176376) (cropped2).jpg" },
   "records": [
    {
     "t": "Se7en",
@@ -1340,6 +1354,7 @@
  "Akira Kurosawa": {
   "about": "The samurai films that Hollywood and Tarantino borrowed from, and the modern dramas that are just as good.",
   "imdb": "https://www.imdb.com/name/nm0000041/",
+  "photo": { "file": "Akirakurosawa-onthesetof7samurai-1953-page88.jpg" },
   "records": [
    {
     "t": "Seven Samurai",
@@ -1438,6 +1453,7 @@
  "Bong Joon-ho": {
   "about": "Genre films, a monster movie, a train, a serial killer, that turn out to be about class.",
   "imdb": "https://www.imdb.com/name/nm0094435/",
+  "photo": { "file": "Bong Joon-ho 2017.jpg" },
   "records": [
    {
     "t": "Parasite",
@@ -1489,6 +1505,7 @@
  "Park Chan-wook": {
   "about": "Revenge, beautifully shot, then a turn toward love stories that are just as twisted.",
   "imdb": "https://www.imdb.com/name/nm0661791/",
+  "photo": { "file": "20130925—Park Chan-wook 박찬욱 Marie Claire Korea photo shoot screenshot (00m01s) (cropped).jpg" },
   "records": [
    {
     "t": "Oldboy",
@@ -1551,6 +1568,7 @@
  "Terry Gilliam": {
   "about": "The Python animator who made dystopias and fantasies that look like nobody else's. I know 12 Monkeys.",
   "imdb": "https://www.imdb.com/name/nm0000416/",
+  "photo": { "file": "Terry Gilliam.jpg" },
   "records": [
    {
     "t": "Brazil",
