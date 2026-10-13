@@ -9,7 +9,7 @@ It runs with Railway's Serverless setting, so it sleeps when nobody is visiting 
 | Path | What |
 | --- | --- |
 | `GET /c/<code>.webp` | A cover's thumbnail, 256px wide. What the page shows. |
-| `GET /o/<code>.<ext>` | The original file the thumbnail was cut from. |
+| `GET /o/<code>.<ext>` | The full-size cover the thumbnail was cut from: the largest version its host offers (see `fullSize` in `scripts/store.mjs`). |
 | `GET /files.json` | The names stored so far, so the workflow uploads only what's missing. |
 | `GET /healthz` | `{"status":"ok"}`, for Railway's health check and for the page to wake the store early. |
 | `PUT /c/…`, `PUT /o/…` | Uploads, only with `Authorization: Bearer <STORE_WRITE_KEY>`. |
@@ -20,7 +20,7 @@ It runs with Railway's Serverless setting, so it sleeps when nobody is visiting 
 
 1. New project, then **Deploy from GitHub repo**, and pick `jfricano/anti-lib`.
 2. In the service's **Settings**, set **Root Directory** to `server` (Railway then builds `server/Dockerfile`), and **Watch Paths** to `server/**` so list changes don't redeploy it.
-3. Right-click the service and **Attach volume**, mounted at `/data`.
+3. Right-click the service and **Attach volume**, mounted at `/data`. Full-size covers should come to a few GB, inside the Hobby plan's default 5 GB; the volume can be grown later without downtime.
 4. In **Variables**, add `STORE_WRITE_KEY` with a random value of at least 32 characters (`openssl rand -base64 32`). Railway supplies `PORT`.
 5. In **Settings**, set the health check path to `/healthz`, turn on **Serverless**, and under **Networking** generate a domain (or add `covers.jasonfricano.com` as a custom domain with the CNAME Railway shows).
 6. In GitHub, anti-lib **Settings → Secrets and variables → Actions**, add `STORE_URL` (the domain from step 5, with `https://`) and `STORE_WRITE_KEY` (the same value as step 4).

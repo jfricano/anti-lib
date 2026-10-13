@@ -11,7 +11,7 @@ import path from 'node:path';
 const DIR = process.env.STORE_DIR || '/data';
 const PORT = Number(process.env.PORT) || 8080;
 const KEY = process.env.STORE_WRITE_KEY || '';
-const MAX_BYTES = 20 * 1024 * 1024;
+const MAX_BYTES = 40 * 1024 * 1024;
 // Files are named by the page's 8-character code for the cover's source URL (scripts/short-key.mjs).
 const NAME = /^[A-Za-z0-9_-]{8}\.(webp|jpg|png|gif)$/;
 const TYPES = { webp: 'image/webp', jpg: 'image/jpeg', png: 'image/png', gif: 'image/gif' };

@@ -1,5 +1,5 @@
-// Copies every cover the lists use into the cover store on Railway (server/): the original file, and a 256px-wide
-// WebP thumbnail that the page shows. Only covers the store doesn't have yet are downloaded, so after the first run
+// Copies every cover the lists use into the cover store on Railway (server/): the largest version its host offers
+// (fullSize below), and a 256px-wide WebP thumbnail that the page shows. Only covers the store doesn't have yet are downloaded, so after the first run
 // this takes seconds. Each file is named by shortKey(source URL), the same code the page computes, so the page needs
 // no extra data to find a cover's copy.
 //
@@ -14,9 +14,8 @@ const KEY = process.env.STORE_WRITE_KEY || '';
 const LIMIT = Number(process.argv[process.argv.indexOf('--limit') + 1]) || Infinity;
 const FILES = ['books', 'films', 'albums', 'tv', 'paths', 'author-paths', 'director-paths'];
 const WIDTH = 256;
-const MAX_BYTES = 20 * 1024 * 1024;
+const MAX_BYTES = 40 * 1024 * 1024;
 const AGENT = 'anti-lib cover store (https://jasonfricano.com/antilibrary; github.com/jfricano/anti-lib)';
-const EXT = { 'image/jpeg': 'jpg', 'image/png': 'png', 'image/webp': 'webp', 'image/gif': 'gif' };
 
 if (!BASE || !KEY) {
   console.log('STORE_URL or STORE_WRITE_KEY is not set, so there is no cover store to fill yet.');
@@ -46,17 +45,47 @@ async function put(name, body, type) {
   }
 }
 
+// The largest version of a cover each host offers, best first; the link in the data (often a small size) comes
+// last, as the fallback if none of the bigger ones can be fetched.
+function fullSize(url) {
+  const out = [];
+  const swap = (from, ...to) => { if (from.test(url)) out.push(...to.map(t => url.replace(from, t))); };
+  swap(/(covers\.openlibrary\.org\/b\/\w+\/[^/]+)-[SM]\.jpg$/, '$1-L.jpg');
+  swap(/(image\.tmdb\.org\/t\/p\/)w\d+\//, '$1original/');
+  swap(/(cdn-images\.dzcdn\.net\/images\/\w+\/\w+\/)\d+x\d+(-[^/]*\.jpg)$/, '$11000x1000$2');
+  swap(/(coverartarchive\.org\/release(?:-group)?\/[\w-]+\/front)-\d+$/, '$1', '$1-1200');
+  swap(/(\.mzstatic\.com\/image\/thumb\/.+\/)\d+x\d+(\w*\.(?:jpg|png))$/, '$13000x3000$2');
+  swap(/(m\.media-amazon\.com\/images\/M\/[^.]+\.)_V1_[^/]*(\.jpg)$/, '$1_V1_$2');
+  // A Wikimedia thumbnail ("…/thumb/a/ab/File.jpg/500px-File.jpg") becomes the file itself.
+  const thumb = url.match(/^https:\/\/(?:thumb|upload)\.wikimedia\.org\/(wikipedia\/[\w-]+)\/thumb\/(\w\/\w\w\/[^/?]+)\/[^/?]+/);
+  if (thumb) out.push(`https://upload.wikimedia.org/${thumb[1]}/${thumb[2]}`);
+  return [...new Set([...out, url])];
+}
+
+async function download(url) {
+  const res = await fetch(url, { headers: { 'User-Agent': AGENT }, redirect: 'follow', signal: AbortSignal.timeout(120000) });
+  if (!res.ok) throw Error(`source said ${res.status}`);
+  if (Number(res.headers.get('content-length')) > MAX_BYTES) throw Error('source file is too large');
+  const body = Buffer.from(await res.arrayBuffer());
+  if (body.length > MAX_BYTES) throw Error(`source file is ${(body.length / 1e6).toFixed(1)} MB`);
+  return { body, type: (res.headers.get('content-type') || '').split(';')[0].trim() };
+}
+
 async function copy(url) {
   const code = shortKey(url);
-  const res = await fetch(url, { headers: { 'User-Agent': AGENT }, redirect: 'follow', signal: AbortSignal.timeout(60000) });
-  if (!res.ok) throw Error(`source said ${res.status}`);
-  const type = (res.headers.get('content-type') || '').split(';')[0].trim();
-  const original = Buffer.from(await res.arrayBuffer());
-  if (original.length > MAX_BYTES) throw Error(`source file is ${(original.length / 1e6).toFixed(1)} MB`);
-  // Trust the file's own format over the header (some hosts send octet-stream).
-  const format = (await sharp(original).metadata()).format;
-  const ext = { jpeg: 'jpg', png: 'png', webp: 'webp', gif: 'gif' }[format] || EXT[type];
-  if (!ext) throw Error(`not an image (${type || 'no type'})`);
+  let original, ext, error;
+  for (const candidate of fullSize(url)) {
+    try {
+      const got = await download(candidate);
+      // Trust the file's own format over the header (some hosts send octet-stream, or an error page as a 200).
+      const format = (await sharp(got.body).metadata()).format;
+      ext = { jpeg: 'jpg', png: 'png', webp: 'webp', gif: 'gif' }[format];
+      if (!ext) throw Error(`not an image (${format || got.type || 'unknown'})`);
+      original = got.body;
+      break;
+    } catch (err) { error = err; }
+  }
+  if (!original) throw error;
   const thumb = await sharp(original, { animated: false }).rotate().resize({ width: WIDTH, withoutEnlargement: true })
     .webp({ quality: 78 }).toBuffer();
   await put(`o/${code}.${ext}`, original, `image/${ext === 'jpg' ? 'jpeg' : ext}`);
