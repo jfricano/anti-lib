@@ -4567,43 +4567,6 @@
    }
   ]
  },
- "Neutral Milk Hotel": {
-  "about": "A tiny catalog: one strange masterpiece, the record that led to it, and the scraps Jeff Mangum left behind.",
-  "photo": { "file": "Jeff Mangum Boston Jan 16 2014.jpg" },
-  "records": [
-   {
-    "t": "In the Aeroplane Over the Sea",
-    "y": 1998,
-    "step": 1,
-    "note": "The door. Fuzz guitar, singing saw, horns and Jeff Mangum's strained voice; Anne Frank's diary as a fever dream."
-   },
-   {
-    "t": "On Avery Island",
-    "y": 1996,
-    "step": 2,
-    "note": "The first album, mostly Mangum alone with Robert Schneider producing. Rougher and noisier, with the same melodies trying to get out."
-   },
-   {
-    "t": "Ferris Wheel on Fire",
-    "y": 2011,
-    "step": 3,
-    "kind": "EP",
-    "note": "Old songs released with the vinyl box set, solo acoustic and close to the Aeroplane material. A small coda."
-   },
-   {
-    "t": "Everything Is",
-    "y": 1995,
-    "kind": "EP",
-    "note": "The first single and EP on Cher Doll; early sketches."
-   },
-   {
-    "t": "Live at Jittery Joe's",
-    "y": 2001,
-    "kind": "live",
-    "note": "A solo Mangum show at an Athens coffee shop, released by him. Lovely, but the studio versions come first."
-   }
-  ]
- },
  "Arcade Fire": {
   "about": "The first three records are a set: grief and family, then fear and religion, then where you grew up.",
   "photo": { "file": "Arcade Fire live 20050315.ext.jpg" },
@@ -6293,46 +6256,6 @@
     "y": 1991,
     "kind": "compilation",
     "note": "Three discs; when one album isn't enough."
-   }
-  ]
- },
- "Skip James": {
-  "about": "Skip James made two careers thirty-five years apart: the 1931 Paramount sides and the 1960s rediscovery records. Start with the later one, where the sound is clear, then go back.",
-  "records": [
-   {
-    "t": "Today!",
-    "y": 1966,
-    "step": 1,
-    "note": "The door: \"Hard Time Killin' Floor Blues\" and \"Cypress Grove\" recorded in good sound, his falsetto and minor-key guitar intact."
-   },
-   {
-    "t": "Complete Early Recordings",
-    "y": 1994,
-    "step": 2,
-    "kind": "compilation",
-    "note": "The 1931 Paramount sides, scratchy and otherworldly: \"Devil Got My Woman\" and \"I'm So Glad.\""
-   },
-   {
-    "t": "Devil Got My Woman",
-    "y": 1968,
-    "step": 3,
-    "note": "The second Vanguard album; quieter and just as eerie."
-   },
-   {
-    "t": "Greatest of the Delta Blues Singers",
-    "y": 1964,
-    "note": "His first rediscovery LP; the Vanguard records sound better."
-   },
-   {
-    "t": "She Lyin'",
-    "y": 1996,
-    "note": "A 1964 session released decades later; for after the path."
-   },
-   {
-    "t": "I'm So Glad",
-    "y": 1978,
-    "kind": "compilation",
-    "note": "A Vanguard compilation of the 60s material; superseded by the two albums."
    }
   ]
  },
