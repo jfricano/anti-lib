@@ -17,9 +17,9 @@ Covers would still come from each service's image host, which has no rate limit 
 
 ## Cover store on Railway (parked)
 
-Status: designed and built, paused pending implementation (jason, 2026-10-13). Code waits on its branches, reachable from the closed PRs anti-lib #52 (`server/`, `scripts/store.mjs`, the Store covers workflow) and personal-portfolio #83 (the page reads covers from the store). Plan: `/mnt/project-files/anti-library/railway/plan.md` in the project.
+Status: designed and built, paused pending implementation (jason, 2026-10-13). Code waits on the `claude/project-thread-gte7n7` branches of anti-lib (`server/`, `scripts/store.mjs`, the Store covers workflow) and personal-portfolio (the page reads covers from the store); no open PRs. Plan: `/mnt/project-files/anti-library/railway/plan.md` in the project.
 
 - Covers go on a small Railway Serverless service shaped like Personal Treasury's: full-size originals (the largest each host offers) plus 256px thumbnails for the page. A workflow copies new covers after each data rebuild; the page falls back to the source link when the store lacks a cover or is waking.
 - List data stays in GitHub: one copy with history, never sleeps, about 80 to 150 KB per visit. `lookups.json` is a build cache the page never loads.
 - Expected cost: well under $1 a month; full-size covers a few GB, inside Railway Hobby's default 5 GB volume.
-- To resume: reopen #52 or open a new PR from its branch, set up Railway per `server/README.md` in that PR, run Store covers once, then set `data-covers` in #83.
+- To resume: open PRs from those branches, merge anti-lib's, set up Railway per `server/README.md`, run Store covers once, then set `data-covers` on the page.
