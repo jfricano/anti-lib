@@ -4,7 +4,7 @@
 
 These are good records. They came off the main list because they failed one of the tests I used to trim the canon: another album by the same artist already stays on the list, its scene already keeps a stronger record, or it is a famous record I will meet anyway. If a door on the main list opens up an artist or a scene, this is where to look next.
 
-523 albums.
+528 albums: 523 from that first cut, and five Townes Van Zandt studio albums cut on 2026-10-13 (at the end).
 
 ## 1950s: the foundations
 
@@ -1072,3 +1072,18 @@ These are good records. They came off the main list because they failed one of t
   *Why cut:* Its scene keeps a stronger door in this decade.
 - [ ] Natalia Lafourcade — *Musas* (2017)  
   *Why cut:* Its scene keeps a stronger door in this decade.
+
+## Townes Van Zandt (cut 2026-10-13)
+
+*His studio albums keep re-recording the same songs, so* Live at the Old Quarter, Houston, Texas *(1977) is the one record of his that stays on the list. His artist path went with these, since a one-record path makes no sense. None of these was marked heard.*
+
+- [ ] Townes Van Zandt — *Townes Van Zandt* (1969)  
+  *Why cut:* Re-recordings of songs from his debut; "Waitin' Around to Die," "For the Sake of the Song" and "Lungs" are all on the live album.
+- [ ] Townes Van Zandt — *Our Mother the Mountain* (1969)  
+  *Why cut:* "Kathleen" and "Tecumseh Valley" under heavy orchestral production; both are on the live album, played plain.
+- [ ] Townes Van Zandt — *High, Low and In Between* (1971)  
+  *Why cut:* "To Live Is to Fly," "Two Girls" and "Mr. Mudd and Mr. Gold" are all on the live album.
+- [ ] Townes Van Zandt — *The Late Great Townes Van Zandt* (1972)  
+  *Why cut:* "Pancho and Lefty" and "If I Needed You" are both on the live album.
+- [ ] Townes Van Zandt — *Flyin' Shoes* (1978)  
+  *Why cut:* "Loretta" and "No Place to Fall" with a fuller country band; both are on the live album, played plain.
