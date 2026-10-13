@@ -56,6 +56,8 @@ jobs:
           node -e '
             const fs = require("fs"), [mine, last] = process.argv.slice(1).map(f => JSON.parse(fs.readFileSync(f, "utf8")));
             const merged = { ...last, ...mine };
+            // An album the last run re-checked (marked v) keeps that answer over the older one committed here.
+            for (const [key, hit] of Object.entries(last)) if (hit?.v && !(merged[key]?.v >= hit.v)) merged[key] = hit;
             fs.writeFileSync(process.argv[1], JSON.stringify(Object.fromEntries(Object.entries(merged).sort())));
             console.log(`Resumed ${Object.keys(merged).length - Object.keys(mine).length} lookups from the last run.`);
           ' data/lookups.json "$RUNNER_TEMP/last/lookups.json"

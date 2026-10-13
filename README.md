@@ -35,7 +35,7 @@ Every list has a primary source and at least one fallback, all keyless public AP
 | Books | Goodreads link (its ID from Open Library, or from Wikidata for a book matched on Wikipedia); cover from Open Library | Wikipedia, then Google Books for a missing cover; a Goodreads search when there is no Goodreads page |
 | Films | IMDb link (via Wikidata) and TMDB poster. A match has to name the film's director as well as its title; a short list of IMDb IDs checked by hand covers films the search gets wrong | OMDb poster, then Wikipedia and iTunes |
 | TV | Wikipedia (link and image) | iTunes for a missing image |
-| Albums | MusicBrainz (Discogs link and genres) with Deezer and Wikipedia artwork | Cover Art Archive for missing artwork |
+| Albums | MusicBrainz (Discogs link and genres) with Deezer and Wikipedia artwork. A match needs the whole title, give or take edition words like *Remastered* or *Deluxe*, so *The Velvet Underground* never takes the cover of *The Velvet Underground & Nico* | Cover Art Archive for missing artwork |
 | Music links | AllMusic (artist discography or album page, via the AllMusic IDs on Wikidata), except where Discogs matched an album | AllMusic search |
 
 A title with no match at all links to a search on the list's site instead. The page never links to Rate Your Music (the lookup cache may still hold the address MusicBrainz returns, but nothing shows it).

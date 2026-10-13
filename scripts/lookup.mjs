@@ -88,6 +88,16 @@ const sameTitle = (a, b) => {
   const [x, y] = [short(a), short(b)];
   return Boolean(x && y) && (x === y || (Math.min(x.length, y.length) > 6 && (x.startsWith(y) || y.startsWith(x))));
 };
+// Albums need the whole title: the prefix leeway above matched The Velvet Underground to The Velvet Underground & Nico,
+// Tin Machine II to Tin Machine and A Love Supreme: Live in Seattle to A Love Supreme. A longer title only passes when
+// the extra words name an edition (remastered, deluxe, 2009, 50th anniversary, vol. 1).
+const EDITION = /^(remaster(ed|s)?|deluxe|super|edition|expanded|anniversary|version|mono|stereo|bonus|tracks?|reissue|special|legacy|collector|collectors|s|\d{4}|\d+(st|nd|rd|th)|vol|volume|1|one|i)$/;
+const sameAlbum = (a, b) => {
+  const [x, y] = [fold(a), fold(b)].sort((p, q) => p.length - q.length);
+  if (!x || !y) return false;
+  if (x === y) return true;
+  return y.startsWith(`${x} `) && y.slice(x.length).trim().split(' ').every(w => EDITION.test(w));
+};
 const surname = name => fold(String(name || '').split(/\s*(?:&|,| and )\s*/)[0]).split(' ').filter(w => !/^(jr|sr|ii|iii)$/.test(w)).at(-1) || '';
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -194,15 +204,22 @@ function wikipediaAlbum(item) {
   }
   const artist = surname(item.c);
   const musical = /album|soundtrack|compilation|\bEP\b|recording|record|live|composition|symphony|concerto|opera|requiem|ballet|suite|sonata|oratorio|mass|score|work by/i;
-  let pick = null;
+  let pick = null, subtitled = null;
   return wikipedia(`${item.t} ${item.c || ''} album`, p => {
     const d = p.description || '';
-    if (!sameTitle(p.title, item.t) || !musical.test(d)) return false;
-    if (!artist || fold(d).includes(artist) || p.title.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').includes(artist)) return true;
+    if (!musical.test(d)) return false;
+    const byArtist = !artist || fold(d).includes(artist) || p.title.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').includes(artist);
+    if (!sameAlbum(p.title, item.t)) {
+      // A page that only adds a subtitle (Free Jazz: A Collective Improvisation, Otis Blue/Otis Redding Sings Soul) is
+      // the last resort, after every page with the whole title.
+      if (!subtitled && byArtist && fold(p.title.split(/\s*[:,/]\s*/)[0]) === fold(item.t)) subtitled = p;
+      return false;
+    }
+    if (byArtist) return true;
     // A description without any artist ("14th studio album") is a fallback, never one naming someone else.
     if (!pick && !/\bby\b/i.test(d) && !/\(.*\)/.test(p.title.replace(/\((album|EP|soundtrack)\)/i, ''))) pick = p;
     return false;
-  }, () => pick);
+  }, () => pick || subtitled);
 }
 
 async function deezer(kind, q) {
@@ -218,7 +235,7 @@ async function deezerArt(item) {
   }
   const artist = surname(item.c);
   const q = item.c ? `artist:"${item.c.split(/\s*(?:&| and |,)\s*/)[0]}" album:"${item.t.split(':')[0]}"` : item.t;
-  const match = (await deezer('album', q)).find(a => sameTitle(a.title, item.t) && (!artist || fold(a.artist?.name).includes(artist)));
+  const match = (await deezer('album', q)).find(a => sameAlbum(a.title, item.t) && (!artist || fold(a.artist?.name).includes(artist)));
   return match && !/\/cover\/\//.test(match.cover_medium) ? { l: match.link, i: match.cover_medium } : match ? { l: match.link } : null;
 }
 
@@ -232,7 +249,7 @@ async function musicbrainzArt(item) {
   const kind = path ? 'artist' : 'release-group';
   const result = await musicbrainz(`https://musicbrainz.org/ws/2/${kind}/?${new URLSearchParams({ query: q, fmt: 'json', limit: '5' })}`);
   const rows = result[path ? 'artists' : 'release-groups'] || [];
-  const match = rows.find(r => r.score >= 85 && sameTitle(path ? r.name : r.title, item.t));
+  const match = rows.find(r => r.score >= 85 && (path ? sameTitle(r.name, item.t) : sameAlbum(r.title, item.t)));
   if (!match) return null;
   const hit = { l: `https://musicbrainz.org/${kind}/${match.id}` };
   if (!path) {
@@ -261,7 +278,7 @@ async function musicbrainzDetails(item) {
   const path = item.f?.includes('path'), kind = path ? 'artist' : 'release-group';
   const q = path ? `artist:"${item.t}"` : `releasegroup:"${item.t.split(':')[0]}"${item.c ? ` AND artist:"${item.c.split(/\s*(?:&| and |,)\s*/)[0]}"` : ''}`;
   const result = await musicbrainz(`https://musicbrainz.org/ws/2/${kind}/?${new URLSearchParams({ query: q, fmt: 'json', limit: '5' })}`);
-  const rows = (result[path ? 'artists' : 'release-groups'] || []).filter(r => r.score >= 85 && sameTitle(path ? r.name : r.title, item.t));
+  const rows = (result[path ? 'artists' : 'release-groups'] || []).filter(r => r.score >= 85 && (path ? sameTitle(r.name, item.t) : sameAlbum(r.title, item.t)));
   const match = rows.find(r => path || r['primary-type'] === 'Album') || rows[0];
   if (!match) return null;
   const detail = await musicbrainz(`https://musicbrainz.org/ws/2/${kind}/${match.id}?inc=url-rels+genres&fmt=json`);
@@ -411,6 +428,11 @@ const noCover = list => (item, lookups) => !lookups[lookupKey(list, item)]?.i;
 const NEEDS = { books: noCover('books'), tv: noCover('tv'),
   films: (item, lookups) => (TMDB_KEY || OMDB_KEY) && lookups[detailsKey('films', item)]?.noKeys };
 const LIMITS = { books: 2, films: 4, tv: 4, albums: 3 };
+// Album matches and MusicBrainz details found before sameAlbum carry no mark, so each is looked up once more and
+// replaced unless that lookup fails (it is tried again next run). Bump this to re-check every album again after a matching change.
+const ALBUM_MATCH = 2;
+const unchecked = (item, hit) => !item.f?.includes('path') && Boolean(hit) && hit.v !== ALBUM_MATCH;
+const marked = (listId, item, hit) => listId === 'albums' && hit && !item.f?.includes('path') ? { ...hit, v: ALBUM_MATCH } : hit;
 
 // Looks up every item of one list that isn't cached yet; returns how many requests failed.
 async function lookUpList(listId, items, lookups, retry, saveSoon) {
@@ -422,13 +444,19 @@ async function lookUpList(listId, items, lookups, retry, saveSoon) {
     if (wrongFilmPage(lookups[lookupKey('films', item)]?.l)) delete lookups[lookupKey('films', item)];
     delete lookups[detailsKey('films', item)];
   }
-  const todo = items.filter(item => { const key = lookupKey(listId, item); return !(key in lookups) || (retry && !lookups[key]); });
+  const todo = items.filter(item => { const key = lookupKey(listId, item); return !(key in lookups) || (retry && !lookups[key]) ||
+    (listId === 'albums' && unchecked(item, lookups[key])); });
   console.log(`${listId}: looking up ${todo.length} of ${items.length}`);
   let next = 0, failed = 0;
   await Promise.all(Array.from({ length: LIMITS[listId] }, async () => {
     while (next < todo.length) {
-      const item = todo[next++];
-      try { lookups[lookupKey(listId, item)] = await find(item); }
+      const item = todo[next++], key = lookupKey(listId, item);
+      try {
+        const before = lookups[key]?.l, hit = marked(listId, item, await find(item));
+        lookups[key] = hit;
+        // The AllMusic page comes from the Wikipedia page, so a different page means finding it again.
+        if (listId === 'albums' && before && hit?.l !== before) delete lookups[allmusicKey(listId, item)];
+      }
       catch (error) { failed++; console.warn(error.message); }
       await saveSoon();
     }
@@ -438,10 +466,11 @@ async function lookUpList(listId, items, lookups, retry, saveSoon) {
     const needs = NEEDS[listId] || (() => true), key = item => detailsKey(listId, item);
     const rest = listId === 'films'
       ? items.filter(item => !(key(item) in lookups) || needs(item, lookups) || (retry && !lookups[key(item)]))
-      : items.filter(item => needs(item, lookups) && (!(key(item) in lookups) || (retry && !lookups[key(item)])));
+      : items.filter(item => needs(item, lookups) && (!(key(item) in lookups) || (retry && !lookups[key(item)]) ||
+        (listId === 'albums' && unchecked(item, lookups[key(item)]))));
     console.log(`${listId}: fetching details for ${rest.length}`);
     for (const item of rest) {
-      try { lookups[detailsKey(listId, item)] = await details(item, lookups); }
+      try { lookups[detailsKey(listId, item)] = marked(listId, item, await details(item, lookups)); }
       catch (error) { failed++; console.warn(error.message); }
       await saveSoon();
     }
