@@ -44,7 +44,7 @@ Film posters from TMDB and OMDb need free API keys, stored as the repository sec
 
 ## Shelves
 
-Each list is organized into numbered shelves, starting from zero: books open with "00. The Anti-Library's Own Charter", films with "00. Start Here: The Vonnegut Frequency", albums with "00. Start here: the bridge" and TV with "0. The Core". On the page, shelves start folded, so a list opens as its table of contents. Shelves belong to one list; the cross-list shelves the lists once had (writing about music, writing about TV) were dissolved on 2026-10-12, and the soundtrack cabinet stayed on as an albums shelf. Books are also grouped into parts, from a prologue on reading and not reading to "VI. The Other Canon", the famous titles kept at arm's length.
+Each list is organized into numbered shelves, starting from zero: books open with "00. The Anti-Library's Own Charter", films with "00. Start Here: The Vonnegut Frequency", albums with "00. Start here: the bridge" and TV with "0. The Core". On the page, shelves start folded, so a list opens as its table of contents. Shelves belong to one list; the cross-list shelves the lists once had (writing about music, writing about TV) were dissolved on 2026-10-12, and the soundtrack cabinet stayed on as an albums shelf until 2026-10-13, when it was cut as out of scope: three records moved to their proper shelves and the rest went to `docs/research/music/archive.md`. Books are also grouped into parts, from a prologue on reading and not reading to "VI. The Other Canon", the famous titles kept at arm's length.
 
 ## Threads
 

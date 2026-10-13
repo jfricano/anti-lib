@@ -4,7 +4,7 @@
 
 These are good records. They came off the main list because they failed one of the tests I used to trim the canon: another album by the same artist already stays on the list, its scene already keeps a stronger record, or it is a famous record I will meet anyway. If a door on the main list opens up an artist or a scene, this is where to look next.
 
-528 albums: 523 from that first cut, and five Townes Van Zandt studio albums cut on 2026-10-13 (at the end).
+554 albums: 523 from that first cut, then two cuts on 2026-10-13 (both at the end): five Townes Van Zandt studio albums and 26 records from the soundtrack cabinet.
 
 ## 1950s: the foundations
 
@@ -1087,3 +1087,60 @@ These are good records. They came off the main list because they failed one of t
   *Why cut:* "Pancho and Lefty" and "If I Needed You" are both on the live album.
 - [ ] Townes Van Zandt — *Flyin' Shoes* (1978)  
   *Why cut:* "Loretta" and "No Place to Fall" with a fuller country band; both are on the live album, played plain.
+
+## The 1994–2003 soundtrack cabinet (cut 2026-10-13)
+
+*The albums list had a shelf of film soundtracks, kept whole when the cross-list shelves were dissolved on 2026-10-12. On 2026-10-13 I decided it was out of scope: a soundtrack belongs to its film, and the films are on the movie list. Three records that stand on their own moved to their proper shelves: Jobim and Bonfá's* Black Orpheus *to World, Ry Cooder's* Paris, Texas *to Roots, and Julee Cruise's* Floating into the Night *to the canon (1980s). The rest are here. The ones I've heard are ticked.*
+
+- [ ] Various (soundtrack) — *Natural Born Killers* (1994)  
+  *Why cut:* A film's mixtape, not an album. Cohen's *The Future* is on the list, with both of his songs from it.
+- [x] Various (soundtrack) — *Pulp Fiction* (1994)  
+  *Why cut:* A needle-drop compilation I know from the film, which is on the movie list.
+- [x] Various (soundtrack) — *Jackie Brown* (1997)  
+  *Why cut:* Tarantino's soul mixtape, which I know from the film. *Dusty in Memphis* and Al Green's *Call Me* carry that sound on the list.
+- [ ] Bobby Womack — *Across 110th Street* (1972)  
+  *Why cut:* Here only because of *Jackie Brown*. Already removed from the page on 2026-10-13.
+- [x] Various (soundtrack) — *Kill Bill Vol. 1* (2003)  
+  *Why cut:* A needle-drop compilation I know from the film. Morricone and *Nancy & Lee* are on the list on their own.
+- [x] Various (soundtrack) — *Trainspotting* (1996)  
+  *Why cut:* A compilation I know from the film. Iggy's *The Idiot*, Lou Reed's *Transformer* and Underworld are on the list on their own.
+- [x] Various (soundtrack) — *The Big Lebowski* (1998)  
+  *Why cut:* A compilation I know from the film. Its best songs belong to records and artists already on the list.
+- [ ] Various (soundtrack) — *Lost Highway* (1997)  
+  *Why cut:* Lynch and Reznor's compilation for the film. Badalamenti's *Twin Peaks* and Julee Cruise stay on the list.
+- [ ] Aimee Mann — *Magnolia* (1999)  
+  *Why cut:* Really an Aimee Mann album, but it was made for the film and stays with it. The closest call on the shelf.
+- [ ] Air — *The Virgin Suicides* (2000)  
+  *Why cut:* A score, and one door per artist: Air's *Moon Safari* stays.
+- [ ] Clint Mansell & Kronos Quartet — *Requiem for a Dream* (2000)  
+  *Why cut:* A score that lives with the film; the book is on the book list.
+- [x] Various (soundtrack) — *Lost in Translation* (2003)  
+  *Why cut:* A compilation I know from the film.
+- [ ] RZA — *Ghost Dog: The Way of the Samurai* (1999)  
+  *Why cut:* A score; RZA's door is *Enter the Wu-Tang (36 Chambers)*.
+- [ ] Neil Young — *Dead Man* (1996)  
+  *Why cut:* A score. It stays on Neil Young's artist path as a skipped soundtrack record.
+- [ ] Rob Dougan — *Furious Angels* (2002)  
+  *Why cut:* Here for one Matrix cue. Massive Attack and Portishead hold orchestral trip-hop on the list.
+- [x] Jon Brion — *Eternal Sunshine of the Spotless Mind* (2004)  
+  *Why cut:* A score I know from the film.
+- [ ] Wendy Carlos — *A Clockwork Orange* (1972)  
+  *Why cut:* A score. *Switched-On Bach* stays as the Wendy Carlos record, so this one also left the "Bach, rewired" thread.
+- [ ] The Chieftains — *The Chieftains 4* (1973)  
+  *Why cut:* Here for the *Barry Lyndon* theme, not for the record.
+- [ ] Popol Vuh — *Aguirre* (1975)  
+  *Why cut:* A Herzog score, and one door per artist: Popol Vuh's *Hosianna Mantra* stays.
+- [ ] Enrico Caruso — *The Complete Recordings* (1902–20)  
+  *Why cut:* Here for *Fitzcarraldo*, not for the records.
+- [ ] Eduard Artemyev — *Solaris / The Mirror / Stalker* (1990 release)  
+  *Why cut:* Tarkovsky's scores; they live with the films, which are on the movie list.
+- [x] Various (soundtrack) — *Rushmore* (1998)  
+  *Why cut:* Wes Anderson's mixtape, which I know from the film. The Kinks are on the list on their own.
+- [ ] Cliff Martinez — *Drive* (2011)  
+  *Why cut:* A score that lives with the film.
+- [ ] John Carpenter — *Lost Themes* (2015)  
+  *Why cut:* Film music for films that don't exist; Carpenter belongs with his films.
+- [ ] Goblin — *Suspiria* (1977)  
+  *Why cut:* A score that lives with the film.
+- [ ] Various (soundtrack) — *Six Feet Under: Everything Ends* (2005)  
+  *Why cut:* A TV compilation; the show is on the TV list. Already removed from the page on 2026-10-13.
