@@ -19,6 +19,20 @@ export async function readLookups() {
   try { return JSON.parse(await readFile(cacheFile, 'utf8')); } catch { return {}; }
 }
 
+// Each thread's stops in order, with what a thread page needs from their rows (credit, shelf, link, cover) and the
+// step line, so a thread page reads data/threads.json ({ <list id>: [{id, name, why, stops}] }) instead of a whole
+// list. Written after the rows have their links and covers, by the importer and again by the lookups.
+export function threadStops(lists, rows) {
+  const out = {};
+  for (const list of lists) {
+    if (!list.threads?.length || !rows[list.id]) continue;
+    out[list.id] = list.threads.map(({ id, name, why }) => ({ id, name, why,
+      stops: rows[list.id].filter(item => item.th?.[id]).sort((a, b) => a.th[id][0] - b.th[id][0])
+        .map(({ t, c, y, w, s, d, l, i, th }) => Object.fromEntries(Object.entries({ t, c, y, w, s, d, l, i, step: th[id][1] }).filter(([, v]) => v !== undefined && v !== ''))) }));
+  }
+  return out;
+}
+
 // Copies cached links (l), images (i), and MusicBrainz details for music onto items in place:
 // the Discogs page becomes the link, with genres (k) and a Rate Your Music page (r) alongside.
 // Books with no cover from Open Library or Wikipedia take one from Google Books.
@@ -517,15 +531,22 @@ async function run() {
   let saved = Date.now();
   const save = () => writeFile(cacheFile, JSON.stringify(Object.fromEntries(Object.entries(lookups).sort())));
   const saveSoon = async () => { if (Date.now() - saved > 30000) { saved = Date.now(); await save(); } };
+  const rows = {};
   for (const list of lists) {
-    if (!FINDERS[list.id]) { console.log(`No lookup source for ${list.id}`); continue; }
     const file = path.join(dataDir, `${list.id}.json`);
+    if (!FINDERS[list.id]) {
+      console.log(`No lookup source for ${list.id}`);
+      if (list.threads?.length) rows[list.id] = JSON.parse(await readFile(file, 'utf8'));
+      continue;
+    }
     const items = JSON.parse(await readFile(file, 'utf8'));
     const failed = await lookUpList(list.id, items, lookups, retry, saveSoon);
     await writeFile(file, JSON.stringify(applyLookups(list.id, items, lookups)));
+    rows[list.id] = items;
     const found = items.filter(item => item.l).length, covers = items.filter(item => item.i).length;
     console.log(`${list.id}: ${found} linked, ${covers} with covers, ${failed} requests failed`);
   }
+  await writeFile(path.join(dataDir, 'threads.json'), JSON.stringify(threadStops(lists, rows)));
   // Records on the artist paths are looked up as albums, so a record that is also on the list shares its result.
   const pathsFile = path.join(dataDir, 'paths.json');
   const paths = await readFile(pathsFile, 'utf8').then(JSON.parse, () => null);
