@@ -9,7 +9,7 @@
 import { readFile, writeFile, mkdir, access } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath as toPath } from 'node:url';
-import { readLookups, applyLookups, applyPathLookups } from './lookup.mjs';
+import { readLookups, applyLookups, applyPathLookups, applyAuthorPathLookups } from './lookup.mjs';
 const root = toPath(new URL('../', import.meta.url));
 
 const LISTS = [
@@ -43,10 +43,9 @@ const LISTS = [
     fields: { title: 'album', creator: 'artist', year: 'year', group: 'part', shelf: 'section', sub: 'subsection', note: 'note', done: 'status' },
     creatorLabel: 'Artist', groupLabel: 'Part', shelfLabel: 'Shelf', doneLabel: 'Heard', cover: 'square',
     search: 'https://www.discogs.com/search/?type=all&q=', listen: 'https://open.spotify.com/search/',
-    flags: { start: { field: 'start_here', label: 'Start here', private: true }, path: { field: 'artist_path', label: 'Artist path' } },
-    // Artist paths name an artist rather than an album; a few rows carry a whole entry in the artist column.
+    flags: { start: { field: 'start_here', label: 'Start here', private: true } },
+    // A few rows carry a whole entry in the artist column.
     transform(r) {
-      if (r.album === '(artist path)') return { ...r, album: r.artist, artist: '', artist_path: 'yes' };
       if (!r.album && r.artist) {
         let artist = '', text = r.artist;
         const dash = text.split(' — ');
@@ -107,48 +106,84 @@ async function readThreads(id, items) {
 const out = path.join(root, 'data');
 await mkdir(out, { recursive: true });
 const manifest = [];
+let books = [], films = [];
 const lookups = await readLookups();
 // Titles the owner removed from the page stay out even when a working copy of a list still has them.
 let removed = {};
 try { removed = JSON.parse(await readFile(path.join(out, 'removed.json'), 'utf8')); } catch {}
 let tags = {};
 try { tags = JSON.parse(await readFile(path.join(out, 'tags.json'), 'utf8')); } catch {}
-// Artist paths: a listening order for some of the albums list's artists (docs/artist-paths.md).
-// Records are checked here so a typo fails the rebuild instead of breaking the page.
-let pathsFile = path.join(sourceDir, 'artist-paths.json');
+// Paths: a listening order for some of the albums list's artists (docs/artist-paths.md), a reading order for some of
+// the books list's authors (docs/author-paths.md) and a viewing order for some of the films list's directors
+// (docs/director-paths.md). Records are checked here so a typo fails the rebuild instead of
+// breaking the page.
+// Each paths file names its people by the key the page reads: artist-paths.json has artists, author-paths.json authors,
+// director-paths.json directors.
+const WHO = { 'artist-paths.json': 'artist', 'author-paths.json': 'author', 'director-paths.json': 'director' };
 const slug = s => fold(s).replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-let paths = [];
-try { await access(pathsFile); } catch { console.log('Skipped artist paths: no artist-paths.json'); pathsFile = ''; }
-if (pathsFile) paths = Object.entries(JSON.parse(await readFile(pathsFile, 'utf8'))).map(([artist, entry]) => {
-  const fail = message => { throw Error(`artist-paths.json, ${artist}: ${message}`); };
-  const records = (entry.records || []).map(r => {
-    if (!clean(r.t) || !Number.isInteger(r.y)) fail(`every record needs a title and a year (${JSON.stringify(r)})`);
-    const record = { t: clean(r.t), c: clean(r.by) || artist, y: r.y };
-    if (r.by) record.b = 1;
-    if (r.step) record.p = r.step;
-    if (r.kind) record.w = clean(r.kind);
-    if (r.heard) record.d = 1;
-    if (r.note) record.n = clean(r.note);
-    return record;
+async function readPaths(name) {
+  const file = path.join(sourceDir, name);
+  try { await access(file); } catch { console.log(`Skipped ${name}: no such file`); return null; }
+  return Object.entries(JSON.parse(await readFile(file, 'utf8'))).map(([who, entry]) => {
+    const fail = message => { throw Error(`${name}, ${who}: ${message}`); };
+    const records = (entry.records || []).map(r => {
+      if (!clean(r.t) || !Number.isInteger(r.y)) fail(`every record needs a title and a year (${JSON.stringify(r)})`);
+      if (r.in && !r.step) fail(`${r.t} names the book it's read in, so it needs a step`);
+      const record = { t: clean(r.t), c: clean(r.by) || who, y: r.y };
+      if (r.by) record.b = 1;
+      if (r.step) record.p = r.step;
+      if (r.in) record.v = clean(r.in);
+      if (r.kind) record.w = clean(r.kind);
+      if (r.heard || r.read || r.watched) record.d = 1;
+      if (r.note) record.n = clean(r.note);
+      return record;
+    });
+    const steps = records.filter(r => r.p).map(r => r.p).sort((a, b) => a - b);
+    if (!steps.length || steps.some((step, n) => step !== n + 1)) fail(`steps must run 1, 2, 3 with no gaps (found ${steps.join(', ') || 'none'})`);
+    records.sort((a, b) => a.y - b.y || (a.p || 99) - (b.p || 99));
+    const names = entry.names || who.split(' / ');
+    // The person's own page: Goodreads for an author, IMDb for a director.
+    const page = entry.goodreads || entry.imdb || '';
+    const link = /^https:\/\/www\.(goodreads\.com|imdb\.com\/(name|find))\//.test(page) ? { g: page } : {};
+    return { id: slug(who), [WHO[name]]: who, ...(entry.about && { about: clean(entry.about) }), ...link, names, records };
   });
-  const steps = records.filter(r => r.p).map(r => r.p).sort((a, b) => a - b);
-  if (!steps.length || steps.some((step, n) => step !== n + 1)) fail(`steps must run 1, 2, 3 with no gaps (found ${steps.join(', ') || 'none'})`);
-  records.sort((a, b) => a.y - b.y || (a.p || 99) - (b.p || 99));
-  const names = entry.names || artist.split(' / ');
-  return { id: slug(artist), artist, ...(entry.about && { about: clean(entry.about) }), names, records };
-});
+}
+const paths = await readPaths('artist-paths.json');
+const authorPaths = await readPaths('author-paths.json');
+const directorPaths = await readPaths('director-paths.json');
 // A path points at albums filed once, on their own shelves in music.csv; it doesn't hold copies. Each step takes the
 // list row's credit, so the path page and the list share one heard mark, and its heard state comes from that row.
 // A step with no row on the list fails the rebuild. A row with no note of its own shows the step's note.
 const loose = s => fold(s).replace(/^(the|a|an)\s+/, '').replace(/[^a-z0-9]+/g, '');
 function linkPathAlbums(items) {
-  for (const p of paths) {
+  for (const p of paths || []) {
     const names = new Set([p.artist, ...p.names].map(loose));
     for (const r of p.records.filter(r => r.p)) {
-      const row = items.find(item => !item.f?.includes('path') && loose(item.t) === loose(r.t)
+      const row = items.find(item => loose(item.t) === loose(r.t)
         && (names.has(loose(item.c || '')) || loose(item.c || '') === loose(r.c)));
       if (!row) throw Error(`artist-paths.json, ${p.artist}: step ${r.p}, ${r.t}, isn't on the albums list`);
       r.c = row.c || '';
+      if (row.d) r.d = 1; else delete r.d;
+      if (!row.n && r.n) row.n = r.n;
+    }
+  }
+  return items;
+}
+
+// An author path works the same way over the books list, and a director path over the films list: each step points at a
+// title filed once on its list, so a step's read or watched state is that row's, crossed off on the list. A step can name a work read inside a book on the list
+// ("in", such as an essay in a collection); it then points at that book. A step with no row fails the rebuild. A book
+// off the path that is on the list anyway is linked to its row the same way.
+function linkPathRows(items, file, pathList) {
+  const who = WHO[file];
+  for (const p of pathList || []) {
+    const names = new Set([p[who], ...p.names].map(loose));
+    for (const r of p.records) {
+      const row = items.find(item => loose(item.t) === loose(r.v || r.t) && (names.has(loose(item.c || '')) || (r.b && loose(item.c || '') === loose(r.c))));
+      if (!row && !r.p) continue;
+      if (!row) throw Error(`${file}, ${p[who]}: step ${r.p}, ${r.v || r.t}, isn't on the list`);
+      r.c = row.c || '';
+      if (r.v) r.v = row.t; else r.t = row.t;
       if (row.d) r.d = 1; else delete r.d;
       if (!row.n && r.n) row.n = r.n;
     }
@@ -176,9 +211,13 @@ for (const list of LISTS) {
     return item;
   });
   if (list.id === 'albums') items = linkPathAlbums(items);
+  if (list.id === 'books') items = linkPathRows(items, 'author-paths.json', authorPaths);
+  if (list.id === 'films') items = linkPathRows(items, 'director-paths.json', directorPaths);
   items = items.filter(item => !removed[list.id]?.[`${item.t}|${item.c || ''}`]);
   const threads = await readThreads(list.id, items);
   await writeFile(path.join(out, `${list.id}.json`), JSON.stringify(applyLookups(list.id, items, lookups)));
+  if (list.id === 'books') books = items;
+  if (list.id === 'films') films = items;
   const { source, fields: _, transform, doneValues, ...meta } = list;
   manifest.push({ ...meta, flags: Object.fromEntries(Object.entries(list.flags).map(([key, flag]) => [key, flag.label])),
     privateFlags: Object.keys(list.flags).filter(key => list.flags[key].private),
@@ -189,8 +228,16 @@ for (const list of LISTS) {
 }
 await writeFile(path.join(out, 'lists.json'), JSON.stringify(manifest, null, 1) + '\n');
 
-// Artist paths: written after the albums list, which can take a path's credit for an album already on it.
-if (pathsFile) {
+// Paths: written after the lists, since a step takes its credit (and, for books and films, its link and cover) from its row.
+if (paths) {
   await writeFile(path.join(out, 'paths.json'), JSON.stringify(applyPathLookups(paths, lookups)));
   console.log(`Imported ${paths.length} artist paths`);
+}
+if (authorPaths) {
+  await writeFile(path.join(out, 'author-paths.json'), JSON.stringify(applyAuthorPathLookups(authorPaths, lookups, books)));
+  console.log(`Imported ${authorPaths.length} author paths`);
+}
+if (directorPaths) {
+  await writeFile(path.join(out, 'director-paths.json'), JSON.stringify(applyAuthorPathLookups(directorPaths, lookups, films, 'films')));
+  console.log(`Imported ${directorPaths.length} director paths`);
 }

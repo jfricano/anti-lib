@@ -1,0 +1,213 @@
+{
+  "Kurt Vonnegut": {
+    "about": "My favorite writer, so the longest path. It starts at home with Slaughterhouse-Five, works through the 1960s novels where the voice was built, then follows him into the books where he stops pretending to be invisible.",
+    "names": ["Kurt Vonnegut", "Kurt Vonnegut & Suzanne McConnell", "Kurt Vonnegut (Dan Wakefield ed.)"],
+    "goodreads": "https://www.goodreads.com/author/show/2778055",
+    "records": [
+      { "t": "Slaughterhouse-Five", "y": 1969, "step": 1, "note": "The door, and I've already walked through it. Everything after this is a way of seeing how he got here and where he went next." },
+      { "t": "Cat's Cradle", "y": 1963, "step": 2, "note": "He graded it A-plus himself, the same as Slaughterhouse-Five. Short chapters, a fake religion with real comfort in it, and the end of the world played as a joke. The quickest way to feel the frequency again." },
+      { "t": "The Sirens of Titan", "y": 1959, "step": 3, "note": "Tralfamadore before Slaughterhouse-Five: free will, chance and the whole of human history as a delivery service. The cosmic version of the fatalism I already love." },
+      { "t": "Mother Night", "y": 1961, "step": 4, "note": "The moral one. An American spy who broadcast Nazi propaganda too well. It has the clearest stated lesson of any of his books, right in the introduction." },
+      { "t": "God Bless You, Mr. Rosewater", "y": 1965, "step": 5, "note": "\"God damn it, you've got to be kind.\" Kilgore Trout's first appearance, and the kindness at the center of everything he wrote." },
+      { "t": "Welcome to the Monkey House", "y": 1968, "step": 6, "note": "The stories, read here as a breather between novels. \"Harrison Bergeron\" and \"EPICAC\" show the machine at short length." },
+      { "t": "Breakfast of Champions", "y": 1973, "step": 7, "note": "The hinge of his career. He steps into his own novel, draws pictures and sets his characters free. He gave it a C; read it anyway, because the later books all come out of this break." },
+      { "t": "Jailbird", "y": 1979, "step": 8, "note": "His own A after a run of weaker grades. Watergate, labor history and the Sermon on the Mount as a political program. Underrated, and it's on my shelf." },
+      { "t": "Galápagos", "y": 1985, "step": 9, "note": "Narrated from a million years on, after evolution shrinks human brains. Darwin plays the role Tralfamadore used to; it ties straight back to Sirens." },
+      { "t": "Bluebeard", "y": 1987, "step": 10, "note": "The best of the late novels: an abstract painter's memoir and a defense of art made for its own sake. Warmer than anything since Rosewater." },
+      { "t": "Timequake", "y": 1997, "step": 11, "note": "His goodbye to fiction. The universe reruns a decade and everyone relives it on autopilot. Half novel, half memoir; it only works once you know the others." },
+      { "t": "A Man Without a Country", "y": 2005, "step": 12, "note": "The last word, and on my shelf. Short essays on humor, humanism and why we're here. End the path with him talking directly." },
+      { "t": "Player Piano", "y": 1952, "note": "His first novel, a straight dystopia about automation. Worth it for the ideas, but the voice isn't there yet." },
+      { "t": "Canary in a Cat House", "y": 1961, "kind": "stories", "note": "His first story collection; nearly all of it was folded into Welcome to the Monkey House." },
+      { "t": "Happy Birthday, Wanda June", "y": 1970, "kind": "play", "note": "The play. He gave it a D." },
+      { "t": "Wampeters, Foma & Granfalloons", "y": 1974, "kind": "essays", "note": "The first essay collection. Good, but the later ones cover the same ground better." },
+      { "t": "Slapstick", "y": 1976, "note": "\"Lonesome no more!\" A lovely idea in a thin book, and he graded it D." },
+      { "t": "Palm Sunday", "y": 1981, "kind": "essays", "note": "The autobiographical collage with his report card on his own books. Read it after the path, when you want to argue with his grades." },
+      { "t": "Deadeye Dick", "y": 1982, "note": "Guilt as a whole life. A minor novel with a few great pages." },
+      { "t": "Hocus Pocus", "y": 1990, "note": "A Vietnam veteran's tally of the people he killed and the women he slept with. On my shelf; read it if the late voice keeps working for me." },
+      { "t": "Fates Worse Than Death", "y": 1991, "kind": "essays", "note": "The 1980s essays. A Man Without a Country says the same things shorter." },
+      { "t": "Bagombo Snuff Box", "y": 1999, "kind": "stories", "note": "Early magazine stories he didn't collect the first time. For completists." },
+      { "t": "God Bless You, Dr. Kevorkian", "y": 1999, "kind": "radio pieces", "note": "Short interviews with the dead, written for the radio. Eighty pages; a nice afternoon, not a step." },
+      { "t": "Armageddon in Retrospect", "y": 2008, "kind": "posthumous", "note": "The war writing, including the letter he wrote home after Dresden. Read the letter right after Slaughterhouse-Five if you want the raw material." },
+      { "t": "Look at the Birdie", "y": 2009, "kind": "stories", "note": "Unpublished early stories found after his death. On my shelf; drafts of the voice." },
+      { "t": "Kurt Vonnegut: Letters", "y": 2012, "kind": "letters", "note": "Sixty years of letters. A companion to the whole path rather than a step on it." },
+      { "t": "If This Isn't Nice, What Is?", "y": 2013, "kind": "speeches", "note": "The graduation speeches. The shortest route to the voice, but you'll have it by now." }
+    ]
+  },
+  "Friedrich Nietzsche": {
+    "about": "Five books, all of them already on my shelf. Start with the short late summary, then the two books that make the argument, then Zarathustra once its ideas are familiar, and end with his own account of himself.",
+    "names": ["Friedrich Nietzsche", "Friedrich Nietzsche (Kaufmann)"],
+    "goodreads": "https://www.goodreads.com/author/show/1938",
+    "records": [
+      { "t": "Twilight of the Idols", "y": 1889, "in": "Twilight of the Idols / The Anti-Christ", "step": 1, "note": "The door. He wrote it as a quick tour of his whole philosophy, in short sections you can read on the train. It also has his line that Dostoevsky was the only psychologist he learned anything from." },
+      { "t": "Beyond Good and Evil", "y": 1886, "step": 2, "note": "Perspectivism and the will to power, laid out as a \"prelude to a philosophy of the future.\" The book the rest of the path keeps referring back to." },
+      { "t": "On the Genealogy of Morality", "y": 1887, "in": "Basic Writings of Nietzsche", "step": 3, "note": "Three essays on where good and evil, guilt and asceticism came from. His most sustained argument, and the closest he gets to a straight book." },
+      { "t": "Thus Spoke Zarathustra", "y": 1883, "in": "The Portable Nietzsche", "step": 4, "note": "Poetry and prophecy rather than argument. It lands far better after the three books above, once you know what the eternal return and the overman are doing there." },
+      { "t": "Ecce Homo", "y": 1908, "step": 5, "note": "His self-portrait, written in 1888 and published after his collapse. \"Why I Am So Wise\" only reads as more than madness once you know the books he's sizing up." },
+      { "t": "The Birth of Tragedy", "y": 1872, "note": "His first book, still under the spell of Wagner and Schopenhauer; he later wrote a self-criticism of it. It's in Basic Writings when I want to see where he started." },
+      { "t": "Untimely Meditations", "y": 1873, "kind": "essays", "note": "Four early essays. \"On the Uses and Disadvantages of History for Life\" is the one worth finding." },
+      { "t": "Human, All Too Human", "y": 1878, "note": "The break with Wagner and the start of the aphorism style. Good, but Twilight does the same thing sharper." },
+      { "t": "Daybreak", "y": 1881, "note": "Aphorisms on morality, the warm-up for the Genealogy." },
+      { "t": "The Gay Science", "y": 1882, "note": "Where \"God is dead\" and the eternal return first appear. The Portable has the key sections, including the madman; get the whole thing if Zarathustra hits." },
+      { "t": "The Case of Wagner", "y": 1888, "note": "A short polemic against his old hero. In Basic Writings." },
+      { "t": "The Anti-Christ", "y": 1895, "note": "Bound with Twilight on my shelf. The angriest of the late books; read it if the attack on Christianity is what I'm after." },
+      { "t": "The Will to Power", "y": 1901, "kind": "notebooks", "note": "Not a book he finished. His sister assembled it from his notebooks, with her own agenda." }
+    ]
+  },
+  "Philip K. Dick": {
+    "about": "The novelist of reality tunnels. The path starts with his purest reality-glitch novel and ends with the one where it happened to him.",
+    "goodreads": "https://www.goodreads.com/author/show/4764",
+    "records": [
+      { "t": "Ubik", "y": 1969, "step": 1, "note": "The door. Reality decays, the dead talk from cold storage, and a spray can holds the world together. If this one clicks, all of Dick will." },
+      { "t": "Do Androids Dream of Electric Sheep?", "y": 1968, "step": 2, "note": "On my shelf. Empathy as the test of being human, and a much stranger, sadder book than Blade Runner." },
+      { "t": "The Man in the High Castle", "y": 1962, "step": 3, "note": "His Hugo winner and his most controlled novel. The Axis won, and an I Ching-written book says otherwise. He used the I Ching to plot it." },
+      { "t": "The Three Stigmata of Palmer Eldritch", "y": 1965, "step": 4, "note": "Drugs, Mars colonists and a god who might be a demon. The theology starts creeping in here." },
+      { "t": "A Scanner Darkly", "y": 1977, "step": 5, "note": "His most personal book: an undercover narc surveils himself into two people. The author's note listing friends lost to drugs is the saddest page he wrote." },
+      { "t": "VALIS", "y": 1981, "step": 6, "note": "The pink beam of 1974 turned into a novel, with Dick split into two characters. Pairs with Cosmic Trigger; RAW and Dick were writing about the same years." },
+      { "t": "Solar Lottery", "y": 1955, "note": "His first novel. Pulp with an idea; skip it." },
+      { "t": "Eye in the Sky", "y": 1957, "note": "Eight people trapped in each other's realities. An early sketch of Ubik." },
+      { "t": "Time Out of Joint", "y": 1959, "note": "A man whose 1950s small town is fake. The Truman Show forty years early; fun, but Ubik does it better." },
+      { "t": "Martian Time-Slip", "y": 1964, "note": "Schizophrenia and time on Mars. One of the best of the 1960s run; the next one I'd add." },
+      { "t": "Dr. Bloodmoney", "y": 1965, "note": "A warm, crowded post-nuclear novel. Good, and off the main line." },
+      { "t": "Now Wait for Last Year", "y": 1966, "note": "War, a time-travel drug and a bad marriage. Minor Dick." },
+      { "t": "A Maze of Death", "y": 1970, "note": "Colonists on a strange planet and a built theology. A rehearsal for VALIS." },
+      { "t": "Flow My Tears, the Policeman Said", "y": 1974, "note": "A celebrity wakes up in a world where he never existed. Award-winning and close to the path; read it if Ubik leaves me wanting more." },
+      { "t": "Confessions of a Crap Artist", "y": 1975, "note": "The one realist novel published in his lifetime. Interesting, not essential." },
+      { "t": "The Divine Invasion", "y": 1981, "note": "The second VALIS book. Read it only if VALIS grabs me." },
+      { "t": "The Transmigration of Timothy Archer", "y": 1982, "note": "His last novel and his most human, about a bishop who loses his faith. The natural next step after VALIS." },
+      { "t": "Radio Free Albemuth", "y": 1985, "kind": "posthumous", "note": "The first draft of VALIS, published after his death." },
+      { "t": "The Exegesis of Philip K. Dick", "y": 2011, "kind": "notebooks", "note": "Nine hundred pages of notes on what happened to him in 1974. Dip in after VALIS; nobody reads it straight through." }
+    ]
+  },
+  "Thomas Pynchon": {
+    "about": "Pynchon is a mountain, so the path climbs. The short book first, then the fun one, then the first big one, then Gravity's Rainbow, and the warm one last.",
+    "goodreads": "https://www.goodreads.com/author/show/235",
+    "records": [
+      { "t": "The Crying of Lot 49", "y": 1966, "step": 1, "note": "The door. Under 200 pages, funny and paranoid, with the muted post horn. It teaches you how to read him." },
+      { "t": "Inherent Vice", "y": 2009, "step": 2, "note": "Pynchon having fun: stoner noir in 1970 Los Angeles. A second easy book builds trust before the hard ones." },
+      { "t": "V.", "y": 1963, "step": 3, "note": "His first novel: a search for a woman, a letter or an idea across the century. The rehearsal for Gravity's Rainbow." },
+      { "t": "Gravity's Rainbow", "y": 1973, "step": 4, "note": "The summit. V-2 rockets, paranoia and four hundred characters; Dresden's cousin and the book behind half my maximalist shelf. Take it slow, with a companion guide." },
+      { "t": "Mason & Dixon", "y": 1997, "step": 5, "note": "Two surveyors drawing a line across America, in eighteenth-century prose. His warmest book and maybe his best; it earns the effort the rest of the path builds." },
+      { "t": "Slow Learner", "y": 1984, "kind": "stories", "note": "Early stories. The introduction, where he takes his younger self apart, is the reason to read it." },
+      { "t": "Vineland", "y": 1990, "note": "Reagan-era California and the 1960s left behind. The lightest of the big ones; read it if Inherent Vice lands." },
+      { "t": "Against the Day", "y": 2006, "note": "Eleven hundred pages from the 1893 World's Fair to World War I. For after Gravity's Rainbow, if I want more." },
+      { "t": "Bleeding Edge", "y": 2013, "note": "New York's dot-com bust and 9/11. The internet novel." },
+      { "t": "Shadow Ticket", "y": 2025, "note": "His newest: a Depression-era detective caper out of Milwaukee. Read it alongside Inherent Vice." }
+    ]
+  },
+  "Fyodor Dostoevsky": {
+    "about": "Where Nietzsche and Camus both start. A short door, then the four great novels in the order he wrote them, ending at The Brothers Karamazov on my core shelf.",
+    "goodreads": "https://www.goodreads.com/author/show/3137322",
+    "records": [
+      { "t": "Notes from Underground", "y": 1864, "step": 1, "note": "The door. A hundred pages of a spiteful man arguing against reason, and the first existentialist book. It's the line that runs to Nietzsche and Camus, so it's the right door for me." },
+      { "t": "Crime and Punishment", "y": 1866, "step": 2, "note": "The Underground Man acts: a student kills to prove he's above morality. The most gripping of the big four." },
+      { "t": "The Idiot", "y": 1869, "step": 3, "note": "His attempt at a perfectly good man, and what society does to him. Messier than the others, and the most heartbreaking." },
+      { "t": "Demons", "y": 1872, "step": 4, "note": "Nihilists in a provincial town; frighteningly modern. Camus adapted it for the stage (The Possessed, on my shelf), which makes it a bridge to the Camus path." },
+      { "t": "The Brothers Karamazov", "y": 1880, "step": 5, "note": "The summit and a core-shelf book. Faith, doubt, patricide, and the Grand Inquisitor. Everything on the path is preparation for it." },
+      { "t": "Poor Folk", "y": 1846, "note": "His first novel, told in letters. Of historical interest." },
+      { "t": "The Double", "y": 1846, "note": "A clerk meets his double. Early, and close to Gogol; Kafka fans like it." },
+      { "t": "White Nights", "y": 1848, "kind": "story", "note": "A dreamer's four nights of love. Short and tender; a palate cleanser between the big novels, not a step." },
+      { "t": "The House of the Dead", "y": 1862, "note": "A novel drawn from his years in a Siberian prison camp. The experience under everything he wrote later." },
+      { "t": "The Gambler", "y": 1867, "note": "Written in under a month to beat a publisher's deadline, about the gambling he knew too well. Fun and short." },
+      { "t": "The Adolescent", "y": 1875, "note": "The least read of the late novels. Skip it." },
+      { "t": "The Dream of a Ridiculous Man", "y": 1877, "kind": "story", "note": "A suicidal man dreams of an unfallen world. Twenty pages; worth it before Karamazov." },
+      { "t": "A Writer's Diary", "y": 1873, "kind": "journalism", "note": "His magazine of essays and stories, including some ugly politics. For later, if ever." }
+    ]
+  },
+  "Robert Anton Wilson": {
+    "names": ["Robert Anton Wilson", "Robert Shea & Robert Anton Wilson"],
+    "about": "The most formative path on the list for me. It starts from home with Quantum Psychology, goes to the manual it grew from and the autobiography behind both, then into the novels where he put the ideas to work.",
+    "goodreads": "https://www.goodreads.com/author/show/2918",
+    "records": [
+      { "t": "Quantum Psychology", "y": 1990, "step": 1, "note": "The door, already walked through. It reorganized how I see reality, so the path starts where I came in." },
+      { "t": "Prometheus Rising", "y": 1983, "step": 2, "note": "The eight-circuit model as a workbook, and a core-shelf book. Quantum Psychology is its sequel, so this fills in the system underneath." },
+      { "t": "Cosmic Trigger I: Final Secret of the Illuminati", "y": 1977, "step": 3, "note": "The autobiography of the years behind both manuals: Sirius, synchronicities and Chapel Perilous. Where the agnosticism comes from." },
+      { "t": "The Illuminatus! Trilogy", "y": 1975, "step": 4, "note": "Written with Robert Shea. Every conspiracy theory true at once, and the counterculture's Gravity's Rainbow. Long and silly on purpose; the ideas from the manuals are all in here as jokes." },
+      { "t": "The New Inquisition", "y": 1986, "step": 5, "note": "His case against fundamentalist materialism. It turns model agnosticism on science itself, which is the part of him closest to my physics shelf." },
+      { "t": "Masks of the Illuminati", "y": 1981, "step": 6, "note": "His best-built novel: James Joyce, Einstein and Aleister Crowley solve a mystery in Zurich. Tighter and funnier than Illuminatus!" },
+      { "t": "The Schrödinger's Cat Trilogy", "y": 1979, "step": 7, "note": "One universe per interpretation of quantum mechanics. Quantum Psychology as a novel, and a good place to end." },
+      { "t": "Sex, Drugs & Magick", "y": 1973, "kind": "nonfiction", "note": "An early book written as Sex and Drugs: A Journey Beyond Limits. Of its time." },
+      { "t": "Cosmic Trigger II: Down to Earth", "y": 1991, "note": "His family and the 1960s. Only after the first volume, if I want more of his life." },
+      { "t": "Cosmic Trigger III: My Life After Death", "y": 1995, "note": "He answers rumors of his own death. On my shelf; read it as a coda, not a step." },
+      { "t": "Coincidance: A Head Test", "y": 1988, "kind": "essays", "note": "Essays on Joyce, Jung and synchronicity. On my shelf; dip in once Joyce is on the radar." },
+      { "t": "Right Where You Are Sitting Now", "y": 1982, "kind": "essays", "note": "Short essays on the future, conspiracies and consciousness. Minor." },
+      { "t": "The Earth Will Shake", "y": 1982, "note": "First of the Historical Illuminatus novels, set in the 1700s. For a dedicated fan." },
+      { "t": "TSOG: The Thing That Ate the Constitution", "y": 2002, "kind": "essays", "note": "His late political book. Read it next to the American government shelf, not as part of this path." },
+      { "t": "Email to the Universe", "y": 2005, "kind": "essays", "note": "A late collection of shorter pieces." }
+    ]
+  },
+  "Albert Camus": {
+    "about": "The absurd, then revolt, then love. The Stranger is already read, so the path pairs each novel with the essay that argues it and ends with the unfinished book about his childhood.",
+    "goodreads": "https://www.goodreads.com/author/show/957894",
+    "records": [
+      { "t": "The Stranger", "y": 1942, "step": 1, "note": "The door, read and on my core shelf." },
+      { "t": "The Myth of Sisyphus", "y": 1942, "step": 2, "note": "The essay that argues what The Stranger shows. \"One must imagine Sisyphus happy.\"" },
+      { "t": "The Plague", "y": 1947, "step": 3, "note": "From the absurd to solidarity: a quarantined city where decency is the only answer. The most Vonnegut-like of his books in its moral center." },
+      { "t": "The Rebel", "y": 1951, "step": 4, "note": "The second big essay: revolt without murder. It ended his friendship with Sartre. Harder going; take it slowly." },
+      { "t": "The Fall", "y": 1956, "step": 5, "note": "A lawyer confesses in an Amsterdam bar, and the confession turns out to be about you. Partly his answer to the fight over The Rebel, so it comes after it." },
+      { "t": "Nuptials", "y": 1938, "in": "Lyrical and Critical Essays", "step": 6, "note": "Read with \"Return to Tipasa\" in the same book. Camus at his most beautiful, writing about sun and sea, the happiness the absurd books defend." },
+      { "t": "The First Man", "y": 1994, "kind": "unfinished", "note": "Found in the car he died in. On my shelf; read it after the essays, as the last word.", "step": 7 },
+      { "t": "Caligula", "y": 1944, "kind": "play", "note": "The absurd as a mad emperor. The play from the same cycle as The Stranger." },
+      { "t": "The Misunderstanding", "y": 1944, "kind": "play", "note": "A short, grim play from the same cycle." },
+      { "t": "The Just Assassins", "y": 1949, "kind": "play", "note": "Russian revolutionaries argue about killing. The play that goes with The Rebel." },
+      { "t": "Exile and the Kingdom", "y": 1957, "kind": "stories", "note": "Six stories. On my shelf; \"The Guest\" is the one to read." },
+      { "t": "Algerian Chronicles", "y": 1958, "kind": "journalism", "note": "His writing on Algeria. On my shelf; read it for the man, after the path." },
+      { "t": "The Possessed", "y": 1959, "kind": "play", "note": "His stage version of Dostoevsky's Demons. On my shelf; read it after Demons on the Dostoevsky path." },
+      { "t": "Resistance, Rebellion, and Death", "y": 1960, "kind": "essays", "note": "Political essays, including \"Reflections on the Guillotine.\"" },
+      { "t": "A Happy Death", "y": 1971, "kind": "posthumous", "note": "The abandoned first try at The Stranger. On my shelf; interesting next to the finished book." },
+      { "t": "Notebooks", "y": 1962, "kind": "notebooks", "note": "His working notebooks, published in volumes from 1962. For the end, if ever." }
+    ]
+  },
+  "Franz Kafka": {
+    "about": "Kafka is funnier than his reputation. A short door, the two great novels with the stories between them, and the letter that explains where it all came from.",
+    "goodreads": "https://www.goodreads.com/author/show/5223",
+    "records": [
+      { "t": "The Metamorphosis", "y": 1915, "step": 1, "note": "The door. A man wakes as a giant insect and worries about being late for work. Read it as the comedy it is." },
+      { "t": "The Trial", "y": 1925, "step": 2, "note": "On my shelf. Arrested for no reason by a court no one can see; the absurd before Camus named it." },
+      { "t": "A Hunger Artist", "y": 1924, "in": "Complete Stories", "step": 3, "kind": "stories", "note": "The last book he prepared himself, read in the Complete Stories along with \"In the Penal Colony,\" \"The Judgment\" and the short parables like \"Before the Law.\"" },
+      { "t": "The Castle", "y": 1926, "step": 4, "note": "A land surveyor who can never reach the castle. Unfinished and endless on purpose; the deepest of the three novels." },
+      { "t": "Letter to His Father", "y": 1952, "kind": "letter", "note": "Written in 1919 and never delivered. The key to everything else on the path, so it comes last.", "step": 5 },
+      { "t": "Contemplation", "y": 1913, "kind": "stories", "note": "His first book of short prose pieces. Included in the Complete Stories." },
+      { "t": "Amerika", "y": 1927, "note": "The unfinished first novel, also published as The Man Who Disappeared. The lightest of the three; read it last if at all." },
+      { "t": "The Zürau Aphorisms", "y": 1931, "kind": "aphorisms", "note": "A hundred short aphorisms written while he was ill. Ten minutes, and worth it." },
+      { "t": "Diaries", "y": 1948, "kind": "diaries", "note": "His diaries, for after the path." },
+      { "t": "Letters to Milena", "y": 1952, "kind": "letters", "note": "Love letters to his Czech translator. The best of the letters." }
+    ]
+  },
+  "David Foster Wallace": {
+    "about": "The essays are the easiest way in, and they explain what the fiction is trying to do. Then the big book, then the unfinished one, and the speech as a coda.",
+    "goodreads": "https://www.goodreads.com/author/show/4339",
+    "records": [
+      { "t": "A Supposedly Fun Thing I'll Never Do Again", "y": 1997, "step": 1, "kind": "essays", "note": "The door. The cruise ship essay is the funniest thing he wrote, and \"E Unibus Pluram\" is the thesis of Infinite Jest in essay form." },
+      { "t": "Brief Interviews with Hideous Men", "y": 1999, "step": 2, "kind": "stories", "note": "The fiction at short length. Men talking themselves into damnation; read it to get used to the voice before the big book." },
+      { "t": "Infinite Jest", "y": 1996, "step": 3, "note": "The summit, and on my shelf. Addiction, tennis and a film so entertaining it kills. Read the endnotes as you go." },
+      { "t": "Consider the Lobster", "y": 2005, "step": 4, "kind": "essays", "note": "The later essays, including the ones on Dostoevsky and Kafka's humor. A rest after Infinite Jest that connects back to those paths." },
+      { "t": "The Pale King", "y": 2011, "step": 5, "kind": "unfinished", "note": "IRS examiners and the heroism of boredom. Unfinished, and a different, quieter book than Infinite Jest." },
+      { "t": "This Is Water", "y": 2009, "step": 6, "kind": "speech", "note": "The Kenyon commencement speech on choosing what to pay attention to. Twenty minutes, and the right way to close." },
+      { "t": "The Broom of the System", "y": 1987, "note": "His first novel, Wittgenstein as a sitcom. A young man's book; skip it unless I'm hooked." },
+      { "t": "Girl with Curious Hair", "y": 1989, "kind": "stories", "note": "The first stories, including the novella \"Westward the Course of Empire Takes Its Way.\"" },
+      { "t": "Everything and More", "y": 2003, "kind": "nonfiction", "note": "A short history of infinity. Next to the physics and math shelf rather than this path." },
+      { "t": "Oblivion", "y": 2004, "kind": "stories", "note": "The last stories, long and dense. For after The Pale King." },
+      { "t": "Fate, Time, and Language", "y": 2010, "kind": "philosophy", "note": "His undergraduate thesis on fatalism. On my shelf; it belongs to the free will shelf, not this path." },
+      { "t": "Both Flesh and Not", "y": 2012, "kind": "essays", "note": "Posthumous essays, led by the Federer piece." }
+    ]
+  },
+  "Charles Bukowski": {
+    "about": "Novels and poems alternating, the way he wrote them. The short first novel opens the door, the best-of collection teaches the poems, and the late poems close it.",
+    "goodreads": "https://www.goodreads.com/author/show/13275",
+    "records": [
+      { "t": "Post Office", "y": 1971, "step": 1, "note": "The door. His first novel, written in a few weeks after he quit the post office. Short, funny and bleak; Chinaski arrives fully formed." },
+      { "t": "The Pleasures of the Damned", "y": 2007, "step": 2, "kind": "poems", "note": "The best-of poems, 1951 to 1993. The poems matter more than the novels, and this is the way into them." },
+      { "t": "Ham on Rye", "y": 1982, "step": 3, "note": "His childhood, and his best novel. It explains everything the other books take for granted." },
+      { "t": "Factotum", "y": 1975, "step": 4, "note": "Job after job, drink after drink. The road from Ham on Rye to Post Office." },
+      { "t": "Love Is a Dog from Hell", "y": 1977, "step": 5, "kind": "poems", "note": "Poems from 1974 to 1977, at his rawest. The poems from the same years as Women." },
+      { "t": "Women", "y": 1978, "step": 6, "note": "On my shelf. Chinaski with fame and too many women; brutal and funny." },
+      { "t": "The Last Night of the Earth Poems", "y": 1992, "step": 7, "kind": "poems", "note": "Late poems facing death, tender under the growl. The end of the path." },
+      { "t": "Notes of a Dirty Old Man", "y": 1969, "kind": "columns", "note": "His underground newspaper columns. Rough, and of its time." },
+      { "t": "Mockingbird Wish Me Luck", "y": 1972, "kind": "poems", "note": "Early-1970s poems, on my shelf. Read it whenever; the best of it is in Pleasures of the Damned." },
+      { "t": "South of No North", "y": 1973, "kind": "stories", "note": "Short stories. Minor next to the novels." },
+      { "t": "Burning in Water, Drowning in Flame", "y": 1974, "kind": "poems", "note": "Selected early poems. Mostly covered by Pleasures of the Damned." },
+      { "t": "Hollywood", "y": 1989, "note": "The making of Barfly. Fun, and minor." },
+      { "t": "Pulp", "y": 1994, "note": "His last novel, a detective spoof with Death as a client. A goof; read it last if at all." }
+    ]
+  }
+}

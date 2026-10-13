@@ -1,7 +1,8 @@
 # Artist paths
 
-Each "Artist path" row on the albums list (section 01, "Artists to go deep on") can have its own page with a
-suggested listening order. The orders live in `lists/artist-paths.json`; the importer checks them and writes
+Some artists on the albums list have their own page with a suggested listening order. Paths aren't a shelf and have
+no rows on the list (see [Paths are an aside](lists.md#paths-are-an-aside)); the page shows them in an unnumbered Paths
+aside above the shelves, and every album by a path artist links to the path under the artist's name. The orders live in `lists/artist-paths.json`; the importer checks them and writes
 `data/paths.json`, which the page at jasonfricano.com/antilibrary/artist.html reads.
 
 A path starts at a door (the record most likely to make the artist click), then walks through the records that
@@ -11,7 +12,7 @@ marked as skipped, so it's clear what was left out and why.
 A path doesn't hold its own copies of albums. Each record with a step points at the album's row in `music.csv`,
 which is filed once on its proper shelf (usually the canon by decade). Add the album there first; a step that isn't
 on the list fails the rebuild. Heard lives on that row, so ticking it on the list or on the artist page is the same
-mark, and the artist's path row counts as fully heard once every step is ticked. If the row has no note, the list
+mark, and the artist counts as fully heard once every step is ticked. If the row has no note, the list
 shows the step's note.
 
 ## Format
@@ -48,5 +49,5 @@ column (for example `"Bill Callahan / Smog"`). Artists play in the order they ap
   - `heard`: true for skipped records I already know. For a step, mark the album's row in `music.csv` instead.
 
 Notes follow the list's voice: plain sentences, first person only where it's mine ("I know this one"), no
-em dashes, and no Rate Your Music links. Keep the door and path named in the music.csv row; extra steps can follow
-them.
+em dashes, and no Rate Your Music links. The artist's name on the path page links to their AllMusic page, which the
+lookups found when the artist was a row on the list.
