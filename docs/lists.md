@@ -68,3 +68,9 @@ Artist paths (albums), author paths (books) and director paths (films) follow on
 ## Threads
 
 `lists/threads/<list>.json` holds about fifteen threads per list (books, films and albums so far): `{id, name, why, items: [{t, c, step}]}`, where `t` and `c` match the list exactly and `step` says why the stop comes where it does. A thread stays inside its list and only points at titles already there. Each thread has its own page (`thread.html?list=<list>&t=<id>`), like a path: its spool picture, the why, then the stops in order with their lines. Its stops come from `data/threads.json`.
+
+## Tags are data, not labels on the page
+
+Since 2026-10-13 the page shows no tags on titles and has no Tags menu; its toolbar is just Search and Sort (jason: "let's get rid of all the tags … search and sort, the rest handles itself"). The Shelves and Paths menus went at the same time, since folding shelves and the Paths and Threads asides cover them. Nothing here changed: every tag column above (`core`, `owned`, `star`, `fringe`, `start_here`, `tag`, `tags`) still feeds the `f` flags in `data/<list>.json` and the `flags`, `privateFlags`, `privateFilters` and `toggles` in `data/lists.json`. Owner mode still edits Formative, the spreadsheet export still has a column per tag, and a link can still narrow a list by one (the intro's core shelf link is `?list=books&only=core`).
+
+To bring the tags or the menus back, revert portfolio commit `1eb164b` ("Antilibrary: just Search and Sort, no tags", jfricano/personal-portfolio). The portfolio's `docs/antilibrary-page.md` lists each removed piece and how to restore it on its own.

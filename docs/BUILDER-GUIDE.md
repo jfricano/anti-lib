@@ -35,7 +35,7 @@ Start with this repository's [README](../README.md), then [lists.md](lists.md) f
 - **Stable keys.** `"<title>|<creator>"` connects a row to its marks, threads and removals. Simple, but fragile: correcting a title detaches everything keyed to the old spelling. The Builder will want a stable ID per title instead.
 - **Additions are separate from marking.** Only the curation pipeline adds titles; the owner's page can only mark and remove. This kept the lists coherent and is worth keeping.
 - **Public sees only crossed-off.** Private flags (such as "Start here") and progress detail show only in owner mode.
-- **The page's interaction details**: filters kept in the URL so a view can be shared, a chip for every active filter, menu counts that grey out empty choices, a random pick, shelves remembered per browser, an XLSX export with one sheet per list (SheetJS, loaded only on export).
+- **The page's interaction details**: search and sort kept in the URL so a view can be shared, a random pick, shelves remembered per browser, an XLSX export with one sheet per list (SheetJS, loaded only on export). The page once had Shelves, Tags and Paths menus with counts and chips; on 2026-10-13 Jason cut it to Search and Sort with no tags on titles, since folding shelves and the paths and threads asides did the rest (see [lists.md](lists.md#tags-are-data-not-labels-on-the-page)). Start simple.
 
 ## What doesn't carry over as is
 
