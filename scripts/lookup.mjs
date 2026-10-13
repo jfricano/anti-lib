@@ -1,5 +1,5 @@
 // Finds a public page and cover image for each anti-library item, using keyless public APIs:
-// Open Library for books (Google Books fills missing covers), Wikipedia for films and TV (iTunes fills
+// Open Library for books (Google Books fills missing covers; Open Library also dates them), Wikipedia for films and TV (iTunes fills
 // missing posters). Music uses Wikipedia for the link and Deezer
 // for artwork, then MusicBrainz and the Cover Art Archive for anything still missing.
 // Results are cached in data/lookups.json so each title is looked up once.
@@ -43,6 +43,14 @@ export function applyLookups(listId, items, lookups) {
     if (listId === 'books' && goodreadsKey(item) in lookups) {
       if (lookups[goodreadsKey(item)]) item.l = lookups[goodreadsKey(item)]; else delete item.l;
     }
+    // A book's first publication year comes from Open Library where it has one. The year in book-years.json
+    // stays for books Open Library doesn't date, for ancient and medieval works (it only knows printed editions),
+    // and where the entry is pinned (yh). A written year no longer far from publication is dropped.
+    const published = listId === 'books' && lookups[yearKey(item)]?.y;
+    if (published && !item.yh && !(item.y < 1450)) {
+      item.y = published;
+      if (item.w != null && Math.abs(item.w - item.y) <= 5) delete item.w;
+    }
   }
   return items;
 }
@@ -72,6 +80,7 @@ export function applyAuthorPathLookups(paths, lookups, rows, listId = 'books') {
 // Bump a list's version when its details lookup changes, so every title is looked up again.
 const DETAILS_VERSION = { films: 2 };
 const goodreadsKey = item => `books-goodreads|${item.t}|${item.c || ''}`;
+export const yearKey = item => `books-year|${item.t}|${item.c || ''}`;
 const allmusicKey = (listId, item) => `${listId}-allmusic|${item.t}|${item.c || ''}`;
 const detailsKey = (listId, item) => `${listId}-details${DETAILS_VERSION[listId] || ''}|${item.t}|${item.c || ''}`;
 
@@ -104,6 +113,22 @@ async function openLibrary(item, params) {
   if (!doc) return null;
   const cover = (exact.find(d => d.cover_i) || matches.find(d => d.cover_i))?.cover_i;
   return { s: 'openlibrary', l: `https://openlibrary.org${doc.key}`, ...(cover && { i: `https://covers.openlibrary.org/b/id/${cover}-M.jpg` }) };
+}
+
+// Year lookups go to Open Library one a second, so a full first run stays polite.
+let yearQueue = Promise.resolve();
+const yearGet = url => (yearQueue = yearQueue.then(() => sleep(1000)).then(() => getJson(url)));
+// The first publication year Open Library gives the book's work: the work the cover lookup matched if it found one,
+// otherwise the best title match by the same author.
+async function bookYear(item, lookups) {
+  const title = item.t.replace(/\(.*?\)/g, '').split(':')[0].trim();
+  const author = item.c && !/various|anonymous|et al/i.test(item.c) ? surname(item.c) : '';
+  const fields = 'key,title,first_publish_year';
+  const { docs = [] } = await yearGet(`https://openlibrary.org/search.json?${new URLSearchParams({ title, ...(author && { author }), limit: '8', fields })}`);
+  const work = /^https:\/\/openlibrary\.org(\/works\/OL\d+W)$/.exec(lookups[lookupKey('books', item)]?.l || '')?.[1];
+  const matches = docs.filter(d => sameTitle(d.title, item.t) && d.first_publish_year);
+  const doc = docs.find(d => d.key === work && d.first_publish_year) || matches.find(d => short(d.title) === short(item.t)) || matches[0];
+  return doc ? { y: doc.first_publish_year, k: doc.key } : null;
 }
 
 async function book(item) {
@@ -432,6 +457,19 @@ async function lookUpList(listId, items, lookups, retry, saveSoon) {
       while (next < rest.length) {
         const item = rest[next++];
         try { lookups[goodreadsKey(item)] = await goodreads(item, lookups); }
+        catch (error) { failed++; console.warn(error.message); }
+        await saveSoon();
+      }
+    }));
+  }
+  if (listId === 'books') {
+    const rest = items.filter(item => !(yearKey(item) in lookups) || (retry && !lookups[yearKey(item)]));
+    console.log(`books: finding first publication years for ${rest.length}`);
+    let next = 0;
+    await Promise.all(Array.from({ length: LIMITS.books }, async () => {
+      while (next < rest.length) {
+        const item = rest[next++];
+        try { lookups[yearKey(item)] = await bookYear(item, lookups); }
         catch (error) { failed++; console.warn(error.message); }
         await saveSoon();
       }

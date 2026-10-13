@@ -48,7 +48,7 @@ Each list is organized into numbered shelves, starting from zero: books open wit
 
 ## Threads
 
-A thread is a named path through titles already on one list, in order, with a line on why each stop comes where it does ("who learned from whom"). Each `lists/threads/<list>.json` is an array of `{id, name, why, items: [{t, c, step}]}` in path order; `t` and `c` must match the list's title and creator exactly. The importer tags each stop with `th: {<thread id>: [position, step]}` and lists the threads (with stop counts) in `lists.json`; stops that match no title are reported and skipped. On the page, the Thread menu shows one thread's titles in path order with each stop's line. Threads only ever point at titles; adding a thread never adds a title.
+A thread is a named path through titles already on one list, in order, with a line on why each stop comes where it does ("who learned from whom"). Each `lists/threads/<list>.json` is an array of `{id, name, why, items: [{t, c, step}]}` in path order; `t` and `c` must match the list's title and creator exactly. The importer tags each stop with `th: {<thread id>: [position, step]}` and lists the threads (with stop counts) in `lists.json`; stops that match no title are reported and skipped. On the page, the Paths menu (and the Threads aside above the shelves) shows one thread's titles in path order with each stop's line. Threads only ever point at titles; adding a thread never adds a title.
 
 ## Artist paths
 

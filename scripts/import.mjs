@@ -15,9 +15,13 @@ const root = toPath(new URL('../', import.meta.url));
 const LISTS = [
   {
     id: 'books', label: 'Books', noun: ['book', 'books'], source: 'anti-library.json',
-    fields: { title: 'title', creator: 'author', group: 'part', shelf: 'section', note: 'hook', done: 'status' },
+    fields: { title: 'title', creator: 'author', year: 'year', written: 'written', group: 'part', shelf: 'section', note: 'hook', done: 'status' },
     doneValues: ['Read', 'Digested', 'Formative'],
-    creatorLabel: 'Author', groupLabel: 'Part', shelfLabel: 'Section', doneLabel: 'Read',
+    // The source rows carry no dates. Open Library gives the first publication year (lookup.mjs); book-years.json
+    // fills the books it can't date, dates ancient works by when they were written (BCE as negative), adds the
+    // year written where that is far off (a posthumous novel, say), and can pin a year the lookup gets wrong.
+    years: 'book-years.json',
+    creatorLabel: 'Author', groupLabel: 'Part', shelfLabel: 'Shelf', doneLabel: 'Read', dateLabel: 'Published',
     search: 'https://www.goodreads.com/search?q=',
     flags: { core: { field: 'core', label: 'Core shelf' }, fringe: { field: 'fringe', label: 'Respectful fringe' }, owned: { field: 'owned', label: 'On my shelf' }, star: { field: 'star', label: 'Vonnegut frequency' },
       formative: { field: 'status', equals: 'Formative', label: 'Formative', ownerToggle: true } },
@@ -25,14 +29,14 @@ const LISTS = [
   {
     id: 'films', label: 'Films', noun: ['film', 'films'], source: 'movies.csv',
     fields: { title: 'title', creator: 'director', year: 'year', shelf: 'shelf', sub: 'section', note: 'note', done: 'watched' },
-    creatorLabel: 'Director', shelfLabel: 'Shelf', doneLabel: 'Watched',
+    creatorLabel: 'Director', shelfLabel: 'Shelf', doneLabel: 'Watched', dateLabel: 'Released',
     search: 'https://www.imdb.com/find/?s=tt&q=',
     flags: { start: { field: 'start_here', label: 'Start here', private: true }, fringe: { field: 'tag', equals: 'respectful fringe', label: 'Respectful fringe' } },
   },
   {
     id: 'tv', label: 'TV', noun: ['show', 'shows'], source: 'tv.csv',
     fields: { title: 'title', creator: 'creator', year: 'year', shelf: 'shelf', sub: 'section', note: 'note', done: 'watched' },
-    creatorLabel: 'Creator', shelfLabel: 'Shelf', doneLabel: 'Watched',
+    creatorLabel: 'Creator', shelfLabel: 'Shelf', doneLabel: 'Watched', dateLabel: 'First aired',
     search: 'https://en.wikipedia.org/w/index.php?search=', searchSuffix: 'TV series',
     flags: { start: { field: 'start_here', label: 'Start here', private: true }, fringe: { field: 'tags', equals: 'Respectful Fringe', label: 'Respectful fringe' } },
     // The run and network lead the note, since there is no column of their own on the page.
@@ -41,7 +45,7 @@ const LISTS = [
   {
     id: 'albums', label: 'Albums', noun: ['album', 'albums'], source: 'music.csv',
     fields: { title: 'album', creator: 'artist', year: 'year', group: 'part', shelf: 'section', sub: 'subsection', note: 'note', done: 'status' },
-    creatorLabel: 'Artist', groupLabel: 'Part', shelfLabel: 'Shelf', doneLabel: 'Heard', cover: 'square',
+    creatorLabel: 'Artist', groupLabel: 'Part', shelfLabel: 'Shelf', doneLabel: 'Heard', dateLabel: 'Released', cover: 'square',
     search: 'https://www.discogs.com/search/?type=all&q=', listen: 'https://open.spotify.com/search/',
     flags: { start: { field: 'start_here', label: 'Start here', private: true } },
     // A few rows carry a whole entry in the artist column.
@@ -195,14 +199,20 @@ for (const list of LISTS) {
   const file = path.join(sourceDir, list.source);
   try { await access(file); } catch { console.log(`Skipped ${list.id}: no ${list.source}`); continue; }
   const text = await readFile(file, 'utf8');
-  const records = (list.source.endsWith('.json') ? JSON.parse(text) : parseCsv(text)).map(r => list.transform ? list.transform(r) : r);
+  let records = (list.source.endsWith('.json') ? JSON.parse(text) : parseCsv(text)).map(r => list.transform ? list.transform(r) : r);
+  if (list.years) {
+    const years = JSON.parse(await readFile(path.join(sourceDir, list.years), 'utf8').catch(() => '{}'));
+    records = records.map(r => ({ ...years[`${clean(r[list.fields.title])}|${clean(r[list.fields.creator])}`], ...r }));
+  }
   const { fields } = list;
   let items = records.filter(r => clean(r[fields.title])).map(r => {
     const item = { t: clean(r[fields.title]) };
-    for (const [key, field] of [['c', fields.creator], ['y', fields.year], ['g', fields.group], ['s', fields.shelf], ['u', fields.sub], ['n', fields.note]]) {
+    for (const [key, field] of [['c', fields.creator], ['y', fields.year], ['w', fields.written], ['g', fields.group], ['s', fields.shelf], ['u', fields.sub], ['n', fields.note]]) {
       const value = field && clean(r[field]);
-      if (value) item[key] = key === 'y' && /^\d+$/.test(value) ? Number(value) : value;
+      if (value) item[key] = (key === 'y' || key === 'w') && /^-?\d+$/.test(value) ? Number(value) : value;
     }
+    // A pinned year in book-years.json wins over the one the lookup finds.
+    if (list.years && r.pin && item.y) item.yh = 1;
     const set = tags[list.id]?.[`${item.t}|${item.c || ''}`] || {};
     const flags = Object.entries(list.flags).filter(([key, flag]) => flag.ownerToggle && typeof set[key] === 'boolean' ? set[key]
       : flag.equals ? r[flag.field] === flag.equals : truthy(r[flag.field])).map(([key]) => key);
@@ -218,12 +228,12 @@ for (const list of LISTS) {
   await writeFile(path.join(out, `${list.id}.json`), JSON.stringify(applyLookups(list.id, items, lookups)));
   if (list.id === 'books') books = items;
   if (list.id === 'films') films = items;
-  const { source, fields: _, transform, doneValues, ...meta } = list;
+  const { source, fields: _, transform, doneValues, years, ...meta } = list;
   manifest.push({ ...meta, flags: Object.fromEntries(Object.entries(list.flags).map(([key, flag]) => [key, flag.label])),
     privateFlags: Object.keys(list.flags).filter(key => list.flags[key].private),
     privateFilters: Object.keys(list.flags).filter(key => list.flags[key].private || list.flags[key].privateFilter),
     toggles: Object.keys(list.flags).filter(key => list.flags[key].ownerToggle),
-    hasYear: items.some(item => item.y), count: items.length, ...(threads.length && { threads }) });
+    hasYear: items.some(item => item.y), ...(items.some(item => item.w) && { hasWritten: true }), count: items.length, ...(threads.length && { threads }) });
   console.log(`Imported ${items.length} ${list.noun[1]}`);
 }
 await writeFile(path.join(out, 'lists.json'), JSON.stringify(manifest, null, 1) + '\n');
