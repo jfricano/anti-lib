@@ -8,8 +8,9 @@
   ],
   "creatorLabel": "Author",
   "groupLabel": "Part",
-  "shelfLabel": "Section",
+  "shelfLabel": "Shelf",
   "doneLabel": "Read",
+  "dateLabel": "Published",
   "search": "https://www.goodreads.com/search?q=",
   "flags": {
    "core": "Core shelf",
@@ -23,7 +24,8 @@
   "toggles": [
    "formative"
   ],
-  "hasYear": false,
+  "hasYear": true,
+  "hasWritten": true,
   "count": 1109,
   "threads": [
    {
@@ -128,6 +130,7 @@
   "creatorLabel": "Director",
   "shelfLabel": "Shelf",
   "doneLabel": "Watched",
+  "dateLabel": "Released",
   "search": "https://www.imdb.com/find/?s=tt&q=",
   "flags": {
    "start": "Start here",
@@ -245,6 +248,7 @@
   "creatorLabel": "Creator",
   "shelfLabel": "Shelf",
   "doneLabel": "Watched",
+  "dateLabel": "First aired",
   "search": "https://en.wikipedia.org/w/index.php?search=",
   "searchSuffix": "TV series",
   "flags": {
@@ -272,6 +276,7 @@
   "groupLabel": "Part",
   "shelfLabel": "Shelf",
   "doneLabel": "Heard",
+  "dateLabel": "Released",
   "cover": "square",
   "search": "https://www.discogs.com/search/?type=all&q=",
   "listen": "https://open.spotify.com/search/",
