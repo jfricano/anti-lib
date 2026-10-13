@@ -3058,80 +3058,6 @@
    }
   ]
  },
- "Townes Van Zandt": {
-  "about": "The songwriter's songwriter: a live solo set to start, then the early studio records under the strings and overdubs.",
-  "photo": { "file": "Townes Van Zandt.jpg" },
-  "records": [
-   {
-    "t": "Live at the Old Quarter, Houston, Texas",
-    "y": 1977,
-    "kind": "live",
-    "step": 1,
-    "note": "The door: recorded in a small Houston bar in 1973, just Townes and a guitar, the songs without any studio dressing."
-   },
-   {
-    "t": "Townes Van Zandt",
-    "y": 1969,
-    "step": 2,
-    "note": "The self-titled third album, re-recordings of earlier songs in plainer arrangements; \"Waitin' Around to Die\" and \"For the Sake of the Song.\""
-   },
-   {
-    "t": "The Late Great Townes Van Zandt",
-    "y": 1972,
-    "step": 3,
-    "note": "\"Pancho and Lefty\" and \"If I Needed You\"; the title was a joke that became true."
-   },
-   {
-    "t": "Our Mother the Mountain",
-    "y": 1969,
-    "step": 4,
-    "note": "Earlier the same year: \"Kathleen\" and \"Tecumseh Valley,\" with heavier orchestral production."
-   },
-   {
-    "t": "High, Low and In Between",
-    "y": 1971,
-    "step": 5,
-    "note": "A plainer, darker record; \"To Live Is to Fly.\""
-   },
-   {
-    "t": "Flyin' Shoes",
-    "y": 1978,
-    "step": 6,
-    "note": "After a long gap: a fuller country band, and the title song."
-   },
-   {
-    "t": "For the Sake of the Song",
-    "y": 1968,
-    "note": "The debut, smothered in production he later disliked; the self-titled record redoes most of it."
-   },
-   {
-    "t": "Delta Momma Blues",
-    "y": 1971,
-    "note": "A good record with blues covers; the first to hear after the path."
-   },
-   {
-    "t": "At My Window",
-    "y": 1987,
-    "note": "His first studio album in nine years, plainly recorded."
-   },
-   {
-    "t": "Rear View Mirror",
-    "y": 1993,
-    "kind": "live",
-    "note": "A live record from 1978, a second Old Quarter in tone."
-   },
-   {
-    "t": "The Nashville Sessions",
-    "y": 1993,
-    "note": "Songs recorded in 1972 and 1973 and shelved for twenty years."
-   },
-   {
-    "t": "No Deeper Blue",
-    "y": 1994,
-    "note": "His last studio album, made in Ireland."
-   }
-  ]
- },
  "Elliott Smith": {
   "about": "Whispered double-tracked songs, from the home-recorded records to the Beatles-sized studio albums.",
   "photo": { "file": "Elliott smith - Flickr - constintina.jpg" },
@@ -4638,43 +4564,6 @@
     "y": 2002,
     "kind": "compilation",
     "note": "The third early-rarities collection; the best of the three, still optional."
-   }
-  ]
- },
- "Neutral Milk Hotel": {
-  "about": "A tiny catalog: one strange masterpiece, the record that led to it, and the scraps Jeff Mangum left behind.",
-  "photo": { "file": "Jeff Mangum Boston Jan 16 2014.jpg" },
-  "records": [
-   {
-    "t": "In the Aeroplane Over the Sea",
-    "y": 1998,
-    "step": 1,
-    "note": "The door. Fuzz guitar, singing saw, horns and Jeff Mangum's strained voice; Anne Frank's diary as a fever dream."
-   },
-   {
-    "t": "On Avery Island",
-    "y": 1996,
-    "step": 2,
-    "note": "The first album, mostly Mangum alone with Robert Schneider producing. Rougher and noisier, with the same melodies trying to get out."
-   },
-   {
-    "t": "Ferris Wheel on Fire",
-    "y": 2011,
-    "step": 3,
-    "kind": "EP",
-    "note": "Old songs released with the vinyl box set, solo acoustic and close to the Aeroplane material. A small coda."
-   },
-   {
-    "t": "Everything Is",
-    "y": 1995,
-    "kind": "EP",
-    "note": "The first single and EP on Cher Doll; early sketches."
-   },
-   {
-    "t": "Live at Jittery Joe's",
-    "y": 2001,
-    "kind": "live",
-    "note": "A solo Mangum show at an Athens coffee shop, released by him. Lovely, but the studio versions come first."
    }
   ]
  },
@@ -6272,37 +6161,6 @@
    }
   ]
  },
- "Robert Johnson": {
-  "about": "There are only twenty-nine songs, so one set holds all of it; the other records here are the LPs that carried the myth to Dylan, Clapton and the Stones.",
-  "photo": { "file": "Robert Johnson self-portrait photo.jpg" },
-  "records": [
-   {
-    "t": "The Complete Recordings",
-    "y": 1990,
-    "step": 1,
-    "kind": "compilation",
-    "note": "The door and the whole catalog: every side from the 1936 and 1937 sessions plus alternate takes. Spare, fast guitar and a high, haunted voice."
-   },
-   {
-    "t": "King of the Delta Blues Singers",
-    "y": 1961,
-    "kind": "compilation",
-    "note": "The LP that Dylan and Keith Richards heard; same songs, now inside the complete set."
-   },
-   {
-    "t": "King of the Delta Blues Singers, Vol. II",
-    "y": 1970,
-    "kind": "compilation",
-    "note": "The rest of the songs; also inside the complete set."
-   },
-   {
-    "t": "The Centennial Collection",
-    "y": 2011,
-    "kind": "compilation",
-    "note": "A newer remaster of everything; pick one complete set, not both."
-   }
-  ]
- },
  "Howlin' Wolf": {
   "about": "Two Chess albums of singles hold most of what matters; after them come the folk-blues repackagings, the odd psychedelic record he hated, and the last studio album.",
   "photo": { "file": "Howlin' Wolf 1972.JPG" },
@@ -6398,46 +6256,6 @@
     "y": 1991,
     "kind": "compilation",
     "note": "Three discs; when one album isn't enough."
-   }
-  ]
- },
- "Skip James": {
-  "about": "Skip James made two careers thirty-five years apart: the 1931 Paramount sides and the 1960s rediscovery records. Start with the later one, where the sound is clear, then go back.",
-  "records": [
-   {
-    "t": "Today!",
-    "y": 1966,
-    "step": 1,
-    "note": "The door: \"Hard Time Killin' Floor Blues\" and \"Cypress Grove\" recorded in good sound, his falsetto and minor-key guitar intact."
-   },
-   {
-    "t": "Complete Early Recordings",
-    "y": 1994,
-    "step": 2,
-    "kind": "compilation",
-    "note": "The 1931 Paramount sides, scratchy and otherworldly: \"Devil Got My Woman\" and \"I'm So Glad.\""
-   },
-   {
-    "t": "Devil Got My Woman",
-    "y": 1968,
-    "step": 3,
-    "note": "The second Vanguard album; quieter and just as eerie."
-   },
-   {
-    "t": "Greatest of the Delta Blues Singers",
-    "y": 1964,
-    "note": "His first rediscovery LP; the Vanguard records sound better."
-   },
-   {
-    "t": "She Lyin'",
-    "y": 1996,
-    "note": "A 1964 session released decades later; for after the path."
-   },
-   {
-    "t": "I'm So Glad",
-    "y": 1978,
-    "kind": "compilation",
-    "note": "A Vanguard compilation of the 60s material; superseded by the two albums."
    }
   ]
  },
