@@ -46,9 +46,27 @@ export function applyLookups(listId, items, lookups) {
   }
   return items;
 }
-// Artist path records take the same links and covers as albums, without genres.
+// Artist path records take the same links and covers as albums, without genres. The artist's name links to their
+// AllMusic page, found when the artist was a row on the albums list.
 export function applyPathLookups(paths, lookups) {
-  for (const p of paths) for (const record of applyLookups('albums', p.records, lookups)) { delete record.k; delete record.r; }
+  for (const p of paths) {
+    for (const record of applyLookups('albums', p.records, lookups)) { delete record.k; delete record.r; }
+    const allmusic = lookups[allmusicKey('albums', { t: p.artist })];
+    if (allmusic) p.g = allmusic.replace(/\/discography$/, ''); else delete p.g;
+  }
+  return paths;
+}
+// Author path books and director path films on the list take the link and cover of their row (a work read inside a
+// collection takes the collection's); the rest are looked up as titles of their own list.
+export function applyAuthorPathLookups(paths, lookups, rows, listId = 'books') {
+  rows = new Map(rows.map(item => [`${item.t}|${item.c || ''}`, item]));
+  for (const p of paths) for (const record of p.records) {
+    const row = rows.get(`${record.v || record.t}|${record.c}`);
+    if (!row) { applyLookups(listId, [record], lookups); delete record.k; delete record.r; continue; }
+    delete record.l; delete record.i;
+    if (row.l) record.l = row.l;
+    if (row.i) record.i = row.i;
+  }
   return paths;
 }
 // Bump a list's version when its details lookup changes, so every title is looked up again.
@@ -452,6 +470,19 @@ async function run() {
     const failed = await lookUpList('albums', records, lookups, retry, saveSoon);
     await writeFile(pathsFile, JSON.stringify(applyPathLookups(paths, lookups)));
     console.log(`paths: ${records.filter(r => r.l).length} linked, ${records.filter(r => r.i).length} with covers, ${failed} requests failed`);
+  }
+  // Books on the author paths and films on the director paths that aren't on their list are looked up as titles of
+  // that list; the steps share their rows' results.
+  for (const [name, listId] of [['author-paths.json', 'books'], ['director-paths.json', 'films']]) {
+    const file = path.join(dataDir, name);
+    const rowPaths = await readFile(file, 'utf8').then(JSON.parse, () => null);
+    if (!rowPaths) continue;
+    const records = rowPaths.flatMap(p => p.records), rows = JSON.parse(await readFile(path.join(dataDir, `${listId}.json`), 'utf8'));
+    console.log(`${name.replace('.json', '').replace('-', ' ')}:`);
+    const listed = new Set(rows.map(item => `${item.t}|${item.c || ''}`));
+    const failed = await lookUpList(listId, records.filter(r => !listed.has(`${r.v || r.t}|${r.c}`)), lookups, retry, saveSoon);
+    await writeFile(file, JSON.stringify(applyAuthorPathLookups(rowPaths, lookups, rows, listId)));
+    console.log(`${name}: ${records.filter(r => r.l).length} linked, ${records.filter(r => r.i).length} with covers, ${failed} requests failed`);
   }
   await save();
 }
