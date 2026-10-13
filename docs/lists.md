@@ -32,6 +32,8 @@ An array of objects.
 | `axis`, `neighbor` | Style axis and shelf neighbor |
 | `added`, `from_section` | When a title joined, and the shelf it moved from after a reshuffle |
 
+The rows carry no dates. The Rebuild workflow looks up each book's first publication year on Open Library once and caches it in `data/lookups.json` (`books-year|<title>|<author>`), like links and covers. `book-years.json`, keyed by `"<title>|<author>"`, backs it up: its `year` is used where Open Library has no date, and always for works before 1450, which Open Library only knows by their printed editions (ancient works are dated by when they were written, BCE as a negative year). `written` is the year a book was written or finished, only where that is far from publication (a posthumous novel such as *The Trial*). `"pin": true` makes the entry's `year` win over the lookup, for a book Open Library dates wrong. These years were filled in from general knowledge; `check: true` marks the least certain. A book with neither has no year and sorts last by date.
+
 ## Films: `movies.csv`
 
 `shelf, section, title, year, director, start_here, note, watched, shelf_neighbor, tag`
