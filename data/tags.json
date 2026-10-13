@@ -1,5 +1,8 @@
 {
  "books": {
+  "Man's Search for Meaning|Viktor Frankl": {
+   "formative": true
+  },
   "The American Political Tradition|Richard Hofstadter": {
    "formative": true
   }
