@@ -125,6 +125,12 @@ try { tags = JSON.parse(await readFile(path.join(out, 'tags.json'), 'utf8')); } 
 // director-paths.json directors.
 const WHO = { 'artist-paths.json': 'artist', 'author-paths.json': 'author', 'director-paths.json': 'director' };
 const slug = s => fold(s).replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+function readPhoto(photo, fail) {
+  const file = clean(typeof photo === 'string' ? photo : photo.file).replace(/^File:/, '');
+  if (!/\.(jpe?g|png)$/i.test(file)) fail(`photo must name a JPEG or PNG file on Wikimedia Commons (${file})`);
+  if (photo.pos && !/^\d{1,3}% \d{1,3}%$/.test(photo.pos)) fail(`photo pos must look like "50% 30%" (${photo.pos})`);
+  return { file, ...(photo.pos && { pos: photo.pos }), ...(photo.by && { by: clean(photo.by) }) };
+}
 async function readPaths(name) {
   const file = path.join(sourceDir, name);
   try { await access(file); } catch { console.log(`Skipped ${name}: no such file`); return null; }
@@ -149,7 +155,9 @@ async function readPaths(name) {
     // The person's own page: Goodreads for an author, IMDb for a director.
     const page = entry.goodreads || entry.imdb || '';
     const link = /^https:\/\/www\.(goodreads\.com|imdb\.com\/(name|find))\//.test(page) ? { g: page } : {};
-    return { id: slug(who), [WHO[name]]: who, ...(entry.about && { about: clean(entry.about) }), ...link, names, records };
+    // An artist's photo: a Wikimedia Commons file name, with an optional focus point for the crop and credit line, or false for none.
+    const photo = entry.photo === false ? { photo: false } : entry.photo ? { photo: readPhoto(entry.photo, fail) } : {};
+    return { id: slug(who), [WHO[name]]: who, ...(entry.about && { about: clean(entry.about) }), ...link, ...photo, names, records };
   });
 }
 const paths = await readPaths('artist-paths.json');
