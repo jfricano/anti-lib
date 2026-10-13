@@ -11,7 +11,7 @@ This repository is public, and has to stay public for the page to read it. Diges
 - `lists/artist-paths.json`: listening orders for the artists on the albums list. Format in [docs/artist-paths.md](docs/artist-paths.md).
 - `lists/author-paths.json`: reading orders for some of the authors on the books list. Format in [docs/author-paths.md](docs/author-paths.md).
 - `lists/director-paths.json`: viewing orders for some of the directors on the films list. Format in [docs/director-paths.md](docs/director-paths.md).
-- `data/`: generated JSON the page reads: `lists.json` (the lists, their flags and threads), `<list>.json`, `paths.json` (artist paths), `author-paths.json` (author paths), `director-paths.json` (director paths) and the lookup cache `lookups.json`. Don't edit it by hand. `progress.json`, `removed.json` and `tags.json` are written only by the Progress workflow from owner-mode issues.
+- `data/`: generated JSON the page reads: `lists.json` (the lists, their flags and threads), `<list>.json`, `paths.json` (artist paths), `author-paths.json` (author paths), `director-paths.json` (director paths), `threads.json` (each thread's stops in order, for the thread pages) and the lookup cache `lookups.json`. Don't edit it by hand. `progress.json`, `removed.json` and `tags.json` are written only by the Progress workflow from owner-mode issues.
 - `scripts/import.mjs`: normalizes `lists/` into `data/<list>.json`, `data/lists.json`, `data/paths.json`, `data/author-paths.json` and `data/director-paths.json`.
 - `scripts/lookup.mjs`: finds a public page, cover and (for albums) genres for each title and artist-path record, cached in `data/lookups.json`.
 - `scripts/progress.mjs`: applies owner-mode marks to `data/progress.json`, removals to `data/removed.json` and tag toggles to `data/tags.json`.
@@ -48,7 +48,7 @@ Each list is organized into numbered shelves, starting from zero: books open wit
 
 ## Threads
 
-A thread is a named path through titles already on one list, in order, with a line on why each stop comes where it does ("who learned from whom"). Each `lists/threads/<list>.json` is an array of `{id, name, why, items: [{t, c, step}]}` in path order; `t` and `c` must match the list's title and creator exactly. The importer tags each stop with `th: {<thread id>: [position, step]}` and lists the threads (with stop counts) in `lists.json`; stops that match no title are reported and skipped. On the page, the Paths menu (and the Threads aside above the shelves) shows one thread's titles in path order with each stop's line. Threads only ever point at titles; adding a thread never adds a title.
+A thread is a named path through titles already on one list, in order, with a line on why each stop comes where it does ("who learned from whom"). Each `lists/threads/<list>.json` is an array of `{id, name, why, items: [{t, c, step}]}` in path order; `t` and `c` must match the list's title and creator exactly. The importer tags each stop with `th: {<thread id>: [position, step]}` and lists the threads (with stop counts) in `lists.json`; stops that match no title are reported and skipped. The importer also writes `data/threads.json`, each thread's stops in order with their credit, shelf, link, cover and step line. On the page, every thread in the Threads aside above the shelves (and in the Paths menu) opens its own page, `thread.html?list=<list>&t=<thread id>`, the way artist, author and director paths do. Threads only ever point at titles; adding a thread never adds a title.
 
 ## Artist paths
 
