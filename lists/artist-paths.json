@@ -5,6 +5,7 @@
    "Bob Dylan",
    "Bob Dylan & The Band"
   ],
+  "photo": { "file": "DylanYoungKilkenny140719v2 (50 of 52) (52246124397) (cropped).jpg" },
   "records": [
    {
     "t": "Bob Dylan",
@@ -250,6 +251,7 @@
  },
  "Leonard Cohen": {
   "about": "From the bleak early folk records to the synth-and-baritone albums of his last decades, ending on the record he made knowing he was dying.",
+  "photo": { "file": "Leonard Cohen concert of the 2008 tour.jpg" },
   "records": [
    {
     "t": "Songs of Leonard Cohen",
@@ -361,6 +363,7 @@
    "Nick Cave & Warren Ellis",
    "Nick Cave"
   ],
+  "photo": { "file": "Nick Cave and the bad seeds live @ Paladozza (11174862314).jpg", "by": "Alessandro Bonvini" },
   "records": [
    {
     "t": "Prayers on Fire",
@@ -510,6 +513,7 @@
  },
  "David Bowie": {
   "about": "I know him through the Berlin trilogy, so this starts where Berlin left off, walks the late art records to Blackstar, then goes back for the early classics I haven't heard.",
+  "photo": { "file": "David Bowie 1975.jpg" },
   "records": [
    {
     "t": "David Bowie",
@@ -685,6 +689,7 @@
    "Lou Reed & John Cale",
    "Lou Reed & Metallica"
   ],
+  "photo": { "file": "Lou Reed (5900962918).jpg" },
   "records": [
    {
     "t": "The Velvet Underground & Nico",
@@ -882,6 +887,7 @@
  },
  "Patti Smith": {
   "about": "A Rimbaud-obsessed poet fronting a rock band: the four Patti Smith Group records in order, then the comeback after her husband's death.",
+  "photo": { "file": "Patti Smith at the 81st Venice International Film Festival in 2024.jpg" },
   "records": [
    {
     "t": "Horses",
@@ -971,6 +977,7 @@
  },
  "Neil Young": {
   "about": "I know After the Gold Rush and Sugar Mountain, so this starts in the dark mid-70s \"ditch trilogy\" and moves from Crazy Horse's noise to his country side.",
+  "photo": { "file": "Neil Young Stavernfestivalen 2016 (220929).jpg" },
   "records": [
    {
     "t": "Neil Young",
@@ -1252,6 +1259,7 @@
  },
  "Joni Mitchell": {
   "about": "From the confessional folk of Blue into the jazz records she made with the best players of the 70s, ending at her collaboration with Mingus.",
+  "photo": { "file": "Joni Mitchell 1983.jpg" },
   "records": [
    {
     "t": "Song to a Seagull",
@@ -1370,6 +1378,7 @@
  },
  "Kate Bush": {
   "about": "From the wild teenage debut to the studio experiments and the long domestic suite of Aerial, with the record built on Joyce after.",
+  "photo": { "file": "Kate Bush 1981.jpg" },
   "records": [
    {
     "t": "The Kick Inside",
@@ -1437,6 +1446,7 @@
  },
  "PJ Harvey": {
   "about": "From the raw trio records to the war songs of Let England Shake and the dialect poems of her latest, with a look back at the debut.",
+  "photo": { "file": "PJ Harvey.jpg" },
   "records": [
    {
     "t": "Dry",
@@ -1535,6 +1545,7 @@
    "Talking Heads",
    "David Byrne & Brian Eno"
   ],
+  "photo": { "file": "Talking Heads Remain In Light (1980 Sire publicity photo) (5-4 cropped).jpg", "by": "Sire Records" },
   "records": [
    {
     "t": "Talking Heads: 77",
@@ -1610,6 +1621,7 @@
    "Brian Eno",
    "Eno"
   ],
+  "photo": { "file": "Brian Eno by Pete Forsyth 18.jpg" },
   "records": [
    {
     "t": "Roxy Music",
@@ -1757,6 +1769,7 @@
  },
  "The Beatles": {
   "about": "I know them all; this is a re-listen order that starts at my two favorites and walks forward through the studio years, then goes back to hear where the songwriting came from.",
+  "photo": { "file": "The Beatles 1963 Dezo Hoffman Capitol Records press photo 4-3 crop.jpg" },
   "records": [
    {
     "t": "Rubber Soul",
@@ -1850,6 +1863,7 @@
   "names": [
    "The White Stripes"
   ],
+  "photo": { "file": "Meg & Jack, The White Stripes.jpg" },
   "records": [
    {
     "t": "The White Stripes",
@@ -1900,6 +1914,7 @@
   "names": [
    "Radiohead"
   ],
+  "photo": { "file": "2025 Radiohead live concert at Uber Arena, Berlin 45.jpg" },
   "records": [
    {
     "t": "Pablo Honey",
@@ -1970,6 +1985,7 @@
  },
  "The Kinks": {
   "about": "Ray Davies at his most English and most literary, from the 1966 turn to character songs through the early-1970s Americana record.",
+  "photo": { "file": "The Kinks 22 June 1965.jpg", "by": "J. D. Patrick, Decatur Herald" },
   "records": [
    {
     "t": "The Kinks Are the Village Green Preservation Society",
@@ -2108,6 +2124,7 @@
  },
  "The Rolling Stones": {
   "about": "The 1968 to 1972 run, when the Stones went back to blues and country and made four records in a row that hold up; then a few side doors around it.",
+  "photo": { "file": "Rolling Stones bow post-show 22 May 2018 in London (41437870275).jpg" },
   "records": [
    {
     "t": "Exile on Main St.",
@@ -2257,6 +2274,7 @@
  },
  "Pink Floyd": {
   "about": "Two doors, Syd Barrett's psychedelic debut and Roger Waters's lament for him, then the Waters concept records of the 1970s.",
+  "photo": { "file": "Pink Floyd, 1971 (HQ).jpg" },
   "records": [
    {
     "t": "The Piper at the Gates of Dawn",
@@ -2358,6 +2376,7 @@
  },
  "Frank Zappa": {
   "about": "Zappa as satirist and composer: the jazz-rock door, the Mothers' early lampoons, the 1970s hits and the Joe's Garage parable, then the chamber music he cared about most.",
+  "photo": { "file": "Frank Zappa 1973.JPG" },
   "records": [
    {
     "t": "Hot Rats",
@@ -2607,6 +2626,7 @@
  },
  "Prince": {
   "about": "Prince as a one-man band and studio maximalist, from the new-wave funk of Dirty Mind to the double-album peak of Sign o' the Times.",
+  "photo": { "file": "Prince promo picture (1988; cropped and retouched).png", "by": "Unknown author" },
   "records": [
    {
     "t": "Sign o' the Times",
@@ -2791,6 +2811,7 @@
  },
  "Bruce Springsteen": {
   "about": "Springsteen as a Steinbeck novelist with a guitar: starting from the stark home recordings, then the big records they grew out of and the folk records that came after.",
+  "photo": { "file": "Bruce Springsteen 1988.jpg", "by": "Laura Bland" },
   "records": [
    {
     "t": "Nebraska",
@@ -2920,6 +2941,7 @@
  },
  "Johnny Cash": {
   "about": "Cash in prisons and at the end of his life, then back to the Sun records and the 1960s concept albums where his storytelling started.",
+  "photo": { "file": "JC1970.jpg" },
   "records": [
    {
     "t": "At Folsom Prison",
@@ -3038,6 +3060,7 @@
  },
  "Elliott Smith": {
   "about": "Whispered double-tracked songs, from the home-recorded records to the Beatles-sized studio albums.",
+  "photo": { "file": "Elliott smith - Flickr - constintina.jpg" },
   "records": [
    {
     "t": "Either/Or",
@@ -3091,6 +3114,7 @@
  },
  "Sufjan Stevens": {
   "about": "I know Illinois; this path starts there and walks through the states, the banjo record, the electronic turn and the grief records.",
+  "photo": { "file": "Sufjan Stevens playing banjo edit1.jpg", "by": "Joe Lencioni" },
   "records": [
    {
     "t": "Illinois",
@@ -3204,6 +3228,7 @@
  },
  "The National": {
   "about": "Matt Berninger's baritone over brothers Aaron and Bryce Dessner's guitars and arrangements: anxious, literate rock about adult life.",
+  "photo": { "file": "ACL18051018-86 (43716154290).jpg" },
   "records": [
    {
     "t": "Boxer",
@@ -3283,6 +3308,7 @@
  },
  "Wilco": {
   "about": "Start with the record where the alt-country band came apart into something stranger, then go back and watch Jeff Tweedy get there.",
+  "photo": { "file": "Wilco MassMoca AustinNelson.jpg" },
   "records": [
    {
     "t": "A.M.",
@@ -3392,6 +3418,7 @@
  },
  "Bon Iver": {
   "about": "Four records that drift from a cabin in the Wisconsin woods into glitchy, processed collage; the path follows that drift in order.",
+  "photo": { "file": "Flickr - moses namkung - Bon Iver 3.jpg" },
   "records": [
    {
     "t": "For Emma, Forever Ago",
@@ -3443,6 +3470,7 @@
    "Beth Gibbons & Rustin Man",
    "Beth Gibbons"
   ],
+  "photo": { "file": "Portishead @ Primavera Sound 2.jpg" },
   "records": [
    {
     "t": "Dummy",
@@ -3499,6 +3527,7 @@
    "Massive Attack",
    "Tricky"
   ],
+  "photo": { "file": "Massive Attack composite.jpg", "by": "Rod le Hiboo and Jezhotwells" },
   "records": [
    {
     "t": "Blue Lines",
@@ -3572,6 +3601,7 @@
  },
  "Björk": {
   "about": "Start with the record where strings and beats finally fused, then walk through the run from Debut to Medúlla, and on to the breakup album.",
+  "photo": { "file": "Björk and the Swan Dress.jpg" },
   "records": [
    {
     "t": "Life's Too Good",
@@ -3659,6 +3689,7 @@
  },
  "Kendrick Lamar": {
   "about": "Four albums that read like linked novels about Compton, fame and conscience; then the side records that fill in the story.",
+  "photo": { "file": "Pulitzer2018-portraits-kendrick-lamar.jpg" },
   "records": [
    {
     "t": "Kendrick Lamar",
@@ -3723,6 +3754,7 @@
  },
  "Beck": {
   "about": "Beck alternates between collage records and sad acoustic ones; the path takes both strands, starting with the collage that made his name.",
+  "photo": { "file": "Detour 2006 - Beck.jpg", "by": "Barry Mulling" },
   "records": [
    {
     "t": "Golden Feelings",
@@ -3815,6 +3847,7 @@
  },
  "Queens of the Stone Age": {
   "about": "Desert-rock riffs played with machine precision; start with the classic, then trace Josh Homme backward and forward.",
+  "photo": { "file": "Josh Homme 2003.jpg" },
   "records": [
    {
     "t": "Welcome to Sky Valley",
@@ -3877,6 +3910,7 @@
  },
  "The Black Keys": {
   "about": "Two guys from Akron playing Junior Kimbrough-style hill-country blues in a basement, and then getting famous; the path stays near the basement.",
+  "photo": { "file": "Blackkeys022011.jpg" },
   "records": [
    {
     "t": "The Big Come Up",
@@ -3975,6 +4009,7 @@
    "Mark Lanegan",
    "Mark Lanegan Band"
   ],
+  "photo": { "file": "Mark Lanegan at Bumbershoot in Seattle.jpg", "by": "Steven Friederich" },
   "records": [
    {
     "t": "Buzz Factory",
@@ -4114,6 +4149,7 @@
  },
  "Morphine": {
   "about": "Only five albums before Mark Sandman died on stage in 1999, so the path covers almost all of it.",
+  "photo": false,
   "records": [
    {
     "t": "Good",
@@ -4161,6 +4197,7 @@
  },
  "Bill Callahan / Smog": {
   "about": "Thirty-plus years of the same deep, deadpan voice; start with the Smog record that opened up, then follow it into the Bill Callahan albums.",
+  "photo": { "file": "Oliver Mark - Bill Callahan, Berlin 2011.jpg" },
   "records": [
    {
     "t": "Sewn to the Sky",
@@ -4318,6 +4355,7 @@
    "Silver Jews",
    "Purple Mountains"
   ],
+  "photo": { "file": "David Berman 2008 1 (cropped).jpg" },
   "records": [
    {
     "t": "American Water",
@@ -4385,6 +4423,7 @@
  },
  "The Mountain Goats": {
   "about": "John Darnielle, songwriter and novelist: the Alpha couple's marriage falling apart, then his own childhood, then the band years.",
+  "photo": { "file": "The Mountain Goats Live @ The Rickshaw (Vancouver) (4679305565).jpg" },
   "records": [
    {
     "t": "Tallahassee",
@@ -4530,6 +4569,7 @@
  },
  "Neutral Milk Hotel": {
   "about": "A tiny catalog: one strange masterpiece, the record that led to it, and the scraps Jeff Mangum left behind.",
+  "photo": { "file": "Jeff Mangum Boston Jan 16 2014.jpg" },
   "records": [
    {
     "t": "In the Aeroplane Over the Sea",
@@ -4566,6 +4606,7 @@
  },
  "Arcade Fire": {
   "about": "The first three records are a set: grief and family, then fear and religion, then where you grew up.",
+  "photo": { "file": "Arcade Fire live 20050315.ext.jpg" },
   "records": [
    {
     "t": "Funeral",
@@ -4621,6 +4662,7 @@
  },
  "LCD Soundsystem": {
   "about": "I know the middle two. The rest of the study is the debut, the farewell show, and the reunion record.",
+  "photo": { "file": "Route du Rock 2007, LCD Soundsystem 2.jpg" },
   "records": [
    {
     "t": "Sound of Silver",
@@ -4680,6 +4722,7 @@
  },
  "Fiona Apple": {
   "about": "Five albums over twenty-five years, each one stranger and freer than the last; start in the middle and work outward.",
+  "photo": { "file": "Fiona Apple 2012 NYC T5.jpg" },
   "records": [
    {
     "t": "Extraordinary Machine",
@@ -4715,6 +4758,7 @@
  },
  "Joanna Newsom": {
   "about": "Four albums, each longer and denser than the last. Start with the big orchestral one, then go wide and back to the beginning.",
+  "photo": { "file": "Joanna Newsom 2010 crop.jpg" },
   "records": [
    {
     "t": "Ys",
@@ -4762,6 +4806,7 @@
  },
  "Low": {
   "about": "Slowcore from Duluth: the hushed harmonies first, then the louder years, then the noise of the last records.",
+  "photo": { "file": "Low-2008-09-11-Barby-06.jpg" },
   "records": [
    {
     "t": "Things We Lost in the Fire",
@@ -4850,6 +4895,7 @@
  },
  "Godspeed You! Black Emperor": {
   "about": "Montreal's anonymous collective: long instrumental pieces built from field recordings, strings and slow-building guitars.",
+  "photo": { "file": "Godspeed You! Black Emperor @ Roadburn Festival 2018-04-21 003.jpg" },
   "records": [
    {
     "t": "Lift Your Skinny Fists Like Antennas to Heaven",
@@ -4906,6 +4952,7 @@
  },
  "Swans": {
   "about": "Michael Gira's band in two lives: the brutal 1980s and 1990s, and the long, ecstatic reunion records. Start with the reunion.",
+  "photo": { "file": "Swans 2017 - 07.jpg" },
   "records": [
    {
     "t": "The Seer",
@@ -5087,6 +5134,7 @@
  },
  "Can": {
   "about": "Cologne's Krautrock band: Stockhausen students and a Japanese street singer, playing long, locked grooves edited from hours of tape.",
+  "photo": { "file": "Can 1972 (Heinrich Klaffs Collection 102).jpg" },
   "records": [
    {
     "t": "Tago Mago",
@@ -5177,6 +5225,7 @@
  },
  "Nina Simone": {
   "about": "Start with the Philips years, where she moved between jazz, blues, folk and protest without asking anyone's permission, then go back to the debut and forward to the furious live sets and the late exile records.",
+  "photo": { "file": "Nina Simone14.JPG" },
   "records": [
    {
     "t": "Wild Is the Wind",
@@ -5335,6 +5384,7 @@
  },
  "Marvin Gaye": {
   "about": "The three albums named in the row trace the arc from protest to sex to divorce; after that, the side roads show how strange and personal he got once Motown stopped steering.",
+  "photo": { "file": "Marvin Gaye (1973 publicity photo).jpg", "by": "Jim Britt" },
   "records": [
    {
     "t": "What's Going On",
@@ -5478,6 +5528,7 @@
  },
  "Stevie Wonder": {
   "about": "The run from Music of My Mind to Songs in the Key of Life is five records in five years where he wrote, sang, played and programmed nearly everything; this path walks that run, then looks at the strange coda.",
+  "photo": { "file": "Stevie Wonder 1973.JPG" },
   "records": [
    {
     "t": "Innervisions",
@@ -5629,6 +5680,7 @@
  },
  "Curtis Mayfield": {
   "about": "Curtis Mayfield's solo records of the early 70s brought long grooves, strings and wah guitar together with clear-eyed songs about the street; the path covers that peak, then goes back to the Impressions, where the civil rights songs started.",
+  "photo": { "file": "The Impressions, 1964 (Hq).png" },
   "records": [
    {
     "t": "Curtis",
@@ -5790,6 +5842,7 @@
  },
  "Hank Williams": {
   "about": "The songs came out as singles, so start with the hits and then hear the records built around them, including the dark recitations he cut as Luke the Drifter.",
+  "photo": { "file": "Hank Williams Promotional Photo.jpg" },
   "records": [
    {
     "t": "40 Greatest Hits",
@@ -5853,6 +5906,7 @@
    "Daniel Romano",
    "Daniel Romano's Outfit"
   ],
+  "photo": { "file": "Daniel Romano (6001834616).jpg" },
   "records": [
    {
     "t": "Modern Pressure",
@@ -6061,6 +6115,7 @@
  },
  "Woody Guthrie": {
   "about": "Start with the dust storms, then the plain-spoken Asch recordings and the long conversation with Alan Lomax, and end with Billy Bragg and Wilco setting his unrecorded lyrics to music.",
+  "photo": { "file": "Woody Guthrie.jpg", "by": "Al Aumuller, New York World-Telegram" },
   "records": [
    {
     "t": "Dust Bowl Ballads",
@@ -6145,6 +6200,7 @@
  },
  "Robert Johnson": {
   "about": "There are only twenty-nine songs, so one set holds all of it; the other records here are the LPs that carried the myth to Dylan, Clapton and the Stones.",
+  "photo": { "file": "Robert Johnson self-portrait photo.jpg" },
   "records": [
    {
     "t": "The Complete Recordings",
@@ -6175,6 +6231,7 @@
  },
  "Howlin' Wolf": {
   "about": "Two Chess albums of singles hold most of what matters; after them come the folk-blues repackagings, the odd psychedelic record he hated, and the last studio album.",
+  "photo": { "file": "Howlin' Wolf 1972.JPG" },
   "records": [
    {
     "t": "Moanin' in the Moonlight",
@@ -6316,6 +6373,7 @@
    "Animal Collective",
    "Panda Bear"
   ],
+  "photo": { "file": "Animal Collective-3.jpg" },
   "records": [
    {
     "t": "Merriweather Post Pavilion",

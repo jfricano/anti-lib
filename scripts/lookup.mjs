@@ -4,7 +4,7 @@
 // for artwork, then MusicBrainz and the Cover Art Archive for anything still missing.
 // Results are cached in data/lookups.json so each title is looked up once.
 // Usage: node scripts/lookup.mjs [--retry]   (--retry re-checks titles with no match)
-import { readFile, writeFile } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, access, readdir, unlink } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 const root = fileURLToPath(new URL('../', import.meta.url));
@@ -58,8 +58,22 @@ export function applyPathLookups(paths, lookups) {
     for (const record of applyLookups('albums', p.records, lookups)) { delete record.k; delete record.r; }
     const allmusic = lookups[allmusicKey('albums', { t: p.artist })];
     if (allmusic) p.g = allmusic.replace(/\/discography$/, ''); else delete p.g;
+    applyPhoto(p, 'albums', lookups);
   }
   return paths;
+}
+// The person's photo (ph) is the one saved in data/photos, with its Commons credit, when it is still the photo the
+// path asks for.
+const WHO = { albums: 'artist', books: 'author', films: 'director' };
+const photoKey = (listId, p) => `${listId}-photo|${p[WHO[listId]]}`;
+function applyPhoto(p, listId, lookups) {
+  const photo = lookups[photoKey(listId, p)];
+  delete p.ph;
+  if (photo?.file && p.photo !== false && (!p.photo?.file || photo.file === p.photo.file)) {
+    const by = p.photo?.by || photo.by;
+    p.ph = { f: `photos/${WHO[listId]}s/${p.id}.${photo.ext || 'jpg'}`, w: photo.w, h: photo.h, ...(by && { by }), ...(photo.lic && { lic: photo.lic }),
+      u: photo.u, ...(p.photo?.pos && { pos: p.photo.pos }) };
+  }
 }
 // Author path books and director path films on the list take the link and cover of their row (a work read inside a
 // collection takes the collection's); the rest are looked up as titles of their own list.
@@ -72,6 +86,7 @@ export function applyAuthorPathLookups(paths, lookups, rows, listId = 'books') {
     if (row.l) record.l = row.l;
     if (row.i) record.i = row.i;
   }
+  for (const p of paths) applyPhoto(p, listId, lookups);
   return paths;
 }
 // Bump a list's version when its details lookup changes, so every title is looked up again.
@@ -400,6 +415,63 @@ async function allmusicLinks(items, lookups) {
   }
 }
 
+// Photos for the path pages: the Commons file the path names (photo.file in lists/artist-paths.json and the others),
+// else the image Wikidata keeps for the person's Wikipedia page (P18). Each is saved once to
+// data/photos/<artists|authors|directors>/<id>.jpg (or .png, for a PNG on Commons) at up to 1280 pixels wide and
+// 1000 high, so the page doesn't load it from Commons, with the author and license the page credits. A credit that
+// Commons words awkwardly can be set by hand (photo.by).
+const plain = html => String(html || '').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&#0?39;|&apos;/g, "'").replace(/&quot;/g, '"')
+  .replace(/&nbsp;/g, ' ').replace(/&[a-z]+;/g, '').replace(/\s+/g, ' ').trim();
+// "Photograph by Jay Handler (Q123) https://…" → "Jay Handler"; "Unknown author Unknown author" → "Unknown author".
+const credit = text => plain(text).replace(/https?:\/\/\S+/g, '').replace(/\((Q\d+|photographer)\)/gi, '').replace(/ from [^;]*/, '').replace(/^(photographer|photo(graph)?( by)?)\s*[-:]?\s*/i, '')
+  .replace(/^(.+?) \1$/, '$1').replace(/\s+/g, ' ').replace(/ ,/g, ',').trim();
+async function pathPhotos(listId, paths, lookups, retry) {
+  let failed = 0;
+  const dir = path.join(dataDir, 'photos', `${WHO[listId]}s`);
+  await mkdir(dir, { recursive: true });
+  const saved = async (id, ext = 'jpg') => access(path.join(dir, `${id}.${ext}`)).then(() => true, () => false);
+  for (const p of paths) {
+    if (p.photo === false) continue;
+    const key = photoKey(listId, p), cached = lookups[key], wanted = p.photo?.file, name = p[WHO[listId]];
+    if (cached && (wanted ? cached.file === wanted : cached.auto) && (cached.file ? await saved(p.id, cached.ext) : !retry)) continue;
+    try {
+      let file = wanted;
+      if (!file) {
+        // An artist's Wikipedia page is the one found for their row on the albums list; anyone else's is their name.
+        const link = listId === 'albums' ? lookups[lookupKey('albums', { t: name })]?.l || '' : '';
+        const page = link ? decodeURIComponent(link.split('en.wikipedia.org/wiki/')[1] || '').replace(/_/g, ' ').split('#')[0] : name;
+        const { entities = {} } = page ? await getJson(`https://www.wikidata.org/w/api.php?${new URLSearchParams({ action: 'wbgetentities', sites: 'enwiki', titles: page, props: 'claims', format: 'json' })}`) : {};
+        file = Object.values(entities)[0]?.claims?.P18?.[0]?.mainsnak?.datavalue?.value;
+      }
+      if (!file) { lookups[key] = { auto: true }; continue; }
+      const { query = {} } = await getJson(`https://commons.wikimedia.org/w/api.php?${new URLSearchParams({ action: 'query', titles: `File:${file}`,
+        prop: 'imageinfo', iiprop: 'url|mime|extmetadata', iiurlwidth: '1280', iiurlheight: '1000', iiextmetadatafilter: 'LicenseShortName|Artist|Credit', format: 'json' })}`);
+      const info = Object.values(query.pages || {})[0]?.imageinfo?.[0];
+      if (!info?.thumburl || !/jpeg|png/.test(info.mime)) throw Error(`no usable image for ${name}: ${file}`);
+      // Commons' image server turns away bursts (429), so a refused download waits and tries again.
+      let response;
+      for (const wait of [0, 10, 30, 60]) {
+        if (wait) await new Promise(done => setTimeout(done, wait * 1000));
+        response = await fetch(info.thumburl, { headers: { 'User-Agent': UA } });
+        if (response.status !== 429) break;
+      }
+      if (!response.ok) throw Error(`${response.status} for ${info.thumburl}`);
+      const ext = /\.png$/i.test(new URL(info.thumburl).pathname) ? 'png' : 'jpg';
+      await writeFile(path.join(dir, `${p.id}.${ext}`), Buffer.from(await response.arrayBuffer()));
+      const meta = info.extmetadata || {};
+      const by = credit(meta.Artist?.value) || credit(meta.Credit?.value);
+      lookups[key] = { file, ...(!wanted && { auto: true }), ...(ext === 'png' && { ext }), w: info.thumbwidth, h: info.thumbheight,
+        ...(by && { by: by.length > 80 ? `${by.slice(0, 79).trim()}…` : by }),
+        ...(meta.LicenseShortName?.value && { lic: plain(meta.LicenseShortName.value) }), u: info.descriptionurl };
+      console.log(`photo: ${name}: ${file}`);
+    } catch (error) { failed++; console.warn(error.message); }
+  }
+  // A photo whose person no longer has a path, or that a new photo replaced, is dropped.
+  const keep = new Set(paths.map(p => `${p.id}.${lookups[photoKey(listId, p)]?.ext || 'jpg'}`));
+  for (const file of await readdir(dir)) if (!keep.has(file)) await unlink(path.join(dir, file));
+  return failed;
+}
+
 // A book's Goodreads page: the Goodreads ID Open Library keeps for the matched work, or for a book matched on
 // Wikipedia, the one Wikidata keeps (P2969). Open Library, Wikipedia and Google Books still supply the covers.
 async function goodreads(item, lookups) {
@@ -532,7 +604,7 @@ async function run() {
   if (paths) {
     const records = paths.flatMap(p => p.records);
     console.log('Artist paths:');
-    const failed = await lookUpList('albums', records, lookups, retry, saveSoon);
+    const failed = await lookUpList('albums', records, lookups, retry, saveSoon) + await pathPhotos('albums', paths, lookups, retry);
     await writeFile(pathsFile, JSON.stringify(applyPathLookups(paths, lookups)));
     console.log(`paths: ${records.filter(r => r.l).length} linked, ${records.filter(r => r.i).length} with covers, ${failed} requests failed`);
   }
@@ -545,7 +617,8 @@ async function run() {
     const records = rowPaths.flatMap(p => p.records), rows = JSON.parse(await readFile(path.join(dataDir, `${listId}.json`), 'utf8'));
     console.log(`${name.replace('.json', '').replace('-', ' ')}:`);
     const listed = new Set(rows.map(item => `${item.t}|${item.c || ''}`));
-    const failed = await lookUpList(listId, records.filter(r => !listed.has(`${r.v || r.t}|${r.c}`)), lookups, retry, saveSoon);
+    const failed = await lookUpList(listId, records.filter(r => !listed.has(`${r.v || r.t}|${r.c}`)), lookups, retry, saveSoon) +
+      await pathPhotos(listId, rowPaths, lookups, retry);
     await writeFile(file, JSON.stringify(applyAuthorPathLookups(rowPaths, lookups, rows, listId)));
     console.log(`${name}: ${records.filter(r => r.l).length} linked, ${records.filter(r => r.i).length} with covers, ${failed} requests failed`);
   }

@@ -39,6 +39,11 @@ don't count toward fully read, even when they're on the list.
 - `names`: optional. Author credits on book rows that belong to this path (an edited collection, a co-author). Defaults
   to the key. Every book with one of these credits gets the Author path button.
 - `goodreads`: the author's Goodreads page. The author's name at the top of the path page links there, in a new tab.
+- `photo`: optional. The author's photo beside the name at the top of the path page: the file name of an openly
+  licensed picture on Wikimedia Commons, like `"photo": { "file": "Some photo.jpg" }`. Add `"pos": "50% 20%"` to move the
+  crop when the page trims the picture. Without it, the rebuild uses the picture Wikidata keeps for the author's Wikipedia
+  page, if any; `"photo": false` means no photo. The rebuild saves it once to `data/photos/` at up to 1280 by 1000 pixels and the
+  page credits its author and license, linked to its Commons page. Add `"by"` to word that credit by hand.
 - `records`: every book worth knowing about. Order in the file doesn't matter; the page sorts by year.
   - `t` title and `y` year of first publication (required).
   - `step`: the book's place in the reading order. Step 1 is the door. Steps run 1, 2, 3... with no gaps. A book with

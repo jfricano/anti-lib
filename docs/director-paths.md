@@ -40,6 +40,11 @@ marked on the films list. Films off the path don't count, even when they're on t
   single page (the Coens), an IMDb name search.
 - `names`: optional. Other director credits on film rows that belong to this path. Defaults to the key. Every film with
   one of these credits gets the Director path button.
+- `photo`: optional. The director's photo beside the name at the top of the path page: the file name of an openly
+  licensed picture on Wikimedia Commons, like `"photo": { "file": "Some photo.jpg" }`. Add `"pos": "50% 20%"` to move the
+  crop when the page trims the picture. Without it, the rebuild uses the picture Wikidata keeps for the director's Wikipedia
+  page, if any; `"photo": false` means no photo. The rebuild saves it once to `data/photos/` at up to 1280 by 1000 pixels and the
+  page credits its author and license, linked to its Commons page. Add `"by"` to word that credit by hand.
 - `records`: every feature worth knowing about, plus the documentaries and shorts that matter. Order in the file doesn't
   matter; the page sorts by year.
   - `t` title and `y` year of release (required), spelled as on the list when the film is on it.
