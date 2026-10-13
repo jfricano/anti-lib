@@ -9,7 +9,7 @@
 import { readFile, writeFile, mkdir, access } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath as toPath } from 'node:url';
-import { readLookups, applyLookups, applyPathLookups, applyAuthorPathLookups } from './lookup.mjs';
+import { readLookups, applyLookups, applyPathLookups, applyAuthorPathLookups, threadStops } from './lookup.mjs';
 const root = toPath(new URL('../', import.meta.url));
 
 const LISTS = [
@@ -109,7 +109,7 @@ async function readThreads(id, items) {
 }
 const out = path.join(root, 'data');
 await mkdir(out, { recursive: true });
-const manifest = [];
+const manifest = [], rows = {};
 let books = [], films = [];
 const lookups = await readLookups();
 // Titles the owner removed from the page stay out even when a working copy of a list still has them.
@@ -232,6 +232,7 @@ for (const list of LISTS) {
   items = items.filter(item => !removed[list.id]?.[`${item.t}|${item.c || ''}`]);
   const threads = await readThreads(list.id, items);
   await writeFile(path.join(out, `${list.id}.json`), JSON.stringify(applyLookups(list.id, items, lookups)));
+  rows[list.id] = items;
   if (list.id === 'books') books = items;
   if (list.id === 'films') films = items;
   const { source, fields: _, transform, doneValues, years, ...meta } = list;
@@ -243,6 +244,7 @@ for (const list of LISTS) {
   console.log(`Imported ${items.length} ${list.noun[1]}`);
 }
 await writeFile(path.join(out, 'lists.json'), JSON.stringify(manifest, null, 1) + '\n');
+await writeFile(path.join(out, 'threads.json'), JSON.stringify(threadStops(manifest, rows)));
 
 // Paths: written after the lists, since a step takes its credit (and, for books and films, its link and cover) from its row.
 if (paths) {
