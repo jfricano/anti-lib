@@ -17,9 +17,9 @@ const LISTS = [
     id: 'books', label: 'Books', noun: ['book', 'books'], source: 'anti-library.json',
     fields: { title: 'title', creator: 'author', year: 'year', written: 'written', group: 'part', shelf: 'section', note: 'hook', done: 'status' },
     doneValues: ['Read', 'Digested', 'Formative'],
-    // The source rows carry no dates. Open Library gives the first publication year (lookup.mjs); book-years.json
-    // fills the books it can't date, dates ancient works by when they were written (BCE as negative), adds the
-    // year written where that is far off (a posthumous novel, say), and can pin a year the lookup gets wrong.
+    // The source rows carry no dates. book-years.json gives the first publication year (ancient works by when they
+    // were written, BCE as negative) and the year written where that is far off (a posthumous novel, say); Open
+    // Library's year (lookup.mjs) fills only books the file leaves undated.
     years: 'book-years.json',
     creatorLabel: 'Author', groupLabel: 'Part', shelfLabel: 'Shelf', doneLabel: 'Read', dateLabel: 'Published',
     search: 'https://www.goodreads.com/search?q=',
@@ -211,8 +211,6 @@ for (const list of LISTS) {
       const value = field && clean(r[field]);
       if (value) item[key] = (key === 'y' || key === 'w') && /^-?\d+$/.test(value) ? Number(value) : value;
     }
-    // A pinned year in book-years.json wins over the one the lookup finds.
-    if (list.years && r.pin && item.y) item.yh = 1;
     const set = tags[list.id]?.[`${item.t}|${item.c || ''}`] || {};
     const flags = Object.entries(list.flags).filter(([key, flag]) => flag.ownerToggle && typeof set[key] === 'boolean' ? set[key]
       : flag.equals ? r[flag.field] === flag.equals : truthy(r[flag.field])).map(([key]) => key);
