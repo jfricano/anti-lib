@@ -1,5 +1,7 @@
 # Cover store
 
+**Status: parked (2026-10-13).** Designed and built, paused pending implementation. Nothing runs on Railway yet. To resume, follow "Setting it up on Railway" below, then set `data-covers` in jfricano/personal-portfolio#83.
+
 A small file server that keeps a copy of every cover the anti-library uses, so the page doesn't depend on outside image hosts and phones download a small thumbnail instead of a full-size original. It follows the same shape as Personal Treasury's private service on Railway: one service built from this repository with a Dockerfile, plain Node with no dependencies, allowed by Node to write only to its volume, one copy on a persistent volume at `/data`, and secrets only in Railway. Unlike Treasury it holds nothing private, so there are no accounts and no encryption.
 
 It runs with Railway's Serverless setting, so it sleeps when nobody is visiting and costs very little. The server never makes outgoing requests (which would keep it awake): all downloading is done by the "Store covers" workflow, which uploads the files.
