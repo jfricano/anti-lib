@@ -43,14 +43,11 @@ export function applyLookups(listId, items, lookups) {
     if (listId === 'books' && goodreadsKey(item) in lookups) {
       if (lookups[goodreadsKey(item)]) item.l = lookups[goodreadsKey(item)]; else delete item.l;
     }
-    // A book's first publication year comes from Open Library where it has one. The year in book-years.json
-    // stays for books Open Library doesn't date, for ancient and medieval works (it only knows printed editions),
-    // and where the entry is pinned (yh). A written year no longer far from publication is dropped.
+    // A book's year comes from book-years.json; Open Library's year only fills a book the file leaves undated.
+    // Compared on the first full run, Open Library's first_publish_year was off by more than two years for a
+    // quarter of the books (often a recent edition or translation), so it can't overrule the file.
     const published = listId === 'books' && lookups[yearKey(item)]?.y;
-    if (published && !item.yh && !(item.y < 1450)) {
-      item.y = published;
-      if (item.w != null && Math.abs(item.w - item.y) <= 5) delete item.w;
-    }
+    if (published && item.y == null) item.y = published;
   }
   return items;
 }
