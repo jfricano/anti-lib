@@ -203,6 +203,7 @@
   "Charles Bukowski": {
     "about": "Novels and poems alternating, the way he wrote them. The short first novel opens the door, the best-of collection teaches the poems, and the late poems close it.",
     "goodreads": "https://www.goodreads.com/author/show/13275",
+    "photo": { "file": "Charles Bukowski c. 1973 (cropped).jpg", "by": "Richard Robinson" },
     "records": [
       { "t": "Post Office", "y": 1971, "step": 1, "note": "The door. His first novel, written in a few weeks after he quit the post office. Short, funny and bleak; Chinaski arrives fully formed." },
       { "t": "The Pleasures of the Damned", "y": 2007, "step": 2, "kind": "poems", "note": "The best-of poems, 1951 to 1993. The poems matter more than the novels, and this is the way into them." },
